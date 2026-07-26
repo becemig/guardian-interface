@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-06-23T23:40:29.570433+00:00",
+  "guardian_state": "Regulated",
+  "confidence": 0.75,
+  "contributing_signals": [
+    "moderate_hrv",
+    "regulated_respiration",
+    "good_sleep_quality"
+  ],
+  "state_scores": {
+    "Regulated": 3,
+    "Adaptive": 1,
+    "Monitoring": 0,
+    "Stress Load": 0,
+    "Cognitive Load": 0,
+    "Fatigued": 0
+  },
+  "input": {
+    "hrv": 52,
+    "respiration_rate": 11,
+    "reaction_time": 420,
+    "sleep_quality": 75
+  }
+}

@@ -1,0 +1,26 @@
+using Godot;
+using System;
+
+public partial class LensController : Node
+{
+    public enum LensType { Tensegrity, LuoPan, Calligraphy }
+    private LensType _activeLens = LensType.Tensegrity;
+
+    public void SwitchLens(int lensIndex)
+    {
+        _activeLens = (LensType)lensIndex;
+        GD.Print($"LensController: Switching to {_activeLens} interface.");
+        // Logic to show/hide specific UI canvas groups
+    }
+
+    public override void _Input(InputEvent @event)
+    {
+        // Simple hotkey swap: 1=Tensegrity, 2=LuoPan, 3=Calligraphy
+        if (@event.IsActionPressed("ui_select")) 
+        {
+            // Cycle through lenses for live-testing the interface
+            int next = ((int)_activeLens + 1) % 3;
+            SwitchLens(next);
+        }
+    }
+}

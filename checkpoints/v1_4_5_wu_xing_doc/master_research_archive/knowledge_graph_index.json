@@ -1,0 +1,831 @@
+{
+  "schema_version": "knowledge_graph_index.v2",
+  "generated_at": "2026-07-10T14:20:07.840413+00:00",
+  "archive_root": "/home/becemig/GodotProjects/guardian-interface/master_research_archive",
+  "node_count": 9,
+  "nodes": [
+    {
+      "uid": "NEURO-INT-001",
+      "title": "Interoception and the Insular Cortex in Bodily Self-Awareness",
+      "category": "Neurophysiology",
+      "sub_category": "Interoception",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "interoception",
+        "insula",
+        "bodily-awareness",
+        "homeostasis",
+        "allostasis",
+        "anterior-insula",
+        "vagus",
+        "somatic-marker"
+      ],
+      "citations": [
+        {
+          "author": "Craig A.D.",
+          "year": 2009,
+          "context": "How do you feel now? The anterior insula and human awareness of bodily states."
+        },
+        {
+          "author": "Seth A.K.",
+          "year": 2013,
+          "context": "Interoceptive inference, emotion, and the embodied self as predictive processing."
+        },
+        {
+          "author": "Damasio A.",
+          "year": 1994,
+          "context": "Somatic marker hypothesis linking bodily states to decision-making and emotional regulation."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_interoception_insular_cortex.md",
+      "headings": [
+        "# Interoception and the Insular Cortex in Bodily Self-Awareness",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Interoceptive Pathways",
+        "### Insular Cortex Architecture",
+        "### Predictive Interoception",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Interoception is the sensing of the internal physiological state of the body. The insular cortex serves as the primary cortical region for interoceptive processing, integrating signals from visceral organs, cardiovascular system, respiratory tract, and musculoskeletal structures. Interoceptive accuracy predicts emotional regulation capacity, pain sensitivity, and the quality of embodied awareness during somatic practices."
+    },
+    {
+      "uid": "NEURO-MECH-001",
+      "title": "Mechanotransduction and Piezo2 Channels in Somatic Sensing",
+      "category": "Neurophysiology",
+      "sub_category": "Mechanobiology",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney",
+        "Heart"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "mechanotransduction",
+        "piezo2",
+        "interoception",
+        "proprioception",
+        "fascia",
+        "touch",
+        "somatosensory",
+        "ion-channel"
+      ],
+      "citations": [
+        {
+          "author": "Coste B. et al.",
+          "year": 2010,
+          "context": "Piezo1 and Piezo2 characterized as mechanically activated ion channels."
+        },
+        {
+          "author": "Chesler A.T. et al.",
+          "year": 2016,
+          "context": "Piezo2 essential for proprioception and light touch discrimination."
+        },
+        {
+          "author": "Murthy S.E. et al.",
+          "year": 2018,
+          "context": "Piezo2 mediates low-threshold mechanosensation in sensory neurons."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_mechanotransduction_piezo2.md",
+      "headings": [
+        "# Mechanotransduction and Piezo2 Channels in Somatic Sensing",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Piezo2 Channel Structure",
+        "### Proprioceptive Role",
+        "### Interoceptive Role",
+        "### Fascial Mechanosensation",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Mechanotransduction converts mechanical forces into electrochemical signals within biological tissues. Piezo2 is the primary mechanically activated ion channel responsible for proprioception, light touch, and interoception in mammals. Understanding Piezo2 provides a molecular foundation for somatic awareness and the physiological basis of embodied practices such as Tai Chi and Qigong."
+    },
+    {
+      "uid": "NEURO-PVT-001",
+      "title": "Polyvagal Theory and Autonomic Hierarchy in Somatic Regulation",
+      "category": "Neurophysiology",
+      "sub_category": "Autonomic Nervous System",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        216
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "polyvagal",
+        "vagus",
+        "autonomic",
+        "parasympathetic",
+        "sympathetic",
+        "dorsal-vagal",
+        "ventral-vagal",
+        "hrv",
+        "safety",
+        "neuroception"
+      ],
+      "citations": [
+        {
+          "author": "Porges S.W.",
+          "year": 2011,
+          "context": "Polyvagal Theory outlining three-tiered autonomic hierarchy and neuroception."
+        },
+        {
+          "author": "Porges S.W.",
+          "year": 2022,
+          "context": "Polyvagal Theory in Practice clinical applications for trauma and somatic regulation."
+        },
+        {
+          "author": "Beauchaine T.P.",
+          "year": 2015,
+          "context": "Respiratory sinus arrhythmia as index of vagal tone and self-regulation capacity."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_polyvagal_autonomic_hierarchy.md",
+      "headings": [
+        "# Polyvagal Theory and Autonomic Hierarchy in Somatic Regulation",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Three-Tiered Autonomic Hierarchy",
+        "### Neuroception",
+        "### Vagal Brake",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Polyvagal Theory proposed by Stephen Porges describes the autonomic nervous system as a three-tiered phylogenetic hierarchy governing physiological state, social engagement, and survival response. The theory reframes HRV as a direct index of vagal brake function and provides a framework for understanding how movement practices regulate autonomic state through breath, posture, and social context."
+    },
+    {
+      "uid": "NEURO-PROP-001",
+      "title": "Proprioception and Muscle Spindle Dynamics in Somatic Awareness",
+      "category": "Neurophysiology",
+      "sub_category": "Somatosensory Systems",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate"
+      ],
+      "tags": [
+        "proprioception",
+        "muscle-spindle",
+        "tai-chi",
+        "interoception",
+        "somatosensory",
+        "golgi-tendon",
+        "mechanotransduction"
+      ],
+      "citations": [
+        {
+          "author": "Proske U. and Gandevia S.C.",
+          "year": 2012,
+          "context": "Comprehensive review of proprioceptive signals from muscle spindles and Golgi tendon organs."
+        },
+        {
+          "author": "Simoneau M. et al.",
+          "year": 2006,
+          "context": "Tai Chi practice improves proprioceptive acuity and postural stability in older adults."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_proprioception_muscle_spindle.md",
+      "headings": [
+        "# Proprioception and Muscle Spindle Dynamics in Somatic Awareness",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Muscle Spindle Architecture",
+        "### Golgi Tendon Organs",
+        "### Central Integration",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node examines the role of muscle spindles and Golgi tendon organs as primary proprioceptive transducers in somatic awareness. Proprioception provides the nervous system with continuous positional and velocity data from musculoskeletal structures. Slow movement practices such as Tai Chi and Qigong place exceptional demand on proprioceptive acuity, training sensitivity of these mechanoreceptors over time."
+    },
+    {
+      "uid": "PSY-497-ATTENTION-001",
+      "title": "Somatic Modulation of Selective Attention",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Lab Research / Coursework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "confidence",
+        "respiration_rate"
+      ],
+      "tags": [
+        "attention",
+        "executive-function",
+        "tai-chi",
+        "hrv",
+        "somatics"
+      ],
+      "citations": [
+        {
+          "author": "Shin et al.",
+          "year": 2024,
+          "context": "Autonomic regulation and movement-based cognitive modulation."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_attention_somatic_modulation.md",
+      "headings": [
+        "# Somatic Modulation of Selective Attention",
+        "## Abstract",
+        "## Key Ideas",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This knowledge node connects selective attention, somatic regulation, and Guardian Interface telemetry."
+    },
+    {
+      "uid": "PSY-497-HRV-001",
+      "title": "Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "hrv",
+        "autonomic",
+        "vagus",
+        "prefrontal",
+        "cognitive-load",
+        "biofeedback",
+        "neurovisceral"
+      ],
+      "citations": [
+        {
+          "author": "Thayer et al.",
+          "year": 2012,
+          "context": "Neurovisceral integration model linking HRV to prefrontal cortex regulation."
+        },
+        {
+          "author": "Porges S.W.",
+          "year": 2011,
+          "context": "Polyvagal theory and vagal tone as index of autonomic flexibility."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_hrv_autonomic_biofeedback.md",
+      "headings": [
+        "# Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Prefrontal-Autonomic Regulation Loop",
+        "### Vagal-Cardiac Pathway",
+        "## Cross-System Links",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node reviews the physiological mechanisms linking cardiac vagal tone to cognitive regulation capacity. Drawing on Thayer neurovisceral integration model, HRV metrics function as a window into prefrontal cortex efficiency, providing an empirical baseline for tracking stress resilience and attention shifts in real time."
+    },
+    {
+      "uid": "BIOMECH-MYO-JJ-001",
+      "title": "Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+      "category": "Biomechanics",
+      "sub_category": "Myofascial Anatomy",
+      "source_type": "Peer Reviewed Research",
+      "status": "Verified",
+      "associated_somatic_nodes": [
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "respiration_rate",
+        "hrv"
+      ],
+      "tags": [
+        "myofascial",
+        "anatomy-trains",
+        "jing-jin",
+        "superficial-back-line",
+        "tai-chi",
+        "fascia",
+        "biomechanics"
+      ],
+      "citations": [
+        {
+          "author": "Myers T.",
+          "year": 2020,
+          "context": "Anatomy Trains myofascial meridians and structural continuity tracking."
+        },
+        {
+          "author": "Wilke et al.",
+          "year": 2016,
+          "context": "Systematic review of histological tensile transmission along myofascial pathways."
+        }
+      ],
+      "relative_path": "somatic_traditions/BIOMECH_myofascial_sinew_lines.md",
+      "headings": [
+        "# Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+        "## Abstract",
+        "## Structural Intersections",
+        "### Plantar-to-Calcaneal Link",
+        "### Posterior Pelvic-to-Spinal Link",
+        "## Biomechanical Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node maps the structural and functional overlap between Thomas Myers Superficial Back Line (SBL) and the Foot Taiyang Sinew Channel (Bladder Jing Jin). Both frameworks describe a continuous network of connective tissue running along the posterior aspect of the body, acting as an integration system for kinetic strain, spinal extension, and postural balance."
+    },
+    {
+      "uid": "QIGONG-WQX-001",
+      "title": "Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+      "category": "Somatic Traditions",
+      "sub_category": "Tai Chi / Qigong",
+      "source_type": "Practice Research Note",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        216
+      ],
+      "target_meridians": [
+        "Liver",
+        "Gallbladder",
+        "Heart",
+        "Lung"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-qin-xi",
+        "qigong",
+        "five-animal-frolics",
+        "hrv",
+        "respiration",
+        "autonomic-regulation"
+      ],
+      "citations": [
+        {
+          "author": "Practice synthesis",
+          "year": 2026,
+          "context": "Working note connecting movement mechanics to Guardian Interface telemetry."
+        }
+      ],
+      "relative_path": "somatic_traditions/tai_chi_qigong/QIGONG_wu_qin_xi_mechanics.md",
+      "headings": [
+        "# Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+        "## Abstract",
+        "## Biomechanical Correlates",
+        "## Intersection with Cognitive Topography",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This module details the biomechanical and physiological impacts of the Wu Qin Xi, or Five Animal Frolics, focusing on their capacity to modulate autonomic nervous system tone."
+    },
+    {
+      "uid": "TCM-WX-001",
+      "title": "Wu Xing Five Element Theory in Traditional Chinese Medicine",
+      "category": "Traditional Chinese Medicine",
+      "sub_category": "Theoretical Foundations",
+      "source_type": "Traditional Framework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Liver",
+        "Heart",
+        "Spleen",
+        "Lung",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-xing",
+        "five-elements",
+        "wood",
+        "fire",
+        "earth",
+        "metal",
+        "water",
+        "sheng-cycle",
+        "ke-cycle",
+        "tcm-theory"
+      ],
+      "citations": [
+        {
+          "author": "Maciocia G.",
+          "year": 2015,
+          "context": "Foundations of Chinese Medicine comprehensive overview of Five Element theory and clinical application."
+        },
+        {
+          "author": "Kaptchuk T.J.",
+          "year": 2000,
+          "context": "The Web That Has No Weaver systematic description of TCM theoretical framework."
+        }
+      ],
+      "relative_path": "tcm/TCM_wu_xing_five_elements.md",
+      "headings": [
+        "# Wu Xing Five Element Theory in Traditional Chinese Medicine",
+        "## Abstract",
+        "## Five Phase Correspondences",
+        "### Wood",
+        "### Fire",
+        "### Earth",
+        "### Metal",
+        "### Water",
+        "## Generative and Control Cycles",
+        "### Sheng Generating Cycle",
+        "### Ke Controlling Cycle",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Wu Xing describes five fundamental phases of transformation governing natural phenomena, physiological function, and pathological change in Traditional Chinese Medicine. The five phases are Wood, Fire, Earth, Metal, and Water. Each phase corresponds to organ systems, emotions, seasons, tissues, sensory organs, and climatic factors. Two primary cycles govern inter-elemental relationships: the Sheng generating cycle and the Ke controlling cycle."
+    }
+  ],
+  "somatic_node_index": {
+    "42": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "QIGONG-WQX-001",
+      "TCM-WX-001"
+    ],
+    "108": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "BIOMECH-MYO-JJ-001",
+      "QIGONG-WQX-001",
+      "TCM-WX-001"
+    ],
+    "212": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "TCM-WX-001"
+    ],
+    "215": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PROP-001",
+      "BIOMECH-MYO-JJ-001",
+      "TCM-WX-001"
+    ],
+    "312": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001",
+      "BIOMECH-MYO-JJ-001",
+      "TCM-WX-001"
+    ],
+    "216": [
+      "NEURO-PVT-001",
+      "QIGONG-WQX-001"
+    ],
+    "142": [
+      "BIOMECH-MYO-JJ-001"
+    ]
+  },
+  "topic_index": {
+    "interoception": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "insula": [
+      "NEURO-INT-001"
+    ],
+    "bodily-awareness": [
+      "NEURO-INT-001"
+    ],
+    "homeostasis": [
+      "NEURO-INT-001"
+    ],
+    "allostasis": [
+      "NEURO-INT-001"
+    ],
+    "anterior-insula": [
+      "NEURO-INT-001"
+    ],
+    "vagus": [
+      "NEURO-INT-001",
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "somatic-marker": [
+      "NEURO-INT-001"
+    ],
+    "mechanotransduction": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "piezo2": [
+      "NEURO-MECH-001"
+    ],
+    "proprioception": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "fascia": [
+      "NEURO-MECH-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "touch": [
+      "NEURO-MECH-001"
+    ],
+    "somatosensory": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "ion-channel": [
+      "NEURO-MECH-001"
+    ],
+    "polyvagal": [
+      "NEURO-PVT-001"
+    ],
+    "autonomic": [
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "parasympathetic": [
+      "NEURO-PVT-001"
+    ],
+    "sympathetic": [
+      "NEURO-PVT-001"
+    ],
+    "dorsal-vagal": [
+      "NEURO-PVT-001"
+    ],
+    "ventral-vagal": [
+      "NEURO-PVT-001"
+    ],
+    "hrv": [
+      "NEURO-PVT-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "QIGONG-WQX-001"
+    ],
+    "safety": [
+      "NEURO-PVT-001"
+    ],
+    "neuroception": [
+      "NEURO-PVT-001"
+    ],
+    "muscle-spindle": [
+      "NEURO-PROP-001"
+    ],
+    "tai-chi": [
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "golgi-tendon": [
+      "NEURO-PROP-001"
+    ],
+    "attention": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "executive-function": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "somatics": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "prefrontal": [
+      "PSY-497-HRV-001"
+    ],
+    "cognitive-load": [
+      "PSY-497-HRV-001"
+    ],
+    "biofeedback": [
+      "PSY-497-HRV-001"
+    ],
+    "neurovisceral": [
+      "PSY-497-HRV-001"
+    ],
+    "myofascial": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "anatomy-trains": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "jing-jin": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "superficial-back-line": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "biomechanics": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "wu-qin-xi": [
+      "QIGONG-WQX-001"
+    ],
+    "qigong": [
+      "QIGONG-WQX-001"
+    ],
+    "five-animal-frolics": [
+      "QIGONG-WQX-001"
+    ],
+    "respiration": [
+      "QIGONG-WQX-001"
+    ],
+    "autonomic-regulation": [
+      "QIGONG-WQX-001"
+    ],
+    "wu-xing": [
+      "TCM-WX-001"
+    ],
+    "five-elements": [
+      "TCM-WX-001"
+    ],
+    "wood": [
+      "TCM-WX-001"
+    ],
+    "fire": [
+      "TCM-WX-001"
+    ],
+    "earth": [
+      "TCM-WX-001"
+    ],
+    "metal": [
+      "TCM-WX-001"
+    ],
+    "water": [
+      "TCM-WX-001"
+    ],
+    "sheng-cycle": [
+      "TCM-WX-001"
+    ],
+    "ke-cycle": [
+      "TCM-WX-001"
+    ],
+    "tcm-theory": [
+      "TCM-WX-001"
+    ]
+  },
+  "category_index": {
+    "Neurophysiology": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001"
+    ],
+    "Psychology": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001"
+    ],
+    "Biomechanics": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Somatic Traditions": [
+      "QIGONG-WQX-001"
+    ],
+    "Traditional Chinese Medicine": [
+      "TCM-WX-001"
+    ]
+  },
+  "evidence_index": {
+    "Craig A.D. 2009": [
+      "NEURO-INT-001"
+    ],
+    "Seth A.K. 2013": [
+      "NEURO-INT-001"
+    ],
+    "Damasio A. 1994": [
+      "NEURO-INT-001"
+    ],
+    "Coste B. et al. 2010": [
+      "NEURO-MECH-001"
+    ],
+    "Chesler A.T. et al. 2016": [
+      "NEURO-MECH-001"
+    ],
+    "Murthy S.E. et al. 2018": [
+      "NEURO-MECH-001"
+    ],
+    "Porges S.W. 2011": [
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "Porges S.W. 2022": [
+      "NEURO-PVT-001"
+    ],
+    "Beauchaine T.P. 2015": [
+      "NEURO-PVT-001"
+    ],
+    "Proske U. and Gandevia S.C. 2012": [
+      "NEURO-PROP-001"
+    ],
+    "Simoneau M. et al. 2006": [
+      "NEURO-PROP-001"
+    ],
+    "Shin et al. 2024": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "Thayer et al. 2012": [
+      "PSY-497-HRV-001"
+    ],
+    "Myers T. 2020": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Wilke et al. 2016": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Practice synthesis 2026": [
+      "QIGONG-WQX-001"
+    ],
+    "Maciocia G. 2015": [
+      "TCM-WX-001"
+    ],
+    "Kaptchuk T.J. 2000": [
+      "TCM-WX-001"
+    ]
+  }
+}

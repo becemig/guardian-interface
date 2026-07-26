@@ -1,0 +1,12 @@
+{
+  "tier": 2,
+  "label": "Low-Impact Kinetics",
+  "focus": "Internal/Flow",
+  "sensor_profile": "Fluidity_Resonance",
+  "modalities": [
+    {"id": "MOD_TAICHI_01", "name": "Tai Chi"},
+    {"id": "MOD_BAGUA_01", "name": "Baguazhang"},
+    {"id": "MOD_QIGONG_01", "name": "Qigong"},
+    {"id": "MOD_YIJINJING_01", "name": "Yi Jin Jing"}
+  ]
+}

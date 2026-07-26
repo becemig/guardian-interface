@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bagua_physics_client"]
+
+[ext_resource type="Script" path="res://scripts/bagua/BaguaPhysicsClient.cs" id="1_bagua"]
+
+[node name="BaguaPhysicsClient" type="Node"]
+script = ExtResource("1_bagua")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b123456789abc"]
+
+[ext_resource type="Script" path="res://src/UI/DiagnosticTest.cs" id="1_script"]
+[ext_resource type="PackedScene" path="res://scripts/bagua/BaguaOverlay.tscn" id="2_overlay"]
+
+[node name="DiagnosticTest" type="Node"]
+script = ExtResource("1_script")
+
+[node name="BaguaOverlay" parent="." instance=ExtResource("2_overlay")]

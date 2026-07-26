@@ -1,0 +1,7 @@
+timestamp,guardian_state,confidence,hrv,respiration_rate,reaction_time,sleep_quality,contributing_signals
+2026-06-23T22:44:37.214518+00:00,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-23T22:44:37.214731+00:00,Adaptive,0.5,51,14,480,66,moderate_hrv|irregular_respiration
+2026-06-23T22:44:37.214850+00:00,Stress Load,0.5,35,22,710,38,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-23T23:04:23.619471+00:00,d735f224,Regulated,0.833,,,,,"['high_hrv', 'regulated_respiration', 'fast_reaction_time', 'good_sleep_quality']"
+2026-06-23T23:04:23.627924+00:00,d735f224,Adaptive,0.5,,,,,"['moderate_hrv', 'irregular_respiration']"
+2026-06-23T23:04:23.628068+00:00,d735f224,Stress Load,0.5,,,,,"['low_hrv', 'elevated_respiration', 'slow_reaction_time', 'low_sleep_quality']"

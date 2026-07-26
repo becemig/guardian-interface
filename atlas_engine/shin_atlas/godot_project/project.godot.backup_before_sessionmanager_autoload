@@ -1,0 +1,15 @@
+CognitiveState="*res://scripts/autoload/CognitiveState.gd"
+AtlasSignalBus="*res://scripts/core/AtlasSignalBus.gd"
+
+TelemetryManager="*res://scripts/core/TelemetryManager.gd"
+
+
+
+[autoload]
+CognitiveState="*res://scripts/autoload/CognitiveState.gd"
+AtlasSignalBus="*res://scripts/core/AtlasSignalBus.gd"
+TelemetryManager="*res://scripts/core/TelemetryManager.gd"
+TelemetryController="*res://scripts/core/TelemetryController.gd"
+
+[application]
+run/main_scene="res://TelemetryDashboard.tscn"

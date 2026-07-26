@@ -1,0 +1,48 @@
+{
+  "schema_version": "knowledge_graph_index.v1",
+  "generated_at": "2026-07-08T15:04:31.768501+00:00",
+  "archive_root": "master_research_archive",
+  "node_count": 1,
+  "nodes": [
+    {
+      "uid": "PSY-497-ATTENTION-001",
+      "title": "Somatic Modulation of Selective Attention",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Lab Research / Coursework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "confidence",
+        "respiration_rate"
+      ],
+      "tags": [
+        "attention",
+        "executive-function",
+        "tai-chi",
+        "hrv",
+        "somatics"
+      ],
+      "citations": [
+        "author: Shin et al."
+      ],
+      "relative_path": "psychology/psy_497/PSY497_attention_somatic_modulation.md",
+      "headings": [
+        "# Somatic Modulation of Selective Attention",
+        "## Abstract",
+        "## Key Ideas",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This knowledge node connects selective attention, somatic regulation, and Guardian Interface telemetry."
+    }
+  ]
+}

@@ -1,0 +1,1231 @@
+{
+  "schema_version": "knowledge_graph_index.v2",
+  "generated_at": "2026-07-10T14:40:52.175624+00:00",
+  "archive_root": "/home/becemig/GodotProjects/guardian-interface/master_research_archive",
+  "node_count": 13,
+  "nodes": [
+    {
+      "uid": "NEURO-FAS-001",
+      "title": "Fascia as a Sensory Organ: Mechanoreception and Interoception in Connective Tissue",
+      "category": "Neurophysiology",
+      "sub_category": "Mechanobiology",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney",
+        "Liver"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "fascia",
+        "mechanoreception",
+        "interoception",
+        "fibroblast",
+        "piezo2",
+        "ruffini",
+        "interstitial",
+        "myofascial",
+        "sensory-organ"
+      ],
+      "citations": [
+        {
+          "author": "Schleip R.",
+          "year": 2003,
+          "context": "Fascial plasticity - a new neurobiological explanation of fascial tonus regulation and treatment."
+        },
+        {
+          "author": "Stecco C. et al.",
+          "year": 2008,
+          "context": "Histological study of the deep fasciae of the limbs and their innervation density."
+        },
+        {
+          "author": "Bhatt J.M. et al.",
+          "year": 2020,
+          "context": "Interstitial myofascial tissue receptors and their role in proprioception and pain."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_fascia_sensory_organ.md",
+      "headings": [
+        "# Fascia as a Sensory Organ: Mechanoreception and Interoception in Connective Tissue",
+        "## Abstract",
+        "## Fascial Receptor Types",
+        "### Ruffini Endings",
+        "### Interstitial Receptors",
+        "### Piezo2 in Fascial Fibroblasts",
+        "## Fascial Innervation Density",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Fascia is a continuous three-dimensional network of connective tissue permeating the entire body. Once considered passive structural scaffolding, fascia is now understood as a richly innervated sensory organ containing mechanoreceptors, nociceptors, and interstitial receptors that contribute to proprioception, interoception, and pain modulation. Fascial mechanosensation provides a distributed whole-body sensing layer that complements the discrete receptor organs of classical somatosensory anatom"
+    },
+    {
+      "uid": "NEURO-INT-001",
+      "title": "Interoception and the Insular Cortex in Bodily Self-Awareness",
+      "category": "Neurophysiology",
+      "sub_category": "Interoception",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "interoception",
+        "insula",
+        "bodily-awareness",
+        "homeostasis",
+        "allostasis",
+        "anterior-insula",
+        "vagus",
+        "somatic-marker"
+      ],
+      "citations": [
+        {
+          "author": "Craig A.D.",
+          "year": 2009,
+          "context": "How do you feel now? The anterior insula and human awareness of bodily states."
+        },
+        {
+          "author": "Seth A.K.",
+          "year": 2013,
+          "context": "Interoceptive inference, emotion, and the embodied self as predictive processing."
+        },
+        {
+          "author": "Damasio A.",
+          "year": 1994,
+          "context": "Somatic marker hypothesis linking bodily states to decision-making and emotional regulation."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_interoception_insular_cortex.md",
+      "headings": [
+        "# Interoception and the Insular Cortex in Bodily Self-Awareness",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Interoceptive Pathways",
+        "### Insular Cortex Architecture",
+        "### Predictive Interoception",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Interoception is the sensing of the internal physiological state of the body. The insular cortex serves as the primary cortical region for interoceptive processing, integrating signals from visceral organs, cardiovascular system, respiratory tract, and musculoskeletal structures. Interoceptive accuracy predicts emotional regulation capacity, pain sensitivity, and the quality of embodied awareness during somatic practices."
+    },
+    {
+      "uid": "NEURO-MECH-001",
+      "title": "Mechanotransduction and Piezo2 Channels in Somatic Sensing",
+      "category": "Neurophysiology",
+      "sub_category": "Mechanobiology",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney",
+        "Heart"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "mechanotransduction",
+        "piezo2",
+        "interoception",
+        "proprioception",
+        "fascia",
+        "touch",
+        "somatosensory",
+        "ion-channel"
+      ],
+      "citations": [
+        {
+          "author": "Coste B. et al.",
+          "year": 2010,
+          "context": "Piezo1 and Piezo2 characterized as mechanically activated ion channels."
+        },
+        {
+          "author": "Chesler A.T. et al.",
+          "year": 2016,
+          "context": "Piezo2 essential for proprioception and light touch discrimination."
+        },
+        {
+          "author": "Murthy S.E. et al.",
+          "year": 2018,
+          "context": "Piezo2 mediates low-threshold mechanosensation in sensory neurons."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_mechanotransduction_piezo2.md",
+      "headings": [
+        "# Mechanotransduction and Piezo2 Channels in Somatic Sensing",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Piezo2 Channel Structure",
+        "### Proprioceptive Role",
+        "### Interoceptive Role",
+        "### Fascial Mechanosensation",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Mechanotransduction converts mechanical forces into electrochemical signals within biological tissues. Piezo2 is the primary mechanically activated ion channel responsible for proprioception, light touch, and interoception in mammals. Understanding Piezo2 provides a molecular foundation for somatic awareness and the physiological basis of embodied practices such as Tai Chi and Qigong."
+    },
+    {
+      "uid": "NEURO-PVT-001",
+      "title": "Polyvagal Theory and Autonomic Hierarchy in Somatic Regulation",
+      "category": "Neurophysiology",
+      "sub_category": "Autonomic Nervous System",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        216
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "polyvagal",
+        "vagus",
+        "autonomic",
+        "parasympathetic",
+        "sympathetic",
+        "dorsal-vagal",
+        "ventral-vagal",
+        "hrv",
+        "safety",
+        "neuroception"
+      ],
+      "citations": [
+        {
+          "author": "Porges S.W.",
+          "year": 2011,
+          "context": "Polyvagal Theory outlining three-tiered autonomic hierarchy and neuroception."
+        },
+        {
+          "author": "Porges S.W.",
+          "year": 2022,
+          "context": "Polyvagal Theory in Practice clinical applications for trauma and somatic regulation."
+        },
+        {
+          "author": "Beauchaine T.P.",
+          "year": 2015,
+          "context": "Respiratory sinus arrhythmia as index of vagal tone and self-regulation capacity."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_polyvagal_autonomic_hierarchy.md",
+      "headings": [
+        "# Polyvagal Theory and Autonomic Hierarchy in Somatic Regulation",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Three-Tiered Autonomic Hierarchy",
+        "### Neuroception",
+        "### Vagal Brake",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Polyvagal Theory proposed by Stephen Porges describes the autonomic nervous system as a three-tiered phylogenetic hierarchy governing physiological state, social engagement, and survival response. The theory reframes HRV as a direct index of vagal brake function and provides a framework for understanding how movement practices regulate autonomic state through breath, posture, and social context."
+    },
+    {
+      "uid": "NEURO-PROP-001",
+      "title": "Proprioception and Muscle Spindle Dynamics in Somatic Awareness",
+      "category": "Neurophysiology",
+      "sub_category": "Somatosensory Systems",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate"
+      ],
+      "tags": [
+        "proprioception",
+        "muscle-spindle",
+        "tai-chi",
+        "interoception",
+        "somatosensory",
+        "golgi-tendon",
+        "mechanotransduction"
+      ],
+      "citations": [
+        {
+          "author": "Proske U. and Gandevia S.C.",
+          "year": 2012,
+          "context": "Comprehensive review of proprioceptive signals from muscle spindles and Golgi tendon organs."
+        },
+        {
+          "author": "Simoneau M. et al.",
+          "year": 2006,
+          "context": "Tai Chi practice improves proprioceptive acuity and postural stability in older adults."
+        }
+      ],
+      "relative_path": "neurophysiology/NEURO_proprioception_muscle_spindle.md",
+      "headings": [
+        "# Proprioception and Muscle Spindle Dynamics in Somatic Awareness",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Muscle Spindle Architecture",
+        "### Golgi Tendon Organs",
+        "### Central Integration",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node examines the role of muscle spindles and Golgi tendon organs as primary proprioceptive transducers in somatic awareness. Proprioception provides the nervous system with continuous positional and velocity data from musculoskeletal structures. Slow movement practices such as Tai Chi and Qigong place exceptional demand on proprioceptive acuity, training sensitivity of these mechanoreceptors over time."
+    },
+    {
+      "uid": "PSY-497-ATTENTION-001",
+      "title": "Somatic Modulation of Selective Attention",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Lab Research / Coursework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "confidence",
+        "respiration_rate"
+      ],
+      "tags": [
+        "attention",
+        "executive-function",
+        "tai-chi",
+        "hrv",
+        "somatics"
+      ],
+      "citations": [
+        {
+          "author": "Shin et al.",
+          "year": 2024,
+          "context": "Autonomic regulation and movement-based cognitive modulation."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_attention_somatic_modulation.md",
+      "headings": [
+        "# Somatic Modulation of Selective Attention",
+        "## Abstract",
+        "## Key Ideas",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This knowledge node connects selective attention, somatic regulation, and Guardian Interface telemetry."
+    },
+    {
+      "uid": "PSY-497-HRV-001",
+      "title": "Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "hrv",
+        "autonomic",
+        "vagus",
+        "prefrontal",
+        "cognitive-load",
+        "biofeedback",
+        "neurovisceral"
+      ],
+      "citations": [
+        {
+          "author": "Thayer et al.",
+          "year": 2012,
+          "context": "Neurovisceral integration model linking HRV to prefrontal cortex regulation."
+        },
+        {
+          "author": "Porges S.W.",
+          "year": 2011,
+          "context": "Polyvagal theory and vagal tone as index of autonomic flexibility."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_hrv_autonomic_biofeedback.md",
+      "headings": [
+        "# Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Prefrontal-Autonomic Regulation Loop",
+        "### Vagal-Cardiac Pathway",
+        "## Cross-System Links",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node reviews the physiological mechanisms linking cardiac vagal tone to cognitive regulation capacity. Drawing on Thayer neurovisceral integration model, HRV metrics function as a window into prefrontal cortex efficiency, providing an empirical baseline for tracking stress resilience and attention shifts in real time."
+    },
+    {
+      "uid": "BIOMECH-DFL-001",
+      "title": "Anatomy Trains Deep Front Line and the Core Myofascial Meridian",
+      "category": "Biomechanics",
+      "sub_category": "Myofascial Anatomy",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Kidney",
+        "Liver",
+        "Spleen"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate"
+      ],
+      "tags": [
+        "anatomy-trains",
+        "deep-front-line",
+        "fascia",
+        "psoas",
+        "diaphragm",
+        "pelvic-floor",
+        "myofascial",
+        "core",
+        "tcm-convergence"
+      ],
+      "citations": [
+        {
+          "author": "Myers T.",
+          "year": 2020,
+          "context": "Anatomy Trains myofascial meridians third edition including Deep Front Line mapping."
+        },
+        {
+          "author": "Stecco C.",
+          "year": 2015,
+          "context": "Functional Atlas of the Human Fascial System histological and functional deep fascia analysis."
+        }
+      ],
+      "relative_path": "somatic_traditions/BIOMECH_anatomy_trains_deep_front_line.md",
+      "headings": [
+        "# Anatomy Trains Deep Front Line and the Core Myofascial Meridian",
+        "## Abstract",
+        "## Structural Pathway",
+        "### Foot and Leg Segment",
+        "### Pelvic and Core Segment",
+        "### Thoracic and Cranial Segment",
+        "## TCM Convergence",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "The Deep Front Line is the innermost myofascial meridian in Thomas Myers Anatomy Trains framework. It runs from the plantar foot through the inner leg, psoas complex, and anterior spine to the cranial base, enveloping the visceral cavity and forming the structural core of the body. The Deep Front Line corresponds closely to the trajectory of the Kidney and Liver meridians in Traditional Chinese Medicine and provides a structural substrate for understanding internal power generation in Tai Chi."
+    },
+    {
+      "uid": "BIOMECH-MYO-JJ-001",
+      "title": "Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+      "category": "Biomechanics",
+      "sub_category": "Myofascial Anatomy",
+      "source_type": "Peer Reviewed Research",
+      "status": "Verified",
+      "associated_somatic_nodes": [
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "respiration_rate",
+        "hrv"
+      ],
+      "tags": [
+        "myofascial",
+        "anatomy-trains",
+        "jing-jin",
+        "superficial-back-line",
+        "tai-chi",
+        "fascia",
+        "biomechanics"
+      ],
+      "citations": [
+        {
+          "author": "Myers T.",
+          "year": 2020,
+          "context": "Anatomy Trains myofascial meridians and structural continuity tracking."
+        },
+        {
+          "author": "Wilke et al.",
+          "year": 2016,
+          "context": "Systematic review of histological tensile transmission along myofascial pathways."
+        }
+      ],
+      "relative_path": "somatic_traditions/BIOMECH_myofascial_sinew_lines.md",
+      "headings": [
+        "# Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+        "## Abstract",
+        "## Structural Intersections",
+        "### Plantar-to-Calcaneal Link",
+        "### Posterior Pelvic-to-Spinal Link",
+        "## Biomechanical Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node maps the structural and functional overlap between Thomas Myers Superficial Back Line (SBL) and the Foot Taiyang Sinew Channel (Bladder Jing Jin). Both frameworks describe a continuous network of connective tissue running along the posterior aspect of the body, acting as an integration system for kinetic strain, spinal extension, and postural balance."
+    },
+    {
+      "uid": "BIOMECH-TC-001",
+      "title": "Tai Chi Biomechanical Principles: Root, Silk Reeling, Ground Path, and Peng Jin",
+      "category": "Biomechanics",
+      "sub_category": "Internal Movement Arts",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Kidney",
+        "Bladder",
+        "Liver",
+        "Gallbladder"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "tai-chi",
+        "biomechanics",
+        "silk-reeling",
+        "ground-path",
+        "peng-jin",
+        "root",
+        "ward-off",
+        "internal-force",
+        "chan-si-jin",
+        "structure"
+      ],
+      "citations": [
+        {
+          "author": "Wile D.",
+          "year": 1996,
+          "context": "Lost T'ai-chi Classics from the Late Ching Dynasty historical and biomechanical analysis."
+        },
+        {
+          "author": "Grindea C.",
+          "year": 2008,
+          "context": "Tai chi and biomechanics of the joints systematic review of force transmission principles."
+        },
+        {
+          "author": "Wayne P.M. and Kaptchuk T.J.",
+          "year": 2008,
+          "context": "Challenges inherent to tai chi research systematic review of biomechanical and clinical studies."
+        }
+      ],
+      "relative_path": "somatic_traditions/BIOMECH_tai_chi_principles.md",
+      "headings": [
+        "# Tai Chi Biomechanical Principles: Root, Silk Reeling, Ground Path, and Peng Jin",
+        "## Abstract",
+        "## Root and Ground Connection",
+        "## Silk Reeling Jin (Chan Si Jin)",
+        "## Ground Path",
+        "## Peng Jin Ward-Off Structure",
+        "## Relevance to Somatic Research",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Tai Chi Chuan is an internal martial art governed by specific biomechanical principles that organize whole-body force transmission through fascial and skeletal structure. These principles include root and ground connection, silk reeling spiral force, the ground path of reaction force transmission, and Peng Jin the fundamental ward-off structure underlying all Tai Chi postures. Understanding these principles biomechanically reveals their correspondence to fascial tensegrity, myofascial force tran"
+    },
+    {
+      "uid": "QIGONG-WQX-001",
+      "title": "Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+      "category": "Somatic Traditions",
+      "sub_category": "Tai Chi / Qigong",
+      "source_type": "Practice Research Note",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        216
+      ],
+      "target_meridians": [
+        "Liver",
+        "Gallbladder",
+        "Heart",
+        "Lung"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-qin-xi",
+        "qigong",
+        "five-animal-frolics",
+        "hrv",
+        "respiration",
+        "autonomic-regulation"
+      ],
+      "citations": [
+        {
+          "author": "Practice synthesis",
+          "year": 2026,
+          "context": "Working note connecting movement mechanics to Guardian Interface telemetry."
+        }
+      ],
+      "relative_path": "somatic_traditions/tai_chi_qigong/QIGONG_wu_qin_xi_mechanics.md",
+      "headings": [
+        "# Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+        "## Abstract",
+        "## Biomechanical Correlates",
+        "## Intersection with Cognitive Topography",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This module details the biomechanical and physiological impacts of the Wu Qin Xi, or Five Animal Frolics, focusing on their capacity to modulate autonomic nervous system tone."
+    },
+    {
+      "uid": "TCM-KD-001",
+      "title": "Kidney Meridian: Essence Storage, Water Element, and Vitality Root",
+      "category": "Traditional Chinese Medicine",
+      "sub_category": "Meridian Theory",
+      "source_type": "Traditional Framework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Kidney",
+        "Bladder"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "kidney",
+        "meridian",
+        "jing",
+        "essence",
+        "water-element",
+        "yin-yang",
+        "lower-dan-tian",
+        "adrenal",
+        "tcm-organ",
+        "zang-fu"
+      ],
+      "citations": [
+        {
+          "author": "Maciocia G.",
+          "year": 2015,
+          "context": "Foundations of Chinese Medicine detailed description of Kidney organ system functions and pathology."
+        },
+        {
+          "author": "Deadman P. et al.",
+          "year": 2007,
+          "context": "A Manual of Acupuncture comprehensive acupoint location and clinical indications."
+        }
+      ],
+      "relative_path": "tcm/TCM_kidney_meridian.md",
+      "headings": [
+        "# Kidney Meridian: Essence Storage, Water Element, and Vitality Root",
+        "## Abstract",
+        "## Kidney Functions in TCM",
+        "### Jing Essence Storage",
+        "### Root of Yin and Yang",
+        "### Bone Marrow and Brain",
+        "### Reception of Qi",
+        "## Meridian Pathway",
+        "## Key Acupoints",
+        "## Convergence with Biomechanics",
+        "## Guardian Interface Links"
+      ],
+      "summary": "The Kidney organ system in Traditional Chinese Medicine is the root of all Yin and Yang in the body, the storehouse of Jing essence, and the foundation of constitutional vitality. The Kidney meridian originates at the sole of the foot, ascends along the inner leg and anterior spine, and connects to the Heart and Lung systems. Kidney function governs reproduction, growth, development, bone marrow production, brain nourishment, and the reception of Qi from the Lung during respiration."
+    },
+    {
+      "uid": "TCM-WX-001",
+      "title": "Wu Xing Five Element Theory in Traditional Chinese Medicine",
+      "category": "Traditional Chinese Medicine",
+      "sub_category": "Theoretical Foundations",
+      "source_type": "Traditional Framework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Liver",
+        "Heart",
+        "Spleen",
+        "Lung",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-xing",
+        "five-elements",
+        "wood",
+        "fire",
+        "earth",
+        "metal",
+        "water",
+        "sheng-cycle",
+        "ke-cycle",
+        "tcm-theory"
+      ],
+      "citations": [
+        {
+          "author": "Maciocia G.",
+          "year": 2015,
+          "context": "Foundations of Chinese Medicine comprehensive overview of Five Element theory and clinical application."
+        },
+        {
+          "author": "Kaptchuk T.J.",
+          "year": 2000,
+          "context": "The Web That Has No Weaver systematic description of TCM theoretical framework."
+        }
+      ],
+      "relative_path": "tcm/TCM_wu_xing_five_elements.md",
+      "headings": [
+        "# Wu Xing Five Element Theory in Traditional Chinese Medicine",
+        "## Abstract",
+        "## Five Phase Correspondences",
+        "### Wood",
+        "### Fire",
+        "### Earth",
+        "### Metal",
+        "### Water",
+        "## Generative and Control Cycles",
+        "### Sheng Generating Cycle",
+        "### Ke Controlling Cycle",
+        "## Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "Wu Xing describes five fundamental phases of transformation governing natural phenomena, physiological function, and pathological change in Traditional Chinese Medicine. The five phases are Wood, Fire, Earth, Metal, and Water. Each phase corresponds to organ systems, emotions, seasons, tissues, sensory organs, and climatic factors. Two primary cycles govern inter-elemental relationships: the Sheng generating cycle and the Ke controlling cycle."
+    }
+  ],
+  "somatic_node_index": {
+    "42": [
+      "NEURO-FAS-001",
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "BIOMECH-TC-001",
+      "QIGONG-WQX-001",
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ],
+    "108": [
+      "NEURO-FAS-001",
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001",
+      "QIGONG-WQX-001",
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ],
+    "142": [
+      "NEURO-FAS-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001",
+      "TCM-KD-001"
+    ],
+    "215": [
+      "NEURO-FAS-001",
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PROP-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001",
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ],
+    "312": [
+      "NEURO-FAS-001",
+      "NEURO-MECH-001",
+      "NEURO-PROP-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001",
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ],
+    "212": [
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "TCM-WX-001"
+    ],
+    "216": [
+      "NEURO-PVT-001",
+      "QIGONG-WQX-001"
+    ]
+  },
+  "topic_index": {
+    "fascia": [
+      "NEURO-FAS-001",
+      "NEURO-MECH-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "mechanoreception": [
+      "NEURO-FAS-001"
+    ],
+    "interoception": [
+      "NEURO-FAS-001",
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "fibroblast": [
+      "NEURO-FAS-001"
+    ],
+    "piezo2": [
+      "NEURO-FAS-001",
+      "NEURO-MECH-001"
+    ],
+    "ruffini": [
+      "NEURO-FAS-001"
+    ],
+    "interstitial": [
+      "NEURO-FAS-001"
+    ],
+    "myofascial": [
+      "NEURO-FAS-001",
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "sensory-organ": [
+      "NEURO-FAS-001"
+    ],
+    "insula": [
+      "NEURO-INT-001"
+    ],
+    "bodily-awareness": [
+      "NEURO-INT-001"
+    ],
+    "homeostasis": [
+      "NEURO-INT-001"
+    ],
+    "allostasis": [
+      "NEURO-INT-001"
+    ],
+    "anterior-insula": [
+      "NEURO-INT-001"
+    ],
+    "vagus": [
+      "NEURO-INT-001",
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "somatic-marker": [
+      "NEURO-INT-001"
+    ],
+    "mechanotransduction": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "proprioception": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "touch": [
+      "NEURO-MECH-001"
+    ],
+    "somatosensory": [
+      "NEURO-MECH-001",
+      "NEURO-PROP-001"
+    ],
+    "ion-channel": [
+      "NEURO-MECH-001"
+    ],
+    "polyvagal": [
+      "NEURO-PVT-001"
+    ],
+    "autonomic": [
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "parasympathetic": [
+      "NEURO-PVT-001"
+    ],
+    "sympathetic": [
+      "NEURO-PVT-001"
+    ],
+    "dorsal-vagal": [
+      "NEURO-PVT-001"
+    ],
+    "ventral-vagal": [
+      "NEURO-PVT-001"
+    ],
+    "hrv": [
+      "NEURO-PVT-001",
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "QIGONG-WQX-001"
+    ],
+    "safety": [
+      "NEURO-PVT-001"
+    ],
+    "neuroception": [
+      "NEURO-PVT-001"
+    ],
+    "muscle-spindle": [
+      "NEURO-PROP-001"
+    ],
+    "tai-chi": [
+      "NEURO-PROP-001",
+      "PSY-497-ATTENTION-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001"
+    ],
+    "golgi-tendon": [
+      "NEURO-PROP-001"
+    ],
+    "attention": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "executive-function": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "somatics": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "prefrontal": [
+      "PSY-497-HRV-001"
+    ],
+    "cognitive-load": [
+      "PSY-497-HRV-001"
+    ],
+    "biofeedback": [
+      "PSY-497-HRV-001"
+    ],
+    "neurovisceral": [
+      "PSY-497-HRV-001"
+    ],
+    "anatomy-trains": [
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "deep-front-line": [
+      "BIOMECH-DFL-001"
+    ],
+    "psoas": [
+      "BIOMECH-DFL-001"
+    ],
+    "diaphragm": [
+      "BIOMECH-DFL-001"
+    ],
+    "pelvic-floor": [
+      "BIOMECH-DFL-001"
+    ],
+    "core": [
+      "BIOMECH-DFL-001"
+    ],
+    "tcm-convergence": [
+      "BIOMECH-DFL-001"
+    ],
+    "jing-jin": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "superficial-back-line": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "biomechanics": [
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001"
+    ],
+    "silk-reeling": [
+      "BIOMECH-TC-001"
+    ],
+    "ground-path": [
+      "BIOMECH-TC-001"
+    ],
+    "peng-jin": [
+      "BIOMECH-TC-001"
+    ],
+    "root": [
+      "BIOMECH-TC-001"
+    ],
+    "ward-off": [
+      "BIOMECH-TC-001"
+    ],
+    "internal-force": [
+      "BIOMECH-TC-001"
+    ],
+    "chan-si-jin": [
+      "BIOMECH-TC-001"
+    ],
+    "structure": [
+      "BIOMECH-TC-001"
+    ],
+    "wu-qin-xi": [
+      "QIGONG-WQX-001"
+    ],
+    "qigong": [
+      "QIGONG-WQX-001"
+    ],
+    "five-animal-frolics": [
+      "QIGONG-WQX-001"
+    ],
+    "respiration": [
+      "QIGONG-WQX-001"
+    ],
+    "autonomic-regulation": [
+      "QIGONG-WQX-001"
+    ],
+    "kidney": [
+      "TCM-KD-001"
+    ],
+    "meridian": [
+      "TCM-KD-001"
+    ],
+    "jing": [
+      "TCM-KD-001"
+    ],
+    "essence": [
+      "TCM-KD-001"
+    ],
+    "water-element": [
+      "TCM-KD-001"
+    ],
+    "yin-yang": [
+      "TCM-KD-001"
+    ],
+    "lower-dan-tian": [
+      "TCM-KD-001"
+    ],
+    "adrenal": [
+      "TCM-KD-001"
+    ],
+    "tcm-organ": [
+      "TCM-KD-001"
+    ],
+    "zang-fu": [
+      "TCM-KD-001"
+    ],
+    "wu-xing": [
+      "TCM-WX-001"
+    ],
+    "five-elements": [
+      "TCM-WX-001"
+    ],
+    "wood": [
+      "TCM-WX-001"
+    ],
+    "fire": [
+      "TCM-WX-001"
+    ],
+    "earth": [
+      "TCM-WX-001"
+    ],
+    "metal": [
+      "TCM-WX-001"
+    ],
+    "water": [
+      "TCM-WX-001"
+    ],
+    "sheng-cycle": [
+      "TCM-WX-001"
+    ],
+    "ke-cycle": [
+      "TCM-WX-001"
+    ],
+    "tcm-theory": [
+      "TCM-WX-001"
+    ]
+  },
+  "category_index": {
+    "Neurophysiology": [
+      "NEURO-FAS-001",
+      "NEURO-INT-001",
+      "NEURO-MECH-001",
+      "NEURO-PVT-001",
+      "NEURO-PROP-001"
+    ],
+    "Psychology": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001"
+    ],
+    "Biomechanics": [
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001",
+      "BIOMECH-TC-001"
+    ],
+    "Somatic Traditions": [
+      "QIGONG-WQX-001"
+    ],
+    "Traditional Chinese Medicine": [
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ]
+  },
+  "evidence_index": {
+    "Schleip R. 2003": [
+      "NEURO-FAS-001"
+    ],
+    "Stecco C. et al. 2008": [
+      "NEURO-FAS-001"
+    ],
+    "Bhatt J.M. et al. 2020": [
+      "NEURO-FAS-001"
+    ],
+    "Craig A.D. 2009": [
+      "NEURO-INT-001"
+    ],
+    "Seth A.K. 2013": [
+      "NEURO-INT-001"
+    ],
+    "Damasio A. 1994": [
+      "NEURO-INT-001"
+    ],
+    "Coste B. et al. 2010": [
+      "NEURO-MECH-001"
+    ],
+    "Chesler A.T. et al. 2016": [
+      "NEURO-MECH-001"
+    ],
+    "Murthy S.E. et al. 2018": [
+      "NEURO-MECH-001"
+    ],
+    "Porges S.W. 2011": [
+      "NEURO-PVT-001",
+      "PSY-497-HRV-001"
+    ],
+    "Porges S.W. 2022": [
+      "NEURO-PVT-001"
+    ],
+    "Beauchaine T.P. 2015": [
+      "NEURO-PVT-001"
+    ],
+    "Proske U. and Gandevia S.C. 2012": [
+      "NEURO-PROP-001"
+    ],
+    "Simoneau M. et al. 2006": [
+      "NEURO-PROP-001"
+    ],
+    "Shin et al. 2024": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "Thayer et al. 2012": [
+      "PSY-497-HRV-001"
+    ],
+    "Myers T. 2020": [
+      "BIOMECH-DFL-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Stecco C. 2015": [
+      "BIOMECH-DFL-001"
+    ],
+    "Wilke et al. 2016": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Wile D. 1996": [
+      "BIOMECH-TC-001"
+    ],
+    "Grindea C. 2008": [
+      "BIOMECH-TC-001"
+    ],
+    "Wayne P.M. and Kaptchuk T.J. 2008": [
+      "BIOMECH-TC-001"
+    ],
+    "Practice synthesis 2026": [
+      "QIGONG-WQX-001"
+    ],
+    "Maciocia G. 2015": [
+      "TCM-KD-001",
+      "TCM-WX-001"
+    ],
+    "Deadman P. et al. 2007": [
+      "TCM-KD-001"
+    ],
+    "Kaptchuk T.J. 2000": [
+      "TCM-WX-001"
+    ]
+  }
+}

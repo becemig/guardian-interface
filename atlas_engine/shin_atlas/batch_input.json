@@ -1,0 +1,53 @@
+[
+  {
+    "id": "SHIN_08",
+    "title": "Procedural learning of action order",
+    "doi": "10.1007/s00426-007-0115-5",
+    "year": 2008,
+    "domain_clusters": ["Motor Learning", "Procedural Memory"],
+    "guardian_modules": ["Neuroprocessing Lab"],
+    "key_methods": ["Sequence Learning Tasks"],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_09",
+    "title": "Impact of Parkinson's on Sequence Learning",
+    "doi": "10.1016/j.bandc.2008.07.013",
+    "year": 2009,
+    "domain_clusters": ["Parkinson's", "Sequence Learning"],
+    "guardian_modules": ["Parkinson's Lab"],
+    "key_methods": ["Reaction Time", "Motor Sequence Task"],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_11",
+    "title": "Temporal Coordination in Children",
+    "doi": "N/A",
+    "year": 2011,
+    "domain_clusters": ["Cognitive Development", "Timing"],
+    "guardian_modules": ["Attention Lab"],
+    "key_methods": ["Temporal Estimation"],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_10",
+    "title": "Dual-Sequence Learning Dimensions",
+    "doi": "N/A",
+    "year": 2012,
+    "domain_clusters": ["Sequence Learning", "Dual-Task Performance"],
+    "guardian_modules": ["Neuroprocessing Lab"],
+    "key_methods": ["Dual-task paradigm"],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_07",
+    "title": "Time Constraints in RSVP",
+    "doi": "N/A",
+    "year": 2015,
+    "domain_clusters": ["Attention", "Temporal Processing"],
+    "guardian_modules": ["Attention Lab"],
+    "key_methods": ["RSVP", "Attention Blink"],
+    "priority": "B"
+  }
+]
+

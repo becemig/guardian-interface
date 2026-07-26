@@ -1,0 +1,24 @@
+timestamp,session_id,guardian_state,confidence,hrv,respiration_rate,reaction_time,sleep_quality,contributing_signals
+2026-06-23T23:37:03.263130+00:00,3f00f64a,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-23T23:37:03.265361+00:00,3f00f64a,Adaptive,0.5,51,14,480,66,moderate_hrv|irregular_respiration
+2026-06-23T23:37:03.265469+00:00,3f00f64a,Stress Load,0.5,35,22,710,38,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-23T23:40:29.570433+00:00,81ef1e99,Regulated,0.75,52,11,420,75,moderate_hrv|regulated_respiration|good_sleep_quality
+2026-06-23T23:52:01.912044+00:00,fbd396fb,Regulated,0.75,52,11,420,75,moderate_hrv|regulated_respiration|good_sleep_quality
+2026-06-23T23:52:32.951846+00:00,fbd396fb,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-23T23:52:33.954414+00:00,fbd396fb,Adaptive,0.5,48,15,520,62,moderate_hrv|irregular_respiration
+2026-06-23T23:52:34.956158+00:00,fbd396fb,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T01:23:43.882177+00:00,ee401523,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T01:24:10.421754+00:00,ee401523,Regulated,0.833,68,10,330,78,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:48:11.226546+00:00,30aa8571,Regulated,0.833,68,10,330,78,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:52:36.176403+00:00,30aa8571,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:52:37.178617+00:00,30aa8571,Adaptive,0.5,48,15,520,62,moderate_hrv|irregular_respiration
+2026-06-24T14:52:38.195977+00:00,30aa8571,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T14:53:17.912745+00:00,8830b42a,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T14:59:30.906620+00:00,2a6b50e7,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:02:11.372971+00:00,817449ae,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:18:45.719293+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:19:13.977343+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:23:08.857463+00:00,ddfc87c8,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:25:58.371753+00:00,daf831a6,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:34:57.154665+00:00,daf831a6,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:34:57.383696+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality

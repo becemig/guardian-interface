@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-24T15:25:58.371753+00:00",
+  "guardian_state": "Stress Load",
+  "confidence": 0.5,
+  "contributing_signals": [
+    "low_hrv",
+    "elevated_respiration",
+    "slow_reaction_time",
+    "low_sleep_quality"
+  ],
+  "state_scores": {
+    "Regulated": 0,
+    "Adaptive": 0,
+    "Monitoring": 0,
+    "Stress Load": 4,
+    "Cognitive Load": 2,
+    "Fatigued": 2
+  },
+  "input": {
+    "hrv": 34,
+    "respiration_rate": 23,
+    "reaction_time": 760,
+    "sleep_quality": 36
+  }
+}

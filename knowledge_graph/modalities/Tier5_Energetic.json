@@ -1,0 +1,11 @@
+{
+  "tier": 5,
+  "label": "Energetic/Subtle Arts",
+  "focus": "Bio-field Regulation",
+  "sensor_profile": "Biofield_Variability",
+  "modalities": [
+    {"id": "MOD_REIKI_01", "name": "Reiki"},
+    {"id": "MOD_JINSHIN_01", "name": "Jin Shin Jyutsu"},
+    {"id": "MOD_CRANIO_01", "name": "Craniosacral Therapy"}
+  ]
+}

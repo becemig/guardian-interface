@@ -1,0 +1,32 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="guardian-interface"
+run/main_scene="res://scripts/bagua/BaguaAvatarScene.tscn"
+config/features=PackedStringArray("4.6", "C#")
+
+[autoload]
+
+BaguaPhysicsClient="*res://scripts/bagua/BaguaPhysicsClient.tscn"
+GodotAtlasBridge="*res://scripts/atlas/GodotAtlasBridge.tscn"
+UniversalDockingBus="*res://scripts/core/UniversalDockingBus.cs"
+ModeSwitcher="*res://scripts/core/ModeSwitcher.cs"
+PhaseGovernor="*res://scripts/core/PhaseGovernor.cs"
+
+[dotnet]
+
+project/assembly_name="guardian-interface"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

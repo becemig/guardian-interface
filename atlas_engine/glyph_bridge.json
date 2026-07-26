@@ -1,0 +1,7 @@
+{
+    "glyph_map": {
+        "Clinical Medicine Corridor": {"color": "#FF5733", "symbol": "☤", "sound": "low_pulse"},
+        "Mental Health Corridor": {"color": "#33FF57", "symbol": "☯", "sound": "harmonic_swell"},
+        "Chemistry/Pharmacology Corridor": {"color": "#3357FF", "symbol": "⚗", "sound": "crystalline_chime"}
+    }
+}

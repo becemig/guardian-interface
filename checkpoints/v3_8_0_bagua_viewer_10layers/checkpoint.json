@@ -1,0 +1,36 @@
+{
+  "version": "v3_8_0_bagua_viewer_10layers",
+  "description": "BaguaViewer 10-layer complete. All physics modules written and tested.",
+  "layers": {
+    "L1": "Skeleton + curvature heat map",
+    "L2": "ICR centripetal/centrifugal vectors",
+    "L3": "Anatomy Trains + Jing Jin fascial",
+    "L4": "Velocity/acceleration + kinetic wave",
+    "L5": "Ground reaction + environmental sphere",
+    "L6": "Five-element orbital rings + herbs",
+    "L7": "Ba Gang diagnosis dashboard",
+    "L8": "Mechanotransduction stress halos",
+    "L9": "Neuro-fascial afferent pulse",
+    "L10": "12-Channel peripheral nerve overlay"
+  },
+  "modules": [
+    "curvature_field.py",
+    "holonomy_integrator.py",
+    "icr_solver.py",
+    "force_manifold.py",
+    "fascial_activation.py",
+    "five_element_map.py",
+    "ba_gang_diagnosis.py",
+    "mechanotransduction.py",
+    "neuro_fascial.py",
+    "channel_nerve_map.py"
+  ],
+  "server": "bagua_viewer/server.py",
+  "static": "bagua_viewer/static/",
+  "node_count": 854,
+  "archive_series_complete": [
+    "I20",
+    "I21",
+    "I22"
+  ]
+}

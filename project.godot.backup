@@ -1,0 +1,12 @@
+
+[autoload]
+
+AcademyManager="*res://scripts/AcademyManager.cs"
+VariableGovernor="*res://scripts/VariableGovernor.cs"
+
+[application]
+run/main_scene="res://LabBay.tscn"
+
+[autoload]
+AcademyManager="*res://scripts/AcademyManager.cs"
+VariableGovernor="*res://scripts/VariableGovernor.cs"

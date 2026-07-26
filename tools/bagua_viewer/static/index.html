@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BaguaViewer -- Layer 1</title>
+<link rel="stylesheet" href="/static/css/viewer.css">
+</head>
+<body>
+<div id="hud">
+  <div id="hud-title">BAGUA VIEWER</div>
+  <div id="hud-layer">LAYER 1 -- SKELETON + CURVATURE</div>
+  <div id="hud-frame">FRAME: <span id="frame-num">0</span> / <span id="frame-total">0</span></div>
+  <div id="hud-A">GLOBAL A(t): <span id="global-A">0.000</span></div>
+  <div id="hud-status" class="status-conn">CONNECTING...</div>
+  <div id="hud-layers" style="margin-top:8px;font-size:10px;color:#7A7974;">
+    <label><input type="checkbox" id="chk-L1" checked> L1 Skeleton</label>&nbsp;
+    <label><input type="checkbox" id="chk-L2" checked> L2 Vectors</label>
+    <label><input type="checkbox" id="chk-L3" checked> L3 Fascial</label>
+    <label><input type="checkbox" id="chk-L4" checked> L4 Physics</label>
+    <label><input type="checkbox" id="chk-L5" checked> L5 Ground</label>
+    <label><input type="checkbox" id="chk-L6" checked> L6 Elements</label>
+    <label><input type="checkbox" id="chk-L8" checked> L8 Mech</label>
+    <label><input type="checkbox" id="chk-L9" checked> L9 Neuro</label>
+    <label><input type="checkbox" id="chk-L10" checked> L10 Channels</label>
+  </div>
+</div>
+<div id="legend">
+  <div class="leg-row"><span class="swatch" style="background:#20808D"></span>Low A(t) -- balanced</div>
+  <div class="leg-row"><span class="swatch" style="background:#DA7101"></span>Mid A(t) -- loading</div>
+  <div class="leg-row"><span class="swatch" style="background:#A13544"></span>High A(t) -- peak effort</div>
+  <div style="border-top:1px solid #393836;margin:6px 0"></div>
+  <div class="leg-row"><span class="swatch" style="background:#4F98A3"></span>Centripetal (inward)</div>
+  <div class="leg-row"><span class="swatch" style="background:#DA7101"></span>Centrifugal (outward)</div>
+</div>
+<div id="controls">
+  <button id="btn-play">PLAY</button>
+  <button id="btn-pause">PAUSE</button>
+  <button id="btn-reset">RESET</button>
+  <input id="scrubber" type="range" min="0" max="239" value="0" step="1">
+</div>
+<canvas id="c"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+<script src="/static/js/viewer.js"></script>
+  <div id="ch-panel" style="position:absolute;bottom:380px;left:12px;background:rgba(23,22,20,0.88);border:1px solid #393836;border-radius:6px;padding:10px 14px;min-width:220px;font-family:monospace;font-size:11px;color:#CDCCCA;">
+    <div style="font-size:10px;color:#7A7974;margin-bottom:6px;letter-spacing:1px;">CHANNEL NERVE MAP</div>
+    <div style="margin-bottom:4px;"><span style="color:#7A7974;width:70px;display:inline-block">DOMINANT:</span><span id="ch-dominant" style="color:#BCE2E7">-</span></div>
+    <div style="margin-bottom:4px;"><span style="color:#7A7974;width:70px;display:inline-block">YIN:</span><span id="ch-yin" style="color:#5591C7">-</span><span style="color:#7A7974;margin-left:10px;width:40px;display:inline-block">YANG:</span><span id="ch-yang" style="color:#DD6974">-</span></div>
+    <div style="margin-top:6px;">
+      <div style="margin-bottom:3px;display:flex;align-items:center;gap:6px;"><span style="color:#BCE2E7;width:42px;display:inline-block;font-size:10px;">Metal</span><div style="background:#393836;width:80px;height:6px;border-radius:3px;"><div id="el-bar-Metal" style="background:#BCE2E7;height:6px;border-radius:3px;width:0px;transition:width 0.2s;"></div></div><span id="el-asym-Metal" style="font-size:10px;min-width:55px;">-</span></div>
+      <div style="margin-bottom:3px;display:flex;align-items:center;gap:6px;"><span style="color:#E8AF34;width:42px;display:inline-block;font-size:10px;">Earth</span><div style="background:#393836;width:80px;height:6px;border-radius:3px;"><div id="el-bar-Earth" style="background:#E8AF34;height:6px;border-radius:3px;width:0px;transition:width 0.2s;"></div></div><span id="el-asym-Earth" style="font-size:10px;min-width:55px;">-</span></div>
+      <div style="margin-bottom:3px;display:flex;align-items:center;gap:6px;"><span style="color:#DD6974;width:42px;display:inline-block;font-size:10px;">Fire</span><div style="background:#393836;width:80px;height:6px;border-radius:3px;"><div id="el-bar-Fire" style="background:#DD6974;height:6px;border-radius:3px;width:0px;transition:width 0.2s;"></div></div><span id="el-asym-Fire" style="font-size:10px;min-width:55px;">-</span></div>
+      <div style="margin-bottom:3px;display:flex;align-items:center;gap:6px;"><span style="color:#5591C7;width:42px;display:inline-block;font-size:10px;">Water</span><div style="background:#393836;width:80px;height:6px;border-radius:3px;"><div id="el-bar-Water" style="background:#5591C7;height:6px;border-radius:3px;width:0px;transition:width 0.2s;"></div></div><span id="el-asym-Water" style="font-size:10px;min-width:55px;">-</span></div>
+      <div style="margin-bottom:3px;display:flex;align-items:center;gap:6px;"><span style="color:#6DAA45;width:42px;display:inline-block;font-size:10px;">Wood</span><div style="background:#393836;width:80px;height:6px;border-radius:3px;"><div id="el-bar-Wood" style="background:#6DAA45;height:6px;border-radius:3px;width:0px;transition:width 0.2s;"></div></div><span id="el-asym-Wood" style="font-size:10px;min-width:55px;">-</span></div>
+    </div>
+  </div>
+  <div id="neuro-panel" style="position:absolute;bottom:220px;left:12px;background:rgba(23,22,20,0.88);border:1px solid #393836;border-radius:6px;padding:10px 14px;min-width:200px;font-family:monospace;font-size:11px;color:#CDCCCA;">
+    <div style="font-size:10px;color:#7A7974;margin-bottom:6px;letter-spacing:1px;">NEURO-FASCIAL</div>
+    <div style="margin-bottom:3px;"><span style="color:#7A7974;width:80px;display:inline-block">RECEPTOR:</span><span id="neuro-receptor" style="color:#BCE2E7">-</span></div>
+    <div style="margin-bottom:3px;"><span style="color:#7A7974;width:80px;display:inline-block">AUTONOMIC:</span><span id="neuro-autonomic">-</span></div>
+    <div style="margin-bottom:3px;"><span style="color:#7A7974;width:80px;display:inline-block">PROPRIOCEPT:</span><span id="neuro-prop" style="color:#6DAA45">-</span></div>
+  </div>
+  <div id="ba-gang-panel" style="position:absolute;bottom:60px;left:12px;background:rgba(23,22,20,0.88);border:1px solid #393836;border-radius:6px;padding:10px 14px;min-width:200px;font-family:monospace;font-size:11px;color:#CDCCCA;">
+    <div style="font-size:10px;color:#7A7974;margin-bottom:6px;letter-spacing:1px;">BA GANG DIAGNOSIS</div>
+    <div id="bg-pattern" style="font-size:13px;color:#E8AF34;margin-bottom:8px;">-</div>
+    <div style="margin-bottom:4px;">
+      <span style="color:#7A7974">Yin</span>
+      <div style="display:inline-block;width:120px;height:6px;background:#393836;border-radius:3px;vertical-align:middle;margin:0 6px;">
+        <div id="bg-yin-bar" style="height:6px;background:#006494;border-radius:3px;width:50%"></div>
+      </div>
+      <span style="color:#7A7974">Yang</span>
+    </div>
+    <div style="margin-bottom:3px;"><span style="color:#7A7974;width:72px;display:inline-block">Int/Ext:</span><span id="bg-ie">-</span></div>
+    <div style="margin-bottom:3px;"><span style="color:#7A7974;width:72px;display:inline-block">Cold/Hot:</span><span id="bg-ch">-</span></div>
+    <div style="margin-bottom:6px;"><span style="color:#7A7974;width:72px;display:inline-block">Def/Exc:</span><span id="bg-de">-</span></div>
+    <div style="font-size:9px;color:#5A5957;">CONFIDENCE: <span id="bg-conf">-</span></div>
+  </div>
+</body>
+</html>

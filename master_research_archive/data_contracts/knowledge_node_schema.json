@@ -1,0 +1,27 @@
+{
+  "$schema": "https://guardian-interface.local/schemas/knowledge-node.v1.json",
+  "required": [
+    "uid",
+    "title",
+    "category",
+    "source_type",
+    "status",
+    "associated_somatic_nodes",
+    "telemetry_triggers",
+    "tags"
+  ],
+  "fields": {
+    "uid": "Unique stable document ID",
+    "title": "Human-readable document title",
+    "category": "Primary knowledge domain",
+    "sub_category": "Optional secondary domain",
+    "source_type": "Coursework, literature review, lab note, book chapter, etc.",
+    "status": "Draft, revised, publication-ready, archived",
+    "associated_somatic_nodes": "Array of node IDs from 0 to 337",
+    "target_meridians": "Optional array of meridian/system names",
+    "telemetry_triggers": "Array such as hrv, confidence, respiration_rate",
+    "citations": "Array of citation objects",
+    "tags": "Search and graph-linking terms"
+  }
+}
+

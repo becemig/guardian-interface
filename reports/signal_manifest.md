@@ -1,0 +1,3372 @@
+# Guardian Suit Signal Manifest
+
+Generated from: dr_shin_isu_universe.json
+
+## eye_movement_velocity
+
+- **dream_predictive_processing** | Predictive Processing | *Dream Psychology*
+
+## hrv
+
+- **isu_foundation_node** | Dr. Shin (ISU) Comparative Framework | *Research*
+- **isu_phys_1_50** | [Shin-ISU] Physics Core (50 Nodes) | *Physics Chemistry*
+- **isu_therm_1_30** | [Shin-ISU] Thermophysics Core (30 Nodes) | *Mechanics Engineering*
+- **isu_qb_1_20** | [Shin-ISU] Quantum Biology Core (20 Nodes) | *CS & SWE*
+- **isu_chem_1_50** | [Shin-ISU] Chemistry Core (50 Nodes) | *Chemical Engineering*
+- **isu_advchem_schrodinger** | [Shin-ISU] Schrödinger Equation (Molecular) | *Advanced Chemistry*
+- **isu_advchem_mo_theory** | [Shin-ISU] Molecular Orbital Theory | *Advanced Chemistry*
+- **isu_advchem_lcao** | [Shin-ISU] LCAO Method | *Advanced Chemistry*
+- **isu_advchem_coulomb_integral** | [Shin-ISU] Coulomb and Exchange Integrals | *Advanced Chemistry*
+- **isu_advchem_perturbation** | [Shin-ISU] Perturbation Theory | *Advanced Chemistry*
+- **isu_advchem_hartree_fock** | [Shin-ISU] Hartree-Fock Method | *Advanced Chemistry*
+- **isu_advchem_dft** | [Shin-ISU] Density Functional Theory (DFT) | *Advanced Chemistry*
+- **isu_advchem_chirality** | [Shin-ISU] Chirality & Stereochemistry | *Advanced Chemistry*
+- **isu_advchem_symmetry** | [Shin-ISU] Molecular Symmetry | *Advanced Chemistry*
+- **isu_advchem_vib_spectra** | [Shin-ISU] Vibrational Spectroscopy | *Advanced Chemistry*
+- **isu_bioch_glycolysis** | [Shin-ISU] Glycolysis | *Biochemistry*
+- **isu_bioch_tca_cycle** | [Shin-ISU] Citric Acid Cycle | *Biochemistry*
+- **isu_bioch_etc** | [Shin-ISU] Electron Transport Chain | *Biochemistry*
+- **isu_bioch_gluconeogenesis** | [Shin-ISU] Gluconeogenesis | *Biochemistry*
+- **isu_bioch_fatty_acid_oxid** | [Shin-ISU] Fatty Acid Oxidation | *Biochemistry*
+- **isu_bioch_allostery** | [Shin-ISU] Allosteric Regulation | *Biochemistry*
+- **isu_bioch_hormonal_control** | [Shin-ISU] Hormonal Control | *Biochemistry*
+- **isu_bioch_covalent_mod** | [Shin-ISU] Covalent Modification | *Biochemistry*
+- **isu_bioch_enzyme_inhibition** | [Shin-ISU] Enzyme Inhibition | *Biochemistry*
+- **isu_bioch_genomics_biochem** | [Shin-ISU] Genomic Integration | *Biochemistry*
+- **isu_gen_mendelian** | [Shin-ISU] Mendelian Inheritance | *Genetics*
+- **isu_gen_chromosomes** | [Shin-ISU] Chromosomes | *Genetics*
+- **isu_gen_mitosis** | [Shin-ISU] Mitosis | *Genetics*
+- **isu_gen_meiosis** | [Shin-ISU] Meiosis | *Genetics*
+- **isu_gen_linkage** | [Shin-ISU] Genetic Linkage | *Genetics*
+- **isu_gen_replication** | [Shin-ISU] DNA Replication | *Genetics*
+- **isu_gen_transcription** | [Shin-ISU] Transcription | *Genetics*
+- **isu_gen_translation** | [Shin-ISU] Translation | *Genetics*
+- **isu_gen_regulation** | [Shin-ISU] Gene Regulation | *Genetics*
+- **isu_gen_mutation** | [Shin-ISU] Mutation and Repair | *Genetics*
+- **isu_gen_recomb_tech** | [Shin-ISU] Recombinant DNA Tech | *Genetics*
+- **isu_gen_crispr** | [Shin-ISU] CRISPR-Cas9 | *Genetics*
+- **isu_gen_pop_genetics** | [Shin-ISU] Population Genetics | *Genetics*
+- **isu_gen_epigenetics** | [Shin-ISU] Epigenetics | *Genetics*
+- **isu_gen_bioinformatics** | [Shin-ISU] Bioinformatics | *Genetics*
+- **isu_neuro_neuron** | [Shin-ISU] Neuron Structure | *Neuroscience*
+- **isu_neuro_membrane_pot** | [Shin-ISU] Membrane Potential | *Neuroscience*
+- **isu_neuro_action_pot** | [Shin-ISU] Action Potential | *Neuroscience*
+- **isu_neuro_synapse** | [Shin-ISU] Synaptic Transmission | *Neuroscience*
+- **isu_neuro_neurotransmitters** | [Shin-ISU] Neurotransmitters | *Neuroscience*
+- **isu_neuro_sensory** | [Shin-ISU] Sensory Systems | *Neuroscience*
+- **isu_neuro_motor** | [Shin-ISU] Motor Systems | *Neuroscience*
+- **isu_neuro_plasticity** | [Shin-ISU] Synaptic Plasticity | *Neuroscience*
+- **isu_neuro_memory** | [Shin-ISU] Memory Systems | *Neuroscience*
+- **isu_neuro_limbic** | [Shin-ISU] Limbic System | *Neuroscience*
+- **isu_neuro_imaging** | [Shin-ISU] Neuroimaging | *Neuroscience*
+- **isu_neuro_disorders** | [Shin-ISU] Neural Disorders | *Neuroscience*
+- **isu_neuro_consciousness** | [Shin-ISU] Neural Correlates of Consciousness | *Neuroscience*
+- **isu_neuro_computational** | [Shin-ISU] Computational Neuroscience | *Neuroscience*
+- **isu_neuro_dev_neuro** | [Shin-ISU] Developmental Neuroscience | *Neuroscience*
+- **isu_medchem_lead_discovery** | [Shin-ISU] Lead Discovery | *Medical Chemistry*
+- **isu_medchem_sars** | [Shin-ISU] Structure-Activity Relationship (SAR) | *Medical Chemistry*
+- **isu_medchem_bioisosteres** | [Shin-ISU] Bioisosteres | *Medical Chemistry*
+- **isu_medchem_pharmacokinetics** | [Shin-ISU] Pharmacokinetics (ADME) | *Medical Chemistry*
+- **isu_medchem_prodrugs** | [Shin-ISU] Prodrugs | *Medical Chemistry*
+- **isu_medchem_receptor_binding** | [Shin-ISU] Receptor Binding | *Medical Chemistry*
+- **isu_medchem_enzyme_inhib** | [Shin-ISU] Enzyme Inhibition (MedChem) | *Medical Chemistry*
+- **isu_medchem_ion_channel_mod** | [Shin-ISU] Ion Channel Modulation | *Medical Chemistry*
+- **isu_medchem_nuclear_receptors** | [Shin-ISU] Nuclear Receptor Ligands | *Medical Chemistry*
+- **isu_medchem_dosage_forms** | [Shin-ISU] Drug Formulation | *Medical Chemistry*
+- **isu_medchem_beta_lactams** | [Shin-ISU] Beta-Lactam Antibiotics | *Medical Chemistry*
+- **isu_medchem_nucleoside_analogs** | [Shin-ISU] Nucleoside Analogs (Antiviral) | *Medical Chemistry*
+- **isu_medchem_quinolones** | [Shin-ISU] Quinolones | *Medical Chemistry*
+- **isu_medchem_protease_inhib** | [Shin-ISU] Protease Inhibitors | *Medical Chemistry*
+- **isu_medchem_antifungals** | [Shin-ISU] Antifungal Agents | *Medical Chemistry*
+- **isu_medchem_alkylating_agents** | [Shin-ISU] Alkylating Agents | *Medical Chemistry*
+- **isu_medchem_kinase_inhib_cancer** | [Shin-ISU] Kinase Inhibitors (Anticancer) | *Medical Chemistry*
+- **isu_medchem_ssri** | [Shin-ISU] SSRIs | *Medical Chemistry*
+- **isu_medchem_dopaminergics** | [Shin-ISU] Dopaminergics | *Medical Chemistry*
+- **isu_medchem_gaba_modulators** | [Shin-ISU] GABAergic Drugs | *Medical Chemistry*
+- **isu_medchem_molecular_docking** | [Shin-ISU] Molecular Docking | *Medical Chemistry*
+- **isu_medchem_qsar** | [Shin-ISU] QSAR Modeling | *Medical Chemistry*
+- **isu_medchem_xray_crystallography** | [Shin-ISU] X-ray Crystallography (MedChem) | *Medical Chemistry*
+- **isu_medchem_hplc_analysis** | [Shin-ISU] HPLC in MedChem | *Medical Chemistry*
+- **isu_medchem_mass_spec_med** | [Shin-ISU] Mass Spectrometry in MedChem | *Medical Chemistry*
+- **isu_medchem_biologics** | [Shin-ISU] Biologics & Antibody Drugs | *Medical Chemistry*
+- **isu_medchem_gene_therapy** | [Shin-ISU] Gene Therapy Agents | *Medical Chemistry*
+- **isu_medchem_covalent_design** | [Shin-ISU] Covalent Drug Design | *Medical Chemistry*
+- **isu_medchem_chemical_genomics** | [Shin-ISU] Chemical Genomics | *Medical Chemistry*
+- **isu_medchem_future_trends** | [Shin-ISU] Future of MedChem | *Medical Chemistry*
+- **isu_herb_phytochemistry** | [Shin-ISU] Phytochemistry | *Herbal Chemistry*
+- **isu_herb_extraction** | [Shin-ISU] Extraction Techniques | *Herbal Chemistry*
+- **isu_herb_characterization** | [Shin-ISU] Characterization of Extracts | *Herbal Chemistry*
+- **isu_herb_standardization** | [Shin-ISU] Standardization | *Herbal Chemistry*
+- **isu_herb_biosynthesis_path** | [Shin-ISU] Biosynthetic Pathways | *Herbal Chemistry*
+- **isu_herb_alkaloids** | [Shin-ISU] Alkaloids | *Herbal Chemistry*
+- **isu_herb_terpenoids** | [Shin-ISU] Terpenoids | *Herbal Chemistry*
+- **isu_herb_phenolics** | [Shin-ISU] Phenolic Compounds | *Herbal Chemistry*
+- **isu_herb_glycosides** | [Shin-ISU] Glycosides | *Herbal Chemistry*
+- **isu_herb_saponins** | [Shin-ISU] Saponins | *Herbal Chemistry*
+- **isu_herb_synergy** | [Shin-ISU] Synergistic Effects | *Herbal Chemistry*
+- **isu_herb_tox** | [Shin-ISU] Herbal Toxicology | *Herbal Chemistry*
+- **isu_herb_cns_actives** | [Shin-ISU] CNS Active Plant Drugs | *Herbal Chemistry*
+- **isu_herb_immunomodulators** | [Shin-ISU] Immunomodulators | *Herbal Chemistry*
+- **isu_herb_anti_inflammatories** | [Shin-ISU] Anti-inflammatory Phytochemicals | *Herbal Chemistry*
+- **isu_herb_metabolomics** | [Shin-ISU] Plant Metabolomics | *Herbal Chemistry*
+- **isu_herb_hptlc** | [Shin-ISU] HPTLC Analysis | *Herbal Chemistry*
+- **isu_herb_bioassay_guided** | [Shin-ISU] Bioassay-Guided Fractionation | *Herbal Chemistry*
+- **isu_herb_stability** | [Shin-ISU] Phytochemical Stability | *Herbal Chemistry*
+- **isu_herb_molecular_docking_herb** | [Shin-ISU] In Silico Herbal Analysis | *Herbal Chemistry*
+- **isu_herb_chem_ecology** | [Shin-ISU] Chemical Ecology | *Herbal Chemistry*
+- **isu_herb_plant_biotech** | [Shin-ISU] Plant Biotechnology | *Herbal Chemistry*
+- **isu_herb_ethnobotany** | [Shin-ISU] Ethnobotanical Chemistry | *Herbal Chemistry*
+- **isu_herb_regulatory** | [Shin-ISU] Regulatory Standards | *Herbal Chemistry*
+- **isu_herb_sustainability** | [Shin-ISU] Sustainable Harvesting | *Herbal Chemistry*
+- **isu_herb_adaptogens** | [Shin-ISU] Adaptogens | *Herbal Chemistry*
+- **isu_herb_bitters** | [Shin-ISU] Bitter Principles | *Herbal Chemistry*
+- **isu_herb_essential_oils** | [Shin-ISU] Essential Oil Chemistry | *Herbal Chemistry*
+- **isu_herb_astringents** | [Shin-ISU] Astringent Chemistry | *Herbal Chemistry*
+- **isu_herb_phytomedicine_future** | [Shin-ISU] Future of Phytomedicine | *Herbal Chemistry*
+- **isu_physchem_gas_kinetic** | [Shin-ISU] Kinetic Molecular Theory | *Physics Chemistry*
+- **isu_physchem_thermo_laws** | [Shin-ISU] Laws of Thermodynamics | *Physics Chemistry*
+- **isu_physchem_chemical_pot** | [Shin-ISU] Chemical Potential | *Physics Chemistry*
+- **isu_physchem_reaction_dynamics** | [Shin-ISU] Reaction Dynamics | *Physics Chemistry*
+- **isu_physchem_statistical_mech** | [Shin-ISU] Statistical Mechanics | *Physics Chemistry*
+- **isu_physchem_quantum_postulates** | [Shin-ISU] Postulates of Quantum Mechanics | *Physics Chemistry*
+- **isu_physchem_atomic_spectra** | [Shin-ISU] Atomic Spectra | *Physics Chemistry*
+- **isu_physchem_chemical_bonding_qm** | [Shin-ISU] Bonding (Quantum) | *Physics Chemistry*
+- **isu_physchem_molecular_rotation** | [Shin-ISU] Molecular Rotation | *Physics Chemistry*
+- **isu_physchem_vibration_rot** | [Shin-ISU] Vibrational-Rotational Spectra | *Physics Chemistry*
+- **isu_physchem_electrolytes** | [Shin-ISU] Electrolyte Solutions | *Physics Chemistry*
+- **isu_physchem_electrode_kinetics** | [Shin-ISU] Electrode Kinetics | *Physics Chemistry*
+- **isu_physchem_surface_adsorption** | [Shin-ISU] Surface Adsorption | *Physics Chemistry*
+- **isu_physchem_colloidal_stability** | [Shin-ISU] Colloidal Stability | *Physics Chemistry*
+- **isu_physchem_surface_tension** | [Shin-ISU] Surface & Interfacial Tension | *Physics Chemistry*
+- **isu_physchem_diffusion** | [Shin-ISU] Diffusion & Transport | *Physics Chemistry*
+- **isu_physchem_viscosity_theory** | [Shin-ISU] Viscosity & Fluidity | *Physics Chemistry*
+- **isu_physchem_polymer_physics** | [Shin-ISU] Polymer Physics | *Physics Chemistry*
+- **isu_physchem_micelles** | [Shin-ISU] Micelle Formation | *Physics Chemistry*
+- **isu_physchem_solubility_theory** | [Shin-ISU] Solubility Theory | *Physics Chemistry*
+- **isu_physchem_jablonski** | [Shin-ISU] Jablonski Diagram | *Physics Chemistry*
+- **isu_physchem_quantum_yield** | [Shin-ISU] Photochemical Quantum Yield | *Physics Chemistry*
+- **isu_physchem_energy_transfer** | [Shin-ISU] Electronic Energy Transfer (EET) | *Physics Chemistry*
+- **isu_physchem_charge_transfer** | [Shin-ISU] Charge Transfer Processes | *Physics Chemistry*
+- **isu_physchem_ultrafast_spec** | [Shin-ISU] Ultrafast Spectroscopy | *Physics Chemistry*
+- **isu_physchem_nmr_theory** | [Shin-ISU] NMR Theory | *Physics Chemistry*
+- **isu_physchem_esr_epr** | [Shin-ISU] EPR Spectroscopy | *Physics Chemistry*
+- **isu_physchem_computational_basis** | [Shin-ISU] Computational Basis Sets | *Physics Chemistry*
+- **isu_physchem_symmetry_theory** | [Shin-ISU] Group Theory (Applications) | *Physics Chemistry*
+- **isu_physchem_molecular_cryst** | [Shin-ISU] Crystallography Theory | *Physics Chemistry*
+- **isu_chemeng_mass_balance** | [Shin-ISU] Mass Balances | *Chemical Engineering*
+- **isu_chemeng_energy_balance** | [Shin-ISU] Energy Balances | *Chemical Engineering*
+- **isu_chemeng_fluid_flow** | [Shin-ISU] Fluid Dynamics (Pipe Flow) | *Chemical Engineering*
+- **isu_chemeng_heat_transfer** | [Shin-ISU] Heat Transfer | *Chemical Engineering*
+- **isu_chemeng_mass_transfer** | [Shin-ISU] Mass Transfer | *Chemical Engineering*
+- **isu_chemeng_distillation** | [Shin-ISU] Distillation | *Chemical Engineering*
+- **isu_chemeng_absorption** | [Shin-ISU] Gas Absorption | *Chemical Engineering*
+- **isu_chemeng_extraction_eng** | [Shin-ISU] Liquid-Liquid Extraction | *Chemical Engineering*
+- **isu_chemeng_adsorption_eng** | [Shin-ISU] Adsorption Engineering | *Chemical Engineering*
+- **isu_chemeng_membranes** | [Shin-ISU] Membrane Separation | *Chemical Engineering*
+- **isu_chemeng_batch_reactor** | [Shin-ISU] Batch Reactor Design | *Chemical Engineering*
+- **isu_chemeng_cstr** | [Shin-ISU] CSTR Design | *Chemical Engineering*
+- **isu_chemeng_pfr** | [Shin-ISU] PFR Design | *Chemical Engineering*
+- **isu_chemeng_non_ideal_reactors** | [Shin-ISU] Non-Ideal Reactors | *Chemical Engineering*
+- **isu_chemeng_catalytic_reactors** | [Shin-ISU] Heterogeneous Catalytic Reactors | *Chemical Engineering*
+- **isu_chemeng_process_control** | [Shin-ISU] Process Control | *Chemical Engineering*
+- **isu_chemeng_instrumentation** | [Shin-ISU] Process Instrumentation | *Chemical Engineering*
+- **isu_chemeng_safety_engineering** | [Shin-ISU] Safety & Loss Prevention | *Chemical Engineering*
+- **isu_chemeng_econ_analysis** | [Shin-ISU] Engineering Economics | *Chemical Engineering*
+- **isu_chemeng_process_simulation** | [Shin-ISU] Process Simulation | *Chemical Engineering*
+- **isu_chemeng_wastewater** | [Shin-ISU] Wastewater Treatment | *Chemical Engineering*
+- **isu_chemeng_air_pollution** | [Shin-ISU] Air Pollution Control | *Chemical Engineering*
+- **isu_chemeng_green_engineering** | [Shin-ISU] Green Engineering | *Chemical Engineering*
+- **isu_chemeng_waste_recovery** | [Shin-ISU] Waste Valorization | *Chemical Engineering*
+- **isu_chemeng_energy_integration** | [Shin-ISU] Energy Integration (Pinch Analysis) | *Chemical Engineering*
+- **isu_chemeng_microfluidics** | [Shin-ISU] Microfluidics | *Chemical Engineering*
+- **isu_chemeng_bioprocess** | [Shin-ISU] Bioprocess Engineering | *Chemical Engineering*
+- **isu_chemeng_supercritical_tech** | [Shin-ISU] Supercritical Fluid Tech | *Chemical Engineering*
+- **isu_chemeng_molecular_modeling_eng** | [Shin-ISU] Molecular Modeling in Eng | *Chemical Engineering*
+- **isu_chemeng_future_systems** | [Shin-ISU] Systems Engineering | *Chemical Engineering*
+- **isu_math_limits_continuity** | [Shin-ISU] Limits and Continuity | *Mathematics*
+- **isu_math_derivatives** | [Shin-ISU] Derivatives | *Mathematics*
+- **isu_math_integrals** | [Shin-ISU] Integrals | *Mathematics*
+- **isu_math_multivariable** | [Shin-ISU] Multivariable Calculus | *Mathematics*
+- **isu_math_vector_calc** | [Shin-ISU] Vector Calculus | *Mathematics*
+- **isu_math_matrix_algebra** | [Shin-ISU] Matrix Algebra | *Mathematics*
+- **isu_math_eigenvalues** | [Shin-ISU] Eigenvalues and Eigenvectors | *Mathematics*
+- **isu_math_vector_spaces** | [Shin-ISU] Vector Spaces | *Mathematics*
+- **isu_math_linear_transform** | [Shin-ISU] Linear Transformations | *Physical Sciences*
+- **isu_math_svd** | [Shin-ISU] Singular Value Decomposition (SVD) | *Mathematics*
+- **isu_math_ode_first_order** | [Shin-ISU] First-Order ODEs | *Mathematics*
+- **isu_math_ode_second_order** | [Shin-ISU] Second-Order Linear ODEs | *Mathematics*
+- **isu_math_laplace_transform** | [Shin-ISU] Laplace Transforms | *Mathematics*
+- **isu_math_systems_ode** | [Shin-ISU] Systems of ODEs | *Mathematics*
+- **isu_math_numerical_ode** | [Shin-ISU] Numerical Methods for ODEs | *Physical Sciences*
+- **isu_math_pde_intro** | [Shin-ISU] Introduction to PDEs | *Mathematics*
+- **isu_math_heat_equation** | [Shin-ISU] The Heat Equation | *Mathematics*
+- **isu_math_wave_equation** | [Shin-ISU] The Wave Equation | *Physical Sciences*
+- **isu_math_laplace_pde** | [Shin-ISU] Laplace & Poisson Equations | *Mathematics*
+- **isu_math_fourier_series** | [Shin-ISU] Fourier Series | *Mathematics*
+- **isu_math_prob_foundations** | [Shin-ISU] Probability Theory | *Mathematics*
+- **isu_math_distributions** | [Shin-ISU] Probability Distributions | *Mathematics*
+- **isu_math_inference** | [Shin-ISU] Statistical Inference | *Mathematics*
+- **isu_math_regression** | [Shin-ISU] Regression Analysis | *Mathematics*
+- **isu_math_stochastic_proc** | [Shin-ISU] Stochastic Processes | *Mathematics*
+- **isu_math_graph_theory** | [Shin-ISU] Graph Theory | *Mathematics*
+- **isu_math_logic_proofs** | [Shin-ISU] Logic and Proofs | *Mathematics*
+- **isu_math_combinatorics** | [Shin-ISU] Combinatorics | *Mathematics*
+- **isu_math_set_theory** | [Shin-ISU] Set Theory | *Mathematics*
+- **isu_math_discrete_algorithms** | [Shin-ISU] Discrete Algorithms | *Mathematics*
+- **isu_math_interpolation** | [Shin-ISU] Interpolation Methods | *Mathematics*
+- **isu_math_root_finding** | [Shin-ISU] Root-Finding Algorithms | *Mathematics*
+- **isu_math_numerical_integration** | [Shin-ISU] Numerical Integration (Quadrature) | *Mathematics*
+- **isu_math_lin_sys_solver** | [Shin-ISU] Solving Linear Systems | *Mathematics*
+- **isu_math_optimization_num** | [Shin-ISU] Numerical Optimization | *Mathematics*
+- **isu_math_complex_arithmetic** | [Shin-ISU] Complex Numbers | *Mathematics*
+- **isu_math_analytic_functions** | [Shin-ISU] Analytic Functions | *Mathematics*
+- **isu_math_cauchy_integral** | [Shin-ISU] Cauchy Integral Theorem | *Mathematics*
+- **isu_math_conformal_mapping** | [Shin-ISU] Conformal Mapping | *Mathematics*
+- **isu_math_residue_theory** | [Shin-ISU] Residue Theorem | *Mathematics*
+- **isu_math_tensor_calculus** | [Shin-ISU] Tensor Calculus | *Mathematics*
+- **isu_math_variational_calc** | [Shin-ISU] Calculus of Variations | *Mathematics*
+- **isu_math_special_functions** | [Shin-ISU] Special Functions | *Mathematics*
+- **isu_math_integral_transforms** | [Shin-ISU] Integral Transforms | *Mathematics*
+- **isu_math_group_theory_phys** | [Shin-ISU] Group Theory in Physics | *Mathematics*
+- **isu_math_finite_element** | [Shin-ISU] Finite Element Method (FEM) | *Mathematics*
+- **isu_math_monte_carlo** | [Shin-ISU] Monte Carlo Methods | *Mathematics*
+- **isu_math_fourier_analysis_num** | [Shin-ISU] Fast Fourier Transform (FFT) | *Mathematics*
+- **isu_math_dynamical_systems** | [Shin-ISU] Dynamical Systems & Chaos | *Mathematics*
+- **isu_math_math_modeling** | [Shin-ISU] Mathematical Modeling | *Mathematics*
+- **isu_rob_fk** | [Shin-ISU] Forward Kinematics | *Robotics Engineering*
+- **isu_rob_ik** | [Shin-ISU] Inverse Kinematics | *Robotics Engineering*
+- **isu_rob_jacobian** | [Shin-ISU] Jacobian Matrix | *Robotics Engineering*
+- **isu_rob_dof** | [Shin-ISU] Degrees of Freedom | *Robotics Engineering*
+- **isu_rob_workspace** | [Shin-ISU] Workspace Analysis | *Robotics Engineering*
+- **isu_rob_lagrangian** | [Shin-ISU] Lagrangian Dynamics | *Robotics Engineering*
+- **isu_rob_pid_control** | [Shin-ISU] PID Control in Robotics | *Robotics Engineering*
+- **isu_rob_path_planning** | [Shin-ISU] Path Planning | *Robotics Engineering*
+- **isu_rob_traj_gen** | [Shin-ISU] Trajectory Generation | *Robotics Engineering*
+- **isu_rob_force_control** | [Shin-ISU] Force Control | *Robotics Engineering*
+- **isu_rob_lidar** | [Shin-ISU] LiDAR Systems | *Robotics Engineering*
+- **isu_rob_computer_vision** | [Shin-ISU] Computer Vision | *Robotics Engineering*
+- **isu_rob_slam** | [Shin-ISU] SLAM | *Robotics Engineering*
+- **isu_rob_imu** | [Shin-ISU] Inertial Measurement Units | *Robotics Engineering*
+- **isu_rob_ultrasonic** | [Shin-ISU] Ultrasonic Sensors | *Robotics Engineering*
+- **isu_rob_dc_motors** | [Shin-ISU] DC Motors | *Robotics Engineering*
+- **isu_rob_stepper_motors** | [Shin-ISU] Stepper Motors | *Robotics Engineering*
+- **isu_rob_servos** | [Shin-ISU] Servo Mechanisms | *Robotics Engineering*
+- **isu_rob_pneumatics** | [Shin-ISU] Pneumatic Actuators | *Robotics Engineering*
+- **isu_rob_batteries** | [Shin-ISU] Robot Power Systems | *Robotics Engineering*
+- **isu_rob_diff_drive** | [Shin-ISU] Differential Drive | *Robotics Engineering*
+- **isu_rob_holonomic_base** | [Shin-ISU] Holonomic Platforms | *Robotics Engineering*
+- **isu_rob_legged_locomotion** | [Shin-ISU] Legged Locomotion | *Robotics Engineering*
+- **isu_rob_drones_kinematics** | [Shin-ISU] UAV Kinematics | *Robotics Engineering*
+- **isu_rob_navigation_stack** | [Shin-ISU] Navigation Stacks | *Robotics Engineering*
+- **isu_rob_end_effectors** | [Shin-ISU] End-Effectors & Grippers | *Robotics Engineering*
+- **isu_rob_grasp_planning** | [Shin-ISU] Grasp Planning | *Robotics Engineering*
+- **isu_rob_human_robot_interaction** | [Shin-ISU] HRI | *Robotics Engineering*
+- **isu_rob_teleoperation** | [Shin-ISU] Teleoperation | *Robotics Engineering*
+- **isu_rob_swarm_robotics** | [Shin-ISU] Swarm Robotics | *Robotics Engineering*
+- **isu_rob_reinforcement_learning** | [Shin-ISU] Reinforcement Learning (RL) | *Robotics Engineering*
+- **isu_rob_lqr_control** | [Shin-ISU] LQR Control | *Robotics Engineering*
+- **isu_rob_soft_robotics** | [Shin-ISU] Soft Robotics | *Robotics Engineering*
+- **isu_rob_model_predictive** | [Shin-ISU] Model Predictive Control (MPC) | *Robotics Engineering*
+- **isu_rob_computer_vision_3d** | [Shin-ISU] 3D Vision (Depth) | *Robotics Engineering*
+- **isu_rob_ros_architecture** | [Shin-ISU] ROS Architecture | *Robotics Engineering*
+- **isu_rob_mechatronics_design** | [Shin-ISU] Mechatronics Integration | *Robotics Engineering*
+- **isu_rob_bio_robotics** | [Shin-ISU] Bio-inspired Robotics | *Robotics Engineering*
+- **isu_rob_humanoid_robotics** | [Shin-ISU] Humanoid Robotics | *Robotics Engineering*
+- **isu_rob_ethics_safety** | [Shin-ISU] Robotic Ethics & Law | *Robotics Engineering*
+- **isu_mech_statics** | [Shin-ISU] Statics | *Mechanics Engineering*
+- **isu_mech_dynamics** | [Shin-ISU] Dynamics | *Mechanics Engineering*
+- **isu_mech_kinematics_particles** | [Shin-ISU] Particle Kinematics | *Mechanics Engineering*
+- **isu_mech_work_energy** | [Shin-ISU] Work-Energy Principle | *Mechanics Engineering*
+- **isu_mech_impulse_momentum** | [Shin-ISU] Impulse-Momentum Principle | *Mechanics Engineering*
+- **isu_mech_stress_strain** | [Shin-ISU] Stress and Strain | *Mechanics Engineering*
+- **isu_mech_torsion** | [Shin-ISU] Torsion | *Mechanics Engineering*
+- **isu_mech_bending_beams** | [Shin-ISU] Bending of Beams | *Mechanics Engineering*
+- **isu_mech_columns** | [Shin-ISU] Column Buckling | *Mechanics Engineering*
+- **isu_mech_failure_theories** | [Shin-ISU] Failure Theories | *Mechanics Engineering*
+- **isu_mech_linkage_analysis** | [Shin-ISU] Linkage Analysis | *Mechanics Engineering*
+- **isu_mech_cams** | [Shin-ISU] Cam Design | *Mechanics Engineering*
+- **isu_mech_gears** | [Shin-ISU] Gear Theory | *Mechanics Engineering*
+- **isu_mech_cam_dynamics** | [Shin-ISU] Cam-Follower Dynamics | *Mechanics Engineering*
+- **isu_mech_spatial_mechanisms** | [Shin-ISU] Spatial Mechanisms | *Mechanics Engineering*
+- **isu_mech_free_vibration** | [Shin-ISU] Free Vibration | *Mechanics Engineering*
+- **isu_mech_forced_vibration** | [Shin-ISU] Forced Vibration | *Mechanics Engineering*
+- **isu_mech_damping** | [Shin-ISU] Damping Systems | *Mechanics Engineering*
+- **isu_mech_multi_dof_vib** | [Shin-ISU] Multi-DOF Vibration | *Mechanics Engineering*
+- **isu_mech_rotor_dynamics** | [Shin-ISU] Rotor Dynamics | *Mechanics Engineering*
+- **isu_mech_power_cycles** | [Shin-ISU] Power Cycles | *Mechanics Engineering*
+- **isu_mech_refrigeration** | [Shin-ISU] Refrigeration Cycles | *Mechanics Engineering*
+- **isu_mech_combustion** | [Shin-ISU] Combustion Analysis | *Mechanics Engineering*
+- **isu_mech_heat_exchangers** | [Shin-ISU] Heat Exchanger Design | *Mechanics Engineering*
+- **isu_mech_psychrometrics** | [Shin-ISU] Psychrometrics | *Mechanics Engineering*
+- **isu_mech_internal_flow** | [Shin-ISU] Internal Fluid Flow | *Mechanics Engineering*
+- **isu_mech_external_flow** | [Shin-ISU] External Fluid Flow | *Mechanics Engineering*
+- **isu_mech_turbomachinery** | [Shin-ISU] Turbomachinery | *Mechanics Engineering*
+- **isu_mech_cfd_basics** | [Shin-ISU] Computational Fluid Dynamics (CFD) | *Mechanics Engineering*
+- **isu_mech_gas_dynamics** | [Shin-ISU] Compressible Flow | *Mechanics Engineering*
+- **isu_mech_machine_design** | [Shin-ISU] Machine Element Design | *Mechanics Engineering*
+- **isu_mech_tolerancing** | [Shin-ISU] GD&T | *Mechanics Engineering*
+- **isu_mech_metal_forming** | [Shin-ISU] Metal Forming | *Mechanics Engineering*
+- **isu_mech_machining** | [Shin-ISU] Machining Processes | *Mechanics Engineering*
+- **isu_mech_additive_mfg** | [Shin-ISU] Additive Manufacturing | *Mechanics Engineering*
+- **isu_mech_composite_materials** | [Shin-ISU] Composite Materials | *Mechanics Engineering*
+- **isu_mech_smart_materials** | [Shin-ISU] Smart Materials | *Mechanics Engineering*
+- **isu_mech_tribology** | [Shin-ISU] Tribology | *Mechanics Engineering*
+- **isu_mech_cad_cam** | [Shin-ISU] CAD/CAM Integration | *Mechanics Engineering*
+- **isu_mech_mechatronics_system_integration** | [Shin-ISU] System Integration | *Mechanics Engineering*
+- **isu_mat_atomic_bonding** | [Shin-ISU] Atomic Bonding | *Materials Engineering*
+- **isu_mat_crystal_structure** | [Shin-ISU] Crystal Structures | *Materials Engineering*
+- **isu_mat_imperfections** | [Shin-ISU] Defects in Solids | *Materials Engineering*
+- **isu_mat_diffusion** | [Shin-ISU] Diffusion Mechanisms | *Materials Engineering*
+- **isu_mat_mechanical_props** | [Shin-ISU] Mechanical Properties | *Materials Engineering*
+- **isu_mat_phase_diagrams** | [Shin-ISU] Phase Diagrams | *Materials Engineering*
+- **isu_mat_phase_transform** | [Shin-ISU] Phase Transformations | *Materials Engineering*
+- **isu_mat_iron_carbon** | [Shin-ISU] Fe-C System | *Materials Engineering*
+- **isu_mat_heat_treatment** | [Shin-ISU] Heat Treatment | *Materials Engineering*
+- **isu_mat_precipitation_hard** | [Shin-ISU] Precipitation Hardening | *Materials Engineering*
+- **isu_mat_alloys** | [Shin-ISU] Alloy Design | *Materials Engineering*
+- **isu_mat_corrosion** | [Shin-ISU] Corrosion Engineering | *Materials Engineering*
+- **isu_mat_ceramics_structure** | [Shin-ISU] Ceramics Structure | *Materials Engineering*
+- **isu_mat_ceramics_props** | [Shin-ISU] Ceramic Processing | *Materials Engineering*
+- **isu_mat_glasses** | [Shin-ISU] Glass Engineering | *Materials Engineering*
+- **isu_mat_polymers_structure** | [Shin-ISU] Polymer Structure | *Materials Engineering*
+- **isu_mat_polymer_processing** | [Shin-ISU] Polymer Processing | *Materials Engineering*
+- **isu_mat_composites_intro** | [Shin-ISU] Composite Foundations | *Materials Engineering*
+- **isu_mat_composite_mfg** | [Shin-ISU] Composite Manufacturing | *Materials Engineering*
+- **isu_mat_nanomaterials** | [Shin-ISU] Nanomaterials | *Materials Engineering*
+- **isu_mat_fracture_mechanics** | [Shin-ISU] Fracture Mechanics | *Materials Engineering*
+- **isu_mat_fatigue** | [Shin-ISU] Fatigue Analysis | *Materials Engineering*
+- **isu_mat_creep** | [Shin-ISU] Creep | *Materials Engineering*
+- **isu_mat_selection** | [Shin-ISU] Material Selection | *Materials Engineering*
+- **isu_mat_testing** | [Shin-ISU] Materials Characterization | *Materials Engineering*
+- **isu_mat_recycling** | [Shin-ISU] Material Recycling | *Materials Engineering*
+- **isu_mat_life_cycle** | [Shin-ISU] Life Cycle Assessment (LCA) | *Materials Engineering*
+- **isu_mat_bio_materials** | [Shin-ISU] Biomaterials | *Materials Engineering*
+- **isu_mat_electronic_materials** | [Shin-ISU] Electronic Materials | *Materials Engineering*
+- **isu_mat_future_materials** | [Shin-ISU] Future Trends | *Materials Engineering*
+- **isu_struct_structural_systems** | [Shin-ISU] Structural Systems | *Structural Engineering*
+- **isu_struct_design_loads** | [Shin-ISU] Design Loads | *Structural Engineering*
+- **isu_struct_truss_analysis** | [Shin-ISU] Truss Analysis | *Structural Engineering*
+- **isu_struct_influence_lines** | [Shin-ISU] Influence Lines | *Structural Engineering*
+- **isu_struct_beams_frames** | [Shin-ISU] Beams & Frames Analysis | *Structural Engineering*
+- **isu_struct_deflection_geo** | [Shin-ISU] Deflection (Geometric) | *Structural Engineering*
+- **isu_struct_work_energy_struct** | [Shin-ISU] Work-Energy Methods | *Structural Engineering*
+- **isu_struct_indeterminacy** | [Shin-ISU] Indeterminate Structures | *Structural Engineering*
+- **isu_struct_force_method** | [Shin-ISU] Force Method | *Structural Engineering*
+- **isu_struct_stiffness_method** | [Shin-ISU] Stiffness Method | *Structural Engineering*
+- **isu_struct_steel_design** | [Shin-ISU] Steel Design (AISC) | *Structural Engineering*
+- **isu_struct_rc_design** | [Shin-ISU] Reinforced Concrete (ACI) | *Structural Engineering*
+- **isu_struct_rc_shear_bond** | [Shin-ISU] RC Shear & Bond | *Structural Engineering*
+- **isu_struct_prestress_concrete** | [Shin-ISU] Prestressed Concrete | *Structural Engineering*
+- **isu_struct_composite_construction** | [Shin-ISU] Composite Construction | *Structural Engineering*
+- **isu_struct_seismic_analysis** | [Shin-ISU] Seismic Analysis | *Structural Engineering*
+- **isu_struct_seismic_detailing** | [Shin-ISU] Seismic Detailing | *Structural Engineering*
+- **isu_struct_foundation_eng** | [Shin-ISU] Foundation Engineering | *Structural Engineering*
+- **isu_struct_finite_element_mod** | [Shin-ISU] FEA in Structures | *Structural Engineering*
+- **isu_struct_bridge_engineering** | [Shin-ISU] Bridge Engineering | *Structural Engineering*
+- **isu_struct_timber_design** | [Shin-ISU] Timber Engineering | *Structural Engineering*
+- **isu_struct_masonry_design** | [Shin-ISU] Masonry Design | *Structural Engineering*
+- **isu_struct_tall_building_systems** | [Shin-ISU] Tall Building Systems | *Structural Engineering*
+- **isu_struct_shell_structures** | [Shin-ISU] Shell & Membrane Structures | *Structural Engineering*
+- **isu_struct_space_frames** | [Shin-ISU] Space Frame Analysis | *Structural Engineering*
+- **isu_struct_health_monitoring** | [Shin-ISU] Structural Health Monitoring | *Structural Engineering*
+- **isu_struct_non_destructive_testing** | [Shin-ISU] NDT/NDE Methods | *Structural Engineering*
+- **isu_struct_rehab_strengthening** | [Shin-ISU] Structural Rehabilitation | *Structural Engineering*
+- **isu_struct_safety_reliability** | [Shin-ISU] Reliability & Risk | *Structural Engineering*
+- **isu_struct_forensic_engineering** | [Shin-ISU] Forensic Engineering | *Structural Engineering*
+- **isu_auto_internal_combustion** | [Shin-ISU] IC Engine Cycles | *Automotive Mechanics*
+- **isu_auto_valvetrain** | [Shin-ISU] Valvetrain Systems | *Automotive Mechanics*
+- **isu_auto_fuel_delivery** | [Shin-ISU] Fuel Systems | *Automotive Mechanics*
+- **isu_auto_lubrication** | [Shin-ISU] Lubrication Systems | *Automotive Mechanics*
+- **isu_auto_cooling_system** | [Shin-ISU] Engine Cooling | *Automotive Mechanics*
+- **isu_auto_clutch** | [Shin-ISU] Clutch Systems | *Automotive Mechanics*
+- **isu_auto_manual_trans** | [Shin-ISU] Manual Transmission | *Automotive Mechanics*
+- **isu_auto_automatic_trans** | [Shin-ISU] Automatic Transmission | *Automotive Mechanics*
+- **isu_auto_differential** | [Shin-ISU] Differential & Drive Axles | *Automotive Mechanics*
+- **isu_auto_driveshaft** | [Shin-ISU] Driveshafts & CV Joints | *Automotive Mechanics*
+- **isu_auto_suspension** | [Shin-ISU] Suspension Systems | *Automotive Mechanics*
+- **isu_auto_steering** | [Shin-ISU] Steering Geometry | *Automotive Mechanics*
+- **isu_auto_alignment** | [Shin-ISU] Wheel Alignment | *Automotive Mechanics*
+- **isu_auto_shocks** | [Shin-ISU] Shock Absorbers | *Automotive Mechanics*
+- **isu_auto_power_steering** | [Shin-ISU] Power Steering | *Automotive Mechanics*
+- **isu_auto_braking_hydraulics** | [Shin-ISU] Braking Hydraulics | *Automotive Mechanics*
+- **isu_auto_abs** | [Shin-ISU] ABS Systems | *Automotive Mechanics*
+- **isu_auto_disc_drums** | [Shin-ISU] Disc vs Drum Brakes | *Automotive Mechanics*
+- **isu_auto_stability_control** | [Shin-ISU] Electronic Stability Control (ESC) | *Automotive Mechanics*
+- **isu_auto_regenerative_braking** | [Shin-ISU] Regenerative Braking | *Automotive Mechanics*
+- **isu_auto_electrical_fundamentals** | [Shin-ISU] Vehicle Electronics | *Automotive Mechanics*
+- **isu_auto_can_bus** | [Shin-ISU] CAN Bus | *Automotive Mechanics*
+- **isu_auto_obd2** | [Shin-ISU] OBD-II Diagnostics | *Automotive Mechanics*
+- **isu_auto_sensors_actuators** | [Shin-ISU] Automotive Sensors | *Automotive Mechanics*
+- **isu_auto_ign_systems** | [Shin-ISU] Ignition Systems | *Automotive Mechanics*
+- **isu_auto_ev_powertrains** | [Shin-ISU] EV Powertrains | *Automotive Mechanics*
+- **isu_auto_fuel_cells** | [Shin-ISU] Hydrogen Fuel Cells | *Automotive Mechanics*
+- **isu_auto_autonomous_systems** | [Shin-ISU] ADAS | *Automotive Mechanics*
+- **isu_auto_powertrain_optimization** | [Shin-ISU] Powertrain Optimization | *Automotive Mechanics*
+- **isu_auto_vehicle_dynamics** | [Shin-ISU] Vehicle Dynamics Simulation | *Automotive Mechanics*
+- **isu_aero_atm_model** | [Shin-ISU] Atmospheric Models | *Aerospace Engineering*
+- **isu_aero_lift_generation** | [Shin-ISU] Lift Theory | *Aerospace Engineering*
+- **isu_aero_drag_models** | [Shin-ISU] Drag Components | *Aerospace Engineering*
+- **isu_aero_airfoil_theory** | [Shin-ISU] Airfoil Geometry | *Aerospace Engineering*
+- **isu_aero_finited_wing_theory** | [Shin-ISU] Finite Wing Theory | *Aerospace Engineering*
+- **isu_aero_long_stability** | [Shin-ISU] Longitudinal Stability | *Aerospace Engineering*
+- **isu_aero_lat_dir_stability** | [Shin-ISU] Lateral/Directional Stability | *Aerospace Engineering*
+- **isu_aero_eom** | [Shin-ISU] Equations of Motion | *Aerospace Engineering*
+- **isu_aero_flight_control_surfaces** | [Shin-ISU] Control Surfaces | *Aerospace Engineering*
+- **isu_aero_handling_qualities** | [Shin-ISU] Handling Qualities | *Aerospace Engineering*
+- **isu_aero_mach_number** | [Shin-ISU] Mach Number Effects | *Aerospace Engineering*
+- **isu_aero_normal_shocks** | [Shin-ISU] Normal Shocks | *Aerospace Engineering*
+- **isu_aero_oblique_shocks** | [Shin-ISU] Oblique Shocks & Expansion | *Aerospace Engineering*
+- **isu_aero_transonic_flow** | [Shin-ISU] Transonic Aerodynamics | *Aerospace Engineering*
+- **isu_aero_supersonic_airfoils** | [Shin-ISU] Supersonic Airfoils | *Aerospace Engineering*
+- **isu_aero_propulsion_cycles** | [Shin-ISU] Propulsion Cycles | *Aerospace Engineering*
+- **isu_aero_inlets_nozzles** | [Shin-ISU] Inlets and Nozzles | *Aerospace Engineering*
+- **isu_aero_compressors** | [Shin-ISU] Compressors | *Aerospace Engineering*
+- **isu_aero_combustors** | [Shin-ISU] Combustion Chambers | *Aerospace Engineering*
+- **isu_aero_turbines** | [Shin-ISU] Turbines | *Aerospace Engineering*
+- **isu_aero_thin_walled_structures** | [Shin-ISU] Thin-Walled Structures | *Aerospace Engineering*
+- **isu_aero_aeroelasticity** | [Shin-ISU] Aeroelasticity | *Aerospace Engineering*
+- **isu_aero_fatigue_damage** | [Shin-ISU] Damage Tolerance | *Aerospace Engineering*
+- **isu_aero_materials_selection** | [Shin-ISU] Aerospace Materials | *Aerospace Engineering*
+- **isu_aero_wing_structures** | [Shin-ISU] Wing Structural Design | *Aerospace Engineering*
+- **isu_aero_orbital_basics** | [Shin-ISU] Orbital Mechanics | *Aerospace Engineering*
+- **isu_aero_orbital_maneuvers** | [Shin-ISU] Orbital Maneuvers | *Aerospace Engineering*
+- **isu_aero_rocket_eq** | [Shin-ISU] Rocket Equation | *Aerospace Engineering*
+- **isu_aero_reentry_dynamics** | [Shin-ISU] Reentry Dynamics | *Aerodynamics & Space*
+- **isu_aero_space_env** | [Shin-ISU] Space Environment | *Aerospace Engineering*
+- **isu_aero_space_power** | [Shin-ISU] Spacecraft Power | *Aerospace Engineering*
+- **isu_aero_attitude_control** | [Shin-ISU] Attitude Determination & Control | *Aerospace Engineering*
+- **isu_aero_telemetry** | [Shin-ISU] Communication Systems | *Aerospace Engineering*
+- **isu_aero_thermal_control** | [Shin-ISU] Spacecraft Thermal Control | *Aerospace Engineering*
+- **isu_aero_propulsion_space** | [Shin-ISU] Space Propulsion | *Aerospace Engineering*
+- **isu_aero_mission_design** | [Shin-ISU] Mission Analysis | *Aerospace Engineering*
+- **isu_aero_launch_vehicles** | [Shin-ISU] Launch Vehicles | *Aerospace Engineering*
+- **isu_aero_human_spaceflight** | [Shin-ISU] Human Spaceflight | *Aerospace Engineering*
+- **isu_aero_uav_integration** | [Shin-ISU] UAS Integration | *Aerospace Engineering*
+- **isu_aero_future_aerospace** | [Shin-ISU] Future Aerospace | *Aerospace Engineering*
+- **isu_chemeng_reaction_kinetics** | [Shin-ISU] Reaction Kinetics | *Chemical Engineering*
+- **isu_chemeng_ideal_reactors** | [Shin-ISU] Ideal Reactor Design | *Chemical Engineering*
+- **isu_chemeng_nonideal_reactors** | [Shin-ISU] Non-Ideal Reactors | *Chemical Engineering*
+- **isu_chemeng_catalysis** | [Shin-ISU] Catalysis | *Chemical Engineering*
+- **isu_chemeng_bioreactors** | [Shin-ISU] Bioreactors | *Chemical Engineering*
+- **isu_chemeng_dynamics** | [Shin-ISU] Process Dynamics | *Chemical Engineering*
+- **isu_chemeng_feedback_control** | [Shin-ISU] Feedback Control | *Chemical Engineering*
+- **isu_chemeng_freq_response** | [Shin-ISU] Frequency Response | *Chemical Engineering*
+- **isu_chemeng_multivariable_control** | [Shin-ISU] Multivariable Control | *Chemical Engineering*
+- **isu_chemeng_plant_design** | [Shin-ISU] Process Plant Design | *Chemical Engineering*
+- **isu_chemeng_utility_systems** | [Shin-ISU] Utility Systems | *Chemical Engineering*
+- **isu_chemeng_scaling** | [Shin-ISU] Process Scaling | *Chemical Engineering*
+- **isu_chemeng_process_safety** | [Shin-ISU] Process Safety | *Chemical Engineering*
+- **isu_chemeng_toxicology** | [Shin-ISU] Industrial Toxicology | *Chemical Engineering*
+- **isu_chemeng_fire_explosion** | [Shin-ISU] Fire & Explosion | *Chemical Engineering*
+- **isu_chemeng_pressure_relief** | [Shin-ISU] Relief Systems | *Chemical Engineering*
+- **isu_chemeng_quality_assurance** | [Shin-ISU] Quality Assurance | *Chemical Engineering*
+- **isu_chemeng_biochemical_kinetics** | [Shin-ISU] Biochemical Kinetics | *Chemical Engineering*
+- **isu_chemeng_downstream_proc** | [Shin-ISU] Downstream Processing | *Chemical Engineering*
+- **isu_chemeng_polymer_synthesis** | [Shin-ISU] Polymer Synthesis | *Chemical Engineering*
+- **isu_chemeng_polymer_rheology** | [Shin-ISU] Polymer Rheology | *Chemical Engineering*
+- **isu_chemeng_colloids_interfaces** | [Shin-ISU] Colloids & Interfaces | *Chemical Engineering*
+- **isu_chemeng_electrochem_eng** | [Shin-ISU] Electrochemical Engineering | *Chemical Engineering*
+- **isu_chemeng_catalytic_nanotech** | [Shin-ISU] Catalytic Nanomaterials | *Chemical Engineering*
+- **isu_chemeng_energy_conversion** | [Shin-ISU] Energy Conversion Processes | *Chemical Engineering*
+- **isu_chemeng_molecular_sim** | [Shin-ISU] Molecular Simulation | *Chemical Engineering*
+- **isu_moto_engine_types** | [Shin-ISU] Engine Configurations | *Motorcycle Mechanics*
+- **isu_moto_clutch_trans** | [Shin-ISU] Wet Clutch & Sequential Trans | *Motorcycle Mechanics*
+- **isu_moto_final_drive** | [Shin-ISU] Final Drive Systems | *Motorcycle Mechanics*
+- **isu_moto_intake_exhaust** | [Shin-ISU] Moto Intake & Exhaust | *Motorcycle Mechanics*
+- **isu_moto_lubrication** | [Shin-ISU] Shared Lubrication | *Motorcycle Mechanics*
+- **isu_moto_geometry** | [Shin-ISU] Motorcycle Geometry | *Motorcycle Mechanics*
+- **isu_moto_frame_design** | [Shin-ISU] Frame & Chassis | *Motorcycle Mechanics*
+- **isu_moto_suspension** | [Shin-ISU] Moto Suspension | *Motorcycle Mechanics*
+- **isu_moto_steering_damper** | [Shin-ISU] Steering Dampers | *Motorcycle Mechanics*
+- **isu_moto_tire_dynamics** | [Shin-ISU] Tire Dynamics | *Motorcycle Mechanics*
+- **isu_moto_brake_calipers** | [Shin-ISU] Brake Calipers & Master Cylinders | *Motorcycle Mechanics*
+- **isu_moto_abs_moto** | [Shin-ISU] Motorcycle ABS | *Motorcycle Mechanics*
+- **isu_moto_brake_fade** | [Shin-ISU] Thermal Management in Brakes | *Motorcycle Mechanics*
+- **isu_moto_braking_physics** | [Shin-ISU] Weight Transfer Dynamics | *Motorcycle Mechanics*
+- **isu_moto_tires_traction** | [Shin-ISU] Traction Control Systems | *Motorcycle Mechanics*
+- **isu_moto_charging_system** | [Shin-ISU] Charging & Ignition | *Motorcycle Mechanics*
+- **isu_moto_ecu_tuning** | [Shin-ISU] ECU Flash & Mapping | *Motorcycle Mechanics*
+- **isu_moto_diagnostics** | [Shin-ISU] Diagnostic Protocols | *Motorcycle Mechanics*
+- **isu_moto_wiring_harness** | [Shin-ISU] Wiring & CAN Integration | *Motorcycle Mechanics*
+- **isu_moto_ev_motorcycle** | [Shin-ISU] Electric Motorcycles | *Motorcycle Mechanics*
+- **isu_aero_flow_regimes** | [Shin-ISU] Flow Regimes | *Aerodynamics*
+- **isu_aero_bernoulli_nsv** | [Shin-ISU] Conservation Laws | *Aerodynamics*
+- **isu_aero_potential_flow** | [Shin-ISU] Potential Flow Theory | *Aerodynamics*
+- **isu_aero_boundary_layers** | [Shin-ISU] Boundary Layer Theory | *Aerodynamics*
+- **isu_aero_bl_separation** | [Shin-ISU] Flow Separation | *Aerodynamics*
+- **isu_aero_kutta_condition** | [Shin-ISU] Kutta Condition | *Aerodynamics*
+- **isu_aero_thin_airfoil_theory** | [Shin-ISU] Thin Airfoil Theory | *Aerodynamics*
+- **isu_aero_lifting_line** | [Shin-ISU] Prandtl's Lifting Line | *Aerodynamics*
+- **isu_aero_vortex_lattice** | [Shin-ISU] Vortex Lattice Method (VLM) | *Aerodynamics*
+- **isu_aero_wing_devices** | [Shin-ISU] High Lift Devices | *Aerodynamics*
+- **isu_aero_speed_of_sound** | [Shin-ISU] Speed of Sound | *Aerodynamics*
+- **isu_aero_isentropic_flow** | [Shin-ISU] Isentropic Flow | *Aerodynamics*
+- **isu_aero_normal_shocks_aero** | [Shin-ISU] Normal Shock Analysis | *Aerodynamics*
+- **isu_aero_oblique_shocks_aero** | [Shin-ISU] Oblique Shocks | *Aerodynamics*
+- **isu_aero_expansion_fans** | [Shin-ISU] Expansion Waves | *Aerodynamics*
+- **isu_aero_transonic_regime** | [Shin-ISU] Transonic Flow | *Aerodynamics*
+- **isu_aero_area_rule** | [Shin-ISU] Area Rule | *Aerodynamics*
+- **isu_aero_linearized_supersonic** | [Shin-ISU] Linearized Supersonic Theory | *Aerodynamics*
+- **isu_aero_hypersonic_intro** | [Shin-ISU] Hypersonic Aerodynamics | *Aerodynamics*
+- **isu_aero_aerodynamic_heating** | [Shin-ISU] Aerodynamic Heating | *Aerodynamics*
+- **isu_aero_cfd_basics** | [Shin-ISU] CFD Fundamentals | *Aerodynamics*
+- **isu_aero_turbulence_modeling** | [Shin-ISU] Turbulence Modeling | *Aerodynamics*
+- **isu_aero_wind_tunnels** | [Shin-ISU] Wind Tunnel Testing | *Aerodynamics*
+- **isu_aero_flow_visualization** | [Shin-ISU] Flow Visualization | *Aerodynamics*
+- **isu_aero_similarity_laws** | [Shin-ISU] Similarity Laws | *Aerodynamics*
+- **isu_aero_aeroacoustics** | [Shin-ISU] Aero-Acoustics | *Aerodynamics*
+- **isu_aero_unsteady_aero** | [Shin-ISU] Unsteady Aerodynamics | *Aerodynamics*
+- **isu_aero_aeroelasticity_aero** | [Shin-ISU] Aeroelasticity | *Aerodynamics*
+- **isu_aero_vortex_shedding** | [Shin-ISU] Vortex Shedding | *Aerodynamics*
+- **isu_aero_environmental_aero** | [Shin-ISU] Environmental Aerodynamics | *Aerodynamics*
+- **isu_aero_aircraft_types** | [Shin-ISU] Aircraft Classifications | *Aeronautics*
+- **isu_aero_mission_req** | [Shin-ISU] Mission Requirements | *Aeronautics*
+- **isu_aero_fuselage_design** | [Shin-ISU] Fuselage Design | *Aeronautics*
+- **isu_aero_wing_geometry** | [Shin-ISU] Wing Geometry Selection | *Aeronautics*
+- **isu_aero_empennage_design** | [Shin-ISU] Empennage Design | *Aeronautics*
+- **isu_aero_drag_polar** | [Shin-ISU] Drag Polar Modeling | *Aeronautics*
+- **isu_aero_thrust_required** | [Shin-ISU] Thrust & Power Required | *Aeronautics*
+- **isu_aero_takeoff_landing** | [Shin-ISU] Takeoff & Landing Perf | *Aeronautics*
+- **isu_aero_climb_range** | [Shin-ISU] Climb, Range, & Endurance | *Aeronautics*
+- **isu_aero_maneuver_perf** | [Shin-ISU] Maneuvering Performance | *Aeronautics*
+- **isu_aero_long_stability_aero** | [Shin-ISU] Longitudinal Stability | *Aeronautics*
+- **isu_aero_lat_dir_stability_aero** | [Shin-ISU] Lateral-Directional Stability | *Aeronautics*
+- **isu_aero_fly_by_wire** | [Shin-ISU] Fly-by-Wire Systems | *Aeronautics*
+- **isu_aero_active_control** | [Shin-ISU] Active Control Technology | *Aeronautics*
+- **isu_aero_control_reversal** | [Shin-ISU] Aeroelastic Control | *Aeronautics*
+- **isu_aero_propulsion_integration** | [Shin-ISU] Propulsion Integration | *Aeronautics*
+- **isu_aero_fuel_systems** | [Shin-ISU] Aircraft Fuel Systems | *Aeronautics*
+- **isu_aero_landing_gear_sys** | [Shin-ISU] Landing Gear Systems | *Aeronautics*
+- **isu_aero_environmental_systems** | [Shin-ISU] Environmental Systems (ECS) | *Aeronautics*
+- **isu_aero_avionics_arch** | [Shin-ISU] Avionics Architecture | *Aeronautics*
+- **isu_aero_materials_science** | [Shin-ISU] Aerospace Materials | *Aeronautics*
+- **isu_aero_composite_mfg** | [Shin-ISU] Composite Manufacturing | *Aeronautics*
+- **isu_aero_metallic_joining** | [Shin-ISU] Metallic Joining | *Aeronautics*
+- **isu_aero_additive_aero** | [Shin-ISU] Additive Manufacturing | *Aeronautics*
+- **isu_aero_quality_control** | [Shin-ISU] Quality Control & Inspection | *Aeronautics*
+- **isu_aero_certification_proc** | [Shin-ISU] Certification Processes | *Aeronautics*
+- **isu_aero_airworthiness** | [Shin-ISU] Continuing Airworthiness | *Aeronautics*
+- **isu_aero_reliability_eng** | [Shin-ISU] Reliability Engineering | *Aeronautics*
+- **isu_aero_human_factors** | [Shin-ISU] Aeronautical Human Factors | *Aeronautics*
+- **isu_aero_sustainable_flight** | [Shin-ISU] Sustainable Aviation | *Aeronautics*
+- **isu_space_mission_design** | [Shin-ISU] Mission Design | *Space Aeronautics*
+- **isu_space_launch_vehicles** | [Shin-ISU] Launch Vehicles | *Space Aeronautics*
+- **isu_space_orbital_mechanics** | [Shin-ISU] Orbital Mechanics | *Space Aeronautics*
+- **isu_space_interplanetary_trajectories** | [Shin-ISU] Interplanetary Trajectories | *Space Aeronautics*
+- **isu_space_mission_analysis** | [Shin-ISU] Mission Analysis | *Space Aeronautics*
+- **isu_space_structural_design** | [Shin-ISU] Spacecraft Structures | *Space Aeronautics*
+- **isu_space_thermal_control** | [Shin-ISU] Thermal Control Systems | *Space Aeronautics*
+- **isu_space_env_effects** | [Shin-ISU] Space Environment | *Space Aeronautics*
+- **isu_space_materials_selection** | [Shin-ISU] Space Materials | *Space Aeronautics*
+- **isu_space_structures_deployment** | [Shin-ISU] Deployable Structures | *Space Aeronautics*
+- **isu_space_adcs_sensors** | [Shin-ISU] ADCS Sensors | *Space Aeronautics*
+- **isu_space_adcs_actuators** | [Shin-ISU] ADCS Actuators | *Space Aeronautics*
+- **isu_space_power_generation** | [Shin-ISU] Power Generation | *Space Aeronautics*
+- **isu_space_power_storage** | [Shin-ISU] Power Storage & Dist | *Space Aeronautics*
+- **isu_space_control_laws** | [Shin-ISU] ADCS Control Laws | *Space Aeronautics*
+- **isu_space_chemical_prop** | [Shin-ISU] Chemical Propulsion | *Space Aeronautics*
+- **isu_space_electric_prop** | [Shin-ISU] Electric Propulsion | *Space Aeronautics*
+- **isu_space_prop_feed_sys** | [Shin-ISU] Propulsion Feed Systems | *Space Aeronautics*
+- **isu_space_thermal_rocket** | [Shin-ISU] Advanced Propulsion | *Space Aeronautics*
+- **isu_space_thrust_vectoring** | [Shin-ISU] Thrust Vector Control | *Space Aeronautics*
+- **isu_space_link_budget** | [Shin-ISU] Link Budget Analysis | *Space Aeronautics*
+- **isu_space_rf_systems** | [Shin-ISU] RF Systems & Antennas | *Space Aeronautics*
+- **isu_space_optical_comm** | [Shin-ISU] Optical Communications | *Space Aeronautics*
+- **isu_space_telemetry_tracking** | [Shin-ISU] Telemetry & Tracking | *Space Aeronautics*
+- **isu_space_data_processing** | [Shin-ISU] On-Board Processing | *Space Aeronautics*
+- **isu_space_eclss** | [Shin-ISU] Life Support (ECLSS) | *Space Aeronautics*
+- **isu_space_human_factors** | [Shin-ISU] Space Human Factors | *Space Aeronautics*
+- **isu_space_commercial_space** | [Shin-ISU] Commercial Spaceflight | *Space Aeronautics*
+- **isu_space_planetary_defense** | [Shin-ISU] Planetary Defense | *Space Aeronautics*
+- **isu_space_in_situ_resource** | [Shin-ISU] In-Situ Resource Util (ISRU) | *Space Aeronautics*
+- **isu_cyb_feedback_loops** | [Shin-ISU] Feedback Loops | *Cybernetics*
+- **isu_cyb_information_theory** | [Shin-ISU] Information Theory | *Cybernetics*
+- **isu_cyb_systems_theory** | [Shin-ISU] General Systems Theory | *Cybernetics*
+- **isu_cyb_control_theory** | [Shin-ISU] Control Theory | *Cybernetics*
+- **isu_cyb_communication** | [Shin-ISU] Communication & Control | *Cybernetics*
+- **isu_cyb_homeostasis** | [Shin-ISU] Homeostasis | *Cybernetics*
+- **isu_cyb_autopoiesis** | [Shin-ISU] Autopoiesis | *Cybernetics*
+- **isu_cyb_adaptation** | [Shin-ISU] Adaptive Systems | *Cybernetics*
+- **isu_cyb_neural_networks** | [Shin-ISU] Cybernetic Neural Networks | *Cybernetics*
+- **isu_cyb_cognition_embodied** | [Shin-ISU] Embodied Cognition | *Cybernetics*
+- **isu_cyb_second_order** | [Shin-ISU] Second-Order Cybernetics | *Cybernetics*
+- **isu_cyb_social_systems** | [Shin-ISU] Social Systems | *Cybernetics*
+- **isu_cyb_management_cybernetics** | [Shin-ISU] Management Cybernetics | *Cybernetics*
+- **isu_cyb_political_cybernetics** | [Shin-ISU] Political Cybernetics | *Cybernetics*
+- **isu_cyb_constructivism** | [Shin-ISU] Radical Constructivism | *Cybernetics*
+- **isu_cyb_ai_cybernetic_origins** | [Shin-ISU] Cybernetic Origins of AI | *Cybernetics*
+- **isu_cyb_bionics** | [Shin-ISU] Bionics & Bio-mimicry | *Cybernetics*
+- **isu_cyb_human_machine_symbiosis** | [Shin-ISU] Human-Machine Symbiosis | *Cybernetics*
+- **isu_cyb_synergetics** | [Shin-ISU] Synergetics | *Cybernetics*
+- **isu_cyb_artificial_life** | [Shin-ISU] Artificial Life (ALife) | *Cybernetics*
+- **isu_cyb_chaos_theory** | [Shin-ISU] Chaos Theory | *Cybernetics*
+- **isu_cyb_self_organization** | [Shin-ISU] Self-Organization | *Cybernetics*
+- **isu_cyb_fractals** | [Shin-ISU] Fractal Geometry | *Cybernetics*
+- **isu_cyb_cellular_automata** | [Shin-ISU] Cellular Automata | *Cybernetics*
+- **isu_cyb_complexity_science** | [Shin-ISU] Complexity Science | *Cybernetics*
+- **isu_cyb_cyborg_theory** | [Shin-ISU] Cyborg Theory | *Cybernetics*
+- **isu_cyb_technocracy** | [Shin-ISU] Technocracy | *Cybernetics*
+- **isu_cyb_info_ethics** | [Shin-ISU] Information Ethics | *Cybernetics*
+- **isu_cyb_extended_mind** | [Shin-ISU] Extended Mind Hypothesis | *Cybernetics*
+- **isu_cyb_future_evolution** | [Shin-ISU] Technological Singularity | *Cybernetics*
+- **isu_bio_dna_recombinant** | [Shin-ISU] Recombinant DNA Tech | *Biotech Engineering*
+- **isu_bio_pcr_amplification** | [Shin-ISU] PCR & Amplification | *Biotech Engineering*
+- **isu_bio_crispr_editing** | [Shin-ISU] CRISPR-Cas9 Editing | *Biotech Engineering*
+- **isu_bio_sequencing_tech** | [Shin-ISU] Next-Gen Sequencing | *Biotech Engineering*
+- **isu_bio_protein_expression** | [Shin-ISU] Protein Expression | *Biotech Engineering*
+- **isu_bio_bioreactor_design** | [Shin-ISU] Bioreactor Systems | *Biotech Engineering*
+- **isu_bio_cell_culture** | [Shin-ISU] Mammalian Cell Culture | *Biotech Engineering*
+- **isu_bio_downstream_biotech** | [Shin-ISU] Downstream Processing | *Biotech Engineering*
+- **isu_bio_bioseparation_scaleup** | [Shin-ISU] Bioseparation Scale-up | *Biotech Engineering*
+- **isu_bio_process_monitoring** | [Shin-ISU] Process Analytical Tech (PAT) | *Biotech Engineering*
+- **isu_bio_synbio_circuits** | [Shin-ISU] Synthetic Biology Circuits | *Biotech Engineering*
+- **isu_bio_metabolic_eng** | [Shin-ISU] Metabolic Engineering | *Biotech Engineering*
+- **isu_bio_scaffold_eng** | [Shin-ISU] Tissue Scaffold Design | *Biotech Engineering*
+- **isu_bio_stem_cell_eng** | [Shin-ISU] Stem Cell Engineering | *Biotech Engineering*
+- **isu_bio_organ_on_chip** | [Shin-ISU] Organ-on-a-Chip | *Biotech Engineering*
+- **isu_bio_biosensor_principles** | [Shin-ISU] Biosensor Fundamentals | *Biotech Engineering*
+- **isu_bio_lab_on_chip** | [Shin-ISU] Lab-on-a-Chip | *Biotech Engineering*
+- **isu_bio_nanobio_tech** | [Shin-ISU] Nanobiotechnology | *Biotech Engineering*
+- **isu_bio_molecular_imaging** | [Shin-ISU] Molecular Imaging | *Biotech Engineering*
+- **isu_bio_point_of_care** | [Shin-ISU] Point-of-Care Diagnostics | *Biotech Engineering*
+- **isu_bio_cgmp_compliance** | [Shin-ISU] cGMP Manufacturing | *Biotech Engineering*
+- **isu_bio_single_use_tech** | [Shin-ISU] Single-Use Technologies | *Biotech Engineering*
+- **isu_bio_viral_safety** | [Shin-ISU] Viral Clearance | *Biotech Engineering*
+- **isu_bio_fill_finish** | [Shin-ISU] Fill & Finish Operations | *Biotech Engineering*
+- **isu_bio_supply_chain_bio** | [Shin-ISU] Bio-Supply Chain | *Biotech Engineering*
+- **isu_bio_ethics_editing** | [Shin-ISU] Bioethics of Gene Editing | *Biotech Engineering*
+- **isu_bio_intellectual_prop** | [Shin-ISU] Intellectual Property (IP) | *Biotech Engineering*
+- **isu_bio_biosafety_levels** | [Shin-ISU] Biosafety & Biosecurity | *Biotech Engineering*
+- **isu_bio_personalized_med** | [Shin-ISU] Personalized Medicine | *Biotech Engineering*
+- **isu_bio_future_biotech** | [Shin-ISU] Future Biotech Trends | *Biotech Engineering*
+- **isu_rob_kinematics_forward** | [Shin-ISU] Forward Kinematics | *Robotics*
+- **isu_rob_kinematics_inverse** | [Shin-ISU] Inverse Kinematics | *Robotics*
+- **isu_rob_dynamics** | [Shin-ISU] Robot Dynamics | *Robotics*
+- **isu_rob_trajectory_gen** | [Shin-ISU] Trajectory Generation | *Robotics*
+- **isu_rob_jacobian_analysis** | [Shin-ISU] Jacobian Analysis | *Robotics*
+- **isu_rob_sensors_proprio** | [Shin-ISU] Proprioceptive Sensors | *Robotics*
+- **isu_rob_sensors_extero** | [Shin-ISU] Exteroceptive Sensors | *Robotics*
+- **isu_rob_state_estimation** | [Shin-ISU] State Estimation | *Robotics*
+- **isu_rob_actuators** | [Shin-ISU] Robot Actuation | *Robotics*
+- **isu_rob_slam_intro** | [Shin-ISU] SLAM | *Robotics*
+- **isu_rob_lidar_proc** | [Shin-ISU] LIDAR Processing | *Robotics*
+- **isu_rob_visual_odometry** | [Shin-ISU] Visual Odometry | *Robotics*
+- **isu_rob_semantic_mapping** | [Shin-ISU] Semantic Mapping | *Robotics*
+- **isu_rob_local_planner** | [Shin-ISU] Local Navigation | *Robotics*
+- **isu_rob_motion_constraints** | [Shin-ISU] Non-Holonomic Constraints | *Robotics*
+- **isu_rob_multi_robot** | [Shin-ISU] Multi-Robot Coordination | *Robotics*
+- **isu_rob_underactuated_sys** | [Shin-ISU] Underactuated Robotics | *Robotics*
+- **isu_rob_impedance_control** | [Shin-ISU] Impedance/Admittance Control | *Robotics*
+- **isu_rob_imitation_learning** | [Shin-ISU] Imitation Learning | *Robotics*
+- **isu_rob_hri_human_robot** | [Shin-ISU] Human-Robot Interaction | *Robotics*
+- **isu_rob_cobots** | [Shin-ISU] Collaborative Robots (Cobots) | *Robotics*
+- **isu_rob_robot_ethics** | [Shin-ISU] Robotics Ethics | *Robotics*
+- **isu_rob_future_trends** | [Shin-ISU] Future Robotics Trends | *Robotics*
+- **isu_cs_turing_machines** | [Shin-ISU] Turing Machines | *CS & SWE*
+- **isu_cs_time_complexity** | [Shin-ISU] Big O Notation | *CS & SWE*
+- **isu_cs_data_structures_basic** | [Shin-ISU] Fundamental Data Structures | *CS & SWE*
+- **isu_cs_binary_logic** | [Shin-ISU] Binary & Boolean Logic | *CS & SWE*
+- **isu_cs_von_neumann** | [Shin-ISU] Von Neumann Architecture | *CS & SWE*
+- **isu_prog_imperative** | [Shin-ISU] Imperative Programming | *CS & SWE*
+- **isu_prog_oop** | [Shin-ISU] Object-Oriented Programming | *CS & SWE*
+- **isu_prog_functional** | [Shin-ISU] Functional Programming | *CS & SWE*
+- **isu_prog_declarative** | [Shin-ISU] Declarative Programming | *CS & SWE*
+- **isu_prog_compilation_int** | [Shin-ISU] Compilation vs Interpretation | *CS & SWE*
+- **isu_cs_sorting_algo** | [Shin-ISU] Sorting Algorithms | *CS & SWE*
+- **isu_cs_graph_traversal** | [Shin-ISU] Graph Traversal | *CS & SWE*
+- **isu_cs_dynamic_programming** | [Shin-ISU] Dynamic Programming | *CS & SWE*
+- **isu_cs_greedy_algo** | [Shin-ISU] Greedy Algorithms | *CS & SWE*
+- **isu_cs_search_algorithms** | [Shin-ISU] Search Algorithms | *CS & SWE*
+- **isu_cs_hash_tables** | [Shin-ISU] Hash Tables | *CS & SWE*
+- **isu_cs_binary_trees** | [Shin-ISU] Binary Search Trees | *CS & SWE*
+- **isu_cs_heaps** | [Shin-ISU] Heaps & Priority Queues | *CS & SWE*
+- **isu_cs_tries** | [Shin-ISU] Trie Structures | *CS & SWE*
+- **isu_cs_graphs_adv** | [Shin-ISU] Advanced Graph Structures | *CS & SWE*
+- **isu_cs_os_processes** | [Shin-ISU] Processes & Threads | *CS & SWE*
+- **isu_cs_os_scheduling** | [Shin-ISU] CPU Scheduling | *CS & SWE*
+- **isu_cs_os_memory** | [Shin-ISU] Memory Management | *CS & SWE*
+- **isu_cs_os_deadlocks** | [Shin-ISU] Deadlocks | *CS & SWE*
+- **isu_cs_os_filesystems** | [Shin-ISU] File Systems | *CS & SWE*
+- **isu_cs_net_osi_model** | [Shin-ISU] OSI Reference Model | *CS & SWE*
+- **isu_cs_net_tcpip** | [Shin-ISU] TCP/IP Protocol Suite | *CS & SWE*
+- **isu_cs_net_routing** | [Shin-ISU] Routing Algorithms | *CS & SWE*
+- **isu_cs_net_dns** | [Shin-ISU] Domain Name System (DNS) | *CS & SWE*
+- **isu_cs_net_security** | [Shin-ISU] Network Security | *CS & SWE*
+- **isu_cs_db_relational** | [Shin-ISU] Relational Databases | *CS & SWE*
+- **isu_cs_db_indexing** | [Shin-ISU] Database Indexing | *CS & SWE*
+- **isu_cs_db_nosql** | [Shin-ISU] NoSQL Databases | *CS & SWE*
+- **isu_cs_db_transactions** | [Shin-ISU] Transaction Management | *CS & SWE*
+- **isu_cs_db_query_opt** | [Shin-ISU] Query Optimization | *CS & SWE*
+- **isu_cs_dist_cap** | [Shin-ISU] CAP Theorem | *CS & SWE*
+- **isu_cs_dist_consensus** | [Shin-ISU] Consensus Algorithms | *CS & SWE*
+- **isu_cs_dist_microservices** | [Shin-ISU] Microservices Architecture | *CS & SWE*
+- **isu_cs_dist_replication** | [Shin-ISU] Data Replication | *CS & SWE*
+- **isu_cs_dist_cloud_computing** | [Shin-ISU] Cloud Computing Models | *CS & SWE*
+- **isu_swe_solid_principles** | [Shin-ISU] SOLID Principles | *CS & SWE*
+- **isu_swe_design_patterns** | [Shin-ISU] Software Design Patterns | *CS & SWE*
+- **isu_swe_dev_lifecycle** | [Shin-ISU] Software Development Lifecycle | *CS & SWE*
+- **isu_swe_version_control** | [Shin-ISU] Version Control Systems | *CS & SWE*
+- **isu_swe_technical_debt** | [Shin-ISU] Technical Debt | *CS & SWE*
+- **isu_test_unit_testing** | [Shin-ISU] Unit Testing | *CS & SWE*
+- **isu_test_integration** | [Shin-ISU] Integration Testing | *CS & SWE*
+- **isu_test_automated_ci** | [Shin-ISU] CI/CD Pipelines | *CS & SWE*
+- **isu_test_code_review** | [Shin-ISU] Code Review & Static Analysis | *CS & SWE*
+- **isu_test_performance_testing** | [Shin-ISU] Performance & Load Testing | *CS & SWE*
+- **isu_sec_cryptography** | [Shin-ISU] Cryptography Foundations | *CS & SWE*
+- **isu_sec_threat_modeling** | [Shin-ISU] Threat Modeling | *CS & SWE*
+- **isu_sec_web_vulnerabilities** | [Shin-ISU] Web Vulnerabilities | *CS & SWE*
+- **isu_sec_auth_access** | [Shin-ISU] AuthN & AuthZ | *CS & SWE*
+- **isu_sec_incident_response** | [Shin-ISU] Incident Response | *CS & SWE*
+- **isu_ai_ml_foundations** | [Shin-ISU] ML Foundations | *CS & SWE*
+- **isu_ai_neural_networks** | [Shin-ISU] Deep Learning & Neural Nets | *CS & SWE*
+- **isu_ai_nlp_basics** | [Shin-ISU] NLP Fundamentals | *CS & SWE*
+- **isu_ai_computer_vision_deep** | [Shin-ISU] Computer Vision (DL) | *CS & SWE*
+- **isu_ai_ethics_bias** | [Shin-ISU] AI Ethics & Bias | *CS & SWE*
+- **isu_lang_memory_management** | [Shin-ISU] Manual vs GC Memory | *CS & SWE*
+- **isu_lang_type_systems** | [Shin-ISU] Type Systems | *CS & SWE*
+- **isu_lang_concurrency_models** | [Shin-ISU] Concurrency Models | *CS & SWE*
+- **isu_lang_meta_programming** | [Shin-ISU] Metaprogramming | *CS & SWE*
+- **isu_lang_domain_specific** | [Shin-ISU] Domain-Specific Languages (DSL) | *CS & SWE*
+- **isu_trend_quantum_computing** | [Shin-ISU] Quantum Computing Basics | *CS & SWE*
+- **isu_trend_blockchain** | [Shin-ISU] Blockchain & DLT | *CS & SWE*
+- **isu_trend_edge_computing** | [Shin-ISU] Edge Computing | *CS & SWE*
+- **isu_trend_webassembly** | [Shin-ISU] WebAssembly (Wasm) | *CS & SWE*
+- **isu_trend_serverless** | [Shin-ISU] Serverless Computing | *CS & SWE*
+- **isu_web_http_protocol** | [Shin-ISU] HTTP/HTTPS Protocol | *CS & SWE*
+- **isu_web_rest_api** | [Shin-ISU] RESTful Architecture | *CS & SWE*
+- **isu_web_frontend_render** | [Shin-ISU] Frontend Rendering Patterns | *CS & SWE*
+- **isu_web_security_cors** | [Shin-ISU] CORS & Browser Security | *CS & SWE*
+- **isu_web_load_balancing** | [Shin-ISU] Load Balancing | *CS & SWE*
+- **isu_comp_lexical_analysis** | [Shin-ISU] Lexical Analysis | *CS & SWE*
+- **isu_comp_syntax_analysis** | [Shin-ISU] Syntax Analysis (Parsing) | *CS & SWE*
+- **isu_comp_semantic_analysis** | [Shin-ISU] Semantic Analysis | *CS & SWE*
+- **isu_comp_code_optimization** | [Shin-ISU] Intermediate Code Optimization | *CS & SWE*
+- **isu_comp_code_gen** | [Shin-ISU] Code Generation | *CS & SWE*
+- **isu_formal_verification** | [Shin-ISU] Formal Verification | *CS & SWE*
+- **isu_formal_model_checking** | [Shin-ISU] Model Checking | *CS & SWE*
+- **isu_formal_abstract_interp** | [Shin-ISU] Abstract Interpretation | *CS & SWE*
+- **isu_formal_logic_hoare** | [Shin-ISU] Hoare Logic | *CS & SWE*
+- **isu_formal_type_theory** | [Shin-ISU] Type Theory | *CS & SWE*
+- **isu_hci_usability_principles** | [Shin-ISU] Usability Principles | *CS & SWE*
+- **isu_hci_accessibility** | [Shin-ISU] Accessibility (a11y) | *CS & SWE*
+- **isu_hci_cognition_load** | [Shin-ISU] Cognitive Load Theory | *CS & SWE*
+- **isu_hci_interaction_design** | [Shin-ISU] Interaction Design | *CS & SWE*
+- **isu_hci_eval_methods** | [Shin-ISU] Evaluation Methods | *CS & SWE*
+- **isu_graph_rendering_pipeline** | [Shin-ISU] Rendering Pipeline | *CS & SWE*
+- **isu_graph_linear_algebra** | [Shin-ISU] Graphics Math | *CS & SWE*
+- **isu_graph_color_theory** | [Shin-ISU] Color Spaces | *CS & SWE*
+- **isu_graph_compression** | [Shin-ISU] Multimedia Compression | *CS & SWE*
+- **isu_graph_spatial_indexing** | [Shin-ISU] Spatial Indexing | *CS & SWE*
+- **isu_phil_computationalism** | [Shin-ISU] Computationalism | *CS & SWE*
+- **isu_phil_p_vs_np** | [Shin-ISU] P vs NP Problem | *CS & SWE*
+- **isu_phil_tech_singularity** | [Shin-ISU] The Singularity | *CS & SWE*
+- **isu_phil_digital_physics** | [Shin-ISU] Digital Physics | *CS & SWE*
+- **isu_phil_open_source_ethics** | [Shin-ISU] Open Source Ethics | *CS & SWE*
+- **isu_law_jurisprudence** | [Shin-ISU] Jurisprudence | *Law*
+- **isu_law_us_constitution** | [Shin-ISU] US Constitution | *Law*
+- **isu_law_civil_vs_criminal** | [Shin-ISU] Civil vs Criminal Law | *Law*
+- **isu_law_legal_procedure** | [Shin-ISU] Legal Procedure | *Law*
+- **isu_law_stare_decisis** | [Shin-ISU] Stare Decisis | *Law*
+- **isu_para_role_responsibilities** | [Shin-ISU] Paralegal Role | *Paralegal*
+- **isu_para_legal_research** | [Shin-ISU] Legal Research | *Paralegal*
+- **isu_para_document_prep** | [Shin-ISU] Document Preparation | *Paralegal*
+- **isu_para_ethics_compliance** | [Shin-ISU] Paralegal Ethics | *Paralegal*
+- **isu_para_tech_proficiency** | [Shin-ISU] Legal Technology | *Paralegal*
+- **isu_law_due_process** | [Shin-ISU] Due Process (5th & 14th) | *Law*
+- **isu_law_equal_protection** | [Shin-ISU] Equal Protection Clause | *Law*
+- **isu_law_admin_law** | [Shin-ISU] Administrative Law | *Law*
+- **isu_law_chevron_deference** | [Shin-ISU] Chevron Deference | *Law*
+- **isu_law_separation_powers** | [Shin-ISU] Separation of Powers | *Law*
+- **isu_law_torts_negligence** | [Shin-ISU] Tort: Negligence | *Law*
+- **isu_law_strict_liability** | [Shin-ISU] Strict Liability | *Law*
+- **isu_law_torts_intentional** | [Shin-ISU] Intentional Torts | *Law*
+- **isu_law_defamation** | [Shin-ISU] Defamation (Libel/Slander) | *Law*
+- **isu_law_tort_remedies** | [Shin-ISU] Tort Remedies | *Law*
+- **isu_law_contract_formation** | [Shin-ISU] Contract Formation | *Law*
+- **isu_law_statute_frauds** | [Shin-ISU] Statute of Frauds | *Law*
+- **isu_law_breach_remedies** | [Shin-ISU] Breach & Remedies | *Law*
+- **isu_law_contract_defenses** | [Shin-ISU] Contract Defenses | *Law*
+- **isu_law_parol_evidence** | [Shin-ISU] Parol Evidence Rule | *Law*
+- **isu_law_4th_amendment** | [Shin-ISU] 4th Amendment (Search & Seizure) | *Law*
+- **isu_law_5th_amendment** | [Shin-ISU] 5th Amendment (Self-Incrimination) | *Law*
+- **isu_law_6th_amendment** | [Shin-ISU] 6th Amendment (Right to Counsel) | *Law*
+- **isu_law_exclusionary_rule** | [Shin-ISU] Exclusionary Rule | *Law*
+- **isu_law_criminal_burden** | [Shin-ISU] Burden of Proof | *Law*
+- **isu_law_real_property** | [Shin-ISU] Real Property Interests | *Law*
+- **isu_law_adverse_possession** | [Shin-ISU] Adverse Possession | *Law*
+- **isu_law_landlord_tenant** | [Shin-ISU] Landlord-Tenant Law | *Law*
+- **isu_law_eminent_domain** | [Shin-ISU] Eminent Domain | *Law*
+- **isu_law_zoning_land_use** | [Shin-ISU] Zoning & Land Use | *Law*
+- **isu_law_relevance** | [Shin-ISU] Relevance & Admissibility | *Law*
+- **isu_law_hearsay** | [Shin-ISU] Hearsay Rule | *Law*
+- **isu_law_privilege** | [Shin-ISU] Privileged Communications | *Law*
+- **isu_law_impeachment** | [Shin-ISU] Witness Impeachment | *Law*
+- **isu_law_expert_testimony** | [Shin-ISU] Expert Testimony | *Law*
+- **isu_law_ip_copyright** | [Shin-ISU] Copyright Law | *Law*
+- **isu_law_ip_patent** | [Shin-ISU] Patent Law | *Law*
+- **isu_law_ip_trademark** | [Shin-ISU] Trademark Law | *Law*
+- **isu_law_ip_trade_secret** | [Shin-ISU] Trade Secrets | *Law*
+- **isu_law_ip_fair_use** | [Shin-ISU] Fair Use Doctrine | *Law*
+- **isu_law_family_divorce** | [Shin-ISU] Divorce & Dissolution | *Law*
+- **isu_law_custody_principles** | [Shin-ISU] Child Custody | *Law*
+- **isu_law_guardianship_intro** | [Shin-ISU] Guardianship Fundamentals | *Law*
+- **isu_law_fiduciary_duty** | [Shin-ISU] Fiduciary Duty | *Law*
+- **isu_law_guardianship_alternatives** | [Shin-ISU] Alternatives to Guardianship | *Law*
+- **isu_law_int_public** | [Shin-ISU] Public International Law | *Law*
+- **isu_law_int_human_rights** | [Shin-ISU] International Human Rights | *Law*
+- **isu_law_conflict_of_laws** | [Shin-ISU] Conflict of Laws (Private) | *Law*
+- **isu_law_int_trade** | [Shin-ISU] International Trade Law | *Law*
+- **isu_law_sovereign_immunity** | [Shin-ISU] Sovereign Immunity | *Law*
+- **isu_law_adr_negotiation** | [Shin-ISU] Negotiation | *Law*
+- **isu_law_adr_mediation** | [Shin-ISU] Mediation | *Law*
+- **isu_law_adr_arbitration** | [Shin-ISU] Arbitration | *Law*
+- **isu_law_settlement_agreements** | [Shin-ISU] Settlement Agreements | *Law*
+- **isu_law_litigation_strategy** | [Shin-ISU] Litigation Strategy | *Law*
+- **isu_para_unauthorized_practice** | [Shin-ISU] Unauthorized Practice of Law | *Paralegal*
+- **isu_para_attorney_client_privilege** | [Shin-ISU] Attorney-Client Privilege | *Paralegal*
+- **isu_para_conflicts_interest** | [Shin-ISU] Conflicts of Interest | *Paralegal*
+- **isu_para_client_relations** | [Shin-ISU] Client Relations | *Paralegal*
+- **isu_para_billing_ethics** | [Shin-ISU] Billing & Timekeeping | *Paralegal*
+- **isu_para_citators** | [Shin-ISU] Using Citators (Shepard's/KeyCite) | *Paralegal*
+- **isu_para_legal_writing_memo** | [Shin-ISU] Legal Memoranda | *Paralegal*
+- **isu_para_bluebook_citation** | [Shin-ISU] Bluebook Citation System | *Paralegal*
+- **isu_para_pleadings_drafting** | [Shin-ISU] Drafting Pleadings | *Paralegal*
+- **isu_para_discovery_docs** | [Shin-ISU] Discovery Requests | *Paralegal*
+- **isu_para_ediscovery_emrm** | [Shin-ISU] EDRM Model | *Paralegal*
+- **isu_para_legal_hold** | [Shin-ISU] Litigation Holds | *Paralegal*
+- **isu_para_data_collection** | [Shin-ISU] Data Collection & Processing | *Paralegal*
+- **isu_para_review_platforms** | [Shin-ISU] Document Review Platforms | *Paralegal*
+- **isu_para_production_format** | [Shin-ISU] Production Formats | *Paralegal*
+- **isu_para_trial_prep** | [Shin-ISU] Trial Preparation | *Paralegal*
+- **isu_para_deposition_support** | [Shin-ISU] Deposition Support | *Paralegal*
+- **isu_para_exhibit_management** | [Shin-ISU] Exhibit Management | *Paralegal*
+- **isu_para_courtroom_tech** | [Shin-ISU] Courtroom Technology | *Paralegal*
+- **isu_para_post_trial_support** | [Shin-ISU] Post-Trial Support | *Paralegal*
+- **isu_para_real_estate_support** | [Shin-ISU] Real Estate Paralegal Tasks | *Paralegal*
+- **isu_para_family_support** | [Shin-ISU] Family Law Support | *Paralegal*
+- **isu_para_corporate_paralegal** | [Shin-ISU] Corporate Paralegal Tasks | *Paralegal*
+- **isu_para_probate_support** | [Shin-ISU] Probate & Estate Support | *Paralegal*
+- **isu_para_criminal_support** | [Shin-ISU] Criminal Law Support | *Paralegal*
+- **isu_para_office_management** | [Shin-ISU] Law Office Management | *Paralegal*
+- **isu_para_records_management** | [Shin-ISU] Records Management | *Paralegal*
+- **isu_para_client_trust_accounts** | [Shin-ISU] IOLTA/Trust Accounting | *Paralegal*
+- **isu_para_professional_dev** | [Shin-ISU] Professional Development | *Paralegal*
+- **isu_para_communication_ethics** | [Shin-ISU] Communication Ethics | *Paralegal*
+- **isu_term_affidavit** | [Shin-ISU] Affidavit | *Legal Terminology*
+- **isu_term_plaintiff_defendant** | [Shin-ISU] Plaintiff vs. Defendant | *Legal Terminology*
+- **isu_term_jurisdiction** | [Shin-ISU] Jurisdiction | *Legal Terminology*
+- **isu_term_subpoena** | [Shin-ISU] Subpoena | *Legal Terminology*
+- **isu_term_summary_judgment** | [Shin-ISU] Summary Judgment | *Legal Terminology*
+- **isu_term_discovery** | [Shin-ISU] Discovery | *Legal Terminology*
+- **isu_term_depostion** | [Shin-ISU] Deposition | *Legal Terminology*
+- **isu_term_complaint** | [Shin-ISU] Complaint | *Legal Terminology*
+- **isu_term_counterclaim** | [Shin-ISU] Counterclaim | *Legal Terminology*
+- **isu_term_voir_dire** | [Shin-ISU] Voir Dire | *Legal Terminology*
+- **isu_term_arraignment** | [Shin-ISU] Arraignment | *Legal Terminology*
+- **isu_term_bail** | [Shin-ISU] Bail | *Legal Terminology*
+- **isu_term_plea_bargain** | [Shin-ISU] Plea Bargain | *Legal Terminology*
+- **isu_term_habeas_corpus** | [Shin-ISU] Habeas Corpus | *Legal Terminology*
+- **isu_term_indictment** | [Shin-ISU] Indictment | *Legal Terminology*
+- **isu_term_consideration** | [Shin-ISU] Consideration | *Legal Terminology*
+- **isu_term_breach** | [Shin-ISU] Breach of Contract | *Legal Terminology*
+- **isu_term_fee_simple** | [Shin-ISU] Fee Simple | *Legal Terminology*
+- **isu_term_lien** | [Shin-ISU] Lien | *Legal Terminology*
+- **isu_term_escrow** | [Shin-ISU] Escrow | *Legal Terminology*
+- **isu_term_infringement** | [Shin-ISU] Infringement | *Legal Terminology*
+- **isu_term_public_domain** | [Shin-ISU] Public Domain | *Legal Terminology*
+- **isu_term_licensing** | [Shin-ISU] Licensing | *Legal Terminology*
+- **isu_term_patent_prosecution** | [Shin-ISU] Patent Prosecution | *Legal Terminology*
+- **isu_term_trademark_dilution** | [Shin-ISU] Trademark Dilution | *Legal Terminology*
+- **isu_term_ward** | [Shin-ISU] Ward | *Legal Terminology*
+- **isu_term_incapacity** | [Shin-ISU] Incapacitation | *Legal Terminology*
+- **isu_term_fiduciary** | [Shin-ISU] Fiduciary | *Legal Terminology*
+- **isu_term_conservatorship** | [Shin-ISU] Conservatorship | *Legal Terminology*
+- **isu_term_power_of_attorney** | [Shin-ISU] Power of Attorney (POA) | *Legal Terminology*
+- **isu_term_burden_proof** | [Shin-ISU] Burden of Proof | *Legal Terminology*
+- **isu_term_hearsay** | [Shin-ISU] Hearsay | *Legal Terminology*
+- **isu_term_admissible_evidence** | [Shin-ISU] Admissible Evidence | *Legal Terminology*
+- **isu_term_probative_value** | [Shin-ISU] Probative Value | *Legal Terminology*
+- **isu_term_impeachment** | [Shin-ISU] Impeachment | *Legal Terminology*
+- **isu_term_arbitration** | [Shin-ISU] Arbitration | *Legal Terminology*
+- **isu_term_mediation** | [Shin-ISU] Mediation | *Legal Terminology*
+- **isu_term_treaty** | [Shin-ISU] Treaty | *Legal Terminology*
+- **isu_term_sovereign_immunity** | [Shin-ISU] Sovereign Immunity | *Legal Terminology*
+- **isu_term_conflict_laws** | [Shin-ISU] Conflict of Laws | *Legal Terminology*
+- **isu_re_estate_types** | [Shin-ISU] Estates in Land | *Real Estate Law*
+- **isu_re_concurrent_ownership** | [Shin-ISU] Concurrent Ownership | *Real Estate Law*
+- **isu_re_conveyance** | [Shin-ISU] Conveyance & Deeds | *Real Estate Law*
+- **isu_re_title_insurance** | [Shin-ISU] Title Insurance | *Real Estate Law*
+- **isu_re_recording_acts** | [Shin-ISU] Recording Acts | *Real Estate Law*
+- **isu_re_mortgage_structure** | [Shin-ISU] Mortgages & Deeds of Trust | *Real Estate Law*
+- **isu_re_foreclosure** | [Shin-ISU] Foreclosure Process | *Real Estate Law*
+- **isu_re_promissory_note** | [Shin-ISU] Promissory Note | *Real Estate Law*
+- **isu_re_refinancing** | [Shin-ISU] Refinancing Law | *Real Estate Law*
+- **isu_re_servicing_law** | [Shin-ISU] Mortgage Servicing Rules | *Real Estate Law*
+- **isu_re_zoning_basics** | [Shin-ISU] Zoning Ordinances | *Real Estate Law*
+- **isu_re_variances** | [Shin-ISU] Variances & Special Use | *Real Estate Law*
+- **isu_re_nonconforming_use** | [Shin-ISU] Nonconforming Uses | *Real Estate Law*
+- **isu_re_eminent_domain** | [Shin-ISU] Eminent Domain & Takings | *Real Estate Law*
+- **isu_re_easements** | [Shin-ISU] Easements & Covenants | *Real Estate Law*
+- **isu_re_lease_types** | [Shin-ISU] Leasehold Estates | *Real Estate Law*
+- **isu_re_habitability** | [Shin-ISU] Warranty of Habitability | *Real Estate Law*
+- **isu_re_eviction_law** | [Shin-ISU] Eviction (Unlawful Detainer) | *Real Estate Law*
+- **isu_re_security_deposits** | [Shin-ISU] Security Deposits | *Real Estate Law*
+- **isu_re_fair_housing** | [Shin-ISU] Fair Housing Act (FHA) | *Real Estate Law*
+- **isu_re_commercial_leasing** | [Shin-ISU] Commercial Leasing | *Real Estate Law*
+- **isu_re_mechanics_liens** | [Shin-ISU] Mechanic's Liens | *Real Estate Law*
+- **isu_re_construction_contracts** | [Shin-ISU] Construction Contracts | *Real Estate Law*
+- **isu_re_land_title_development** | [Shin-ISU] Land Development Entitlements | *Real Estate Law*
+- **isu_re_condominiums** | [Shin-ISU] Condominium Law | *Real Estate Law*
+- **isu_re_environmental_due_diligence** | [Shin-ISU] Environmental Due Diligence | *Real Estate Law*
+- **isu_re_wetlands_regulation** | [Shin-ISU] Wetlands & Water Law | *Real Estate Law*
+- **isu_re_historic_preservation** | [Shin-ISU] Historic Preservation | *Real Estate Law*
+- **isu_re_coastal_zone_mgmt** | [Shin-ISU] Coastal Zone Management | *Real Estate Law*
+- **isu_re_real_estate_ethics** | [Shin-ISU] Real Estate Brokerage Ethics | *Real Estate Law*
+- **isu_guard_definition** | [Shin-ISU] Definition of Guardianship | *Guardianship Law*
+- **isu_guard_capacity_assessment** | [Shin-ISU] Capacity Assessment | *Guardianship Law*
+- **isu_guard_due_process** | [Shin-ISU] Due Process in Guardianship | *Guardianship Law*
+- **isu_guard_person_vs_estate** | [Shin-ISU] Person vs. Estate | *Guardianship Law*
+- **isu_guard_least_restrictive** | [Shin-ISU] Least Restrictive Principle | *Guardianship Law*
+- **isu_guard_duty_loyalty** | [Shin-ISU] Duty of Loyalty | *Guardianship Law*
+- **isu_guard_duty_care** | [Shin-ISU] Duty of Care | *Guardianship Law*
+- **isu_guard_reporting_inventory** | [Shin-ISU] Reporting & Inventory | *Guardianship Law*
+- **isu_guard_court_oversight** | [Shin-ISU] Court Oversight | *Guardianship Law*
+- **isu_guard_compensation** | [Shin-ISU] Guardian Compensation | *Guardianship Law*
+- **isu_alt_supported_decision** | [Shin-ISU] Supported Decision-Making | *Guardianship Law*
+- **isu_alt_power_attorney** | [Shin-ISU] Power of Attorney (POA) | *Guardianship Law*
+- **isu_alt_representative_payee** | [Shin-ISU] Representative Payee | *Guardianship Law*
+- **isu_alt_trusts** | [Shin-ISU] Special Needs Trusts | *Guardianship Law*
+- **isu_alt_health_proxy** | [Shin-ISU] Health Care Proxy/Directive | *Guardianship Law*
+- **isu_guard_minor_guardianship** | [Shin-ISU] Guardianship of Minors | *Guardianship Law*
+- **isu_guard_transition_adulthood** | [Shin-ISU] Transitioning to Adulthood | *Guardianship Law*
+- **isu_guard_elderly_incapacity** | [Shin-ISU] Guardianship of the Elderly | *Guardianship Law*
+- **isu_guard_emergency_temp** | [Shin-ISU] Emergency Guardianship | *Guardianship Law*
+- **isu_guard_restoration_rights** | [Shin-ISU] Restoration of Rights | *Guardianship Law*
+- **isu_guard_uagppja** | [Shin-ISU] UAGPPJA | *Guardianship Law*
+- **isu_guard_jurisdictional_disputes** | [Shin-ISU] Jurisdictional Disputes | *Guardianship Law*
+- **isu_guard_cross_border_rights** | [Shin-ISU] Cross-Border Rights | *Guardianship Law*
+- **isu_guard_emergency_interstate** | [Shin-ISU] Emergency Interstate Orders | *Guardianship Law*
+- **isu_guard_communication_courts** | [Shin-ISU] Inter-Court Communication | *Guardianship Law*
+- **isu_guard_financial_exploitation** | [Shin-ISU] Financial Exploitation | *Guardianship Law*
+- **isu_guard_aps_reporting** | [Shin-ISU] APS Reporting | *Guardianship Law*
+- **isu_guard_undue_influence** | [Shin-ISU] Undue Influence | *Guardianship Law*
+- **isu_guard_removal_process** | [Shin-ISU] Guardian Removal | *Guardianship Law*
+- **isu_guard_prevention_strategies** | [Shin-ISU] Prevention Strategies | *Guardianship Law*
+- **isu_pat_informed_consent** | [Shin-ISU] Informed Consent | *Patients Rights Advocacy*
+- **isu_pat_right_refuse** | [Shin-ISU] Right to Refuse Treatment | *Patients Rights Advocacy*
+- **isu_pat_privacy_hipaa** | [Shin-ISU] HIPAA Privacy Rule | *Patients Rights Advocacy*
+- **isu_pat_confidentiality** | [Shin-ISU] Medical Confidentiality | *Patients Rights Advocacy*
+- **isu_pat_advocacy_role** | [Shin-ISU] The Patient Advocate | *Patients Rights Advocacy*
+- **isu_pat_advance_directives** | [Shin-ISU] Advance Directives | *Patients Rights Advocacy*
+- **isu_pat_dpoa_healthcare** | [Shin-ISU] Durable POA for Healthcare | *Patients Rights Advocacy*
+- **isu_pat_living_wills** | [Shin-ISU] Living Wills | *Patients Rights Advocacy*
+- **isu_pat_polst_dnr** | [Shin-ISU] POLST and DNR Orders | *Patients Rights Advocacy*
+- **isu_pat_capacity_determination** | [Shin-ISU] Determination of Capacity | *Patients Rights Advocacy*
+- **isu_pat_ada_accommodation** | [Shin-ISU] ADA & Reasonable Accommodation | *Patients Rights Advocacy*
+- **isu_pat_nondiscrimination** | [Shin-ISU] Section 1557 (ACA) | *Patients Rights Advocacy*
+- **isu_pat_emergency_care_emtala** | [Shin-ISU] EMTALA | *Patients Rights Advocacy*
+- **isu_pat_insurance_appeals** | [Shin-ISU] Insurance Appeals & Grievances | *Patients Rights Advocacy*
+- **isu_pat_language_access** | [Shin-ISU] Language Access | *Patients Rights Advocacy*
+- **isu_pat_medical_malpractice** | [Shin-ISU] Medical Malpractice | *Patients Rights Advocacy*
+- **isu_pat_standard_care** | [Shin-ISU] Standard of Care | *Patients Rights Advocacy*
+- **isu_pat_disclosure_errors** | [Shin-ISU] Duty to Disclose Errors | *Patients Rights Advocacy*
+- **isu_pat_patient_safety_reporting** | [Shin-ISU] Safety Reporting Systems | *Patients Rights Advocacy*
+- **isu_pat_grievance_process** | [Shin-ISU] Formal Grievance Process | *Patients Rights Advocacy*
+- **isu_pat_palliative_care_rights** | [Shin-ISU] Rights in Palliative Care | *Patients Rights Advocacy*
+- **isu_pat_med_aid_dying** | [Shin-ISU] Medical Aid in Dying (MAID) | *Patients Rights Advocacy*
+- **isu_pat_surrogate_decision_making** | [Shin-ISU] Surrogate Decision-Making | *Patients Rights Advocacy*
+- **isu_pat_substituted_judgment** | [Shin-ISU] Substituted Judgment Standard | *Patients Rights Advocacy*
+- **isu_pat_futile_care** | [Shin-ISU] Medical Futility | *Patients Rights Advocacy*
+- **isu_pat_ombudsman_programs** | [Shin-ISU] Long-Term Care Ombudsman | *Patients Rights Advocacy*
+- **isu_pat_quality_oversight** | [Shin-ISU] Quality Oversight Agencies | *Patients Rights Advocacy*
+- **isu_pat_health_equity_advocacy** | [Shin-ISU] Health Equity Advocacy | *Patients Rights Advocacy*
+- **isu_pat_patient_org_rights** | [Shin-ISU] Patient Bill of Rights | *Patients Rights Advocacy*
+- **isu_pat_advocacy_ethics** | [Shin-ISU] Ethics of Patient Advocacy | *Patients Rights Advocacy*
+- **isu_ela_syntax** | [Shin-ISU] Syntax | *ELA*
+- **isu_ela_semantics** | [Shin-ISU] Semantics | *ELA*
+- **isu_ela_morphology** | [Shin-ISU] Morphology | *ELA*
+- **isu_ela_rhetoric_devices** | [Shin-ISU] Rhetorical Devices | *ELA*
+- **isu_ela_phonology** | [Shin-ISU] Phonology | *ELA*
+- **isu_ela_literary_analysis** | [Shin-ISU] Literary Analysis | *ELA*
+- **isu_ela_genre_theory** | [Shin-ISU] Genre Theory | *ELA*
+- **isu_ela_narrative_structure** | [Shin-ISU] Narrative Structure | *ELA*
+- **isu_ela_critical_theory** | [Shin-ISU] Critical Theory (Intro) | *ELA*
+- **isu_ela_poetic_meter** | [Shin-ISU] Poetic Meter & Form | *ELA*
+- **isu_ela_voice_tone** | [Shin-ISU] Voice & Tone | *ELA*
+- **isu_ela_diction** | [Shin-ISU] Diction | *ELA*
+- **isu_ela_sentence_variety** | [Shin-ISU] Sentence Variety | *ELA*
+- **isu_ela_cohesion_coherence** | [Shin-ISU] Cohesion & Coherence | *ELA*
+- **isu_ela_rhetorical_modes** | [Shin-ISU] Rhetorical Modes | *ELA*
+- **isu_ela_old_english** | [Shin-ISU] Old English (c. 450–1100) | *ELA*
+- **isu_ela_middle_english** | [Shin-ISU] Middle English (c. 1100–1500) | *ELA*
+- **isu_ela_early_modern_english** | [Shin-ISU] Early Modern English (1500–1800) | *ELA*
+- **isu_ela_language_standardization** | [Shin-ISU] Standardization | *ELA*
+- **isu_ela_global_varieties** | [Shin-ISU] Global Varieties of English | *ELA*
+- **isu_ela_argument_evaluation** | [Shin-ISU] Evaluating Arguments | *ELA*
+- **isu_ela_bias_detection** | [Shin-ISU] Bias Detection | *ELA*
+- **isu_ela_rhetorical_analysis** | [Shin-ISU] Rhetorical Analysis | *ELA*
+- **isu_ela_synthesis** | [Shin-ISU] Synthesis | *ELA*
+- **isu_ela_inferencing** | [Shin-ISU] Inferencing | *ELA*
+- **isu_ela_media_framing** | [Shin-ISU] Media Framing | *ELA*
+- **isu_ela_digital_literacy** | [Shin-ISU] Digital Literacy | *ELA*
+- **isu_ela_propaganda_analysis** | [Shin-ISU] Propaganda Analysis | *ELA*
+- **isu_ela_visual_literacy** | [Shin-ISU] Visual Literacy | *ELA*
+- **isu_ela_info_ecosystem** | [Shin-ISU] Information Ecosystems | *ELA*
+- **isu_read_active_reading** | [Shin-ISU] Active Reading | *Reading Comprehension*
+- **isu_read_sq3r** | [Shin-ISU] SQ3R Method | *Reading Comprehension*
+- **isu_read_scanning_skimming** | [Shin-ISU] Scanning vs. Skimming | *Reading Comprehension*
+- **isu_read_close_reading** | [Shin-ISU] Close Reading | *Reading Comprehension*
+- **isu_read_context_clues** | [Shin-ISU] Using Context Clues | *Reading Comprehension*
+- **isu_read_main_idea** | [Shin-ISU] Identifying Main Ideas | *Reading Comprehension*
+- **isu_read_author_purpose** | [Shin-ISU] Determining Author's Purpose | *Reading Comprehension*
+- **isu_read_text_structure** | [Shin-ISU] Analyzing Text Structure | *Reading Comprehension*
+- **isu_read_predicting_inferring** | [Shin-ISU] Predicting & Inferring | *Reading Comprehension*
+- **isu_read_summarizing_paraphrasing** | [Shin-ISU] Summarizing vs. Paraphrasing | *Reading Comprehension*
+- **isu_read_validity_reliability** | [Shin-ISU] Evaluating Validity/Reliability | *Reading Comprehension*
+- **isu_read_argument_mapping** | [Shin-ISU] Argument Mapping | *Reading Comprehension*
+- **isu_read_metacognition** | [Shin-ISU] Metacognition in Reading | *Reading Comprehension*
+- **isu_read_rhetorical_stance** | [Shin-ISU] Rhetorical Stance | *Reading Comprehension*
+- **isu_read_synthesis_multi** | [Shin-ISU] Multi-Source Synthesis | *Reading Comprehension*
+- **isu_read_technical_docs** | [Shin-ISU] Technical Comprehension | *Reading Comprehension*
+- **isu_read_legal_texts** | [Shin-ISU] Legal Text Comprehension | *Reading Comprehension*
+- **isu_read_scientific_lit** | [Shin-ISU] Scientific Literature | *Reading Comprehension*
+- **isu_read_historiography** | [Shin-ISU] Historiographical Analysis | *Reading Comprehension*
+- **isu_read_multimodal_texts** | [Shin-ISU] Multimodal Comprehension | *Reading Comprehension*
+- **isu_comp_prewriting** | [Shin-ISU] Prewriting Techniques | *Writing Composition*
+- **isu_comp_thesis_statement** | [Shin-ISU] Thesis Statement | *Writing Composition*
+- **isu_comp_drafting** | [Shin-ISU] Drafting & Iteration | *Writing Composition*
+- **isu_comp_outlining** | [Shin-ISU] Effective Outlining | *Writing Composition*
+- **isu_comp_audience_analysis** | [Shin-ISU] Audience Analysis | *Writing Composition*
+- **isu_comp_paragraph_structure** | [Shin-ISU] Paragraph Structure | *Writing Composition*
+- **isu_comp_transitions** | [Shin-ISU] Transitions | *Writing Composition*
+- **isu_comp_unity_flow** | [Shin-ISU] Unity & Flow | *Writing Composition*
+- **isu_comp_conclusion_strategies** | [Shin-ISU] Conclusion Strategies | *Writing Composition*
+- **isu_comp_introduction_hooks** | [Shin-ISU] Introductions & Hooks | *Writing Composition*
+- **isu_comp_revision_strategies** | [Shin-ISU] Revision Strategies | *Writing Composition*
+- **isu_comp_proofreading** | [Shin-ISU] Proofreading | *Writing Composition*
+- **isu_comp_style_manuals** | [Shin-ISU] Style Manuals | *Writing Composition*
+- **isu_comp_peer_review** | [Shin-ISU] Peer Review Process | *Writing Composition*
+- **isu_comp_conciseness** | [Shin-ISU] Achieving Conciseness | *Writing Composition*
+- **isu_comp_narrative_writing** | [Shin-ISU] Narrative Writing | *Writing Composition*
+- **isu_comp_expository_writing** | [Shin-ISU] Expository Writing | *Writing Composition*
+- **isu_comp_persuasive_writing** | [Shin-ISU] Persuasive Writing | *Writing Composition*
+- **isu_comp_descriptive_writing** | [Shin-ISU] Descriptive Writing | *Writing Composition*
+- **isu_comp_technical_writing** | [Shin-ISU] Technical Writing | *Writing Composition*
+- **isu_adv_persuade_stasis_theory** | [Shin-ISU] Stasis Theory | *Advanced Persuasive Writing*
+- **isu_adv_persuade_toulmin** | [Shin-ISU] Toulmin Model | *Advanced Persuasive Writing*
+- **isu_adv_persuade_rogers** | [Shin-ISU] Rogerian Argument | *Advanced Persuasive Writing*
+- **isu_adv_persuade_rhetorical_triangle** | [Shin-ISU] Advanced Rhetorical Triangle | *Advanced Persuasive Writing*
+- **isu_adv_persuade_kairos** | [Shin-ISU] Kairos | *Advanced Persuasive Writing*
+- **isu_adv_persuade_cognitive_biases** | [Shin-ISU] Cognitive Biases in Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_refutation** | [Shin-ISU] Refutation Strategies | *Advanced Persuasive Writing*
+- **isu_adv_persuade_narrative_persuasion** | [Shin-ISU] Narrative Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_style_manipulation** | [Shin-ISU] Stylistic Manipulation | *Advanced Persuasive Writing*
+- **isu_adv_persuade_authority** | [Shin-ISU] Appeals to Authority | *Advanced Persuasive Writing*
+- **isu_adv_persuade_ethical_bounds** | [Shin-ISU] Ethical Bounds of Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_dark_patterns** | [Shin-ISU] Dark Patterns in Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_transparency** | [Shin-ISU] Transparency & Disclosure | *Advanced Persuasive Writing*
+- **isu_adv_persuade_intellectual_honesty** | [Shin-ISU] Intellectual Honesty | *Advanced Persuasive Writing*
+- **isu_adv_persuade_accountability** | [Shin-ISU] Accountability in Influence | *Advanced Persuasive Writing*
+- **isu_adv_persuade_policy_framing** | [Shin-ISU] Policy Framing | *Advanced Persuasive Writing*
+- **isu_adv_persuade_advocacy_campaigns** | [Shin-ISU] Advocacy Campaign Strategy | *Advanced Persuasive Writing*
+- **isu_adv_persuade_data_storytelling** | [Shin-ISU] Data Storytelling | *Advanced Persuasive Writing*
+- **isu_adv_persuade_legislative_testimony** | [Shin-ISU] Legislative Testimony | *Advanced Persuasive Writing*
+- **isu_adv_persuade_counter_misinformation** | [Shin-ISU] Countering Misinformation | *Advanced Persuasive Writing*
+- **isu_ana_critical_lens** | [Shin-ISU] Critical Lenses | *Advanced Analysis Writing*
+- **isu_ana_close_reading_advanced** | [Shin-ISU] Advanced Close Reading | *Advanced Analysis Writing*
+- **isu_ana_dialectical_notebooks** | [Shin-ISU] Dialectical Notebooks | *Advanced Analysis Writing*
+- **isu_ana_textual_evidence_interrogation** | [Shin-ISU] Interrogating Evidence | *Advanced Analysis Writing*
+- **isu_ana_deconstruction** | [Shin-ISU] Deconstruction | *Advanced Analysis Writing*
+- **isu_ana_synthesis_matrix** | [Shin-ISU] Synthesis Matrix | *Advanced Analysis Writing*
+- **isu_ana_structural_logic** | [Shin-ISU] Structural Logic | *Advanced Analysis Writing*
+- **isu_ana_claim_warrant_support** | [Shin-ISU] Claim, Warrant, & Support | *Advanced Analysis Writing*
+- **isu_ana_recursive_revision** | [Shin-ISU] Recursive Revision | *Advanced Analysis Writing*
+- **isu_ana_discursive_nuance** | [Shin-ISU] Discursive Nuance | *Advanced Analysis Writing*
+- **isu_ana_comparative_analysis** | [Shin-ISU] Comparative Analysis | *Advanced Analysis Writing*
+- **isu_ana_causal_analysis** | [Shin-ISU] Causal Analysis | *Advanced Analysis Writing*
+- **isu_ana_historical_contextualization** | [Shin-ISU] Contextualization | *Advanced Analysis Writing*
+- **isu_ana_rhetorical_analysis_advanced** | [Shin-ISU] Advanced Rhetorical Analysis | *Advanced Analysis Writing*
+- **isu_ana_interpretive_communities** | [Shin-ISU] Interpretive Communities | *Advanced Analysis Writing*
+- **isu_ana_synthesizing_dissent** | [Shin-ISU] Synthesizing Dissent | *Advanced Analysis Writing*
+- **isu_ana_identifying_gaps** | [Shin-ISU] Gap Identification | *Advanced Analysis Writing*
+- **isu_ana_interdisciplinary_synthesis** | [Shin-ISU] Interdisciplinary Synthesis | *Advanced Analysis Writing*
+- **isu_ana_evaluative_synthesis** | [Shin-ISU] Evaluative Synthesis | *Advanced Analysis Writing*
+- **isu_ana_theoretical_application** | [Shin-ISU] Theoretical Application | *Advanced Analysis Writing*
+- **isu_res_question_formulation** | [Shin-ISU] Research Question Formulation | *Advanced Research Writing*
+- **isu_res_literature_review** | [Shin-ISU] Literature Review | *Advanced Research Writing*
+- **isu_res_source_evaluation** | [Shin-ISU] Source Evaluation (CRAAP) | *Advanced Research Writing*
+- **isu_res_primary_secondary** | [Shin-ISU] Primary vs. Secondary Sources | *Advanced Research Writing*
+- **isu_res_annotated_bib** | [Shin-ISU] Annotated Bibliography | *Advanced Research Writing*
+- **isu_res_qualitative_methods** | [Shin-ISU] Qualitative Methodologies | *Advanced Research Writing*
+- **isu_res_quantitative_methods** | [Shin-ISU] Quantitative Methodologies | *Advanced Research Writing*
+- **isu_res_mixed_methods** | [Shin-ISU] Mixed Methods | *Advanced Research Writing*
+- **isu_res_data_integrity** | [Shin-ISU] Data Integrity & Ethics | *Advanced Research Writing*
+- **isu_res_citing_managing** | [Shin-ISU] Citation Management Systems | *Advanced Research Writing*
+- **isu_res_paper_architecture** | [Shin-ISU] Research Paper Architecture | *Advanced Research Writing*
+- **isu_res_argument_integration** | [Shin-ISU] Integrating Evidence | *Advanced Research Writing*
+- **isu_res_voice_academic** | [Shin-ISU] Developing Academic Voice | *Advanced Research Writing*
+- **isu_res_visualizing_research** | [Shin-ISU] Data Visualization | *Advanced Research Writing*
+- **isu_res_abstract_writing** | [Shin-ISU] Writing the Abstract | *Advanced Research Writing*
+- **isu_res_plagiarism_prevention** | [Shin-ISU] Plagiarism Prevention | *Advanced Research Writing*
+- **isu_res_intellectual_property** | [Shin-ISU] Intellectual Property (IP) | *Advanced Research Writing*
+- **isu_res_ethics_publication** | [Shin-ISU] Ethics of Publication | *Advanced Research Writing*
+- **isu_res_peer_review_dynamics** | [Shin-ISU] Peer Review Dynamics | *Advanced Research Writing*
+- **isu_res_research_rigor** | [Shin-ISU] Maintaining Research Rigor | *Advanced Research Writing*
+- **isu_arg_syllogism** | [Shin-ISU] Syllogistic Reasoning | *Argumentation*
+- **isu_arg_logical_fallacies** | [Shin-ISU] Logical Fallacies | *Argumentation*
+- **isu_arg_deduction_induction** | [Shin-ISU] Deduction vs. Induction | *Argumentation*
+- **isu_arg_abductive_reasoning** | [Shin-ISU] Abductive Reasoning | *Argumentation*
+- **isu_arg_warrants_assumptions** | [Shin-ISU] Warrants & Assumptions | *Argumentation*
+- **isu_arg_debate_formats** | [Shin-ISU] Debate Formats | *Argumentation*
+- **isu_arg_rebuttal_strategy** | [Shin-ISU] Rebuttal Strategy | *Argumentation*
+- **isu_arg_burden_of_proof** | [Shin-ISU] Burden of Proof | *Argumentation*
+- **isu_arg_flow_taking** | [Shin-ISU] Flow-Taking | *Argumentation*
+- **isu_arg_constructive_speech** | [Shin-ISU] Constructive Speeches | *Argumentation*
+- **isu_arg_steel_manning** | [Shin-ISU] Steel-Manning | *Argumentation*
+- **isu_arg_principle_charity** | [Shin-ISU] Principle of Charity | *Argumentation*
+- **isu_arg_civility_discourse** | [Shin-ISU] Civility in Discourse | *Argumentation*
+- **isu_arg_conflict_interest** | [Shin-ISU] Conflicts of Interest | *Argumentation*
+- **isu_arg_truth_seeking** | [Shin-ISU] Truth-Seeking vs. Winning | *Argumentation*
+- **isu_arg_dialectical_inquiry** | [Shin-ISU] Dialectical Inquiry | *Argumentation*
+- **isu_arg_frame_analysis** | [Shin-ISU] Frame Analysis | *Argumentation*
+- **isu_arg_strategic_ambiguity** | [Shin-ISU] Strategic Ambiguity | *Argumentation*
+- **isu_arg_argument_by_analogy** | [Shin-ISU] Argument by Analogy | *Argumentation*
+- **isu_arg_meta_argumentation** | [Shin-ISU] Meta-Argumentation | *Argumentation*
+- **isu_comm_active_listening** | [Shin-ISU] Active Listening | *Communication Interpersonal*
+- **isu_comm_nonverbal_cues** | [Shin-ISU] Nonverbal Communication | *Communication Interpersonal*
+- **isu_comm_empathy_perspective** | [Shin-ISU] Empathy & Perspective-Taking | *Communication Interpersonal*
+- **isu_comm_i_statements** | [Shin-ISU] 'I' Statements | *Communication Interpersonal*
+- **isu_comm_feedback_loops** | [Shin-ISU] Feedback Loops | *Communication Interpersonal*
+- **isu_comm_conflict_resolution** | [Shin-ISU] Conflict Resolution | *Communication Interpersonal*
+- **isu_comm_assertiveness** | [Shin-ISU] Assertiveness vs. Aggression | *Communication Interpersonal*
+- **isu_comm_boundaries** | [Shin-ISU] Setting Boundaries | *Communication Interpersonal*
+- **isu_comm_disclosure_theory** | [Shin-ISU] Self-Disclosure | *Communication Interpersonal*
+- **isu_comm_relational_maintenance** | [Shin-ISU] Relational Maintenance | *Communication Interpersonal*
+- **isu_comm_interest_based_negotiation** | [Shin-ISU] Interest-Based Negotiation | *Communication Interpersonal*
+- **isu_comm_de_escalation** | [Shin-ISU] De-escalation Techniques | *Communication Interpersonal*
+- **isu_comm_difficult_conversations** | [Shin-ISU] Difficult Conversations | *Communication Interpersonal*
+- **isu_comm_mediator_role** | [Shin-ISU] Mediation Skills | *Communication Interpersonal*
+- **isu_comm_forgiveness_reconciliation** | [Shin-ISU] Forgiveness & Reconciliation | *Communication Interpersonal*
+- **isu_comm_intercultural_competence** | [Shin-ISU] Intercultural Competence | *Communication Interpersonal*
+- **isu_comm_digital_mediated** | [Shin-ISU] Computer-Mediated Communication | *Communication Interpersonal*
+- **isu_comm_group_dynamics** | [Shin-ISU] Group Communication Dynamics | *Communication Interpersonal*
+- **isu_comm_professional_boundaries** | [Shin-ISU] Professional Communication | *Communication Interpersonal*
+- **isu_comm_perception_checking** | [Shin-ISU] Perception Checking | *Communication Interpersonal*
+- **isu_pub_audience_analysis** | [Shin-ISU] Audience Analysis (Public) | *Communication Public*
+- **isu_pub_speech_structure** | [Shin-ISU] Speech Architecture | *Communication Public*
+- **isu_pub_delivery_techniques** | [Shin-ISU] Delivery Techniques | *Communication Public*
+- **isu_pub_rhetorical_appeals** | [Shin-ISU] Rhetorical Appeals in Speech | *Communication Public*
+- **isu_pub_visual_aids** | [Shin-ISU] Visual Aids & Media | *Communication Public*
+- **isu_pub_persuasive_strategies** | [Shin-ISU] Persuasive Speech Strategies | *Communication Public*
+- **isu_pub_storytelling_oral** | [Shin-ISU] Oral Storytelling | *Communication Public*
+- **isu_pub_informative_speech** | [Shin-ISU] Informative Speech Design | *Communication Public*
+- **isu_pub_impromptu_extemp** | [Shin-ISU] Impromptu & Extemporaneous | *Communication Public*
+- **isu_pub_audience_feedback** | [Shin-ISU] Managing Audience Dynamics | *Communication Public*
+- **isu_pub_crisis_comm** | [Shin-ISU] Crisis Communication | *Communication Public*
+- **isu_pub_q_a_management** | [Shin-ISU] Managing Q&A Sessions | *Communication Public*
+- **isu_pub_debate_public** | [Shin-ISU] Debate in Public Forums | *Communication Public*
+- **isu_pub_legal_testimony_public** | [Shin-ISU] Public Testimony | *Communication Public*
+- **isu_pub_media_interviewing** | [Shin-ISU] Media Interviewing | *Communication Public*
+- **isu_pub_rhetorical_ethics_public** | [Shin-ISU] Ethics of Public Influence | *Communication Public*
+- **isu_psy_erikson_stages** | [Shin-ISU] Erikson's Psychosocial Stages | *Psychology*
+- **isu_psy_piaget_cognitive** | [Shin-ISU] Piaget's Cognitive Development | *Psychology*
+- **isu_psy_big_five** | [Shin-ISU] Big Five Personality Traits | *Psychology*
+- **isu_psy_social_learning** | [Shin-ISU] Social Learning Theory | *Psychology*
+- **isu_psy_maslow_hierarchy** | [Shin-ISU] Maslow's Hierarchy of Needs | *Psychology*
+- **isu_psy_cognitive_dissonance** | [Shin-ISU] Cognitive Dissonance | *Psychology*
+- **isu_psy_fundamental_attribution** | [Shin-ISU] Fundamental Attribution Error | *Psychology*
+- **isu_psy_learned_helplessness** | [Shin-ISU] Learned Helplessness | *Psychology*
+- **isu_psy_flow_state** | [Shin-ISU] Flow State | *Psychology*
+- **isu_psy_internal_external_locus** | [Shin-ISU] Locus of Control | *Psychology*
+- **isu_psy_social_identity** | [Shin-ISU] Social Identity Theory | *Psychology*
+- **isu_psy_milgram_obedience** | [Shin-ISU] Milgram Experiment | *Psychology*
+- **isu_psy_bystander_effect** | [Shin-ISU] Bystander Effect | *Psychology*
+- **isu_psy_neurotransmitters** | [Shin-ISU] Neurotransmitters | *Psychology*
+- **isu_psy_limbic_system** | [Shin-ISU] Limbic System | *Psychology*
+- **isu_psy_prefrontal_cortex** | [Shin-ISU] Prefrontal Cortex (PFC) | *Psychology*
+- **isu_psy_mirror_neurons** | [Shin-ISU] Mirror Neurons | *Psychology*
+- **isu_psy_endocrine_system** | [Shin-ISU] Endocrine System | *Psychology*
+- **isu_psy_hebbian_learning** | [Shin-ISU] Hebbian Theory | *Psychology*
+- **isu_psy_circadian_rhythms** | [Shin-ISU] Circadian Rhythms | *Psychology*
+- **isu_psy_diagnostic_manuals** | [Shin-ISU] Diagnostic Manuals (DSM/ICD) | *Psychology*
+- **isu_psy_research_methodology** | [Shin-ISU] Scientific Method in Psych | *Psychology*
+- **isu_psy_ethical_guidelines** | [Shin-ISU] Ethical Guidelines | *Psychology*
+- **isu_psy_reliability_validity** | [Shin-ISU] Reliability & Validity | *Psychology*
+- **isu_psy_standardized_testing** | [Shin-ISU] Standardized Testing | *Psychology*
+- **isu_psy_statistical_significance** | [Shin-ISU] Statistical Significance | *Psychology*
+- **isu_psy_abnormal_psych** | [Shin-ISU] Abnormal Psychology | *Psychology*
+- **isu_psy_biopsych_assessment** | [Shin-ISU] Biopsychosocial Assessment | *Psychology*
+- **isu_psy_psychopharmacology** | [Shin-ISU] Psychopharmacology | *Psychology*
+- **isu_psy_case_study_method** | [Shin-ISU] Case Study Method | *Psychology*
+- **isu_psy_executive_function** | [Shin-ISU] Executive Function | *Psychology*
+- **isu_psy_metacognition** | [Shin-ISU] Metacognition | *Psychology*
+- **isu_psy_implicit_bias** | [Shin-ISU] Implicit Bias | *Psychology*
+- **isu_psy_positive_psychology** | [Shin-ISU] Positive Psychology | *Psychology*
+- **isu_psy_neuroaesthetics** | [Shin-ISU] Neuroaesthetics | *Psychology*
+- **isu_psy_dual_process_theory** | [Shin-ISU] Dual Process Theory | *Psychology*
+- **isu_psy_attachment_adult** | [Shin-ISU] Adult Attachment Theory | *Psychology*
+- **isu_psy_embodied_cognition** | [Shin-ISU] Embodied Cognition | *Psychology*
+- **isu_psy_psychoneuroimmunology** | [Shin-ISU] Psychoneuroimmunology | *Psychology*
+- **isu_psy_epigenetics** | [Shin-ISU] Epigenetics in Psychology | *Psychology*
+- **isu_psy_computational_psych** | [Shin-ISU] Computational Psychology | *Psychology*
+- **isu_psy_cultural_psych** | [Shin-ISU] Cultural Psychology | *Psychology*
+- **isu_psy_telehealth_psych** | [Shin-ISU] Telehealth & Digital Psych | *Psychology*
+- **isu_psy_evolutionary_psych** | [Shin-ISU] Evolutionary Psychology | *Psychology*
+- **isu_psy_integrative_therapy** | [Shin-ISU] Integrative Psychotherapy | *Psychology*
+- **isu_ther_therapeutic_alliance** | [Shin-ISU] Therapeutic Alliance | *Talk Therapy*
+- **isu_ther_psychoanalysis_foundations** | [Shin-ISU] Psychoanalytic Foundations | *Talk Therapy*
+- **isu_ther_cbt_foundations** | [Shin-ISU] Cognitive Behavioral Therapy (CBT) | *Talk Therapy*
+- **isu_ther_person_centered** | [Shin-ISU] Person-Centered Therapy | *Talk Therapy*
+- **isu_ther_dbt_introduction** | [Shin-ISU] Dialectical Behavior Therapy (DBT) | *Talk Therapy*
+- **isu_ther_exposure_therapy** | [Shin-ISU] Exposure Therapy | *Talk Therapy*
+- **isu_ther_family_systems** | [Shin-ISU] Family Systems Therapy | *Talk Therapy*
+- **isu_ther_existential_therapy** | [Shin-ISU] Existential Therapy | *Talk Therapy*
+- **isu_ther_act_therapy** | [Shin-ISU] Acceptance and Commitment Therapy (ACT) | *Talk Therapy*
+- **isu_ther_motivational_interviewing** | [Shin-ISU] Motivational Interviewing | *Talk Therapy*
+- **isu_ther_trauma_informed_care** | [Shin-ISU] Trauma-Informed Care | *Talk Therapy*
+- **isu_ther_somatic_experiencing** | [Shin-ISU] Somatic Experiencing | *Talk Therapy*
+- **isu_ther_emdr_foundations** | [Shin-ISU] EMDR Therapy | *Talk Therapy*
+- **isu_ther_polyvagal_informed** | [Shin-ISU] Polyvagal-Informed Therapy | *Talk Therapy*
+- **isu_ther_internal_family_systems** | [Shin-ISU] Internal Family Systems (IFS) | *Talk Therapy*
+- **isu_ther_transference** | [Shin-ISU] Transference | *Talk Therapy*
+- **isu_ther_countertransference** | [Shin-ISU] Countertransference | *Talk Therapy*
+- **isu_ther_clinical_boundaries** | [Shin-ISU] Clinical Boundaries | *Talk Therapy*
+- **isu_ther_informed_consent_clinical** | [Shin-ISU] Informed Consent in Therapy | *Talk Therapy*
+- **isu_ther_supervision_consultation** | [Shin-ISU] Supervision & Consultation | *Talk Therapy*
+- **isu_ther_group_therapy_dynamics** | [Shin-ISU] Group Therapy Dynamics | *Talk Therapy*
+- **isu_ther_couples_therapy_eft** | [Shin-ISU] Emotionally Focused Therapy (EFT) | *Talk Therapy*
+- **isu_ther_play_therapy** | [Shin-ISU] Play Therapy | *Talk Therapy*
+- **isu_ther_brief_solution_focused** | [Shin-ISU] Solution-Focused Brief Therapy | *Talk Therapy*
+- **isu_ther_narrative_therapy** | [Shin-ISU] Narrative Therapy | *Talk Therapy*
+- **isu_ther_digital_therapeutics** | [Shin-ISU] Digital Therapeutics (DTx) | *Talk Therapy*
+- **isu_ther_global_mental_health** | [Shin-ISU] Global Mental Health | *Talk Therapy*
+- **isu_ther_neurofeedback** | [Shin-ISU] Neurofeedback | *Talk Therapy*
+- **isu_ther_therapeutic_ai_ethics** | [Shin-ISU] AI in Psychotherapy Ethics | *Talk Therapy*
+- **isu_ther_professional_longevity** | [Shin-ISU] Professional Longevity & Burnout | *Talk Therapy*
+- **isu_trau_definition** | [Shin-ISU] Definition of Trauma | *Trauma Awareness*
+- **isu_trau_neurobiology_stress** | [Shin-ISU] Neurobiology of Stress | *Trauma Awareness*
+- **isu_trau_window_of_tolerance** | [Shin-ISU] Window of Tolerance | *Trauma Awareness*
+- **isu_trau_fight_flight_freeze** | [Shin-ISU] Fight, Flight, Freeze, Fawn | *Trauma Awareness*
+- **isu_trau_adverse_childhood_experiences** | [Shin-ISU] Adverse Childhood Experiences (ACEs) | *Trauma Awareness*
+- **isu_trau_cptsd** | [Shin-ISU] Complex PTSD (C-PTSD) | *Trauma Awareness*
+- **isu_trau_attachment_trauma** | [Shin-ISU] Attachment Trauma | *Trauma Awareness*
+- **isu_trau_dissociation** | [Shin-ISU] Dissociation | *Trauma Awareness*
+- **isu_trau_intergenerational** | [Shin-ISU] Intergenerational Trauma | *Trauma Awareness*
+- **isu_trau_moral_injury** | [Shin-ISU] Moral Injury | *Trauma Awareness*
+- **isu_trau_somatic_resourcing** | [Shin-ISU] Somatic Resourcing | *Trauma Awareness*
+- **isu_trau_titration_pendulation** | [Shin-ISU] Titration & Pendulation | *Trauma Awareness*
+- **isu_trau_nervous_system_regulation** | [Shin-ISU] Nervous System Regulation | *Trauma Awareness*
+- **isu_trau_interoception** | [Shin-ISU] Interoception | *Trauma Awareness*
+- **isu_trau_neuroception** | [Shin-ISU] Neuroception | *Trauma Awareness*
+- **isu_trau_phase_oriented_treatment** | [Shin-ISU] Phase-Oriented Treatment | *Trauma Awareness*
+- **isu_trau_bottom_up_processing** | [Shin-ISU] Bottom-Up Processing | *Trauma Awareness*
+- **isu_trau_post_traumatic_growth** | [Shin-ISU] Post-Traumatic Growth (PTG) | *Trauma Awareness*
+- **isu_trau_containment_strategies** | [Shin-ISU] Containment Strategies | *Trauma Awareness*
+- **isu_trau_relational_healing** | [Shin-ISU] Relational Healing | *Trauma Awareness*
+- **isu_trau_systemic_oppression** | [Shin-ISU] Systemic Oppression Trauma | *Trauma Awareness*
+- **isu_trau_historical_trauma** | [Shin-ISU] Historical Trauma | *Trauma Awareness*
+- **isu_trau_vicarious_trauma** | [Shin-ISU] Vicarious Trauma | *Trauma Awareness*
+- **isu_trau_community_resilience** | [Shin-ISU] Community Resilience | *Trauma Awareness*
+- **isu_trau_refugee_migration_trauma** | [Shin-ISU] Migration & Acculturation Trauma | *Trauma Awareness*
+- **isu_trau_psychedelic_assisted** | [Shin-ISU] Psychedelic-Assisted Therapy | *Trauma Awareness*
+- **isu_trau_virtual_reality_exposure** | [Shin-ISU] VR Exposure Therapy (VRET) | *Trauma Awareness*
+- **isu_trau_biomarkers_trauma** | [Shin-ISU] Trauma Biomarkers | *Trauma Awareness*
+- **isu_trau_digital_phenotyping** | [Shin-ISU] Digital Phenotyping | *Trauma Awareness*
+- **isu_trau_integrative_trauma_care** | [Shin-ISU] Integrative Trauma Care | *Trauma Awareness*
+- **isu_cog_definition** | [Shin-ISU] Cognitive Science | *Cognitive Science*
+- **isu_cog_information_processing** | [Shin-ISU] Information Processing Model | *Cognitive Science*
+- **isu_cog_perception_mechanisms** | [Shin-ISU] Perception Mechanisms | *Cognitive Science*
+- **isu_cog_attention_theories** | [Shin-ISU] Attention Theories | *Cognitive Science*
+- **isu_cog_memory_systems** | [Shin-ISU] Memory Systems | *Cognitive Science*
+- **isu_cog_language_acquisition** | [Shin-ISU] Language Acquisition | *Cognitive Science*
+- **isu_cog_conceptual_categorization** | [Shin-ISU] Conceptual Categorization | *Cognitive Science*
+- **isu_cog_mental_models** | [Shin-ISU] Mental Models | *Cognitive Science*
+- **isu_cog_semantic_networks** | [Shin-ISU] Semantic Networks | *Cognitive Science*
+- **isu_cog_symbolic_representation** | [Shin-ISU] Symbolic Representation | *Cognitive Science*
+- **isu_cog_heuristics_biases** | [Shin-ISU] Heuristics & Biases | *Cognitive Science*
+- **isu_cog_prospect_theory** | [Shin-ISU] Prospect Theory | *Cognitive Science*
+- **isu_cog_dual_process_theory_cog** | [Shin-ISU] Dual Process Theory (Cognitive) | *Cognitive Science*
+- **isu_cog_deductive_inductive_reasoning** | [Shin-ISU] Deductive vs. Inductive Reasoning | *Cognitive Science*
+- **isu_cog_bounded_rationality** | [Shin-ISU] Bounded Rationality | *Cognitive Science*
+- **isu_cog_embodied_cognition** | [Shin-ISU] Embodied Cognition | *Cognitive Science*
+- **isu_cog_theory_of_mind** | [Shin-ISU] Theory of Mind (ToM) | *Cognitive Science*
+- **isu_cog_social_cognition** | [Shin-ISU] Social Cognition | *Cognitive Science*
+- **isu_cog_mirror_neurons** | [Shin-ISU] Mirror Neurons | *Cognitive Science*
+- **isu_cog_situated_cognition** | [Shin-ISU] Situated Cognition | *Cognitive Science*
+- **isu_cog_connectionism** | [Shin-ISU] Connectionism | *Cognitive Science*
+- **isu_cog_neural_networks** | [Shin-ISU] Artificial Neural Networks | *Cognitive Science*
+- **isu_cog_computational_limitations** | [Shin-ISU] Computational Limits of the Mind | *Cognitive Science*
+- **isu_cog_cognitive_architecture** | [Shin-ISU] Cognitive Architecture | *Cognitive Science*
+- **isu_cog_predictive_processing** | [Shin-ISU] Predictive Processing | *Cognitive Science*
+- **isu_cog_hard_problem_consciousness** | [Shin-ISU] The Hard Problem | *Cognitive Science*
+- **isu_cog_global_workspace_theory** | [Shin-ISU] Global Workspace Theory | *Cognitive Science*
+- **isu_cog_human_machine_integration** | [Shin-ISU] Human-Machine Integration | *Cognitive Science*
+- **isu_cog_integrated_information_theory** | [Shin-ISU] Integrated Information Theory (IIT) | *Cognitive Science*
+- **isu_cog_neuroethics** | [Shin-ISU] Neuroethics | *Cognitive Science*
+- **isu_phil_definition** | [Shin-ISU] What is Philosophy? | *Philosophy*
+- **isu_phil_metaphysics** | [Shin-ISU] Metaphysics | *Philosophy*
+- **isu_phil_epistemology** | [Shin-ISU] Epistemology | *Philosophy*
+- **isu_phil_ontology** | [Shin-ISU] Ontology | *Philosophy*
+- **isu_phil_pre_socratics** | [Shin-ISU] Pre-Socratic Philosophy | *Philosophy*
+- **isu_phil_plato_forms** | [Shin-ISU] Plato’s Theory of Forms | *Philosophy*
+- **isu_phil_aristotelian_logic** | [Shin-ISU] Aristotelian Essentialism | *Philosophy*
+- **isu_phil_rationalism_vs_empiricism** | [Shin-ISU] Rationalism vs. Empiricism | *Philosophy*
+- **isu_phil_solipsism** | [Shin-ISU] Solipsism | *Philosophy*
+- **isu_phil_dualism** | [Shin-ISU] Mind-Body Dualism | *Philosophy*
+- **isu_phil_ethics_intro** | [Shin-ISU] Introduction to Ethics | *Philosophy*
+- **isu_phil_utilitarianism** | [Shin-ISU] Utilitarianism | *Philosophy*
+- **isu_phil_deontology** | [Shin-ISU] Deontology | *Philosophy*
+- **isu_phil_virtue_ethics** | [Shin-ISU] Virtue Ethics | *Philosophy*
+- **isu_phil_moral_relativism** | [Shin-ISU] Moral Relativism | *Philosophy*
+- **isu_phil_social_contract** | [Shin-ISU] Social Contract Theory | *Philosophy*
+- **isu_phil_existentialism_ethics** | [Shin-ISU] Existentialist Ethics | *Philosophy*
+- **isu_phil_nihilism** | [Shin-ISU] Nihilism | *Philosophy*
+- **isu_phil_care_ethics** | [Shin-ISU] Ethics of Care | *Philosophy*
+- **isu_phil_axiology** | [Shin-ISU] Axiology | *Philosophy*
+- **isu_phil_ethics_intro** | [Shin-ISU] Introduction to Ethics | *Philosophy*
+- **isu_phil_utilitarianism** | [Shin-ISU] Utilitarianism | *Philosophy*
+- **isu_phil_deontology** | [Shin-ISU] Deontology | *Philosophy*
+- **isu_phil_virtue_ethics** | [Shin-ISU] Virtue Ethics | *Philosophy*
+- **isu_phil_moral_relativism** | [Shin-ISU] Moral Relativism | *Philosophy*
+- **isu_phil_social_contract** | [Shin-ISU] Social Contract Theory | *Philosophy*
+- **isu_phil_existentialism_ethics** | [Shin-ISU] Existentialist Ethics | *Philosophy*
+- **isu_phil_nihilism** | [Shin-ISU] Nihilism | *Philosophy*
+- **isu_phil_care_ethics** | [Shin-ISU] Ethics of Care | *Philosophy*
+- **isu_phil_axiology** | [Shin-ISU] Axiology | *Philosophy*
+- **isu_phil_formal_logic** | [Shin-ISU] Formal Logic | *Philosophy*
+- **isu_phil_informal_fallacies** | [Shin-ISU] Informal Fallacies | *Philosophy*
+- **isu_phil_philosophy_of_language** | [Shin-ISU] Philosophy of Language | *Philosophy*
+- **isu_phil_speech_act_theory** | [Shin-ISU] Speech Act Theory | *Philosophy*
+- **isu_phil_analytic_vs_continental** | [Shin-ISU] Analytic vs. Continental | *Philosophy*
+- **isu_phil_consciousness_problem** | [Shin-ISU] Philosophy of Mind | *Philosophy*
+- **isu_phil_functionalism** | [Shin-ISU] Functionalism | *Philosophy*
+- **isu_phil_physicalism** | [Shin-ISU] Physicalism | *Philosophy*
+- **isu_phil_qualitative_experience** | [Shin-ISU] Qualia | *Philosophy*
+- **isu_phil_personal_identity** | [Shin-ISU] Personal Identity | *Philosophy*
+- **isu_phil_justice_theories** | [Shin-ISU] Theories of Justice | *Philosophy*
+- **isu_phil_liberty_theory** | [Shin-ISU] Theories of Liberty | *Philosophy*
+- **isu_phil_marxism_philosophy** | [Shin-ISU] Marxist Philosophy | *Philosophy*
+- **isu_phil_feminist_philosophy** | [Shin-ISU] Feminist Philosophy | *Philosophy*
+- **isu_phil_postmodernism** | [Shin-ISU] Postmodernism | *Philosophy*
+- **isu_phil_phenomenology** | [Shin-ISU] Phenomenology | *Philosophy*
+- **isu_phil_hermeneutics** | [Shin-ISU] Hermeneutics | *Philosophy*
+- **isu_phil_critical_theory** | [Shin-ISU] Critical Theory | *Philosophy*
+- **isu_phil_philosophy_of_history** | [Shin-ISU] Philosophy of History | *Philosophy*
+- **isu_phil_structure_of_scientific_revolutions** | [Shin-ISU] Scientific Paradigms | *Philosophy*
+- **isu_phil_transhumanism** | [Shin-ISU] Transhumanism | *Philosophy*
+- **isu_phil_digital_ethics** | [Shin-ISU] Digital Ethics | *Philosophy*
+- **isu_phil_environmental_philosophy** | [Shin-ISU] Environmental Philosophy | *Philosophy*
+- **isu_phil_philosophy_of_ai** | [Shin-ISU] Philosophy of Artificial Intelligence | *Philosophy*
+- **isu_phil_political_globalization** | [Shin-ISU] Political Globalization | *Philosophy*
+- **isu_phil_virtue_epistemology** | [Shin-ISU] Virtue Epistemology | *Philosophy*
+- **isu_phil_meaning_of_life** | [Shin-ISU] Meaning of Life | *Philosophy*
+- **isu_phil_pessimism_philosophy** | [Shin-ISU] Philosophical Pessimism | *Philosophy*
+- **isu_phil_structuralism** | [Shin-ISU] Structuralism | *Philosophy*
+- **isu_phil_future_of_philosophy** | [Shin-ISU] Future of Philosophy | *Philosophy*
+- **isu_log_def** | [Shin-ISU] Definition of Logic | *Logic*
+- **isu_log_proposition** | [Shin-ISU] Propositions | *Logic*
+- **isu_log_truth_values** | [Shin-ISU] Truth Values | *Logic*
+- **isu_log_negation** | [Shin-ISU] Negation (NOT) | *Logic*
+- **isu_log_conjunction** | [Shin-ISU] Conjunction (AND) | *Logic*
+- **isu_log_disjunction** | [Shin-ISU] Disjunction (OR) | *Logic*
+- **isu_log_implication** | [Shin-ISU] Material Implication (IF-THEN) | *Logic*
+- **isu_log_tautology** | [Shin-ISU] Tautologies | *Logic*
+- **isu_log_contradiction** | [Shin-ISU] Contradictions | *Logic*
+- **isu_log_argument_validity** | [Shin-ISU] Validity vs. Soundness | *Logic*
+- **isu_log_predicate_logic** | [Shin-ISU] Predicate Logic | *Logic*
+- **isu_log_quantifiers** | [Shin-ISU] Quantifiers (Universal & Existential) | *Logic*
+- **isu_log_modal_logic** | [Shin-ISU] Modal Logic | *Logic*
+- **isu_log_possible_worlds** | [Shin-ISU] Possible Worlds Semantics | *Logic*
+- **isu_log_deontic_logic** | [Shin-ISU] Deontic Logic | *Logic*
+- **isu_log_epistemic_logic** | [Shin-ISU] Epistemic Logic | *Logic*
+- **isu_log_temporal_logic** | [Shin-ISU] Temporal Logic | *Logic*
+- **isu_log_induction** | [Shin-ISU] Inductive Logic | *Logic*
+- **isu_log_abduction** | [Shin-ISU] Abductive Logic (Inference to Best Explanation) | *Logic*
+- **isu_log_godel_incompleteness** | [Shin-ISU] Gödel's Incompleteness Theorems | *Logic*
+- **isu_log_argumentation_theory** | [Shin-ISU] Argumentation Theory | *Logic*
+- **isu_log_rhetoric_logic** | [Shin-ISU] Logic in Rhetoric | *Logic*
+- **isu_log_critical_thinking** | [Shin-ISU] Critical Thinking | *Logic*
+- **isu_log_problem_solving** | [Shin-ISU] Logical Problem Solving | *Logic*
+- **isu_log_legal_reasoning** | [Shin-ISU] Legal Reasoning | *Logic*
+- **isu_log_scientific_method_logic** | [Shin-ISU] Logic of Discovery | *Logic*
+- **isu_log_game_theory_logic** | [Shin-ISU] Logic in Game Theory | *Logic*
+- **isu_log_fuzzy_logic** | [Shin-ISU] Fuzzy Logic | *Logic*
+- **isu_log_logic_programming** | [Shin-ISU] Logic Programming | *Logic*
+- **isu_log_future_logic** | [Shin-ISU] The Future of Logic | *Logic*
+- **isu_eth_metaethics** | [Shin-ISU] Meta-ethics | *Ethics*
+- **isu_eth_moral_realism** | [Shin-ISU] Moral Realism | *Ethics*
+- **isu_eth_moral_anti_realism** | [Shin-ISU] Moral Anti-Realism | *Ethics*
+- **isu_eth_consequentialism** | [Shin-ISU] Consequentialism | *Ethics*
+- **isu_eth_deontology_adv** | [Shin-ISU] Kantian Deontology | *Ethics*
+- **isu_eth_virtue_ethics_adv** | [Shin-ISU] Virtue Ethics (Neo-Aristotelian) | *Ethics*
+- **isu_eth_contractarianism** | [Shin-ISU] Contractarianism | *Ethics*
+- **isu_eth_divine_command** | [Shin-ISU] Divine Command Theory | *Ethics*
+- **isu_eth_natural_law** | [Shin-ISU] Natural Law Theory | *Ethics*
+- **isu_eth_ethics_of_care_adv** | [Shin-ISU] Ethics of Care (Relational) | *Ethics*
+- **isu_eth_bioethics** | [Shin-ISU] Bioethics | *Ethics*
+- **isu_eth_ai_ethics** | [Shin-ISU] AI Ethics | *Ethics*
+- **isu_eth_data_privacy** | [Shin-ISU] Data Privacy Ethics | *Ethics*
+- **isu_eth_environmental_ethics** | [Shin-ISU] Environmental Ethics | *Ethics*
+- **isu_eth_business_ethics** | [Shin-ISU] Business Ethics | *Ethics*
+- **isu_eth_neuroethics_applied** | [Shin-ISU] Neuroethics (Applied) | *Ethics*
+- **isu_eth_global_justice** | [Shin-ISU] Ethics of Global Justice | *Ethics*
+- **isu_eth_information_ethics** | [Shin-ISU] Information Ethics | *Ethics*
+- **isu_eth_media_ethics** | [Shin-ISU] Media Ethics | *Ethics*
+- **isu_eth_professional_ethics** | [Shin-ISU] Professional Ethics | *Ethics*
+- **isu_eth_moral_psychology** | [Shin-ISU] Moral Psychology | *Ethics*
+- **isu_eth_social_justice** | [Shin-ISU] Social Justice | *Ethics*
+- **isu_eth_distributive_justice** | [Shin-ISU] Distributive Justice | *Ethics*
+- **isu_eth_restorative_justice** | [Shin-ISU] Restorative Justice | *Ethics*
+- **isu_eth_moral_luck** | [Shin-ISU] Moral Luck | *Ethics*
+- **isu_eth_moral_status** | [Shin-ISU] Moral Status | *Ethics*
+- **isu_eth_agency_responsibility** | [Shin-ISU] Moral Agency & Responsibility | *Ethics*
+- **isu_eth_ethics_of_dissent** | [Shin-ISU] Ethics of Dissent | *Ethics*
+- **isu_eth_virtue_cultivation** | [Shin-ISU] Cultivating Moral Character | *Ethics*
+- **isu_eth_future_of_ethics** | [Shin-ISU] The Future of Ethics | *Ethics*
+- **isu_hist_methodology** | [Shin-ISU] Historical Methodology | *History*
+- **isu_hist_historiography** | [Shin-ISU] Historiography | *History*
+- **isu_hist_archaeology_link** | [Shin-ISU] Archaeology & History | *History*
+- **isu_hist_civilization_origins** | [Shin-ISU] Origins of Civilization | *History*
+- **isu_hist_sumer_mesopotamia** | [Shin-ISU] Ancient Mesopotamia | *History*
+- **isu_hist_ancient_egypt** | [Shin-ISU] Ancient Egypt | *History*
+- **isu_hist_classical_greece** | [Shin-ISU] Classical Greece | *History*
+- **isu_hist_roman_empire** | [Shin-ISU] The Roman Empire | *History*
+- **isu_hist_silk_road** | [Shin-ISU] The Silk Road | *History*
+- **isu_hist_han_dynasty** | [Shin-ISU] The Han Dynasty | *History*
+- **isu_hist_fall_of_rome** | [Shin-ISU] Fall of Rome | *History*
+- **isu_hist_byzantine_empire** | [Shin-ISU] The Byzantine Empire | *History*
+- **isu_hist_islamic_golden_age** | [Shin-ISU] The Islamic Golden Age | *History*
+- **isu_hist_feudalism** | [Shin-ISU] Feudalism | *History*
+- **isu_hist_mongol_empire** | [Shin-ISU] The Mongol Empire | *History*
+- **isu_hist_renaissance** | [Shin-ISU] The Renaissance | *History*
+- **isu_hist_age_of_discovery** | [Shin-ISU] The Age of Discovery | *History*
+- **isu_hist_protestant_reformation** | [Shin-ISU] The Reformation | *History*
+- **isu_hist_scientific_revolution** | [Shin-ISU] The Scientific Revolution | *History*
+- **isu_hist_colonialism** | [Shin-ISU] Colonialism & Imperialism | *History*
+- **isu_hist_enlightenment** | [Shin-ISU] The Enlightenment | *History*
+- **isu_hist_industrial_rev** | [Shin-ISU] Industrial Revolution | *History*
+- **isu_hist_french_revolution** | [Shin-ISU] The French Revolution | *History*
+- **isu_hist_nation_state_rise** | [Shin-ISU] The Rise of the Nation-State | *History*
+- **isu_hist_imperialism_high** | [Shin-ISU] High Imperialism | *History*
+- **isu_hist_wwi** | [Shin-ISU] World War I | *History*
+- **isu_hist_russian_revolution** | [Shin-ISU] The Russian Revolution | *History*
+- **isu_hist_great_depression** | [Shin-ISU] The Great Depression | *History*
+- **isu_hist_wwii** | [Shin-ISU] World War II | *History*
+- **isu_hist_decolonization** | [Shin-ISU] Decolonization | *History*
+- **isu_art_def** | [Shin-ISU] Definition of Art | *Art*
+- **isu_art_aesthetics** | [Shin-ISU] Aesthetics | *Art*
+- **isu_art_paleolithic_art** | [Shin-ISU] Prehistoric Art | *Art*
+- **isu_art_mesopotamian_art** | [Shin-ISU] Mesopotamian & Egyptian Art | *Art*
+- **isu_art_classical_greek** | [Shin-ISU] Classical Greek Art | *Art*
+- **isu_art_roman_realism** | [Shin-ISU] Roman Art & Realism | *Art*
+- **isu_art_byzantine_iconography** | [Shin-ISU] Byzantine Iconography | *Art*
+- **isu_art_islamic_aniconism** | [Shin-ISU] Islamic Art & Aniconism | *Art*
+- **isu_art_gothic_architecture** | [Shin-ISU] Gothic Architecture | *Art*
+- **isu_art_renaissance_perspective** | [Shin-ISU] Renaissance Perspective | *Art*
+- **isu_art_photography_impact** | [Shin-ISU] The Photography Impact | *Art*
+- **isu_art_impressionism** | [Shin-ISU] Impressionism | *Art*
+- **isu_art_post_impressionism** | [Shin-ISU] Post-Impressionism | *Art*
+- **isu_art_cubism** | [Shin-ISU] Cubism | *Art*
+- **isu_art_expressionism** | [Shin-ISU] Expressionism | *Art*
+- **isu_art_dadaism** | [Shin-ISU] Dadaism | *Art*
+- **isu_art_surrealism** | [Shin-ISU] Surrealism | *Art*
+- **isu_art_abstract_expressionism** | [Shin-ISU] Abstract Expressionism | *Art*
+- **isu_art_pop_art** | [Shin-ISU] Pop Art | *Art*
+- **isu_art_minimalism** | [Shin-ISU] Minimalism | *Art*
+- **isu_art_photography_impact** | [Shin-ISU] The Photography Impact | *Art*
+- **isu_art_impressionism** | [Shin-ISU] Impressionism | *Art*
+- **isu_art_post_impressionism** | [Shin-ISU] Post-Impressionism | *Art*
+- **isu_art_cubism** | [Shin-ISU] Cubism | *Art*
+- **isu_art_expressionism** | [Shin-ISU] Expressionism | *Art*
+- **isu_art_dadaism** | [Shin-ISU] Dadaism | *Art*
+- **isu_art_surrealism** | [Shin-ISU] Surrealism | *Art*
+- **isu_art_abstract_expressionism** | [Shin-ISU] Abstract Expressionism | *Art*
+- **isu_art_pop_art** | [Shin-ISU] Pop Art | *Art*
+- **isu_art_minimalism** | [Shin-ISU] Minimalism | *Art*
+- **isu_art_conceptualism** | [Shin-ISU] Conceptual Art | *Art*
+- **isu_art_performance** | [Shin-ISU] Performance Art | *Art*
+- **isu_art_feminist_art** | [Shin-ISU] Feminist Art Movement | *Art*
+- **isu_art_postmodern_art** | [Shin-ISU] Postmodern Art | *Art*
+- **isu_art_digital_art** | [Shin-ISU] Digital Art | *Art*
+- **isu_art_net_art** | [Shin-ISU] Net Art | *Art*
+- **isu_art_generative_art** | [Shin-ISU] Generative Art | *Art*
+- **isu_art_institutional_critique** | [Shin-ISU] Institutional Critique | *Art*
+- **isu_art_social_practice** | [Shin-ISU] Social Practice Art | *Art*
+- **isu_art_future_aesthetics** | [Shin-ISU] Future of Aesthetics | *Art*
+- **isu_art_conceptualism** | [Shin-ISU] Conceptual Art | *Art*
+- **isu_art_performance** | [Shin-ISU] Performance Art | *Art*
+- **isu_art_feminist_art** | [Shin-ISU] Feminist Art Movement | *Art*
+- **isu_art_postmodern_art** | [Shin-ISU] Postmodern Art | *Art*
+- **isu_art_digital_art** | [Shin-ISU] Digital Art | *Art*
+- **isu_art_net_art** | [Shin-ISU] Net Art | *Art*
+- **isu_art_generative_art** | [Shin-ISU] Generative Art | *Art*
+- **isu_art_institutional_critique** | [Shin-ISU] Institutional Critique | *Art*
+- **isu_art_social_practice** | [Shin-ISU] Social Practice Art | *Art*
+- **isu_art_future_aesthetics** | [Shin-ISU] Future of Aesthetics | *Art*
+- **isu_mus_def** | [Shin-ISU] Definition of Music | *Music*
+- **isu_mus_physics_of_sound** | [Shin-ISU] Physics of Sound | *Music*
+- **isu_mus_rhythm_meter** | [Shin-ISU] Rhythm and Meter | *Music*
+- **isu_mus_melody_harmony** | [Shin-ISU] Melody and Harmony | *Music*
+- **isu_mus_ancient_origins** | [Shin-ISU] Ancient Musical Origins | *Music*
+- **isu_mus_pythagorean_tuning** | [Shin-ISU] Pythagorean Tuning | *Music*
+- **isu_mus_greek_theories** | [Shin-ISU] Ancient Greek Music Theory | *Music*
+- **isu_mus_chant_liturgy** | [Shin-ISU] Gregorian Chant | *Music*
+- **isu_mus_rise_of_polyphony** | [Shin-ISU] The Rise of Polyphony | *Music*
+- **isu_mus_notation_history** | [Shin-ISU] History of Musical Notation | *Music*
+- **isu_mus_baroque_era** | [Shin-ISU] The Baroque Era | *Music*
+- **isu_mus_opera_rise** | [Shin-ISU] The Rise of Opera | *Music*
+- **isu_mus_counterpoint_bach** | [Shin-ISU] Counterpoint and Bach | *Music*
+- **isu_mus_classical_era** | [Shin-ISU] The Classical Era | *Music*
+- **isu_mus_sonata_form** | [Shin-ISU] Sonata Form | *Music*
+- **isu_mus_the_symphony** | [Shin-ISU] The Symphony | *Music*
+- **isu_mus_virtuosity_mozart** | [Shin-ISU] Virtuosity & Mozart | *Music*
+- **isu_mus_temperament_shift** | [Shin-ISU] Well-Tempered Tuning | *Music*
+- **isu_mus_secularization** | [Shin-ISU] Secularization of Music | *Music*
+- **isu_mus_early_chamber_music** | [Shin-ISU] Chamber Music | *Music*
+- **isu_mus_romanticism** | [Shin-ISU] Romanticism | *Music*
+- **isu_mus_chromaticism** | [Shin-ISU] Chromaticism | *Music*
+- **isu_mus_program_music** | [Shin-ISU] Program Music | *Music*
+- **isu_mus_nationalism** | [Shin-ISU] Musical Nationalism | *Music*
+- **isu_mus_impressionism_music** | [Shin-ISU] Impressionism in Music | *Music*
+- **isu_mus_expressionism_music** | [Shin-ISU] Musical Expressionism | *Music*
+- **isu_mus_atonal_serialism** | [Shin-ISU] Atonality & Serialism | *Music*
+- **isu_mus_stravinsky_rhythm** | [Shin-ISU] Primitivism & Rhythm | *Music*
+- **isu_mus_minimalism_music** | [Shin-ISU] Musical Minimalism | *Music*
+- **isu_mus_aleatoric_music** | [Shin-ISU] Aleatoric (Chance) Music | *Music*
+- **isu_mus_jazz_origins** | [Shin-ISU] Jazz Origins & Improvisation | *Music*
+- **isu_mus_blues_foundation** | [Shin-ISU] The Blues | *Music*
+- **isu_mus_recording_tech** | [Shin-ISU] Impact of Recording Technology | *Music*
+- **isu_mus_electronic_music** | [Shin-ISU] Electronic Music & Synthesis | *Music*
+- **isu_mus_pop_culture_mass** | [Shin-ISU] The Rise of Pop Music | *Music*
+- **isu_mus_sampling_remix** | [Shin-ISU] Sampling & Remix Culture | *Music*
+- **isu_mus_digital_streaming** | [Shin-ISU] Music in the Streaming Era | *Music*
+- **isu_mus_ai_composition** | [Shin-ISU] AI-Generated Music | *Music*
+- **isu_mus_music_psychology** | [Shin-ISU] Music Psychology | *Music*
+- **isu_mus_future_sonic_art** | [Shin-ISU] The Future of Sound | *Music*
+- **isu_psy_sleep_consolidation** | [Shin-ISU] Sleep-Dependent Memory Consolidation | *Sleep Psychology*
+- **isu_psy_sleep_rem** | [Shin-ISU] REM Sleep Cycle | *Sleep Psychology*
+- **isu_psy_sleep_sws** | [Shin-ISU] Slow Wave Sleep | *Sleep Psychology*
+- **isu_psy_sleep_circadian** | [Shin-ISU] Circadian Rhythms | *Sleep Psychology*
+- **isu_psy_sleep_insomnia** | [Shin-ISU] Insomnia Mechanisms | *Sleep Psychology*
+- **isu_psy_sleep_naps** | [Shin-ISU] Napping Architecture | *Sleep Psychology*
+- **isu_psy_sleep_atonia** | [Shin-ISU] REM Atonia | *Sleep Psychology*
+- **isu_psy_sleep_homeostasis** | [Shin-ISU] Sleep Homeostasis | *Sleep Psychology*
+- **isu_psy_sleep_adenosine** | [Shin-ISU] Adenosine Signaling | *Sleep Psychology*
+- **isu_psy_sleep_melatonin** | [Shin-ISU] Melatonin Regulation | *Sleep Psychology*
+- **isu_psy_sleep_latency** | [Shin-ISU] Sleep Latency | *Sleep Psychology*
+- **isu_psy_dream_lucid** | [Shin-ISU] Lucid Dreaming | *Dream Psychology*
+- **isu_psy_dream_symbolism** | [Shin-ISU] Dream Symbolism | *Dream Psychology*
+- **isu_psy_dream_plasticity** | [Shin-ISU] Dream-based Neuroplasticity | *Dream Psychology*
+- **isu_psy_dream_simulation** | [Shin-ISU] Threat Simulation Theory | *Dream Psychology*
+- **isu_psy_dream_memory_consolidation** | [Shin-ISU] Memory Integration | *Dream Psychology*
+- **isu_psy_dream_emotional_processing** | [Shin-ISU] Affective Processing | *Dream Psychology*
+- **isu_psy_dream_creativity** | [Shin-ISU] Dream-driven Insight | *Dream Psychology*
+- **isu_psy_dream_proprioceptive_shifting** | [Shin-ISU] Proprioceptive Shifting | *Dream Psychology*
+- **isu_psy_dream_hyperassociativity** | [Shin-ISU] Hyperassociativity | *Dream Psychology*
+- **isu_psy_dream_metaphor** | [Shin-ISU] Metaphorical Synthesis | *Dream Psychology*
+- **isu_psy_cbt_metacognition** | [Shin-ISU] Metacognitive Awareness | *CBT*
+- **isu_psy_cbt_cognitive_reframing** | [Shin-ISU] Cognitive Restructuring | *CBT*
+- **isu_psy_cbt_cognitive_distortion** | [Shin-ISU] Cognitive Distortion | *CBT*
+- **isu_psy_cbt_exposure_therapy** | [Shin-ISU] Exposure-Based Desensitization | *CBT*
+- **isu_psy_cbt_thought_log** | [Shin-ISU] Thought Log Analysis | *CBT*
+- **isu_psy_cbt_behavioral_activation** | [Shin-ISU] Behavioral Activation | *CBT*
+- **isu_psy_cbt_socratic_questioning** | [Shin-ISU] Socratic Questioning | *CBT*
+- **isu_psy_cbt_interoceptive_exposure** | [Shin-ISU] Interoceptive Exposure | *CBT*
+- **isu_psy_cbt_cognitive_defusion** | [Shin-ISU] Cognitive Defusion | *CBT*
+- **isu_psy_cbt_psychoeducation** | [Shin-ISU] Psychoeducation | *CBT*
+- **isu_psy_dbt_distress_tolerance** | [Shin-ISU] Distress Tolerance | *DBT*
+- **isu_psy_dbt_mindfulness** | [Shin-ISU] Mindfulness-Based Regulation | *DBT*
+- **isu_psy_dbt_wise_mind** | [Shin-ISU] Wise Mind Integration | *DBT*
+- **isu_psy_dbt_emotional_regulation** | [Shin-ISU] Emotional Regulation | *DBT*
+- **isu_psy_dbt_radical_acceptance** | [Shin-ISU] Radical Acceptance | *DBT*
+- **isu_psy_dbt_tipp_skills** | [Shin-ISU] TIPP Skills | *DBT*
+- **isu_psy_dbt_self_soothing** | [Shin-ISU] Self-Soothing Modalities | *DBT*
+- **isu_psy_dbt_opposite_action** | [Shin-ISU] Opposite Action | *DBT*
+- **isu_psy_dbt_interpersonal_effectiveness** | [Shin-ISU] Interpersonal Effectiveness | *DBT*
+- **isu_psy_dbt_checking_the_facts** | [Shin-ISU] Checking the Facts | *DBT*
+- **isu_astro_stellar_fusion** | [Shin-ISU] Stellar Nucleosynthesis | *Astrophysics*
+- **isu_astro_event_horizon** | [Shin-ISU] Event Horizon | *Astrophysics*
+- **isu_astro_dark_matter** | [Shin-ISU] Dark Matter Halo | *Astrophysics*
+- **isu_astro_main_sequence** | [Shin-ISU] Main Sequence | *Astrophysics*
+- **isu_astro_cosmic_inflation** | [Shin-ISU] Cosmic Inflation | *Astrophysics*
+- **isu_astro_supernova_type_ia** | [Shin-ISU] Type Ia Supernova | *Astrophysics*
+- **isu_astro_accretion_disk** | [Shin-ISU] Accretion Disk Physics | *Astrophysics*
+- **isu_astro_stellar_wind** | [Shin-ISU] Stellar Wind | *Astrophysics*
+- **isu_astro_neutron_star** | [Shin-ISU] Neutron Star | *Astrophysics*
+- **isu_astro_interstellar_medium** | [Shin-ISU] ISM Dynamics | *Astrophysics*
+- **isu_astro_binary_system** | [Shin-ISU] Binary Star Dynamics | *Astrophysics*
+- **isu_astro_black_hole_spin** | [Shin-ISU] Kerr Black Hole | *Astrophysics*
+- **isu_astro_planetesimal** | [Shin-ISU] Planetesimal Formation | *Astrophysics*
+- **isu_astro_galactic_halo** | [Shin-ISU] Galactic Halo | *Astrophysics*
+- **isu_astro_gamma_ray_burst** | [Shin-ISU] Gamma Ray Bursts | *Astrophysics*
+- **isu_astro_stellar_parallax** | [Shin-ISU] Stellar Parallax | *Astrophysics*
+- **isu_astro_spectral_classification** | [Shin-ISU] Stellar Spectra | *Astrophysics*
+- **isu_astro_big_bang_nucleosynthesis** | [Shin-ISU] BBN | *Astrophysics*
+- **isu_astro_quasar_power** | [Shin-ISU] Quasar Energetics | *Astrophysics*
+- **isu_astro_planetary_migration** | [Shin-ISU] Planetary Migration | *Astrophysics*
+- **isu_weather_adiabatic_process** | [Shin-ISU] Adiabatic Lapse Rate | *Weather Science*
+- **isu_weather_convection** | [Shin-ISU] Atmospheric Convection | *Weather Science*
+- **isu_weather_coriolis** | [Shin-ISU] Coriolis Force | *Weather Science*
+- **isu_weather_jet_stream** | [Shin-ISU] Jet Stream | *Weather Science*
+- **isu_weather_frontogenesis** | [Shin-ISU] Frontogenesis | *Weather Science*
+- **isu_weather_greenhouse_effect** | [Shin-ISU] Greenhouse Effect | *Weather Science*
+- **isu_weather_moisture_convergence** | [Shin-ISU] Moisture Convergence | *Weather Science*
+- **isu_weather_stable_atmosphere** | [Shin-ISU] Atmospheric Stability | *Weather Science*
+- **isu_weather_orographic_lift** | [Shin-ISU] Orographic Lift | *Weather Science*
+- **isu_weather_boundary_layer** | [Shin-ISU] Boundary Layer | *Weather Science*
+- **isu_weather_latent_heat** | [Shin-ISU] Latent Heat Release | *Weather Science*
+- **isu_weather_cyclogenesis** | [Shin-ISU] Cyclogenesis | *Weather Science*
+- **isu_weather_blocking** | [Shin-ISU] Atmospheric Blocking | *Weather Science*
+- **isu_weather_thermal_inversion** | [Shin-ISU] Thermal Inversion | *Weather Science*
+- **isu_weather_vapour_pressure** | [Shin-ISU] Vapour Pressure | *Weather Science*
+- **isu_weather_geostrophic_wind** | [Shin-ISU] Geostrophic Wind | *Weather Science*
+- **isu_weather_baroclinicity** | [Shin-ISU] Baroclinicity | *Weather Science*
+- **isu_weather_hydrostatic_eq** | [Shin-ISU] Hydrostatic Equilibrium | *Weather Science*
+- **isu_weather_radiation_budget** | [Shin-ISU] Radiation Budget | *Weather Science*
+- **isu_weather_supercell** | [Shin-ISU] Supercell Dynamics | *Weather Science*
+- **isu_kloppen_topography** | [Shin-ISU] Kloppen Basin Topography | *Kloppen Climate*
+- **isu_kloppen_prevailing_wind** | [Shin-ISU] Kloppen Wind Patterns | *Kloppen Climate*
+- **isu_kloppen_soil_moisture** | [Shin-ISU] Kloppen Soil Dynamics | *Kloppen Climate*
+- **isu_kloppen_seasonal_cycle** | [Shin-ISU] Seasonal Shift | *Kloppen Climate*
+- **isu_kloppen_frost_risk** | [Shin-ISU] Frost Incidence | *Kloppen Climate*
+- **isu_kloppen_rainfall_dist** | [Shin-ISU] Rainfall Distribution | *Kloppen Climate*
+- **isu_kloppen_phenology** | [Shin-ISU] Phenological Patterns | *Kloppen Climate*
+- **isu_kloppen_drainage_basin** | [Shin-ISU] Basin Hydrology | *Kloppen Climate*
+- **isu_kloppen_exposure_gradient** | [Shin-ISU] Exposure Gradient | *Kloppen Climate*
+- **isu_kloppen_pollinator_windows** | [Shin-ISU] Pollinator Phenology | *Kloppen Climate*
+- **isu_kloppen_nutrient_transport** | [Shin-ISU] Nutrient Transport | *Kloppen Climate*
+- **isu_kloppen_invasive_vectors** | [Shin-ISU] Invasive Vectors | *Kloppen Climate*
+- **isu_kloppen_succession_lag** | [Shin-ISU] Successional Lag | *Kloppen Climate*
+- **isu_kloppen_carbon_sequestration** | [Shin-ISU] Carbon Profiles | *Kloppen Climate*
+- **isu_kloppen_aeolian_transport** | [Shin-ISU] Aeolian Transport | *Kloppen Climate*
+- **isu_kloppen_albedo_shift** | [Shin-ISU] Regional Albedo | *Kloppen Climate*
+- **isu_kloppen_hydrologic_pulse** | [Shin-ISU] Hydrologic Pulse | *Kloppen Climate*
+- **isu_kloppen_mycorrhizal_density** | [Shin-ISU] Mycorrhizal Density | *Kloppen Climate*
+- **isu_kloppen_microclimate_buffer** | [Shin-ISU] Microclimate Buffering | *Kloppen Climate*
+- **isu_kloppen_fire_regime** | [Shin-ISU] Regional Fire Regime | *Kloppen Climate*
+- **isu_astro_obs_telescope** | [Shin-ISU] Optical Telescopes | *Astronomy*
+- **isu_astro_solar_system** | [Shin-ISU] Solar System Architecture | *Astronomy*
+- **isu_astro_lunar_phases** | [Shin-ISU] Lunar Phase Cycle | *Astronomy*
+- **isu_astro_exoplanet_transit** | [Shin-ISU] Transit Method | *Astronomy*
+- **isu_astro_radio_astronomy** | [Shin-ISU] Radio Astronomy | *Astronomy*
+- **isu_astro_cometary_dynamics** | [Shin-ISU] Cometary Orbits | *Astronomy*
+- **isu_astro_asteroid_belt** | [Shin-ISU] Asteroid Belt | *Astronomy*
+- **isu_astro_light_year** | [Shin-ISU] Cosmic Distance Scales | *Astronomy*
+- **isu_astro_spectral_analysis** | [Shin-ISU] Stellar Spectroscopy | *Astronomy*
+- **isu_astro_galactic_structure** | [Shin-ISU] Galactic Morphology | *Astronomy*
+- **isu_astro_craters_impact** | [Shin-ISU] Impact Cratering | *Astronomy*
+- **isu_astro_hertzsprung_russell** | [Shin-ISU] H-R Diagram | *Astronomy*
+- **isu_astro_stellar_evolution** | [Shin-ISU] Stellar Evolution | *Astronomy*
+- **isu_astro_tides_celestial** | [Shin-ISU] Tidal Mechanics | *Astronomy*
+- **isu_astro_cosmic_rays** | [Shin-ISU] Cosmic Ray Origin | *Astronomy*
+- **isu_astro_parallax_method** | [Shin-ISU] Parallax Measurements | *Astronomy*
+- **isu_astro_nebular_theory** | [Shin-ISU] Nebular Hypothesis | *Astronomy*
+- **isu_astro_light_curves** | [Shin-ISU] Light Curve Analysis | *Astronomy*
+- **isu_astro_galactic_center** | [Shin-ISU] Galactic Center | *Astronomy*
+- **isu_astro_habitable_zone** | [Shin-ISU] Habitable Zone | *Astronomy*
+- **isu_acou_wave_propagation** | [Shin-ISU] Wave Propagation | *Acoustics*
+- **isu_acou_frequency_pitch** | [Shin-ISU] Frequency & Pitch | *Acoustics*
+- **isu_acou_amplitude_spl** | [Shin-ISU] Sound Pressure Level | *Acoustics*
+- **isu_acou_diffraction** | [Shin-ISU] Acoustic Diffraction | *Acoustics*
+- **isu_acou_reflection_absorption** | [Shin-ISU] Reflection & Absorption | *Acoustics*
+- **isu_acou_refraction** | [Shin-ISU] Sound Refraction | *Acoustics*
+- **isu_acou_doppler_effect** | [Shin-ISU] Doppler Effect | *Acoustics*
+- **isu_acou_resonance** | [Shin-ISU] Resonance Systems | *Acoustics*
+- **isu_acou_transduction** | [Shin-ISU] Acoustic Transduction | *Acoustics*
+- **isu_acou_reverberation** | [Shin-ISU] Reverberation Time | *Acoustics*
+- **isu_acou_psycho_threshold** | [Shin-ISU] Threshold of Hearing | *Acoustics*
+- **isu_acou_masking** | [Shin-ISU] Auditory Masking | *Acoustics*
+- **isu_acou_spatial_hearing** | [Shin-ISU] Spatial Localization | *Acoustics*
+- **isu_acou_ultrasonic_imaging** | [Shin-ISU] Ultrasonic Applications | *Acoustics*
+- **isu_acou_infrasonic_sensing** | [Shin-ISU] Infrasonic Phenomena | *Acoustics*
+- **isu_acou_noise_control** | [Shin-ISU] Active Noise Control | *Acoustics*
+- **isu_acou_spectral_balance** | [Shin-ISU] Spectral Balance | *Acoustics*
+- **isu_acou_helmholtz_res** | [Shin-ISU] Helmholtz Resonator | *Acoustics*
+- **isu_acou_acoustic_impedance** | [Shin-ISU] Acoustic Impedance | *Acoustics*
+- **isu_acou_bioacoustics** | [Shin-ISU] Bioacoustics | *Acoustics*
+- **dbt_chain_analysis** | Chain Analysis | *DBT*
+
+## respiration_rate
+
+- **isu_foundation_node** | Dr. Shin (ISU) Comparative Framework | *Research*
+- **isu_phys_1_50** | [Shin-ISU] Physics Core (50 Nodes) | *Physics Chemistry*
+- **isu_therm_1_30** | [Shin-ISU] Thermophysics Core (30 Nodes) | *Mechanics Engineering*
+- **isu_qb_1_20** | [Shin-ISU] Quantum Biology Core (20 Nodes) | *CS & SWE*
+- **isu_chem_1_50** | [Shin-ISU] Chemistry Core (50 Nodes) | *Chemical Engineering*
+- **isu_advchem_schrodinger** | [Shin-ISU] Schrödinger Equation (Molecular) | *Advanced Chemistry*
+- **isu_advchem_mo_theory** | [Shin-ISU] Molecular Orbital Theory | *Advanced Chemistry*
+- **isu_advchem_lcao** | [Shin-ISU] LCAO Method | *Advanced Chemistry*
+- **isu_advchem_coulomb_integral** | [Shin-ISU] Coulomb and Exchange Integrals | *Advanced Chemistry*
+- **isu_advchem_perturbation** | [Shin-ISU] Perturbation Theory | *Advanced Chemistry*
+- **isu_advchem_hartree_fock** | [Shin-ISU] Hartree-Fock Method | *Advanced Chemistry*
+- **isu_advchem_dft** | [Shin-ISU] Density Functional Theory (DFT) | *Advanced Chemistry*
+- **isu_advchem_chirality** | [Shin-ISU] Chirality & Stereochemistry | *Advanced Chemistry*
+- **isu_advchem_symmetry** | [Shin-ISU] Molecular Symmetry | *Advanced Chemistry*
+- **isu_advchem_vib_spectra** | [Shin-ISU] Vibrational Spectroscopy | *Advanced Chemistry*
+- **isu_bioch_glycolysis** | [Shin-ISU] Glycolysis | *Biochemistry*
+- **isu_bioch_tca_cycle** | [Shin-ISU] Citric Acid Cycle | *Biochemistry*
+- **isu_bioch_etc** | [Shin-ISU] Electron Transport Chain | *Biochemistry*
+- **isu_bioch_gluconeogenesis** | [Shin-ISU] Gluconeogenesis | *Biochemistry*
+- **isu_bioch_fatty_acid_oxid** | [Shin-ISU] Fatty Acid Oxidation | *Biochemistry*
+- **isu_bioch_allostery** | [Shin-ISU] Allosteric Regulation | *Biochemistry*
+- **isu_bioch_hormonal_control** | [Shin-ISU] Hormonal Control | *Biochemistry*
+- **isu_bioch_covalent_mod** | [Shin-ISU] Covalent Modification | *Biochemistry*
+- **isu_bioch_enzyme_inhibition** | [Shin-ISU] Enzyme Inhibition | *Biochemistry*
+- **isu_bioch_genomics_biochem** | [Shin-ISU] Genomic Integration | *Biochemistry*
+- **isu_gen_mendelian** | [Shin-ISU] Mendelian Inheritance | *Genetics*
+- **isu_gen_chromosomes** | [Shin-ISU] Chromosomes | *Genetics*
+- **isu_gen_mitosis** | [Shin-ISU] Mitosis | *Genetics*
+- **isu_gen_meiosis** | [Shin-ISU] Meiosis | *Genetics*
+- **isu_gen_linkage** | [Shin-ISU] Genetic Linkage | *Genetics*
+- **isu_gen_replication** | [Shin-ISU] DNA Replication | *Genetics*
+- **isu_gen_transcription** | [Shin-ISU] Transcription | *Genetics*
+- **isu_gen_translation** | [Shin-ISU] Translation | *Genetics*
+- **isu_gen_regulation** | [Shin-ISU] Gene Regulation | *Genetics*
+- **isu_gen_mutation** | [Shin-ISU] Mutation and Repair | *Genetics*
+- **isu_gen_recomb_tech** | [Shin-ISU] Recombinant DNA Tech | *Genetics*
+- **isu_gen_crispr** | [Shin-ISU] CRISPR-Cas9 | *Genetics*
+- **isu_gen_pop_genetics** | [Shin-ISU] Population Genetics | *Genetics*
+- **isu_gen_epigenetics** | [Shin-ISU] Epigenetics | *Genetics*
+- **isu_gen_bioinformatics** | [Shin-ISU] Bioinformatics | *Genetics*
+- **isu_neuro_neuron** | [Shin-ISU] Neuron Structure | *Neuroscience*
+- **isu_neuro_membrane_pot** | [Shin-ISU] Membrane Potential | *Neuroscience*
+- **isu_neuro_action_pot** | [Shin-ISU] Action Potential | *Neuroscience*
+- **isu_neuro_synapse** | [Shin-ISU] Synaptic Transmission | *Neuroscience*
+- **isu_neuro_neurotransmitters** | [Shin-ISU] Neurotransmitters | *Neuroscience*
+- **isu_neuro_sensory** | [Shin-ISU] Sensory Systems | *Neuroscience*
+- **isu_neuro_motor** | [Shin-ISU] Motor Systems | *Neuroscience*
+- **isu_neuro_plasticity** | [Shin-ISU] Synaptic Plasticity | *Neuroscience*
+- **isu_neuro_memory** | [Shin-ISU] Memory Systems | *Neuroscience*
+- **isu_neuro_limbic** | [Shin-ISU] Limbic System | *Neuroscience*
+- **isu_neuro_imaging** | [Shin-ISU] Neuroimaging | *Neuroscience*
+- **isu_neuro_disorders** | [Shin-ISU] Neural Disorders | *Neuroscience*
+- **isu_neuro_consciousness** | [Shin-ISU] Neural Correlates of Consciousness | *Neuroscience*
+- **isu_neuro_computational** | [Shin-ISU] Computational Neuroscience | *Neuroscience*
+- **isu_neuro_dev_neuro** | [Shin-ISU] Developmental Neuroscience | *Neuroscience*
+- **isu_medchem_lead_discovery** | [Shin-ISU] Lead Discovery | *Medical Chemistry*
+- **isu_medchem_sars** | [Shin-ISU] Structure-Activity Relationship (SAR) | *Medical Chemistry*
+- **isu_medchem_bioisosteres** | [Shin-ISU] Bioisosteres | *Medical Chemistry*
+- **isu_medchem_pharmacokinetics** | [Shin-ISU] Pharmacokinetics (ADME) | *Medical Chemistry*
+- **isu_medchem_prodrugs** | [Shin-ISU] Prodrugs | *Medical Chemistry*
+- **isu_medchem_receptor_binding** | [Shin-ISU] Receptor Binding | *Medical Chemistry*
+- **isu_medchem_enzyme_inhib** | [Shin-ISU] Enzyme Inhibition (MedChem) | *Medical Chemistry*
+- **isu_medchem_ion_channel_mod** | [Shin-ISU] Ion Channel Modulation | *Medical Chemistry*
+- **isu_medchem_nuclear_receptors** | [Shin-ISU] Nuclear Receptor Ligands | *Medical Chemistry*
+- **isu_medchem_dosage_forms** | [Shin-ISU] Drug Formulation | *Medical Chemistry*
+- **isu_medchem_beta_lactams** | [Shin-ISU] Beta-Lactam Antibiotics | *Medical Chemistry*
+- **isu_medchem_nucleoside_analogs** | [Shin-ISU] Nucleoside Analogs (Antiviral) | *Medical Chemistry*
+- **isu_medchem_quinolones** | [Shin-ISU] Quinolones | *Medical Chemistry*
+- **isu_medchem_protease_inhib** | [Shin-ISU] Protease Inhibitors | *Medical Chemistry*
+- **isu_medchem_antifungals** | [Shin-ISU] Antifungal Agents | *Medical Chemistry*
+- **isu_medchem_alkylating_agents** | [Shin-ISU] Alkylating Agents | *Medical Chemistry*
+- **isu_medchem_kinase_inhib_cancer** | [Shin-ISU] Kinase Inhibitors (Anticancer) | *Medical Chemistry*
+- **isu_medchem_ssri** | [Shin-ISU] SSRIs | *Medical Chemistry*
+- **isu_medchem_dopaminergics** | [Shin-ISU] Dopaminergics | *Medical Chemistry*
+- **isu_medchem_gaba_modulators** | [Shin-ISU] GABAergic Drugs | *Medical Chemistry*
+- **isu_medchem_molecular_docking** | [Shin-ISU] Molecular Docking | *Medical Chemistry*
+- **isu_medchem_qsar** | [Shin-ISU] QSAR Modeling | *Medical Chemistry*
+- **isu_medchem_xray_crystallography** | [Shin-ISU] X-ray Crystallography (MedChem) | *Medical Chemistry*
+- **isu_medchem_hplc_analysis** | [Shin-ISU] HPLC in MedChem | *Medical Chemistry*
+- **isu_medchem_mass_spec_med** | [Shin-ISU] Mass Spectrometry in MedChem | *Medical Chemistry*
+- **isu_medchem_biologics** | [Shin-ISU] Biologics & Antibody Drugs | *Medical Chemistry*
+- **isu_medchem_gene_therapy** | [Shin-ISU] Gene Therapy Agents | *Medical Chemistry*
+- **isu_medchem_covalent_design** | [Shin-ISU] Covalent Drug Design | *Medical Chemistry*
+- **isu_medchem_chemical_genomics** | [Shin-ISU] Chemical Genomics | *Medical Chemistry*
+- **isu_medchem_future_trends** | [Shin-ISU] Future of MedChem | *Medical Chemistry*
+- **isu_herb_phytochemistry** | [Shin-ISU] Phytochemistry | *Herbal Chemistry*
+- **isu_herb_extraction** | [Shin-ISU] Extraction Techniques | *Herbal Chemistry*
+- **isu_herb_characterization** | [Shin-ISU] Characterization of Extracts | *Herbal Chemistry*
+- **isu_herb_standardization** | [Shin-ISU] Standardization | *Herbal Chemistry*
+- **isu_herb_biosynthesis_path** | [Shin-ISU] Biosynthetic Pathways | *Herbal Chemistry*
+- **isu_herb_alkaloids** | [Shin-ISU] Alkaloids | *Herbal Chemistry*
+- **isu_herb_terpenoids** | [Shin-ISU] Terpenoids | *Herbal Chemistry*
+- **isu_herb_phenolics** | [Shin-ISU] Phenolic Compounds | *Herbal Chemistry*
+- **isu_herb_glycosides** | [Shin-ISU] Glycosides | *Herbal Chemistry*
+- **isu_herb_saponins** | [Shin-ISU] Saponins | *Herbal Chemistry*
+- **isu_herb_synergy** | [Shin-ISU] Synergistic Effects | *Herbal Chemistry*
+- **isu_herb_tox** | [Shin-ISU] Herbal Toxicology | *Herbal Chemistry*
+- **isu_herb_cns_actives** | [Shin-ISU] CNS Active Plant Drugs | *Herbal Chemistry*
+- **isu_herb_immunomodulators** | [Shin-ISU] Immunomodulators | *Herbal Chemistry*
+- **isu_herb_anti_inflammatories** | [Shin-ISU] Anti-inflammatory Phytochemicals | *Herbal Chemistry*
+- **isu_herb_metabolomics** | [Shin-ISU] Plant Metabolomics | *Herbal Chemistry*
+- **isu_herb_hptlc** | [Shin-ISU] HPTLC Analysis | *Herbal Chemistry*
+- **isu_herb_bioassay_guided** | [Shin-ISU] Bioassay-Guided Fractionation | *Herbal Chemistry*
+- **isu_herb_stability** | [Shin-ISU] Phytochemical Stability | *Herbal Chemistry*
+- **isu_herb_molecular_docking_herb** | [Shin-ISU] In Silico Herbal Analysis | *Herbal Chemistry*
+- **isu_herb_chem_ecology** | [Shin-ISU] Chemical Ecology | *Herbal Chemistry*
+- **isu_herb_plant_biotech** | [Shin-ISU] Plant Biotechnology | *Herbal Chemistry*
+- **isu_herb_ethnobotany** | [Shin-ISU] Ethnobotanical Chemistry | *Herbal Chemistry*
+- **isu_herb_regulatory** | [Shin-ISU] Regulatory Standards | *Herbal Chemistry*
+- **isu_herb_sustainability** | [Shin-ISU] Sustainable Harvesting | *Herbal Chemistry*
+- **isu_herb_adaptogens** | [Shin-ISU] Adaptogens | *Herbal Chemistry*
+- **isu_herb_bitters** | [Shin-ISU] Bitter Principles | *Herbal Chemistry*
+- **isu_herb_essential_oils** | [Shin-ISU] Essential Oil Chemistry | *Herbal Chemistry*
+- **isu_herb_astringents** | [Shin-ISU] Astringent Chemistry | *Herbal Chemistry*
+- **isu_herb_phytomedicine_future** | [Shin-ISU] Future of Phytomedicine | *Herbal Chemistry*
+- **isu_physchem_gas_kinetic** | [Shin-ISU] Kinetic Molecular Theory | *Physics Chemistry*
+- **isu_physchem_thermo_laws** | [Shin-ISU] Laws of Thermodynamics | *Physics Chemistry*
+- **isu_physchem_chemical_pot** | [Shin-ISU] Chemical Potential | *Physics Chemistry*
+- **isu_physchem_reaction_dynamics** | [Shin-ISU] Reaction Dynamics | *Physics Chemistry*
+- **isu_physchem_statistical_mech** | [Shin-ISU] Statistical Mechanics | *Physics Chemistry*
+- **isu_physchem_quantum_postulates** | [Shin-ISU] Postulates of Quantum Mechanics | *Physics Chemistry*
+- **isu_physchem_atomic_spectra** | [Shin-ISU] Atomic Spectra | *Physics Chemistry*
+- **isu_physchem_chemical_bonding_qm** | [Shin-ISU] Bonding (Quantum) | *Physics Chemistry*
+- **isu_physchem_molecular_rotation** | [Shin-ISU] Molecular Rotation | *Physics Chemistry*
+- **isu_physchem_vibration_rot** | [Shin-ISU] Vibrational-Rotational Spectra | *Physics Chemistry*
+- **isu_physchem_electrolytes** | [Shin-ISU] Electrolyte Solutions | *Physics Chemistry*
+- **isu_physchem_electrode_kinetics** | [Shin-ISU] Electrode Kinetics | *Physics Chemistry*
+- **isu_physchem_surface_adsorption** | [Shin-ISU] Surface Adsorption | *Physics Chemistry*
+- **isu_physchem_colloidal_stability** | [Shin-ISU] Colloidal Stability | *Physics Chemistry*
+- **isu_physchem_surface_tension** | [Shin-ISU] Surface & Interfacial Tension | *Physics Chemistry*
+- **isu_physchem_diffusion** | [Shin-ISU] Diffusion & Transport | *Physics Chemistry*
+- **isu_physchem_viscosity_theory** | [Shin-ISU] Viscosity & Fluidity | *Physics Chemistry*
+- **isu_physchem_polymer_physics** | [Shin-ISU] Polymer Physics | *Physics Chemistry*
+- **isu_physchem_micelles** | [Shin-ISU] Micelle Formation | *Physics Chemistry*
+- **isu_physchem_solubility_theory** | [Shin-ISU] Solubility Theory | *Physics Chemistry*
+- **isu_physchem_jablonski** | [Shin-ISU] Jablonski Diagram | *Physics Chemistry*
+- **isu_physchem_quantum_yield** | [Shin-ISU] Photochemical Quantum Yield | *Physics Chemistry*
+- **isu_physchem_energy_transfer** | [Shin-ISU] Electronic Energy Transfer (EET) | *Physics Chemistry*
+- **isu_physchem_charge_transfer** | [Shin-ISU] Charge Transfer Processes | *Physics Chemistry*
+- **isu_physchem_ultrafast_spec** | [Shin-ISU] Ultrafast Spectroscopy | *Physics Chemistry*
+- **isu_physchem_nmr_theory** | [Shin-ISU] NMR Theory | *Physics Chemistry*
+- **isu_physchem_esr_epr** | [Shin-ISU] EPR Spectroscopy | *Physics Chemistry*
+- **isu_physchem_computational_basis** | [Shin-ISU] Computational Basis Sets | *Physics Chemistry*
+- **isu_physchem_symmetry_theory** | [Shin-ISU] Group Theory (Applications) | *Physics Chemistry*
+- **isu_physchem_molecular_cryst** | [Shin-ISU] Crystallography Theory | *Physics Chemistry*
+- **isu_chemeng_mass_balance** | [Shin-ISU] Mass Balances | *Chemical Engineering*
+- **isu_chemeng_energy_balance** | [Shin-ISU] Energy Balances | *Chemical Engineering*
+- **isu_chemeng_fluid_flow** | [Shin-ISU] Fluid Dynamics (Pipe Flow) | *Chemical Engineering*
+- **isu_chemeng_heat_transfer** | [Shin-ISU] Heat Transfer | *Chemical Engineering*
+- **isu_chemeng_mass_transfer** | [Shin-ISU] Mass Transfer | *Chemical Engineering*
+- **isu_chemeng_distillation** | [Shin-ISU] Distillation | *Chemical Engineering*
+- **isu_chemeng_absorption** | [Shin-ISU] Gas Absorption | *Chemical Engineering*
+- **isu_chemeng_extraction_eng** | [Shin-ISU] Liquid-Liquid Extraction | *Chemical Engineering*
+- **isu_chemeng_adsorption_eng** | [Shin-ISU] Adsorption Engineering | *Chemical Engineering*
+- **isu_chemeng_membranes** | [Shin-ISU] Membrane Separation | *Chemical Engineering*
+- **isu_chemeng_batch_reactor** | [Shin-ISU] Batch Reactor Design | *Chemical Engineering*
+- **isu_chemeng_cstr** | [Shin-ISU] CSTR Design | *Chemical Engineering*
+- **isu_chemeng_pfr** | [Shin-ISU] PFR Design | *Chemical Engineering*
+- **isu_chemeng_non_ideal_reactors** | [Shin-ISU] Non-Ideal Reactors | *Chemical Engineering*
+- **isu_chemeng_catalytic_reactors** | [Shin-ISU] Heterogeneous Catalytic Reactors | *Chemical Engineering*
+- **isu_chemeng_process_control** | [Shin-ISU] Process Control | *Chemical Engineering*
+- **isu_chemeng_instrumentation** | [Shin-ISU] Process Instrumentation | *Chemical Engineering*
+- **isu_chemeng_safety_engineering** | [Shin-ISU] Safety & Loss Prevention | *Chemical Engineering*
+- **isu_chemeng_econ_analysis** | [Shin-ISU] Engineering Economics | *Chemical Engineering*
+- **isu_chemeng_process_simulation** | [Shin-ISU] Process Simulation | *Chemical Engineering*
+- **isu_chemeng_wastewater** | [Shin-ISU] Wastewater Treatment | *Chemical Engineering*
+- **isu_chemeng_air_pollution** | [Shin-ISU] Air Pollution Control | *Chemical Engineering*
+- **isu_chemeng_green_engineering** | [Shin-ISU] Green Engineering | *Chemical Engineering*
+- **isu_chemeng_waste_recovery** | [Shin-ISU] Waste Valorization | *Chemical Engineering*
+- **isu_chemeng_energy_integration** | [Shin-ISU] Energy Integration (Pinch Analysis) | *Chemical Engineering*
+- **isu_chemeng_microfluidics** | [Shin-ISU] Microfluidics | *Chemical Engineering*
+- **isu_chemeng_bioprocess** | [Shin-ISU] Bioprocess Engineering | *Chemical Engineering*
+- **isu_chemeng_supercritical_tech** | [Shin-ISU] Supercritical Fluid Tech | *Chemical Engineering*
+- **isu_chemeng_molecular_modeling_eng** | [Shin-ISU] Molecular Modeling in Eng | *Chemical Engineering*
+- **isu_chemeng_future_systems** | [Shin-ISU] Systems Engineering | *Chemical Engineering*
+- **isu_math_limits_continuity** | [Shin-ISU] Limits and Continuity | *Mathematics*
+- **isu_math_derivatives** | [Shin-ISU] Derivatives | *Mathematics*
+- **isu_math_integrals** | [Shin-ISU] Integrals | *Mathematics*
+- **isu_math_multivariable** | [Shin-ISU] Multivariable Calculus | *Mathematics*
+- **isu_math_vector_calc** | [Shin-ISU] Vector Calculus | *Mathematics*
+- **isu_math_matrix_algebra** | [Shin-ISU] Matrix Algebra | *Mathematics*
+- **isu_math_eigenvalues** | [Shin-ISU] Eigenvalues and Eigenvectors | *Mathematics*
+- **isu_math_vector_spaces** | [Shin-ISU] Vector Spaces | *Mathematics*
+- **isu_math_linear_transform** | [Shin-ISU] Linear Transformations | *Physical Sciences*
+- **isu_math_svd** | [Shin-ISU] Singular Value Decomposition (SVD) | *Mathematics*
+- **isu_math_ode_first_order** | [Shin-ISU] First-Order ODEs | *Mathematics*
+- **isu_math_ode_second_order** | [Shin-ISU] Second-Order Linear ODEs | *Mathematics*
+- **isu_math_laplace_transform** | [Shin-ISU] Laplace Transforms | *Mathematics*
+- **isu_math_systems_ode** | [Shin-ISU] Systems of ODEs | *Mathematics*
+- **isu_math_numerical_ode** | [Shin-ISU] Numerical Methods for ODEs | *Physical Sciences*
+- **isu_math_pde_intro** | [Shin-ISU] Introduction to PDEs | *Mathematics*
+- **isu_math_heat_equation** | [Shin-ISU] The Heat Equation | *Mathematics*
+- **isu_math_wave_equation** | [Shin-ISU] The Wave Equation | *Physical Sciences*
+- **isu_math_laplace_pde** | [Shin-ISU] Laplace & Poisson Equations | *Mathematics*
+- **isu_math_fourier_series** | [Shin-ISU] Fourier Series | *Mathematics*
+- **isu_math_prob_foundations** | [Shin-ISU] Probability Theory | *Mathematics*
+- **isu_math_distributions** | [Shin-ISU] Probability Distributions | *Mathematics*
+- **isu_math_inference** | [Shin-ISU] Statistical Inference | *Mathematics*
+- **isu_math_regression** | [Shin-ISU] Regression Analysis | *Mathematics*
+- **isu_math_stochastic_proc** | [Shin-ISU] Stochastic Processes | *Mathematics*
+- **isu_math_graph_theory** | [Shin-ISU] Graph Theory | *Mathematics*
+- **isu_math_logic_proofs** | [Shin-ISU] Logic and Proofs | *Mathematics*
+- **isu_math_combinatorics** | [Shin-ISU] Combinatorics | *Mathematics*
+- **isu_math_set_theory** | [Shin-ISU] Set Theory | *Mathematics*
+- **isu_math_discrete_algorithms** | [Shin-ISU] Discrete Algorithms | *Mathematics*
+- **isu_math_interpolation** | [Shin-ISU] Interpolation Methods | *Mathematics*
+- **isu_math_root_finding** | [Shin-ISU] Root-Finding Algorithms | *Mathematics*
+- **isu_math_numerical_integration** | [Shin-ISU] Numerical Integration (Quadrature) | *Mathematics*
+- **isu_math_lin_sys_solver** | [Shin-ISU] Solving Linear Systems | *Mathematics*
+- **isu_math_optimization_num** | [Shin-ISU] Numerical Optimization | *Mathematics*
+- **isu_math_complex_arithmetic** | [Shin-ISU] Complex Numbers | *Mathematics*
+- **isu_math_analytic_functions** | [Shin-ISU] Analytic Functions | *Mathematics*
+- **isu_math_cauchy_integral** | [Shin-ISU] Cauchy Integral Theorem | *Mathematics*
+- **isu_math_conformal_mapping** | [Shin-ISU] Conformal Mapping | *Mathematics*
+- **isu_math_residue_theory** | [Shin-ISU] Residue Theorem | *Mathematics*
+- **isu_math_tensor_calculus** | [Shin-ISU] Tensor Calculus | *Mathematics*
+- **isu_math_variational_calc** | [Shin-ISU] Calculus of Variations | *Mathematics*
+- **isu_math_special_functions** | [Shin-ISU] Special Functions | *Mathematics*
+- **isu_math_integral_transforms** | [Shin-ISU] Integral Transforms | *Mathematics*
+- **isu_math_group_theory_phys** | [Shin-ISU] Group Theory in Physics | *Mathematics*
+- **isu_math_finite_element** | [Shin-ISU] Finite Element Method (FEM) | *Mathematics*
+- **isu_math_monte_carlo** | [Shin-ISU] Monte Carlo Methods | *Mathematics*
+- **isu_math_fourier_analysis_num** | [Shin-ISU] Fast Fourier Transform (FFT) | *Mathematics*
+- **isu_math_dynamical_systems** | [Shin-ISU] Dynamical Systems & Chaos | *Mathematics*
+- **isu_math_math_modeling** | [Shin-ISU] Mathematical Modeling | *Mathematics*
+- **isu_rob_fk** | [Shin-ISU] Forward Kinematics | *Robotics Engineering*
+- **isu_rob_ik** | [Shin-ISU] Inverse Kinematics | *Robotics Engineering*
+- **isu_rob_jacobian** | [Shin-ISU] Jacobian Matrix | *Robotics Engineering*
+- **isu_rob_dof** | [Shin-ISU] Degrees of Freedom | *Robotics Engineering*
+- **isu_rob_workspace** | [Shin-ISU] Workspace Analysis | *Robotics Engineering*
+- **isu_rob_lagrangian** | [Shin-ISU] Lagrangian Dynamics | *Robotics Engineering*
+- **isu_rob_pid_control** | [Shin-ISU] PID Control in Robotics | *Robotics Engineering*
+- **isu_rob_path_planning** | [Shin-ISU] Path Planning | *Robotics Engineering*
+- **isu_rob_traj_gen** | [Shin-ISU] Trajectory Generation | *Robotics Engineering*
+- **isu_rob_force_control** | [Shin-ISU] Force Control | *Robotics Engineering*
+- **isu_rob_lidar** | [Shin-ISU] LiDAR Systems | *Robotics Engineering*
+- **isu_rob_computer_vision** | [Shin-ISU] Computer Vision | *Robotics Engineering*
+- **isu_rob_slam** | [Shin-ISU] SLAM | *Robotics Engineering*
+- **isu_rob_imu** | [Shin-ISU] Inertial Measurement Units | *Robotics Engineering*
+- **isu_rob_ultrasonic** | [Shin-ISU] Ultrasonic Sensors | *Robotics Engineering*
+- **isu_rob_dc_motors** | [Shin-ISU] DC Motors | *Robotics Engineering*
+- **isu_rob_stepper_motors** | [Shin-ISU] Stepper Motors | *Robotics Engineering*
+- **isu_rob_servos** | [Shin-ISU] Servo Mechanisms | *Robotics Engineering*
+- **isu_rob_pneumatics** | [Shin-ISU] Pneumatic Actuators | *Robotics Engineering*
+- **isu_rob_batteries** | [Shin-ISU] Robot Power Systems | *Robotics Engineering*
+- **isu_rob_diff_drive** | [Shin-ISU] Differential Drive | *Robotics Engineering*
+- **isu_rob_holonomic_base** | [Shin-ISU] Holonomic Platforms | *Robotics Engineering*
+- **isu_rob_legged_locomotion** | [Shin-ISU] Legged Locomotion | *Robotics Engineering*
+- **isu_rob_drones_kinematics** | [Shin-ISU] UAV Kinematics | *Robotics Engineering*
+- **isu_rob_navigation_stack** | [Shin-ISU] Navigation Stacks | *Robotics Engineering*
+- **isu_rob_end_effectors** | [Shin-ISU] End-Effectors & Grippers | *Robotics Engineering*
+- **isu_rob_grasp_planning** | [Shin-ISU] Grasp Planning | *Robotics Engineering*
+- **isu_rob_human_robot_interaction** | [Shin-ISU] HRI | *Robotics Engineering*
+- **isu_rob_teleoperation** | [Shin-ISU] Teleoperation | *Robotics Engineering*
+- **isu_rob_swarm_robotics** | [Shin-ISU] Swarm Robotics | *Robotics Engineering*
+- **isu_rob_reinforcement_learning** | [Shin-ISU] Reinforcement Learning (RL) | *Robotics Engineering*
+- **isu_rob_lqr_control** | [Shin-ISU] LQR Control | *Robotics Engineering*
+- **isu_rob_soft_robotics** | [Shin-ISU] Soft Robotics | *Robotics Engineering*
+- **isu_rob_model_predictive** | [Shin-ISU] Model Predictive Control (MPC) | *Robotics Engineering*
+- **isu_rob_computer_vision_3d** | [Shin-ISU] 3D Vision (Depth) | *Robotics Engineering*
+- **isu_rob_ros_architecture** | [Shin-ISU] ROS Architecture | *Robotics Engineering*
+- **isu_rob_mechatronics_design** | [Shin-ISU] Mechatronics Integration | *Robotics Engineering*
+- **isu_rob_bio_robotics** | [Shin-ISU] Bio-inspired Robotics | *Robotics Engineering*
+- **isu_rob_humanoid_robotics** | [Shin-ISU] Humanoid Robotics | *Robotics Engineering*
+- **isu_rob_ethics_safety** | [Shin-ISU] Robotic Ethics & Law | *Robotics Engineering*
+- **isu_mech_statics** | [Shin-ISU] Statics | *Mechanics Engineering*
+- **isu_mech_dynamics** | [Shin-ISU] Dynamics | *Mechanics Engineering*
+- **isu_mech_kinematics_particles** | [Shin-ISU] Particle Kinematics | *Mechanics Engineering*
+- **isu_mech_work_energy** | [Shin-ISU] Work-Energy Principle | *Mechanics Engineering*
+- **isu_mech_impulse_momentum** | [Shin-ISU] Impulse-Momentum Principle | *Mechanics Engineering*
+- **isu_mech_stress_strain** | [Shin-ISU] Stress and Strain | *Mechanics Engineering*
+- **isu_mech_torsion** | [Shin-ISU] Torsion | *Mechanics Engineering*
+- **isu_mech_bending_beams** | [Shin-ISU] Bending of Beams | *Mechanics Engineering*
+- **isu_mech_columns** | [Shin-ISU] Column Buckling | *Mechanics Engineering*
+- **isu_mech_failure_theories** | [Shin-ISU] Failure Theories | *Mechanics Engineering*
+- **isu_mech_linkage_analysis** | [Shin-ISU] Linkage Analysis | *Mechanics Engineering*
+- **isu_mech_cams** | [Shin-ISU] Cam Design | *Mechanics Engineering*
+- **isu_mech_gears** | [Shin-ISU] Gear Theory | *Mechanics Engineering*
+- **isu_mech_cam_dynamics** | [Shin-ISU] Cam-Follower Dynamics | *Mechanics Engineering*
+- **isu_mech_spatial_mechanisms** | [Shin-ISU] Spatial Mechanisms | *Mechanics Engineering*
+- **isu_mech_free_vibration** | [Shin-ISU] Free Vibration | *Mechanics Engineering*
+- **isu_mech_forced_vibration** | [Shin-ISU] Forced Vibration | *Mechanics Engineering*
+- **isu_mech_damping** | [Shin-ISU] Damping Systems | *Mechanics Engineering*
+- **isu_mech_multi_dof_vib** | [Shin-ISU] Multi-DOF Vibration | *Mechanics Engineering*
+- **isu_mech_rotor_dynamics** | [Shin-ISU] Rotor Dynamics | *Mechanics Engineering*
+- **isu_mech_power_cycles** | [Shin-ISU] Power Cycles | *Mechanics Engineering*
+- **isu_mech_refrigeration** | [Shin-ISU] Refrigeration Cycles | *Mechanics Engineering*
+- **isu_mech_combustion** | [Shin-ISU] Combustion Analysis | *Mechanics Engineering*
+- **isu_mech_heat_exchangers** | [Shin-ISU] Heat Exchanger Design | *Mechanics Engineering*
+- **isu_mech_psychrometrics** | [Shin-ISU] Psychrometrics | *Mechanics Engineering*
+- **isu_mech_internal_flow** | [Shin-ISU] Internal Fluid Flow | *Mechanics Engineering*
+- **isu_mech_external_flow** | [Shin-ISU] External Fluid Flow | *Mechanics Engineering*
+- **isu_mech_turbomachinery** | [Shin-ISU] Turbomachinery | *Mechanics Engineering*
+- **isu_mech_cfd_basics** | [Shin-ISU] Computational Fluid Dynamics (CFD) | *Mechanics Engineering*
+- **isu_mech_gas_dynamics** | [Shin-ISU] Compressible Flow | *Mechanics Engineering*
+- **isu_mech_machine_design** | [Shin-ISU] Machine Element Design | *Mechanics Engineering*
+- **isu_mech_tolerancing** | [Shin-ISU] GD&T | *Mechanics Engineering*
+- **isu_mech_metal_forming** | [Shin-ISU] Metal Forming | *Mechanics Engineering*
+- **isu_mech_machining** | [Shin-ISU] Machining Processes | *Mechanics Engineering*
+- **isu_mech_additive_mfg** | [Shin-ISU] Additive Manufacturing | *Mechanics Engineering*
+- **isu_mech_composite_materials** | [Shin-ISU] Composite Materials | *Mechanics Engineering*
+- **isu_mech_smart_materials** | [Shin-ISU] Smart Materials | *Mechanics Engineering*
+- **isu_mech_tribology** | [Shin-ISU] Tribology | *Mechanics Engineering*
+- **isu_mech_cad_cam** | [Shin-ISU] CAD/CAM Integration | *Mechanics Engineering*
+- **isu_mech_mechatronics_system_integration** | [Shin-ISU] System Integration | *Mechanics Engineering*
+- **isu_mat_atomic_bonding** | [Shin-ISU] Atomic Bonding | *Materials Engineering*
+- **isu_mat_crystal_structure** | [Shin-ISU] Crystal Structures | *Materials Engineering*
+- **isu_mat_imperfections** | [Shin-ISU] Defects in Solids | *Materials Engineering*
+- **isu_mat_diffusion** | [Shin-ISU] Diffusion Mechanisms | *Materials Engineering*
+- **isu_mat_mechanical_props** | [Shin-ISU] Mechanical Properties | *Materials Engineering*
+- **isu_mat_phase_diagrams** | [Shin-ISU] Phase Diagrams | *Materials Engineering*
+- **isu_mat_phase_transform** | [Shin-ISU] Phase Transformations | *Materials Engineering*
+- **isu_mat_iron_carbon** | [Shin-ISU] Fe-C System | *Materials Engineering*
+- **isu_mat_heat_treatment** | [Shin-ISU] Heat Treatment | *Materials Engineering*
+- **isu_mat_precipitation_hard** | [Shin-ISU] Precipitation Hardening | *Materials Engineering*
+- **isu_mat_alloys** | [Shin-ISU] Alloy Design | *Materials Engineering*
+- **isu_mat_corrosion** | [Shin-ISU] Corrosion Engineering | *Materials Engineering*
+- **isu_mat_ceramics_structure** | [Shin-ISU] Ceramics Structure | *Materials Engineering*
+- **isu_mat_ceramics_props** | [Shin-ISU] Ceramic Processing | *Materials Engineering*
+- **isu_mat_glasses** | [Shin-ISU] Glass Engineering | *Materials Engineering*
+- **isu_mat_polymers_structure** | [Shin-ISU] Polymer Structure | *Materials Engineering*
+- **isu_mat_polymer_processing** | [Shin-ISU] Polymer Processing | *Materials Engineering*
+- **isu_mat_composites_intro** | [Shin-ISU] Composite Foundations | *Materials Engineering*
+- **isu_mat_composite_mfg** | [Shin-ISU] Composite Manufacturing | *Materials Engineering*
+- **isu_mat_nanomaterials** | [Shin-ISU] Nanomaterials | *Materials Engineering*
+- **isu_mat_fracture_mechanics** | [Shin-ISU] Fracture Mechanics | *Materials Engineering*
+- **isu_mat_fatigue** | [Shin-ISU] Fatigue Analysis | *Materials Engineering*
+- **isu_mat_creep** | [Shin-ISU] Creep | *Materials Engineering*
+- **isu_mat_selection** | [Shin-ISU] Material Selection | *Materials Engineering*
+- **isu_mat_testing** | [Shin-ISU] Materials Characterization | *Materials Engineering*
+- **isu_mat_recycling** | [Shin-ISU] Material Recycling | *Materials Engineering*
+- **isu_mat_life_cycle** | [Shin-ISU] Life Cycle Assessment (LCA) | *Materials Engineering*
+- **isu_mat_bio_materials** | [Shin-ISU] Biomaterials | *Materials Engineering*
+- **isu_mat_electronic_materials** | [Shin-ISU] Electronic Materials | *Materials Engineering*
+- **isu_mat_future_materials** | [Shin-ISU] Future Trends | *Materials Engineering*
+- **isu_struct_structural_systems** | [Shin-ISU] Structural Systems | *Structural Engineering*
+- **isu_struct_design_loads** | [Shin-ISU] Design Loads | *Structural Engineering*
+- **isu_struct_truss_analysis** | [Shin-ISU] Truss Analysis | *Structural Engineering*
+- **isu_struct_influence_lines** | [Shin-ISU] Influence Lines | *Structural Engineering*
+- **isu_struct_beams_frames** | [Shin-ISU] Beams & Frames Analysis | *Structural Engineering*
+- **isu_struct_deflection_geo** | [Shin-ISU] Deflection (Geometric) | *Structural Engineering*
+- **isu_struct_work_energy_struct** | [Shin-ISU] Work-Energy Methods | *Structural Engineering*
+- **isu_struct_indeterminacy** | [Shin-ISU] Indeterminate Structures | *Structural Engineering*
+- **isu_struct_force_method** | [Shin-ISU] Force Method | *Structural Engineering*
+- **isu_struct_stiffness_method** | [Shin-ISU] Stiffness Method | *Structural Engineering*
+- **isu_struct_steel_design** | [Shin-ISU] Steel Design (AISC) | *Structural Engineering*
+- **isu_struct_rc_design** | [Shin-ISU] Reinforced Concrete (ACI) | *Structural Engineering*
+- **isu_struct_rc_shear_bond** | [Shin-ISU] RC Shear & Bond | *Structural Engineering*
+- **isu_struct_prestress_concrete** | [Shin-ISU] Prestressed Concrete | *Structural Engineering*
+- **isu_struct_composite_construction** | [Shin-ISU] Composite Construction | *Structural Engineering*
+- **isu_struct_seismic_analysis** | [Shin-ISU] Seismic Analysis | *Structural Engineering*
+- **isu_struct_seismic_detailing** | [Shin-ISU] Seismic Detailing | *Structural Engineering*
+- **isu_struct_foundation_eng** | [Shin-ISU] Foundation Engineering | *Structural Engineering*
+- **isu_struct_finite_element_mod** | [Shin-ISU] FEA in Structures | *Structural Engineering*
+- **isu_struct_bridge_engineering** | [Shin-ISU] Bridge Engineering | *Structural Engineering*
+- **isu_struct_timber_design** | [Shin-ISU] Timber Engineering | *Structural Engineering*
+- **isu_struct_masonry_design** | [Shin-ISU] Masonry Design | *Structural Engineering*
+- **isu_struct_tall_building_systems** | [Shin-ISU] Tall Building Systems | *Structural Engineering*
+- **isu_struct_shell_structures** | [Shin-ISU] Shell & Membrane Structures | *Structural Engineering*
+- **isu_struct_space_frames** | [Shin-ISU] Space Frame Analysis | *Structural Engineering*
+- **isu_struct_health_monitoring** | [Shin-ISU] Structural Health Monitoring | *Structural Engineering*
+- **isu_struct_non_destructive_testing** | [Shin-ISU] NDT/NDE Methods | *Structural Engineering*
+- **isu_struct_rehab_strengthening** | [Shin-ISU] Structural Rehabilitation | *Structural Engineering*
+- **isu_struct_safety_reliability** | [Shin-ISU] Reliability & Risk | *Structural Engineering*
+- **isu_struct_forensic_engineering** | [Shin-ISU] Forensic Engineering | *Structural Engineering*
+- **isu_auto_internal_combustion** | [Shin-ISU] IC Engine Cycles | *Automotive Mechanics*
+- **isu_auto_valvetrain** | [Shin-ISU] Valvetrain Systems | *Automotive Mechanics*
+- **isu_auto_fuel_delivery** | [Shin-ISU] Fuel Systems | *Automotive Mechanics*
+- **isu_auto_lubrication** | [Shin-ISU] Lubrication Systems | *Automotive Mechanics*
+- **isu_auto_cooling_system** | [Shin-ISU] Engine Cooling | *Automotive Mechanics*
+- **isu_auto_clutch** | [Shin-ISU] Clutch Systems | *Automotive Mechanics*
+- **isu_auto_manual_trans** | [Shin-ISU] Manual Transmission | *Automotive Mechanics*
+- **isu_auto_automatic_trans** | [Shin-ISU] Automatic Transmission | *Automotive Mechanics*
+- **isu_auto_differential** | [Shin-ISU] Differential & Drive Axles | *Automotive Mechanics*
+- **isu_auto_driveshaft** | [Shin-ISU] Driveshafts & CV Joints | *Automotive Mechanics*
+- **isu_auto_suspension** | [Shin-ISU] Suspension Systems | *Automotive Mechanics*
+- **isu_auto_steering** | [Shin-ISU] Steering Geometry | *Automotive Mechanics*
+- **isu_auto_alignment** | [Shin-ISU] Wheel Alignment | *Automotive Mechanics*
+- **isu_auto_shocks** | [Shin-ISU] Shock Absorbers | *Automotive Mechanics*
+- **isu_auto_power_steering** | [Shin-ISU] Power Steering | *Automotive Mechanics*
+- **isu_auto_braking_hydraulics** | [Shin-ISU] Braking Hydraulics | *Automotive Mechanics*
+- **isu_auto_abs** | [Shin-ISU] ABS Systems | *Automotive Mechanics*
+- **isu_auto_disc_drums** | [Shin-ISU] Disc vs Drum Brakes | *Automotive Mechanics*
+- **isu_auto_stability_control** | [Shin-ISU] Electronic Stability Control (ESC) | *Automotive Mechanics*
+- **isu_auto_regenerative_braking** | [Shin-ISU] Regenerative Braking | *Automotive Mechanics*
+- **isu_auto_electrical_fundamentals** | [Shin-ISU] Vehicle Electronics | *Automotive Mechanics*
+- **isu_auto_can_bus** | [Shin-ISU] CAN Bus | *Automotive Mechanics*
+- **isu_auto_obd2** | [Shin-ISU] OBD-II Diagnostics | *Automotive Mechanics*
+- **isu_auto_sensors_actuators** | [Shin-ISU] Automotive Sensors | *Automotive Mechanics*
+- **isu_auto_ign_systems** | [Shin-ISU] Ignition Systems | *Automotive Mechanics*
+- **isu_auto_ev_powertrains** | [Shin-ISU] EV Powertrains | *Automotive Mechanics*
+- **isu_auto_fuel_cells** | [Shin-ISU] Hydrogen Fuel Cells | *Automotive Mechanics*
+- **isu_auto_autonomous_systems** | [Shin-ISU] ADAS | *Automotive Mechanics*
+- **isu_auto_powertrain_optimization** | [Shin-ISU] Powertrain Optimization | *Automotive Mechanics*
+- **isu_auto_vehicle_dynamics** | [Shin-ISU] Vehicle Dynamics Simulation | *Automotive Mechanics*
+- **isu_aero_atm_model** | [Shin-ISU] Atmospheric Models | *Aerospace Engineering*
+- **isu_aero_lift_generation** | [Shin-ISU] Lift Theory | *Aerospace Engineering*
+- **isu_aero_drag_models** | [Shin-ISU] Drag Components | *Aerospace Engineering*
+- **isu_aero_airfoil_theory** | [Shin-ISU] Airfoil Geometry | *Aerospace Engineering*
+- **isu_aero_finited_wing_theory** | [Shin-ISU] Finite Wing Theory | *Aerospace Engineering*
+- **isu_aero_long_stability** | [Shin-ISU] Longitudinal Stability | *Aerospace Engineering*
+- **isu_aero_lat_dir_stability** | [Shin-ISU] Lateral/Directional Stability | *Aerospace Engineering*
+- **isu_aero_eom** | [Shin-ISU] Equations of Motion | *Aerospace Engineering*
+- **isu_aero_flight_control_surfaces** | [Shin-ISU] Control Surfaces | *Aerospace Engineering*
+- **isu_aero_handling_qualities** | [Shin-ISU] Handling Qualities | *Aerospace Engineering*
+- **isu_aero_mach_number** | [Shin-ISU] Mach Number Effects | *Aerospace Engineering*
+- **isu_aero_normal_shocks** | [Shin-ISU] Normal Shocks | *Aerospace Engineering*
+- **isu_aero_oblique_shocks** | [Shin-ISU] Oblique Shocks & Expansion | *Aerospace Engineering*
+- **isu_aero_transonic_flow** | [Shin-ISU] Transonic Aerodynamics | *Aerospace Engineering*
+- **isu_aero_supersonic_airfoils** | [Shin-ISU] Supersonic Airfoils | *Aerospace Engineering*
+- **isu_aero_propulsion_cycles** | [Shin-ISU] Propulsion Cycles | *Aerospace Engineering*
+- **isu_aero_inlets_nozzles** | [Shin-ISU] Inlets and Nozzles | *Aerospace Engineering*
+- **isu_aero_compressors** | [Shin-ISU] Compressors | *Aerospace Engineering*
+- **isu_aero_combustors** | [Shin-ISU] Combustion Chambers | *Aerospace Engineering*
+- **isu_aero_turbines** | [Shin-ISU] Turbines | *Aerospace Engineering*
+- **isu_aero_thin_walled_structures** | [Shin-ISU] Thin-Walled Structures | *Aerospace Engineering*
+- **isu_aero_aeroelasticity** | [Shin-ISU] Aeroelasticity | *Aerospace Engineering*
+- **isu_aero_fatigue_damage** | [Shin-ISU] Damage Tolerance | *Aerospace Engineering*
+- **isu_aero_materials_selection** | [Shin-ISU] Aerospace Materials | *Aerospace Engineering*
+- **isu_aero_wing_structures** | [Shin-ISU] Wing Structural Design | *Aerospace Engineering*
+- **isu_aero_orbital_basics** | [Shin-ISU] Orbital Mechanics | *Aerospace Engineering*
+- **isu_aero_orbital_maneuvers** | [Shin-ISU] Orbital Maneuvers | *Aerospace Engineering*
+- **isu_aero_rocket_eq** | [Shin-ISU] Rocket Equation | *Aerospace Engineering*
+- **isu_aero_reentry_dynamics** | [Shin-ISU] Reentry Dynamics | *Aerodynamics & Space*
+- **isu_aero_space_env** | [Shin-ISU] Space Environment | *Aerospace Engineering*
+- **isu_aero_space_power** | [Shin-ISU] Spacecraft Power | *Aerospace Engineering*
+- **isu_aero_attitude_control** | [Shin-ISU] Attitude Determination & Control | *Aerospace Engineering*
+- **isu_aero_telemetry** | [Shin-ISU] Communication Systems | *Aerospace Engineering*
+- **isu_aero_thermal_control** | [Shin-ISU] Spacecraft Thermal Control | *Aerospace Engineering*
+- **isu_aero_propulsion_space** | [Shin-ISU] Space Propulsion | *Aerospace Engineering*
+- **isu_aero_mission_design** | [Shin-ISU] Mission Analysis | *Aerospace Engineering*
+- **isu_aero_launch_vehicles** | [Shin-ISU] Launch Vehicles | *Aerospace Engineering*
+- **isu_aero_human_spaceflight** | [Shin-ISU] Human Spaceflight | *Aerospace Engineering*
+- **isu_aero_uav_integration** | [Shin-ISU] UAS Integration | *Aerospace Engineering*
+- **isu_aero_future_aerospace** | [Shin-ISU] Future Aerospace | *Aerospace Engineering*
+- **isu_chemeng_reaction_kinetics** | [Shin-ISU] Reaction Kinetics | *Chemical Engineering*
+- **isu_chemeng_ideal_reactors** | [Shin-ISU] Ideal Reactor Design | *Chemical Engineering*
+- **isu_chemeng_nonideal_reactors** | [Shin-ISU] Non-Ideal Reactors | *Chemical Engineering*
+- **isu_chemeng_catalysis** | [Shin-ISU] Catalysis | *Chemical Engineering*
+- **isu_chemeng_bioreactors** | [Shin-ISU] Bioreactors | *Chemical Engineering*
+- **isu_chemeng_dynamics** | [Shin-ISU] Process Dynamics | *Chemical Engineering*
+- **isu_chemeng_feedback_control** | [Shin-ISU] Feedback Control | *Chemical Engineering*
+- **isu_chemeng_freq_response** | [Shin-ISU] Frequency Response | *Chemical Engineering*
+- **isu_chemeng_multivariable_control** | [Shin-ISU] Multivariable Control | *Chemical Engineering*
+- **isu_chemeng_plant_design** | [Shin-ISU] Process Plant Design | *Chemical Engineering*
+- **isu_chemeng_utility_systems** | [Shin-ISU] Utility Systems | *Chemical Engineering*
+- **isu_chemeng_scaling** | [Shin-ISU] Process Scaling | *Chemical Engineering*
+- **isu_chemeng_process_safety** | [Shin-ISU] Process Safety | *Chemical Engineering*
+- **isu_chemeng_toxicology** | [Shin-ISU] Industrial Toxicology | *Chemical Engineering*
+- **isu_chemeng_fire_explosion** | [Shin-ISU] Fire & Explosion | *Chemical Engineering*
+- **isu_chemeng_pressure_relief** | [Shin-ISU] Relief Systems | *Chemical Engineering*
+- **isu_chemeng_quality_assurance** | [Shin-ISU] Quality Assurance | *Chemical Engineering*
+- **isu_chemeng_biochemical_kinetics** | [Shin-ISU] Biochemical Kinetics | *Chemical Engineering*
+- **isu_chemeng_downstream_proc** | [Shin-ISU] Downstream Processing | *Chemical Engineering*
+- **isu_chemeng_polymer_synthesis** | [Shin-ISU] Polymer Synthesis | *Chemical Engineering*
+- **isu_chemeng_polymer_rheology** | [Shin-ISU] Polymer Rheology | *Chemical Engineering*
+- **isu_chemeng_colloids_interfaces** | [Shin-ISU] Colloids & Interfaces | *Chemical Engineering*
+- **isu_chemeng_electrochem_eng** | [Shin-ISU] Electrochemical Engineering | *Chemical Engineering*
+- **isu_chemeng_catalytic_nanotech** | [Shin-ISU] Catalytic Nanomaterials | *Chemical Engineering*
+- **isu_chemeng_energy_conversion** | [Shin-ISU] Energy Conversion Processes | *Chemical Engineering*
+- **isu_chemeng_molecular_sim** | [Shin-ISU] Molecular Simulation | *Chemical Engineering*
+- **isu_moto_engine_types** | [Shin-ISU] Engine Configurations | *Motorcycle Mechanics*
+- **isu_moto_clutch_trans** | [Shin-ISU] Wet Clutch & Sequential Trans | *Motorcycle Mechanics*
+- **isu_moto_final_drive** | [Shin-ISU] Final Drive Systems | *Motorcycle Mechanics*
+- **isu_moto_intake_exhaust** | [Shin-ISU] Moto Intake & Exhaust | *Motorcycle Mechanics*
+- **isu_moto_lubrication** | [Shin-ISU] Shared Lubrication | *Motorcycle Mechanics*
+- **isu_moto_geometry** | [Shin-ISU] Motorcycle Geometry | *Motorcycle Mechanics*
+- **isu_moto_frame_design** | [Shin-ISU] Frame & Chassis | *Motorcycle Mechanics*
+- **isu_moto_suspension** | [Shin-ISU] Moto Suspension | *Motorcycle Mechanics*
+- **isu_moto_steering_damper** | [Shin-ISU] Steering Dampers | *Motorcycle Mechanics*
+- **isu_moto_tire_dynamics** | [Shin-ISU] Tire Dynamics | *Motorcycle Mechanics*
+- **isu_moto_brake_calipers** | [Shin-ISU] Brake Calipers & Master Cylinders | *Motorcycle Mechanics*
+- **isu_moto_abs_moto** | [Shin-ISU] Motorcycle ABS | *Motorcycle Mechanics*
+- **isu_moto_brake_fade** | [Shin-ISU] Thermal Management in Brakes | *Motorcycle Mechanics*
+- **isu_moto_braking_physics** | [Shin-ISU] Weight Transfer Dynamics | *Motorcycle Mechanics*
+- **isu_moto_tires_traction** | [Shin-ISU] Traction Control Systems | *Motorcycle Mechanics*
+- **isu_moto_charging_system** | [Shin-ISU] Charging & Ignition | *Motorcycle Mechanics*
+- **isu_moto_ecu_tuning** | [Shin-ISU] ECU Flash & Mapping | *Motorcycle Mechanics*
+- **isu_moto_diagnostics** | [Shin-ISU] Diagnostic Protocols | *Motorcycle Mechanics*
+- **isu_moto_wiring_harness** | [Shin-ISU] Wiring & CAN Integration | *Motorcycle Mechanics*
+- **isu_moto_ev_motorcycle** | [Shin-ISU] Electric Motorcycles | *Motorcycle Mechanics*
+- **isu_aero_flow_regimes** | [Shin-ISU] Flow Regimes | *Aerodynamics*
+- **isu_aero_bernoulli_nsv** | [Shin-ISU] Conservation Laws | *Aerodynamics*
+- **isu_aero_potential_flow** | [Shin-ISU] Potential Flow Theory | *Aerodynamics*
+- **isu_aero_boundary_layers** | [Shin-ISU] Boundary Layer Theory | *Aerodynamics*
+- **isu_aero_bl_separation** | [Shin-ISU] Flow Separation | *Aerodynamics*
+- **isu_aero_kutta_condition** | [Shin-ISU] Kutta Condition | *Aerodynamics*
+- **isu_aero_thin_airfoil_theory** | [Shin-ISU] Thin Airfoil Theory | *Aerodynamics*
+- **isu_aero_lifting_line** | [Shin-ISU] Prandtl's Lifting Line | *Aerodynamics*
+- **isu_aero_vortex_lattice** | [Shin-ISU] Vortex Lattice Method (VLM) | *Aerodynamics*
+- **isu_aero_wing_devices** | [Shin-ISU] High Lift Devices | *Aerodynamics*
+- **isu_aero_speed_of_sound** | [Shin-ISU] Speed of Sound | *Aerodynamics*
+- **isu_aero_isentropic_flow** | [Shin-ISU] Isentropic Flow | *Aerodynamics*
+- **isu_aero_normal_shocks_aero** | [Shin-ISU] Normal Shock Analysis | *Aerodynamics*
+- **isu_aero_oblique_shocks_aero** | [Shin-ISU] Oblique Shocks | *Aerodynamics*
+- **isu_aero_expansion_fans** | [Shin-ISU] Expansion Waves | *Aerodynamics*
+- **isu_aero_transonic_regime** | [Shin-ISU] Transonic Flow | *Aerodynamics*
+- **isu_aero_area_rule** | [Shin-ISU] Area Rule | *Aerodynamics*
+- **isu_aero_linearized_supersonic** | [Shin-ISU] Linearized Supersonic Theory | *Aerodynamics*
+- **isu_aero_hypersonic_intro** | [Shin-ISU] Hypersonic Aerodynamics | *Aerodynamics*
+- **isu_aero_aerodynamic_heating** | [Shin-ISU] Aerodynamic Heating | *Aerodynamics*
+- **isu_aero_cfd_basics** | [Shin-ISU] CFD Fundamentals | *Aerodynamics*
+- **isu_aero_turbulence_modeling** | [Shin-ISU] Turbulence Modeling | *Aerodynamics*
+- **isu_aero_wind_tunnels** | [Shin-ISU] Wind Tunnel Testing | *Aerodynamics*
+- **isu_aero_flow_visualization** | [Shin-ISU] Flow Visualization | *Aerodynamics*
+- **isu_aero_similarity_laws** | [Shin-ISU] Similarity Laws | *Aerodynamics*
+- **isu_aero_aeroacoustics** | [Shin-ISU] Aero-Acoustics | *Aerodynamics*
+- **isu_aero_unsteady_aero** | [Shin-ISU] Unsteady Aerodynamics | *Aerodynamics*
+- **isu_aero_aeroelasticity_aero** | [Shin-ISU] Aeroelasticity | *Aerodynamics*
+- **isu_aero_vortex_shedding** | [Shin-ISU] Vortex Shedding | *Aerodynamics*
+- **isu_aero_environmental_aero** | [Shin-ISU] Environmental Aerodynamics | *Aerodynamics*
+- **isu_aero_aircraft_types** | [Shin-ISU] Aircraft Classifications | *Aeronautics*
+- **isu_aero_mission_req** | [Shin-ISU] Mission Requirements | *Aeronautics*
+- **isu_aero_fuselage_design** | [Shin-ISU] Fuselage Design | *Aeronautics*
+- **isu_aero_wing_geometry** | [Shin-ISU] Wing Geometry Selection | *Aeronautics*
+- **isu_aero_empennage_design** | [Shin-ISU] Empennage Design | *Aeronautics*
+- **isu_aero_drag_polar** | [Shin-ISU] Drag Polar Modeling | *Aeronautics*
+- **isu_aero_thrust_required** | [Shin-ISU] Thrust & Power Required | *Aeronautics*
+- **isu_aero_takeoff_landing** | [Shin-ISU] Takeoff & Landing Perf | *Aeronautics*
+- **isu_aero_climb_range** | [Shin-ISU] Climb, Range, & Endurance | *Aeronautics*
+- **isu_aero_maneuver_perf** | [Shin-ISU] Maneuvering Performance | *Aeronautics*
+- **isu_aero_long_stability_aero** | [Shin-ISU] Longitudinal Stability | *Aeronautics*
+- **isu_aero_lat_dir_stability_aero** | [Shin-ISU] Lateral-Directional Stability | *Aeronautics*
+- **isu_aero_fly_by_wire** | [Shin-ISU] Fly-by-Wire Systems | *Aeronautics*
+- **isu_aero_active_control** | [Shin-ISU] Active Control Technology | *Aeronautics*
+- **isu_aero_control_reversal** | [Shin-ISU] Aeroelastic Control | *Aeronautics*
+- **isu_aero_propulsion_integration** | [Shin-ISU] Propulsion Integration | *Aeronautics*
+- **isu_aero_fuel_systems** | [Shin-ISU] Aircraft Fuel Systems | *Aeronautics*
+- **isu_aero_landing_gear_sys** | [Shin-ISU] Landing Gear Systems | *Aeronautics*
+- **isu_aero_environmental_systems** | [Shin-ISU] Environmental Systems (ECS) | *Aeronautics*
+- **isu_aero_avionics_arch** | [Shin-ISU] Avionics Architecture | *Aeronautics*
+- **isu_aero_materials_science** | [Shin-ISU] Aerospace Materials | *Aeronautics*
+- **isu_aero_composite_mfg** | [Shin-ISU] Composite Manufacturing | *Aeronautics*
+- **isu_aero_metallic_joining** | [Shin-ISU] Metallic Joining | *Aeronautics*
+- **isu_aero_additive_aero** | [Shin-ISU] Additive Manufacturing | *Aeronautics*
+- **isu_aero_quality_control** | [Shin-ISU] Quality Control & Inspection | *Aeronautics*
+- **isu_aero_certification_proc** | [Shin-ISU] Certification Processes | *Aeronautics*
+- **isu_aero_airworthiness** | [Shin-ISU] Continuing Airworthiness | *Aeronautics*
+- **isu_aero_reliability_eng** | [Shin-ISU] Reliability Engineering | *Aeronautics*
+- **isu_aero_human_factors** | [Shin-ISU] Aeronautical Human Factors | *Aeronautics*
+- **isu_aero_sustainable_flight** | [Shin-ISU] Sustainable Aviation | *Aeronautics*
+- **isu_space_mission_design** | [Shin-ISU] Mission Design | *Space Aeronautics*
+- **isu_space_launch_vehicles** | [Shin-ISU] Launch Vehicles | *Space Aeronautics*
+- **isu_space_orbital_mechanics** | [Shin-ISU] Orbital Mechanics | *Space Aeronautics*
+- **isu_space_interplanetary_trajectories** | [Shin-ISU] Interplanetary Trajectories | *Space Aeronautics*
+- **isu_space_mission_analysis** | [Shin-ISU] Mission Analysis | *Space Aeronautics*
+- **isu_space_structural_design** | [Shin-ISU] Spacecraft Structures | *Space Aeronautics*
+- **isu_space_thermal_control** | [Shin-ISU] Thermal Control Systems | *Space Aeronautics*
+- **isu_space_env_effects** | [Shin-ISU] Space Environment | *Space Aeronautics*
+- **isu_space_materials_selection** | [Shin-ISU] Space Materials | *Space Aeronautics*
+- **isu_space_structures_deployment** | [Shin-ISU] Deployable Structures | *Space Aeronautics*
+- **isu_space_adcs_sensors** | [Shin-ISU] ADCS Sensors | *Space Aeronautics*
+- **isu_space_adcs_actuators** | [Shin-ISU] ADCS Actuators | *Space Aeronautics*
+- **isu_space_power_generation** | [Shin-ISU] Power Generation | *Space Aeronautics*
+- **isu_space_power_storage** | [Shin-ISU] Power Storage & Dist | *Space Aeronautics*
+- **isu_space_control_laws** | [Shin-ISU] ADCS Control Laws | *Space Aeronautics*
+- **isu_space_chemical_prop** | [Shin-ISU] Chemical Propulsion | *Space Aeronautics*
+- **isu_space_electric_prop** | [Shin-ISU] Electric Propulsion | *Space Aeronautics*
+- **isu_space_prop_feed_sys** | [Shin-ISU] Propulsion Feed Systems | *Space Aeronautics*
+- **isu_space_thermal_rocket** | [Shin-ISU] Advanced Propulsion | *Space Aeronautics*
+- **isu_space_thrust_vectoring** | [Shin-ISU] Thrust Vector Control | *Space Aeronautics*
+- **isu_space_link_budget** | [Shin-ISU] Link Budget Analysis | *Space Aeronautics*
+- **isu_space_rf_systems** | [Shin-ISU] RF Systems & Antennas | *Space Aeronautics*
+- **isu_space_optical_comm** | [Shin-ISU] Optical Communications | *Space Aeronautics*
+- **isu_space_telemetry_tracking** | [Shin-ISU] Telemetry & Tracking | *Space Aeronautics*
+- **isu_space_data_processing** | [Shin-ISU] On-Board Processing | *Space Aeronautics*
+- **isu_space_eclss** | [Shin-ISU] Life Support (ECLSS) | *Space Aeronautics*
+- **isu_space_human_factors** | [Shin-ISU] Space Human Factors | *Space Aeronautics*
+- **isu_space_commercial_space** | [Shin-ISU] Commercial Spaceflight | *Space Aeronautics*
+- **isu_space_planetary_defense** | [Shin-ISU] Planetary Defense | *Space Aeronautics*
+- **isu_space_in_situ_resource** | [Shin-ISU] In-Situ Resource Util (ISRU) | *Space Aeronautics*
+- **isu_cyb_feedback_loops** | [Shin-ISU] Feedback Loops | *Cybernetics*
+- **isu_cyb_information_theory** | [Shin-ISU] Information Theory | *Cybernetics*
+- **isu_cyb_systems_theory** | [Shin-ISU] General Systems Theory | *Cybernetics*
+- **isu_cyb_control_theory** | [Shin-ISU] Control Theory | *Cybernetics*
+- **isu_cyb_communication** | [Shin-ISU] Communication & Control | *Cybernetics*
+- **isu_cyb_homeostasis** | [Shin-ISU] Homeostasis | *Cybernetics*
+- **isu_cyb_autopoiesis** | [Shin-ISU] Autopoiesis | *Cybernetics*
+- **isu_cyb_adaptation** | [Shin-ISU] Adaptive Systems | *Cybernetics*
+- **isu_cyb_neural_networks** | [Shin-ISU] Cybernetic Neural Networks | *Cybernetics*
+- **isu_cyb_cognition_embodied** | [Shin-ISU] Embodied Cognition | *Cybernetics*
+- **isu_cyb_second_order** | [Shin-ISU] Second-Order Cybernetics | *Cybernetics*
+- **isu_cyb_social_systems** | [Shin-ISU] Social Systems | *Cybernetics*
+- **isu_cyb_management_cybernetics** | [Shin-ISU] Management Cybernetics | *Cybernetics*
+- **isu_cyb_political_cybernetics** | [Shin-ISU] Political Cybernetics | *Cybernetics*
+- **isu_cyb_constructivism** | [Shin-ISU] Radical Constructivism | *Cybernetics*
+- **isu_cyb_ai_cybernetic_origins** | [Shin-ISU] Cybernetic Origins of AI | *Cybernetics*
+- **isu_cyb_bionics** | [Shin-ISU] Bionics & Bio-mimicry | *Cybernetics*
+- **isu_cyb_human_machine_symbiosis** | [Shin-ISU] Human-Machine Symbiosis | *Cybernetics*
+- **isu_cyb_synergetics** | [Shin-ISU] Synergetics | *Cybernetics*
+- **isu_cyb_artificial_life** | [Shin-ISU] Artificial Life (ALife) | *Cybernetics*
+- **isu_cyb_chaos_theory** | [Shin-ISU] Chaos Theory | *Cybernetics*
+- **isu_cyb_self_organization** | [Shin-ISU] Self-Organization | *Cybernetics*
+- **isu_cyb_fractals** | [Shin-ISU] Fractal Geometry | *Cybernetics*
+- **isu_cyb_cellular_automata** | [Shin-ISU] Cellular Automata | *Cybernetics*
+- **isu_cyb_complexity_science** | [Shin-ISU] Complexity Science | *Cybernetics*
+- **isu_cyb_cyborg_theory** | [Shin-ISU] Cyborg Theory | *Cybernetics*
+- **isu_cyb_technocracy** | [Shin-ISU] Technocracy | *Cybernetics*
+- **isu_cyb_info_ethics** | [Shin-ISU] Information Ethics | *Cybernetics*
+- **isu_cyb_extended_mind** | [Shin-ISU] Extended Mind Hypothesis | *Cybernetics*
+- **isu_cyb_future_evolution** | [Shin-ISU] Technological Singularity | *Cybernetics*
+- **isu_bio_dna_recombinant** | [Shin-ISU] Recombinant DNA Tech | *Biotech Engineering*
+- **isu_bio_pcr_amplification** | [Shin-ISU] PCR & Amplification | *Biotech Engineering*
+- **isu_bio_crispr_editing** | [Shin-ISU] CRISPR-Cas9 Editing | *Biotech Engineering*
+- **isu_bio_sequencing_tech** | [Shin-ISU] Next-Gen Sequencing | *Biotech Engineering*
+- **isu_bio_protein_expression** | [Shin-ISU] Protein Expression | *Biotech Engineering*
+- **isu_bio_bioreactor_design** | [Shin-ISU] Bioreactor Systems | *Biotech Engineering*
+- **isu_bio_cell_culture** | [Shin-ISU] Mammalian Cell Culture | *Biotech Engineering*
+- **isu_bio_downstream_biotech** | [Shin-ISU] Downstream Processing | *Biotech Engineering*
+- **isu_bio_bioseparation_scaleup** | [Shin-ISU] Bioseparation Scale-up | *Biotech Engineering*
+- **isu_bio_process_monitoring** | [Shin-ISU] Process Analytical Tech (PAT) | *Biotech Engineering*
+- **isu_bio_synbio_circuits** | [Shin-ISU] Synthetic Biology Circuits | *Biotech Engineering*
+- **isu_bio_metabolic_eng** | [Shin-ISU] Metabolic Engineering | *Biotech Engineering*
+- **isu_bio_scaffold_eng** | [Shin-ISU] Tissue Scaffold Design | *Biotech Engineering*
+- **isu_bio_stem_cell_eng** | [Shin-ISU] Stem Cell Engineering | *Biotech Engineering*
+- **isu_bio_organ_on_chip** | [Shin-ISU] Organ-on-a-Chip | *Biotech Engineering*
+- **isu_bio_biosensor_principles** | [Shin-ISU] Biosensor Fundamentals | *Biotech Engineering*
+- **isu_bio_lab_on_chip** | [Shin-ISU] Lab-on-a-Chip | *Biotech Engineering*
+- **isu_bio_nanobio_tech** | [Shin-ISU] Nanobiotechnology | *Biotech Engineering*
+- **isu_bio_molecular_imaging** | [Shin-ISU] Molecular Imaging | *Biotech Engineering*
+- **isu_bio_point_of_care** | [Shin-ISU] Point-of-Care Diagnostics | *Biotech Engineering*
+- **isu_bio_cgmp_compliance** | [Shin-ISU] cGMP Manufacturing | *Biotech Engineering*
+- **isu_bio_single_use_tech** | [Shin-ISU] Single-Use Technologies | *Biotech Engineering*
+- **isu_bio_viral_safety** | [Shin-ISU] Viral Clearance | *Biotech Engineering*
+- **isu_bio_fill_finish** | [Shin-ISU] Fill & Finish Operations | *Biotech Engineering*
+- **isu_bio_supply_chain_bio** | [Shin-ISU] Bio-Supply Chain | *Biotech Engineering*
+- **isu_bio_ethics_editing** | [Shin-ISU] Bioethics of Gene Editing | *Biotech Engineering*
+- **isu_bio_intellectual_prop** | [Shin-ISU] Intellectual Property (IP) | *Biotech Engineering*
+- **isu_bio_biosafety_levels** | [Shin-ISU] Biosafety & Biosecurity | *Biotech Engineering*
+- **isu_bio_personalized_med** | [Shin-ISU] Personalized Medicine | *Biotech Engineering*
+- **isu_bio_future_biotech** | [Shin-ISU] Future Biotech Trends | *Biotech Engineering*
+- **isu_rob_kinematics_forward** | [Shin-ISU] Forward Kinematics | *Robotics*
+- **isu_rob_kinematics_inverse** | [Shin-ISU] Inverse Kinematics | *Robotics*
+- **isu_rob_dynamics** | [Shin-ISU] Robot Dynamics | *Robotics*
+- **isu_rob_trajectory_gen** | [Shin-ISU] Trajectory Generation | *Robotics*
+- **isu_rob_jacobian_analysis** | [Shin-ISU] Jacobian Analysis | *Robotics*
+- **isu_rob_sensors_proprio** | [Shin-ISU] Proprioceptive Sensors | *Robotics*
+- **isu_rob_sensors_extero** | [Shin-ISU] Exteroceptive Sensors | *Robotics*
+- **isu_rob_state_estimation** | [Shin-ISU] State Estimation | *Robotics*
+- **isu_rob_actuators** | [Shin-ISU] Robot Actuation | *Robotics*
+- **isu_rob_slam_intro** | [Shin-ISU] SLAM | *Robotics*
+- **isu_rob_lidar_proc** | [Shin-ISU] LIDAR Processing | *Robotics*
+- **isu_rob_visual_odometry** | [Shin-ISU] Visual Odometry | *Robotics*
+- **isu_rob_semantic_mapping** | [Shin-ISU] Semantic Mapping | *Robotics*
+- **isu_rob_local_planner** | [Shin-ISU] Local Navigation | *Robotics*
+- **isu_rob_motion_constraints** | [Shin-ISU] Non-Holonomic Constraints | *Robotics*
+- **isu_rob_multi_robot** | [Shin-ISU] Multi-Robot Coordination | *Robotics*
+- **isu_rob_underactuated_sys** | [Shin-ISU] Underactuated Robotics | *Robotics*
+- **isu_rob_impedance_control** | [Shin-ISU] Impedance/Admittance Control | *Robotics*
+- **isu_rob_imitation_learning** | [Shin-ISU] Imitation Learning | *Robotics*
+- **isu_rob_hri_human_robot** | [Shin-ISU] Human-Robot Interaction | *Robotics*
+- **isu_rob_cobots** | [Shin-ISU] Collaborative Robots (Cobots) | *Robotics*
+- **isu_rob_robot_ethics** | [Shin-ISU] Robotics Ethics | *Robotics*
+- **isu_rob_future_trends** | [Shin-ISU] Future Robotics Trends | *Robotics*
+- **isu_cs_turing_machines** | [Shin-ISU] Turing Machines | *CS & SWE*
+- **isu_cs_time_complexity** | [Shin-ISU] Big O Notation | *CS & SWE*
+- **isu_cs_data_structures_basic** | [Shin-ISU] Fundamental Data Structures | *CS & SWE*
+- **isu_cs_binary_logic** | [Shin-ISU] Binary & Boolean Logic | *CS & SWE*
+- **isu_cs_von_neumann** | [Shin-ISU] Von Neumann Architecture | *CS & SWE*
+- **isu_prog_imperative** | [Shin-ISU] Imperative Programming | *CS & SWE*
+- **isu_prog_oop** | [Shin-ISU] Object-Oriented Programming | *CS & SWE*
+- **isu_prog_functional** | [Shin-ISU] Functional Programming | *CS & SWE*
+- **isu_prog_declarative** | [Shin-ISU] Declarative Programming | *CS & SWE*
+- **isu_prog_compilation_int** | [Shin-ISU] Compilation vs Interpretation | *CS & SWE*
+- **isu_cs_sorting_algo** | [Shin-ISU] Sorting Algorithms | *CS & SWE*
+- **isu_cs_graph_traversal** | [Shin-ISU] Graph Traversal | *CS & SWE*
+- **isu_cs_dynamic_programming** | [Shin-ISU] Dynamic Programming | *CS & SWE*
+- **isu_cs_greedy_algo** | [Shin-ISU] Greedy Algorithms | *CS & SWE*
+- **isu_cs_search_algorithms** | [Shin-ISU] Search Algorithms | *CS & SWE*
+- **isu_cs_hash_tables** | [Shin-ISU] Hash Tables | *CS & SWE*
+- **isu_cs_binary_trees** | [Shin-ISU] Binary Search Trees | *CS & SWE*
+- **isu_cs_heaps** | [Shin-ISU] Heaps & Priority Queues | *CS & SWE*
+- **isu_cs_tries** | [Shin-ISU] Trie Structures | *CS & SWE*
+- **isu_cs_graphs_adv** | [Shin-ISU] Advanced Graph Structures | *CS & SWE*
+- **isu_cs_os_processes** | [Shin-ISU] Processes & Threads | *CS & SWE*
+- **isu_cs_os_scheduling** | [Shin-ISU] CPU Scheduling | *CS & SWE*
+- **isu_cs_os_memory** | [Shin-ISU] Memory Management | *CS & SWE*
+- **isu_cs_os_deadlocks** | [Shin-ISU] Deadlocks | *CS & SWE*
+- **isu_cs_os_filesystems** | [Shin-ISU] File Systems | *CS & SWE*
+- **isu_cs_net_osi_model** | [Shin-ISU] OSI Reference Model | *CS & SWE*
+- **isu_cs_net_tcpip** | [Shin-ISU] TCP/IP Protocol Suite | *CS & SWE*
+- **isu_cs_net_routing** | [Shin-ISU] Routing Algorithms | *CS & SWE*
+- **isu_cs_net_dns** | [Shin-ISU] Domain Name System (DNS) | *CS & SWE*
+- **isu_cs_net_security** | [Shin-ISU] Network Security | *CS & SWE*
+- **isu_cs_db_relational** | [Shin-ISU] Relational Databases | *CS & SWE*
+- **isu_cs_db_indexing** | [Shin-ISU] Database Indexing | *CS & SWE*
+- **isu_cs_db_nosql** | [Shin-ISU] NoSQL Databases | *CS & SWE*
+- **isu_cs_db_transactions** | [Shin-ISU] Transaction Management | *CS & SWE*
+- **isu_cs_db_query_opt** | [Shin-ISU] Query Optimization | *CS & SWE*
+- **isu_cs_dist_cap** | [Shin-ISU] CAP Theorem | *CS & SWE*
+- **isu_cs_dist_consensus** | [Shin-ISU] Consensus Algorithms | *CS & SWE*
+- **isu_cs_dist_microservices** | [Shin-ISU] Microservices Architecture | *CS & SWE*
+- **isu_cs_dist_replication** | [Shin-ISU] Data Replication | *CS & SWE*
+- **isu_cs_dist_cloud_computing** | [Shin-ISU] Cloud Computing Models | *CS & SWE*
+- **isu_swe_solid_principles** | [Shin-ISU] SOLID Principles | *CS & SWE*
+- **isu_swe_design_patterns** | [Shin-ISU] Software Design Patterns | *CS & SWE*
+- **isu_swe_dev_lifecycle** | [Shin-ISU] Software Development Lifecycle | *CS & SWE*
+- **isu_swe_version_control** | [Shin-ISU] Version Control Systems | *CS & SWE*
+- **isu_swe_technical_debt** | [Shin-ISU] Technical Debt | *CS & SWE*
+- **isu_test_unit_testing** | [Shin-ISU] Unit Testing | *CS & SWE*
+- **isu_test_integration** | [Shin-ISU] Integration Testing | *CS & SWE*
+- **isu_test_automated_ci** | [Shin-ISU] CI/CD Pipelines | *CS & SWE*
+- **isu_test_code_review** | [Shin-ISU] Code Review & Static Analysis | *CS & SWE*
+- **isu_test_performance_testing** | [Shin-ISU] Performance & Load Testing | *CS & SWE*
+- **isu_sec_cryptography** | [Shin-ISU] Cryptography Foundations | *CS & SWE*
+- **isu_sec_threat_modeling** | [Shin-ISU] Threat Modeling | *CS & SWE*
+- **isu_sec_web_vulnerabilities** | [Shin-ISU] Web Vulnerabilities | *CS & SWE*
+- **isu_sec_auth_access** | [Shin-ISU] AuthN & AuthZ | *CS & SWE*
+- **isu_sec_incident_response** | [Shin-ISU] Incident Response | *CS & SWE*
+- **isu_ai_ml_foundations** | [Shin-ISU] ML Foundations | *CS & SWE*
+- **isu_ai_neural_networks** | [Shin-ISU] Deep Learning & Neural Nets | *CS & SWE*
+- **isu_ai_nlp_basics** | [Shin-ISU] NLP Fundamentals | *CS & SWE*
+- **isu_ai_computer_vision_deep** | [Shin-ISU] Computer Vision (DL) | *CS & SWE*
+- **isu_ai_ethics_bias** | [Shin-ISU] AI Ethics & Bias | *CS & SWE*
+- **isu_lang_memory_management** | [Shin-ISU] Manual vs GC Memory | *CS & SWE*
+- **isu_lang_type_systems** | [Shin-ISU] Type Systems | *CS & SWE*
+- **isu_lang_concurrency_models** | [Shin-ISU] Concurrency Models | *CS & SWE*
+- **isu_lang_meta_programming** | [Shin-ISU] Metaprogramming | *CS & SWE*
+- **isu_lang_domain_specific** | [Shin-ISU] Domain-Specific Languages (DSL) | *CS & SWE*
+- **isu_trend_quantum_computing** | [Shin-ISU] Quantum Computing Basics | *CS & SWE*
+- **isu_trend_blockchain** | [Shin-ISU] Blockchain & DLT | *CS & SWE*
+- **isu_trend_edge_computing** | [Shin-ISU] Edge Computing | *CS & SWE*
+- **isu_trend_webassembly** | [Shin-ISU] WebAssembly (Wasm) | *CS & SWE*
+- **isu_trend_serverless** | [Shin-ISU] Serverless Computing | *CS & SWE*
+- **isu_web_http_protocol** | [Shin-ISU] HTTP/HTTPS Protocol | *CS & SWE*
+- **isu_web_rest_api** | [Shin-ISU] RESTful Architecture | *CS & SWE*
+- **isu_web_frontend_render** | [Shin-ISU] Frontend Rendering Patterns | *CS & SWE*
+- **isu_web_security_cors** | [Shin-ISU] CORS & Browser Security | *CS & SWE*
+- **isu_web_load_balancing** | [Shin-ISU] Load Balancing | *CS & SWE*
+- **isu_comp_lexical_analysis** | [Shin-ISU] Lexical Analysis | *CS & SWE*
+- **isu_comp_syntax_analysis** | [Shin-ISU] Syntax Analysis (Parsing) | *CS & SWE*
+- **isu_comp_semantic_analysis** | [Shin-ISU] Semantic Analysis | *CS & SWE*
+- **isu_comp_code_optimization** | [Shin-ISU] Intermediate Code Optimization | *CS & SWE*
+- **isu_comp_code_gen** | [Shin-ISU] Code Generation | *CS & SWE*
+- **isu_formal_verification** | [Shin-ISU] Formal Verification | *CS & SWE*
+- **isu_formal_model_checking** | [Shin-ISU] Model Checking | *CS & SWE*
+- **isu_formal_abstract_interp** | [Shin-ISU] Abstract Interpretation | *CS & SWE*
+- **isu_formal_logic_hoare** | [Shin-ISU] Hoare Logic | *CS & SWE*
+- **isu_formal_type_theory** | [Shin-ISU] Type Theory | *CS & SWE*
+- **isu_hci_usability_principles** | [Shin-ISU] Usability Principles | *CS & SWE*
+- **isu_hci_accessibility** | [Shin-ISU] Accessibility (a11y) | *CS & SWE*
+- **isu_hci_cognition_load** | [Shin-ISU] Cognitive Load Theory | *CS & SWE*
+- **isu_hci_interaction_design** | [Shin-ISU] Interaction Design | *CS & SWE*
+- **isu_hci_eval_methods** | [Shin-ISU] Evaluation Methods | *CS & SWE*
+- **isu_graph_rendering_pipeline** | [Shin-ISU] Rendering Pipeline | *CS & SWE*
+- **isu_graph_linear_algebra** | [Shin-ISU] Graphics Math | *CS & SWE*
+- **isu_graph_color_theory** | [Shin-ISU] Color Spaces | *CS & SWE*
+- **isu_graph_compression** | [Shin-ISU] Multimedia Compression | *CS & SWE*
+- **isu_graph_spatial_indexing** | [Shin-ISU] Spatial Indexing | *CS & SWE*
+- **isu_phil_computationalism** | [Shin-ISU] Computationalism | *CS & SWE*
+- **isu_phil_p_vs_np** | [Shin-ISU] P vs NP Problem | *CS & SWE*
+- **isu_phil_tech_singularity** | [Shin-ISU] The Singularity | *CS & SWE*
+- **isu_phil_digital_physics** | [Shin-ISU] Digital Physics | *CS & SWE*
+- **isu_phil_open_source_ethics** | [Shin-ISU] Open Source Ethics | *CS & SWE*
+- **isu_law_jurisprudence** | [Shin-ISU] Jurisprudence | *Law*
+- **isu_law_us_constitution** | [Shin-ISU] US Constitution | *Law*
+- **isu_law_civil_vs_criminal** | [Shin-ISU] Civil vs Criminal Law | *Law*
+- **isu_law_legal_procedure** | [Shin-ISU] Legal Procedure | *Law*
+- **isu_law_stare_decisis** | [Shin-ISU] Stare Decisis | *Law*
+- **isu_para_role_responsibilities** | [Shin-ISU] Paralegal Role | *Paralegal*
+- **isu_para_legal_research** | [Shin-ISU] Legal Research | *Paralegal*
+- **isu_para_document_prep** | [Shin-ISU] Document Preparation | *Paralegal*
+- **isu_para_ethics_compliance** | [Shin-ISU] Paralegal Ethics | *Paralegal*
+- **isu_para_tech_proficiency** | [Shin-ISU] Legal Technology | *Paralegal*
+- **isu_law_due_process** | [Shin-ISU] Due Process (5th & 14th) | *Law*
+- **isu_law_equal_protection** | [Shin-ISU] Equal Protection Clause | *Law*
+- **isu_law_admin_law** | [Shin-ISU] Administrative Law | *Law*
+- **isu_law_chevron_deference** | [Shin-ISU] Chevron Deference | *Law*
+- **isu_law_separation_powers** | [Shin-ISU] Separation of Powers | *Law*
+- **isu_law_torts_negligence** | [Shin-ISU] Tort: Negligence | *Law*
+- **isu_law_strict_liability** | [Shin-ISU] Strict Liability | *Law*
+- **isu_law_torts_intentional** | [Shin-ISU] Intentional Torts | *Law*
+- **isu_law_defamation** | [Shin-ISU] Defamation (Libel/Slander) | *Law*
+- **isu_law_tort_remedies** | [Shin-ISU] Tort Remedies | *Law*
+- **isu_law_contract_formation** | [Shin-ISU] Contract Formation | *Law*
+- **isu_law_statute_frauds** | [Shin-ISU] Statute of Frauds | *Law*
+- **isu_law_breach_remedies** | [Shin-ISU] Breach & Remedies | *Law*
+- **isu_law_contract_defenses** | [Shin-ISU] Contract Defenses | *Law*
+- **isu_law_parol_evidence** | [Shin-ISU] Parol Evidence Rule | *Law*
+- **isu_law_4th_amendment** | [Shin-ISU] 4th Amendment (Search & Seizure) | *Law*
+- **isu_law_5th_amendment** | [Shin-ISU] 5th Amendment (Self-Incrimination) | *Law*
+- **isu_law_6th_amendment** | [Shin-ISU] 6th Amendment (Right to Counsel) | *Law*
+- **isu_law_exclusionary_rule** | [Shin-ISU] Exclusionary Rule | *Law*
+- **isu_law_criminal_burden** | [Shin-ISU] Burden of Proof | *Law*
+- **isu_law_real_property** | [Shin-ISU] Real Property Interests | *Law*
+- **isu_law_adverse_possession** | [Shin-ISU] Adverse Possession | *Law*
+- **isu_law_landlord_tenant** | [Shin-ISU] Landlord-Tenant Law | *Law*
+- **isu_law_eminent_domain** | [Shin-ISU] Eminent Domain | *Law*
+- **isu_law_zoning_land_use** | [Shin-ISU] Zoning & Land Use | *Law*
+- **isu_law_relevance** | [Shin-ISU] Relevance & Admissibility | *Law*
+- **isu_law_hearsay** | [Shin-ISU] Hearsay Rule | *Law*
+- **isu_law_privilege** | [Shin-ISU] Privileged Communications | *Law*
+- **isu_law_impeachment** | [Shin-ISU] Witness Impeachment | *Law*
+- **isu_law_expert_testimony** | [Shin-ISU] Expert Testimony | *Law*
+- **isu_law_ip_copyright** | [Shin-ISU] Copyright Law | *Law*
+- **isu_law_ip_patent** | [Shin-ISU] Patent Law | *Law*
+- **isu_law_ip_trademark** | [Shin-ISU] Trademark Law | *Law*
+- **isu_law_ip_trade_secret** | [Shin-ISU] Trade Secrets | *Law*
+- **isu_law_ip_fair_use** | [Shin-ISU] Fair Use Doctrine | *Law*
+- **isu_law_family_divorce** | [Shin-ISU] Divorce & Dissolution | *Law*
+- **isu_law_custody_principles** | [Shin-ISU] Child Custody | *Law*
+- **isu_law_guardianship_intro** | [Shin-ISU] Guardianship Fundamentals | *Law*
+- **isu_law_fiduciary_duty** | [Shin-ISU] Fiduciary Duty | *Law*
+- **isu_law_guardianship_alternatives** | [Shin-ISU] Alternatives to Guardianship | *Law*
+- **isu_law_int_public** | [Shin-ISU] Public International Law | *Law*
+- **isu_law_int_human_rights** | [Shin-ISU] International Human Rights | *Law*
+- **isu_law_conflict_of_laws** | [Shin-ISU] Conflict of Laws (Private) | *Law*
+- **isu_law_int_trade** | [Shin-ISU] International Trade Law | *Law*
+- **isu_law_sovereign_immunity** | [Shin-ISU] Sovereign Immunity | *Law*
+- **isu_law_adr_negotiation** | [Shin-ISU] Negotiation | *Law*
+- **isu_law_adr_mediation** | [Shin-ISU] Mediation | *Law*
+- **isu_law_adr_arbitration** | [Shin-ISU] Arbitration | *Law*
+- **isu_law_settlement_agreements** | [Shin-ISU] Settlement Agreements | *Law*
+- **isu_law_litigation_strategy** | [Shin-ISU] Litigation Strategy | *Law*
+- **isu_para_unauthorized_practice** | [Shin-ISU] Unauthorized Practice of Law | *Paralegal*
+- **isu_para_attorney_client_privilege** | [Shin-ISU] Attorney-Client Privilege | *Paralegal*
+- **isu_para_conflicts_interest** | [Shin-ISU] Conflicts of Interest | *Paralegal*
+- **isu_para_client_relations** | [Shin-ISU] Client Relations | *Paralegal*
+- **isu_para_billing_ethics** | [Shin-ISU] Billing & Timekeeping | *Paralegal*
+- **isu_para_citators** | [Shin-ISU] Using Citators (Shepard's/KeyCite) | *Paralegal*
+- **isu_para_legal_writing_memo** | [Shin-ISU] Legal Memoranda | *Paralegal*
+- **isu_para_bluebook_citation** | [Shin-ISU] Bluebook Citation System | *Paralegal*
+- **isu_para_pleadings_drafting** | [Shin-ISU] Drafting Pleadings | *Paralegal*
+- **isu_para_discovery_docs** | [Shin-ISU] Discovery Requests | *Paralegal*
+- **isu_para_ediscovery_emrm** | [Shin-ISU] EDRM Model | *Paralegal*
+- **isu_para_legal_hold** | [Shin-ISU] Litigation Holds | *Paralegal*
+- **isu_para_data_collection** | [Shin-ISU] Data Collection & Processing | *Paralegal*
+- **isu_para_review_platforms** | [Shin-ISU] Document Review Platforms | *Paralegal*
+- **isu_para_production_format** | [Shin-ISU] Production Formats | *Paralegal*
+- **isu_para_trial_prep** | [Shin-ISU] Trial Preparation | *Paralegal*
+- **isu_para_deposition_support** | [Shin-ISU] Deposition Support | *Paralegal*
+- **isu_para_exhibit_management** | [Shin-ISU] Exhibit Management | *Paralegal*
+- **isu_para_courtroom_tech** | [Shin-ISU] Courtroom Technology | *Paralegal*
+- **isu_para_post_trial_support** | [Shin-ISU] Post-Trial Support | *Paralegal*
+- **isu_para_real_estate_support** | [Shin-ISU] Real Estate Paralegal Tasks | *Paralegal*
+- **isu_para_family_support** | [Shin-ISU] Family Law Support | *Paralegal*
+- **isu_para_corporate_paralegal** | [Shin-ISU] Corporate Paralegal Tasks | *Paralegal*
+- **isu_para_probate_support** | [Shin-ISU] Probate & Estate Support | *Paralegal*
+- **isu_para_criminal_support** | [Shin-ISU] Criminal Law Support | *Paralegal*
+- **isu_para_office_management** | [Shin-ISU] Law Office Management | *Paralegal*
+- **isu_para_records_management** | [Shin-ISU] Records Management | *Paralegal*
+- **isu_para_client_trust_accounts** | [Shin-ISU] IOLTA/Trust Accounting | *Paralegal*
+- **isu_para_professional_dev** | [Shin-ISU] Professional Development | *Paralegal*
+- **isu_para_communication_ethics** | [Shin-ISU] Communication Ethics | *Paralegal*
+- **isu_term_affidavit** | [Shin-ISU] Affidavit | *Legal Terminology*
+- **isu_term_plaintiff_defendant** | [Shin-ISU] Plaintiff vs. Defendant | *Legal Terminology*
+- **isu_term_jurisdiction** | [Shin-ISU] Jurisdiction | *Legal Terminology*
+- **isu_term_subpoena** | [Shin-ISU] Subpoena | *Legal Terminology*
+- **isu_term_summary_judgment** | [Shin-ISU] Summary Judgment | *Legal Terminology*
+- **isu_term_discovery** | [Shin-ISU] Discovery | *Legal Terminology*
+- **isu_term_depostion** | [Shin-ISU] Deposition | *Legal Terminology*
+- **isu_term_complaint** | [Shin-ISU] Complaint | *Legal Terminology*
+- **isu_term_counterclaim** | [Shin-ISU] Counterclaim | *Legal Terminology*
+- **isu_term_voir_dire** | [Shin-ISU] Voir Dire | *Legal Terminology*
+- **isu_term_arraignment** | [Shin-ISU] Arraignment | *Legal Terminology*
+- **isu_term_bail** | [Shin-ISU] Bail | *Legal Terminology*
+- **isu_term_plea_bargain** | [Shin-ISU] Plea Bargain | *Legal Terminology*
+- **isu_term_habeas_corpus** | [Shin-ISU] Habeas Corpus | *Legal Terminology*
+- **isu_term_indictment** | [Shin-ISU] Indictment | *Legal Terminology*
+- **isu_term_consideration** | [Shin-ISU] Consideration | *Legal Terminology*
+- **isu_term_breach** | [Shin-ISU] Breach of Contract | *Legal Terminology*
+- **isu_term_fee_simple** | [Shin-ISU] Fee Simple | *Legal Terminology*
+- **isu_term_lien** | [Shin-ISU] Lien | *Legal Terminology*
+- **isu_term_escrow** | [Shin-ISU] Escrow | *Legal Terminology*
+- **isu_term_infringement** | [Shin-ISU] Infringement | *Legal Terminology*
+- **isu_term_public_domain** | [Shin-ISU] Public Domain | *Legal Terminology*
+- **isu_term_licensing** | [Shin-ISU] Licensing | *Legal Terminology*
+- **isu_term_patent_prosecution** | [Shin-ISU] Patent Prosecution | *Legal Terminology*
+- **isu_term_trademark_dilution** | [Shin-ISU] Trademark Dilution | *Legal Terminology*
+- **isu_term_ward** | [Shin-ISU] Ward | *Legal Terminology*
+- **isu_term_incapacity** | [Shin-ISU] Incapacitation | *Legal Terminology*
+- **isu_term_fiduciary** | [Shin-ISU] Fiduciary | *Legal Terminology*
+- **isu_term_conservatorship** | [Shin-ISU] Conservatorship | *Legal Terminology*
+- **isu_term_power_of_attorney** | [Shin-ISU] Power of Attorney (POA) | *Legal Terminology*
+- **isu_term_burden_proof** | [Shin-ISU] Burden of Proof | *Legal Terminology*
+- **isu_term_hearsay** | [Shin-ISU] Hearsay | *Legal Terminology*
+- **isu_term_admissible_evidence** | [Shin-ISU] Admissible Evidence | *Legal Terminology*
+- **isu_term_probative_value** | [Shin-ISU] Probative Value | *Legal Terminology*
+- **isu_term_impeachment** | [Shin-ISU] Impeachment | *Legal Terminology*
+- **isu_term_arbitration** | [Shin-ISU] Arbitration | *Legal Terminology*
+- **isu_term_mediation** | [Shin-ISU] Mediation | *Legal Terminology*
+- **isu_term_treaty** | [Shin-ISU] Treaty | *Legal Terminology*
+- **isu_term_sovereign_immunity** | [Shin-ISU] Sovereign Immunity | *Legal Terminology*
+- **isu_term_conflict_laws** | [Shin-ISU] Conflict of Laws | *Legal Terminology*
+- **isu_re_estate_types** | [Shin-ISU] Estates in Land | *Real Estate Law*
+- **isu_re_concurrent_ownership** | [Shin-ISU] Concurrent Ownership | *Real Estate Law*
+- **isu_re_conveyance** | [Shin-ISU] Conveyance & Deeds | *Real Estate Law*
+- **isu_re_title_insurance** | [Shin-ISU] Title Insurance | *Real Estate Law*
+- **isu_re_recording_acts** | [Shin-ISU] Recording Acts | *Real Estate Law*
+- **isu_re_mortgage_structure** | [Shin-ISU] Mortgages & Deeds of Trust | *Real Estate Law*
+- **isu_re_foreclosure** | [Shin-ISU] Foreclosure Process | *Real Estate Law*
+- **isu_re_promissory_note** | [Shin-ISU] Promissory Note | *Real Estate Law*
+- **isu_re_refinancing** | [Shin-ISU] Refinancing Law | *Real Estate Law*
+- **isu_re_servicing_law** | [Shin-ISU] Mortgage Servicing Rules | *Real Estate Law*
+- **isu_re_zoning_basics** | [Shin-ISU] Zoning Ordinances | *Real Estate Law*
+- **isu_re_variances** | [Shin-ISU] Variances & Special Use | *Real Estate Law*
+- **isu_re_nonconforming_use** | [Shin-ISU] Nonconforming Uses | *Real Estate Law*
+- **isu_re_eminent_domain** | [Shin-ISU] Eminent Domain & Takings | *Real Estate Law*
+- **isu_re_easements** | [Shin-ISU] Easements & Covenants | *Real Estate Law*
+- **isu_re_lease_types** | [Shin-ISU] Leasehold Estates | *Real Estate Law*
+- **isu_re_habitability** | [Shin-ISU] Warranty of Habitability | *Real Estate Law*
+- **isu_re_eviction_law** | [Shin-ISU] Eviction (Unlawful Detainer) | *Real Estate Law*
+- **isu_re_security_deposits** | [Shin-ISU] Security Deposits | *Real Estate Law*
+- **isu_re_fair_housing** | [Shin-ISU] Fair Housing Act (FHA) | *Real Estate Law*
+- **isu_re_commercial_leasing** | [Shin-ISU] Commercial Leasing | *Real Estate Law*
+- **isu_re_mechanics_liens** | [Shin-ISU] Mechanic's Liens | *Real Estate Law*
+- **isu_re_construction_contracts** | [Shin-ISU] Construction Contracts | *Real Estate Law*
+- **isu_re_land_title_development** | [Shin-ISU] Land Development Entitlements | *Real Estate Law*
+- **isu_re_condominiums** | [Shin-ISU] Condominium Law | *Real Estate Law*
+- **isu_re_environmental_due_diligence** | [Shin-ISU] Environmental Due Diligence | *Real Estate Law*
+- **isu_re_wetlands_regulation** | [Shin-ISU] Wetlands & Water Law | *Real Estate Law*
+- **isu_re_historic_preservation** | [Shin-ISU] Historic Preservation | *Real Estate Law*
+- **isu_re_coastal_zone_mgmt** | [Shin-ISU] Coastal Zone Management | *Real Estate Law*
+- **isu_re_real_estate_ethics** | [Shin-ISU] Real Estate Brokerage Ethics | *Real Estate Law*
+- **isu_guard_definition** | [Shin-ISU] Definition of Guardianship | *Guardianship Law*
+- **isu_guard_capacity_assessment** | [Shin-ISU] Capacity Assessment | *Guardianship Law*
+- **isu_guard_due_process** | [Shin-ISU] Due Process in Guardianship | *Guardianship Law*
+- **isu_guard_person_vs_estate** | [Shin-ISU] Person vs. Estate | *Guardianship Law*
+- **isu_guard_least_restrictive** | [Shin-ISU] Least Restrictive Principle | *Guardianship Law*
+- **isu_guard_duty_loyalty** | [Shin-ISU] Duty of Loyalty | *Guardianship Law*
+- **isu_guard_duty_care** | [Shin-ISU] Duty of Care | *Guardianship Law*
+- **isu_guard_reporting_inventory** | [Shin-ISU] Reporting & Inventory | *Guardianship Law*
+- **isu_guard_court_oversight** | [Shin-ISU] Court Oversight | *Guardianship Law*
+- **isu_guard_compensation** | [Shin-ISU] Guardian Compensation | *Guardianship Law*
+- **isu_alt_supported_decision** | [Shin-ISU] Supported Decision-Making | *Guardianship Law*
+- **isu_alt_power_attorney** | [Shin-ISU] Power of Attorney (POA) | *Guardianship Law*
+- **isu_alt_representative_payee** | [Shin-ISU] Representative Payee | *Guardianship Law*
+- **isu_alt_trusts** | [Shin-ISU] Special Needs Trusts | *Guardianship Law*
+- **isu_alt_health_proxy** | [Shin-ISU] Health Care Proxy/Directive | *Guardianship Law*
+- **isu_guard_minor_guardianship** | [Shin-ISU] Guardianship of Minors | *Guardianship Law*
+- **isu_guard_transition_adulthood** | [Shin-ISU] Transitioning to Adulthood | *Guardianship Law*
+- **isu_guard_elderly_incapacity** | [Shin-ISU] Guardianship of the Elderly | *Guardianship Law*
+- **isu_guard_emergency_temp** | [Shin-ISU] Emergency Guardianship | *Guardianship Law*
+- **isu_guard_restoration_rights** | [Shin-ISU] Restoration of Rights | *Guardianship Law*
+- **isu_guard_uagppja** | [Shin-ISU] UAGPPJA | *Guardianship Law*
+- **isu_guard_jurisdictional_disputes** | [Shin-ISU] Jurisdictional Disputes | *Guardianship Law*
+- **isu_guard_cross_border_rights** | [Shin-ISU] Cross-Border Rights | *Guardianship Law*
+- **isu_guard_emergency_interstate** | [Shin-ISU] Emergency Interstate Orders | *Guardianship Law*
+- **isu_guard_communication_courts** | [Shin-ISU] Inter-Court Communication | *Guardianship Law*
+- **isu_guard_financial_exploitation** | [Shin-ISU] Financial Exploitation | *Guardianship Law*
+- **isu_guard_aps_reporting** | [Shin-ISU] APS Reporting | *Guardianship Law*
+- **isu_guard_undue_influence** | [Shin-ISU] Undue Influence | *Guardianship Law*
+- **isu_guard_removal_process** | [Shin-ISU] Guardian Removal | *Guardianship Law*
+- **isu_guard_prevention_strategies** | [Shin-ISU] Prevention Strategies | *Guardianship Law*
+- **isu_pat_informed_consent** | [Shin-ISU] Informed Consent | *Patients Rights Advocacy*
+- **isu_pat_right_refuse** | [Shin-ISU] Right to Refuse Treatment | *Patients Rights Advocacy*
+- **isu_pat_privacy_hipaa** | [Shin-ISU] HIPAA Privacy Rule | *Patients Rights Advocacy*
+- **isu_pat_confidentiality** | [Shin-ISU] Medical Confidentiality | *Patients Rights Advocacy*
+- **isu_pat_advocacy_role** | [Shin-ISU] The Patient Advocate | *Patients Rights Advocacy*
+- **isu_pat_advance_directives** | [Shin-ISU] Advance Directives | *Patients Rights Advocacy*
+- **isu_pat_dpoa_healthcare** | [Shin-ISU] Durable POA for Healthcare | *Patients Rights Advocacy*
+- **isu_pat_living_wills** | [Shin-ISU] Living Wills | *Patients Rights Advocacy*
+- **isu_pat_polst_dnr** | [Shin-ISU] POLST and DNR Orders | *Patients Rights Advocacy*
+- **isu_pat_capacity_determination** | [Shin-ISU] Determination of Capacity | *Patients Rights Advocacy*
+- **isu_pat_ada_accommodation** | [Shin-ISU] ADA & Reasonable Accommodation | *Patients Rights Advocacy*
+- **isu_pat_nondiscrimination** | [Shin-ISU] Section 1557 (ACA) | *Patients Rights Advocacy*
+- **isu_pat_emergency_care_emtala** | [Shin-ISU] EMTALA | *Patients Rights Advocacy*
+- **isu_pat_insurance_appeals** | [Shin-ISU] Insurance Appeals & Grievances | *Patients Rights Advocacy*
+- **isu_pat_language_access** | [Shin-ISU] Language Access | *Patients Rights Advocacy*
+- **isu_pat_medical_malpractice** | [Shin-ISU] Medical Malpractice | *Patients Rights Advocacy*
+- **isu_pat_standard_care** | [Shin-ISU] Standard of Care | *Patients Rights Advocacy*
+- **isu_pat_disclosure_errors** | [Shin-ISU] Duty to Disclose Errors | *Patients Rights Advocacy*
+- **isu_pat_patient_safety_reporting** | [Shin-ISU] Safety Reporting Systems | *Patients Rights Advocacy*
+- **isu_pat_grievance_process** | [Shin-ISU] Formal Grievance Process | *Patients Rights Advocacy*
+- **isu_pat_palliative_care_rights** | [Shin-ISU] Rights in Palliative Care | *Patients Rights Advocacy*
+- **isu_pat_med_aid_dying** | [Shin-ISU] Medical Aid in Dying (MAID) | *Patients Rights Advocacy*
+- **isu_pat_surrogate_decision_making** | [Shin-ISU] Surrogate Decision-Making | *Patients Rights Advocacy*
+- **isu_pat_substituted_judgment** | [Shin-ISU] Substituted Judgment Standard | *Patients Rights Advocacy*
+- **isu_pat_futile_care** | [Shin-ISU] Medical Futility | *Patients Rights Advocacy*
+- **isu_pat_ombudsman_programs** | [Shin-ISU] Long-Term Care Ombudsman | *Patients Rights Advocacy*
+- **isu_pat_quality_oversight** | [Shin-ISU] Quality Oversight Agencies | *Patients Rights Advocacy*
+- **isu_pat_health_equity_advocacy** | [Shin-ISU] Health Equity Advocacy | *Patients Rights Advocacy*
+- **isu_pat_patient_org_rights** | [Shin-ISU] Patient Bill of Rights | *Patients Rights Advocacy*
+- **isu_pat_advocacy_ethics** | [Shin-ISU] Ethics of Patient Advocacy | *Patients Rights Advocacy*
+- **isu_ela_syntax** | [Shin-ISU] Syntax | *ELA*
+- **isu_ela_semantics** | [Shin-ISU] Semantics | *ELA*
+- **isu_ela_morphology** | [Shin-ISU] Morphology | *ELA*
+- **isu_ela_rhetoric_devices** | [Shin-ISU] Rhetorical Devices | *ELA*
+- **isu_ela_phonology** | [Shin-ISU] Phonology | *ELA*
+- **isu_ela_literary_analysis** | [Shin-ISU] Literary Analysis | *ELA*
+- **isu_ela_genre_theory** | [Shin-ISU] Genre Theory | *ELA*
+- **isu_ela_narrative_structure** | [Shin-ISU] Narrative Structure | *ELA*
+- **isu_ela_critical_theory** | [Shin-ISU] Critical Theory (Intro) | *ELA*
+- **isu_ela_poetic_meter** | [Shin-ISU] Poetic Meter & Form | *ELA*
+- **isu_ela_voice_tone** | [Shin-ISU] Voice & Tone | *ELA*
+- **isu_ela_diction** | [Shin-ISU] Diction | *ELA*
+- **isu_ela_sentence_variety** | [Shin-ISU] Sentence Variety | *ELA*
+- **isu_ela_cohesion_coherence** | [Shin-ISU] Cohesion & Coherence | *ELA*
+- **isu_ela_rhetorical_modes** | [Shin-ISU] Rhetorical Modes | *ELA*
+- **isu_ela_old_english** | [Shin-ISU] Old English (c. 450–1100) | *ELA*
+- **isu_ela_middle_english** | [Shin-ISU] Middle English (c. 1100–1500) | *ELA*
+- **isu_ela_early_modern_english** | [Shin-ISU] Early Modern English (1500–1800) | *ELA*
+- **isu_ela_language_standardization** | [Shin-ISU] Standardization | *ELA*
+- **isu_ela_global_varieties** | [Shin-ISU] Global Varieties of English | *ELA*
+- **isu_ela_argument_evaluation** | [Shin-ISU] Evaluating Arguments | *ELA*
+- **isu_ela_bias_detection** | [Shin-ISU] Bias Detection | *ELA*
+- **isu_ela_rhetorical_analysis** | [Shin-ISU] Rhetorical Analysis | *ELA*
+- **isu_ela_synthesis** | [Shin-ISU] Synthesis | *ELA*
+- **isu_ela_inferencing** | [Shin-ISU] Inferencing | *ELA*
+- **isu_ela_media_framing** | [Shin-ISU] Media Framing | *ELA*
+- **isu_ela_digital_literacy** | [Shin-ISU] Digital Literacy | *ELA*
+- **isu_ela_propaganda_analysis** | [Shin-ISU] Propaganda Analysis | *ELA*
+- **isu_ela_visual_literacy** | [Shin-ISU] Visual Literacy | *ELA*
+- **isu_ela_info_ecosystem** | [Shin-ISU] Information Ecosystems | *ELA*
+- **isu_read_active_reading** | [Shin-ISU] Active Reading | *Reading Comprehension*
+- **isu_read_sq3r** | [Shin-ISU] SQ3R Method | *Reading Comprehension*
+- **isu_read_scanning_skimming** | [Shin-ISU] Scanning vs. Skimming | *Reading Comprehension*
+- **isu_read_close_reading** | [Shin-ISU] Close Reading | *Reading Comprehension*
+- **isu_read_context_clues** | [Shin-ISU] Using Context Clues | *Reading Comprehension*
+- **isu_read_main_idea** | [Shin-ISU] Identifying Main Ideas | *Reading Comprehension*
+- **isu_read_author_purpose** | [Shin-ISU] Determining Author's Purpose | *Reading Comprehension*
+- **isu_read_text_structure** | [Shin-ISU] Analyzing Text Structure | *Reading Comprehension*
+- **isu_read_predicting_inferring** | [Shin-ISU] Predicting & Inferring | *Reading Comprehension*
+- **isu_read_summarizing_paraphrasing** | [Shin-ISU] Summarizing vs. Paraphrasing | *Reading Comprehension*
+- **isu_read_validity_reliability** | [Shin-ISU] Evaluating Validity/Reliability | *Reading Comprehension*
+- **isu_read_argument_mapping** | [Shin-ISU] Argument Mapping | *Reading Comprehension*
+- **isu_read_metacognition** | [Shin-ISU] Metacognition in Reading | *Reading Comprehension*
+- **isu_read_rhetorical_stance** | [Shin-ISU] Rhetorical Stance | *Reading Comprehension*
+- **isu_read_synthesis_multi** | [Shin-ISU] Multi-Source Synthesis | *Reading Comprehension*
+- **isu_read_technical_docs** | [Shin-ISU] Technical Comprehension | *Reading Comprehension*
+- **isu_read_legal_texts** | [Shin-ISU] Legal Text Comprehension | *Reading Comprehension*
+- **isu_read_scientific_lit** | [Shin-ISU] Scientific Literature | *Reading Comprehension*
+- **isu_read_historiography** | [Shin-ISU] Historiographical Analysis | *Reading Comprehension*
+- **isu_read_multimodal_texts** | [Shin-ISU] Multimodal Comprehension | *Reading Comprehension*
+- **isu_comp_prewriting** | [Shin-ISU] Prewriting Techniques | *Writing Composition*
+- **isu_comp_thesis_statement** | [Shin-ISU] Thesis Statement | *Writing Composition*
+- **isu_comp_drafting** | [Shin-ISU] Drafting & Iteration | *Writing Composition*
+- **isu_comp_outlining** | [Shin-ISU] Effective Outlining | *Writing Composition*
+- **isu_comp_audience_analysis** | [Shin-ISU] Audience Analysis | *Writing Composition*
+- **isu_comp_paragraph_structure** | [Shin-ISU] Paragraph Structure | *Writing Composition*
+- **isu_comp_transitions** | [Shin-ISU] Transitions | *Writing Composition*
+- **isu_comp_unity_flow** | [Shin-ISU] Unity & Flow | *Writing Composition*
+- **isu_comp_conclusion_strategies** | [Shin-ISU] Conclusion Strategies | *Writing Composition*
+- **isu_comp_introduction_hooks** | [Shin-ISU] Introductions & Hooks | *Writing Composition*
+- **isu_comp_revision_strategies** | [Shin-ISU] Revision Strategies | *Writing Composition*
+- **isu_comp_proofreading** | [Shin-ISU] Proofreading | *Writing Composition*
+- **isu_comp_style_manuals** | [Shin-ISU] Style Manuals | *Writing Composition*
+- **isu_comp_peer_review** | [Shin-ISU] Peer Review Process | *Writing Composition*
+- **isu_comp_conciseness** | [Shin-ISU] Achieving Conciseness | *Writing Composition*
+- **isu_comp_narrative_writing** | [Shin-ISU] Narrative Writing | *Writing Composition*
+- **isu_comp_expository_writing** | [Shin-ISU] Expository Writing | *Writing Composition*
+- **isu_comp_persuasive_writing** | [Shin-ISU] Persuasive Writing | *Writing Composition*
+- **isu_comp_descriptive_writing** | [Shin-ISU] Descriptive Writing | *Writing Composition*
+- **isu_comp_technical_writing** | [Shin-ISU] Technical Writing | *Writing Composition*
+- **isu_adv_persuade_stasis_theory** | [Shin-ISU] Stasis Theory | *Advanced Persuasive Writing*
+- **isu_adv_persuade_toulmin** | [Shin-ISU] Toulmin Model | *Advanced Persuasive Writing*
+- **isu_adv_persuade_rogers** | [Shin-ISU] Rogerian Argument | *Advanced Persuasive Writing*
+- **isu_adv_persuade_rhetorical_triangle** | [Shin-ISU] Advanced Rhetorical Triangle | *Advanced Persuasive Writing*
+- **isu_adv_persuade_kairos** | [Shin-ISU] Kairos | *Advanced Persuasive Writing*
+- **isu_adv_persuade_cognitive_biases** | [Shin-ISU] Cognitive Biases in Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_refutation** | [Shin-ISU] Refutation Strategies | *Advanced Persuasive Writing*
+- **isu_adv_persuade_narrative_persuasion** | [Shin-ISU] Narrative Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_style_manipulation** | [Shin-ISU] Stylistic Manipulation | *Advanced Persuasive Writing*
+- **isu_adv_persuade_authority** | [Shin-ISU] Appeals to Authority | *Advanced Persuasive Writing*
+- **isu_adv_persuade_ethical_bounds** | [Shin-ISU] Ethical Bounds of Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_dark_patterns** | [Shin-ISU] Dark Patterns in Persuasion | *Advanced Persuasive Writing*
+- **isu_adv_persuade_transparency** | [Shin-ISU] Transparency & Disclosure | *Advanced Persuasive Writing*
+- **isu_adv_persuade_intellectual_honesty** | [Shin-ISU] Intellectual Honesty | *Advanced Persuasive Writing*
+- **isu_adv_persuade_accountability** | [Shin-ISU] Accountability in Influence | *Advanced Persuasive Writing*
+- **isu_adv_persuade_policy_framing** | [Shin-ISU] Policy Framing | *Advanced Persuasive Writing*
+- **isu_adv_persuade_advocacy_campaigns** | [Shin-ISU] Advocacy Campaign Strategy | *Advanced Persuasive Writing*
+- **isu_adv_persuade_data_storytelling** | [Shin-ISU] Data Storytelling | *Advanced Persuasive Writing*
+- **isu_adv_persuade_legislative_testimony** | [Shin-ISU] Legislative Testimony | *Advanced Persuasive Writing*
+- **isu_adv_persuade_counter_misinformation** | [Shin-ISU] Countering Misinformation | *Advanced Persuasive Writing*
+- **isu_ana_critical_lens** | [Shin-ISU] Critical Lenses | *Advanced Analysis Writing*
+- **isu_ana_close_reading_advanced** | [Shin-ISU] Advanced Close Reading | *Advanced Analysis Writing*
+- **isu_ana_dialectical_notebooks** | [Shin-ISU] Dialectical Notebooks | *Advanced Analysis Writing*
+- **isu_ana_textual_evidence_interrogation** | [Shin-ISU] Interrogating Evidence | *Advanced Analysis Writing*
+- **isu_ana_deconstruction** | [Shin-ISU] Deconstruction | *Advanced Analysis Writing*
+- **isu_ana_synthesis_matrix** | [Shin-ISU] Synthesis Matrix | *Advanced Analysis Writing*
+- **isu_ana_structural_logic** | [Shin-ISU] Structural Logic | *Advanced Analysis Writing*
+- **isu_ana_claim_warrant_support** | [Shin-ISU] Claim, Warrant, & Support | *Advanced Analysis Writing*
+- **isu_ana_recursive_revision** | [Shin-ISU] Recursive Revision | *Advanced Analysis Writing*
+- **isu_ana_discursive_nuance** | [Shin-ISU] Discursive Nuance | *Advanced Analysis Writing*
+- **isu_ana_comparative_analysis** | [Shin-ISU] Comparative Analysis | *Advanced Analysis Writing*
+- **isu_ana_causal_analysis** | [Shin-ISU] Causal Analysis | *Advanced Analysis Writing*
+- **isu_ana_historical_contextualization** | [Shin-ISU] Contextualization | *Advanced Analysis Writing*
+- **isu_ana_rhetorical_analysis_advanced** | [Shin-ISU] Advanced Rhetorical Analysis | *Advanced Analysis Writing*
+- **isu_ana_interpretive_communities** | [Shin-ISU] Interpretive Communities | *Advanced Analysis Writing*
+- **isu_ana_synthesizing_dissent** | [Shin-ISU] Synthesizing Dissent | *Advanced Analysis Writing*
+- **isu_ana_identifying_gaps** | [Shin-ISU] Gap Identification | *Advanced Analysis Writing*
+- **isu_ana_interdisciplinary_synthesis** | [Shin-ISU] Interdisciplinary Synthesis | *Advanced Analysis Writing*
+- **isu_ana_evaluative_synthesis** | [Shin-ISU] Evaluative Synthesis | *Advanced Analysis Writing*
+- **isu_ana_theoretical_application** | [Shin-ISU] Theoretical Application | *Advanced Analysis Writing*
+- **isu_res_question_formulation** | [Shin-ISU] Research Question Formulation | *Advanced Research Writing*
+- **isu_res_literature_review** | [Shin-ISU] Literature Review | *Advanced Research Writing*
+- **isu_res_source_evaluation** | [Shin-ISU] Source Evaluation (CRAAP) | *Advanced Research Writing*
+- **isu_res_primary_secondary** | [Shin-ISU] Primary vs. Secondary Sources | *Advanced Research Writing*
+- **isu_res_annotated_bib** | [Shin-ISU] Annotated Bibliography | *Advanced Research Writing*
+- **isu_res_qualitative_methods** | [Shin-ISU] Qualitative Methodologies | *Advanced Research Writing*
+- **isu_res_quantitative_methods** | [Shin-ISU] Quantitative Methodologies | *Advanced Research Writing*
+- **isu_res_mixed_methods** | [Shin-ISU] Mixed Methods | *Advanced Research Writing*
+- **isu_res_data_integrity** | [Shin-ISU] Data Integrity & Ethics | *Advanced Research Writing*
+- **isu_res_citing_managing** | [Shin-ISU] Citation Management Systems | *Advanced Research Writing*
+- **isu_res_paper_architecture** | [Shin-ISU] Research Paper Architecture | *Advanced Research Writing*
+- **isu_res_argument_integration** | [Shin-ISU] Integrating Evidence | *Advanced Research Writing*
+- **isu_res_voice_academic** | [Shin-ISU] Developing Academic Voice | *Advanced Research Writing*
+- **isu_res_visualizing_research** | [Shin-ISU] Data Visualization | *Advanced Research Writing*
+- **isu_res_abstract_writing** | [Shin-ISU] Writing the Abstract | *Advanced Research Writing*
+- **isu_res_plagiarism_prevention** | [Shin-ISU] Plagiarism Prevention | *Advanced Research Writing*
+- **isu_res_intellectual_property** | [Shin-ISU] Intellectual Property (IP) | *Advanced Research Writing*
+- **isu_res_ethics_publication** | [Shin-ISU] Ethics of Publication | *Advanced Research Writing*
+- **isu_res_peer_review_dynamics** | [Shin-ISU] Peer Review Dynamics | *Advanced Research Writing*
+- **isu_res_research_rigor** | [Shin-ISU] Maintaining Research Rigor | *Advanced Research Writing*
+- **isu_arg_syllogism** | [Shin-ISU] Syllogistic Reasoning | *Argumentation*
+- **isu_arg_logical_fallacies** | [Shin-ISU] Logical Fallacies | *Argumentation*
+- **isu_arg_deduction_induction** | [Shin-ISU] Deduction vs. Induction | *Argumentation*
+- **isu_arg_abductive_reasoning** | [Shin-ISU] Abductive Reasoning | *Argumentation*
+- **isu_arg_warrants_assumptions** | [Shin-ISU] Warrants & Assumptions | *Argumentation*
+- **isu_arg_debate_formats** | [Shin-ISU] Debate Formats | *Argumentation*
+- **isu_arg_rebuttal_strategy** | [Shin-ISU] Rebuttal Strategy | *Argumentation*
+- **isu_arg_burden_of_proof** | [Shin-ISU] Burden of Proof | *Argumentation*
+- **isu_arg_flow_taking** | [Shin-ISU] Flow-Taking | *Argumentation*
+- **isu_arg_constructive_speech** | [Shin-ISU] Constructive Speeches | *Argumentation*
+- **isu_arg_steel_manning** | [Shin-ISU] Steel-Manning | *Argumentation*
+- **isu_arg_principle_charity** | [Shin-ISU] Principle of Charity | *Argumentation*
+- **isu_arg_civility_discourse** | [Shin-ISU] Civility in Discourse | *Argumentation*
+- **isu_arg_conflict_interest** | [Shin-ISU] Conflicts of Interest | *Argumentation*
+- **isu_arg_truth_seeking** | [Shin-ISU] Truth-Seeking vs. Winning | *Argumentation*
+- **isu_arg_dialectical_inquiry** | [Shin-ISU] Dialectical Inquiry | *Argumentation*
+- **isu_arg_frame_analysis** | [Shin-ISU] Frame Analysis | *Argumentation*
+- **isu_arg_strategic_ambiguity** | [Shin-ISU] Strategic Ambiguity | *Argumentation*
+- **isu_arg_argument_by_analogy** | [Shin-ISU] Argument by Analogy | *Argumentation*
+- **isu_arg_meta_argumentation** | [Shin-ISU] Meta-Argumentation | *Argumentation*
+- **isu_comm_active_listening** | [Shin-ISU] Active Listening | *Communication Interpersonal*
+- **isu_comm_nonverbal_cues** | [Shin-ISU] Nonverbal Communication | *Communication Interpersonal*
+- **isu_comm_empathy_perspective** | [Shin-ISU] Empathy & Perspective-Taking | *Communication Interpersonal*
+- **isu_comm_i_statements** | [Shin-ISU] 'I' Statements | *Communication Interpersonal*
+- **isu_comm_feedback_loops** | [Shin-ISU] Feedback Loops | *Communication Interpersonal*
+- **isu_comm_conflict_resolution** | [Shin-ISU] Conflict Resolution | *Communication Interpersonal*
+- **isu_comm_assertiveness** | [Shin-ISU] Assertiveness vs. Aggression | *Communication Interpersonal*
+- **isu_comm_boundaries** | [Shin-ISU] Setting Boundaries | *Communication Interpersonal*
+- **isu_comm_disclosure_theory** | [Shin-ISU] Self-Disclosure | *Communication Interpersonal*
+- **isu_comm_relational_maintenance** | [Shin-ISU] Relational Maintenance | *Communication Interpersonal*
+- **isu_comm_interest_based_negotiation** | [Shin-ISU] Interest-Based Negotiation | *Communication Interpersonal*
+- **isu_comm_de_escalation** | [Shin-ISU] De-escalation Techniques | *Communication Interpersonal*
+- **isu_comm_difficult_conversations** | [Shin-ISU] Difficult Conversations | *Communication Interpersonal*
+- **isu_comm_mediator_role** | [Shin-ISU] Mediation Skills | *Communication Interpersonal*
+- **isu_comm_forgiveness_reconciliation** | [Shin-ISU] Forgiveness & Reconciliation | *Communication Interpersonal*
+- **isu_comm_intercultural_competence** | [Shin-ISU] Intercultural Competence | *Communication Interpersonal*
+- **isu_comm_digital_mediated** | [Shin-ISU] Computer-Mediated Communication | *Communication Interpersonal*
+- **isu_comm_group_dynamics** | [Shin-ISU] Group Communication Dynamics | *Communication Interpersonal*
+- **isu_comm_professional_boundaries** | [Shin-ISU] Professional Communication | *Communication Interpersonal*
+- **isu_comm_perception_checking** | [Shin-ISU] Perception Checking | *Communication Interpersonal*
+- **isu_pub_audience_analysis** | [Shin-ISU] Audience Analysis (Public) | *Communication Public*
+- **isu_pub_speech_structure** | [Shin-ISU] Speech Architecture | *Communication Public*
+- **isu_pub_delivery_techniques** | [Shin-ISU] Delivery Techniques | *Communication Public*
+- **isu_pub_rhetorical_appeals** | [Shin-ISU] Rhetorical Appeals in Speech | *Communication Public*
+- **isu_pub_visual_aids** | [Shin-ISU] Visual Aids & Media | *Communication Public*
+- **isu_pub_persuasive_strategies** | [Shin-ISU] Persuasive Speech Strategies | *Communication Public*
+- **isu_pub_storytelling_oral** | [Shin-ISU] Oral Storytelling | *Communication Public*
+- **isu_pub_informative_speech** | [Shin-ISU] Informative Speech Design | *Communication Public*
+- **isu_pub_impromptu_extemp** | [Shin-ISU] Impromptu & Extemporaneous | *Communication Public*
+- **isu_pub_audience_feedback** | [Shin-ISU] Managing Audience Dynamics | *Communication Public*
+- **isu_pub_crisis_comm** | [Shin-ISU] Crisis Communication | *Communication Public*
+- **isu_pub_q_a_management** | [Shin-ISU] Managing Q&A Sessions | *Communication Public*
+- **isu_pub_debate_public** | [Shin-ISU] Debate in Public Forums | *Communication Public*
+- **isu_pub_legal_testimony_public** | [Shin-ISU] Public Testimony | *Communication Public*
+- **isu_pub_media_interviewing** | [Shin-ISU] Media Interviewing | *Communication Public*
+- **isu_pub_rhetorical_ethics_public** | [Shin-ISU] Ethics of Public Influence | *Communication Public*
+- **isu_psy_erikson_stages** | [Shin-ISU] Erikson's Psychosocial Stages | *Psychology*
+- **isu_psy_piaget_cognitive** | [Shin-ISU] Piaget's Cognitive Development | *Psychology*
+- **isu_psy_big_five** | [Shin-ISU] Big Five Personality Traits | *Psychology*
+- **isu_psy_social_learning** | [Shin-ISU] Social Learning Theory | *Psychology*
+- **isu_psy_maslow_hierarchy** | [Shin-ISU] Maslow's Hierarchy of Needs | *Psychology*
+- **isu_psy_cognitive_dissonance** | [Shin-ISU] Cognitive Dissonance | *Psychology*
+- **isu_psy_fundamental_attribution** | [Shin-ISU] Fundamental Attribution Error | *Psychology*
+- **isu_psy_learned_helplessness** | [Shin-ISU] Learned Helplessness | *Psychology*
+- **isu_psy_flow_state** | [Shin-ISU] Flow State | *Psychology*
+- **isu_psy_internal_external_locus** | [Shin-ISU] Locus of Control | *Psychology*
+- **isu_psy_social_identity** | [Shin-ISU] Social Identity Theory | *Psychology*
+- **isu_psy_milgram_obedience** | [Shin-ISU] Milgram Experiment | *Psychology*
+- **isu_psy_bystander_effect** | [Shin-ISU] Bystander Effect | *Psychology*
+- **isu_psy_neurotransmitters** | [Shin-ISU] Neurotransmitters | *Psychology*
+- **isu_psy_limbic_system** | [Shin-ISU] Limbic System | *Psychology*
+- **isu_psy_prefrontal_cortex** | [Shin-ISU] Prefrontal Cortex (PFC) | *Psychology*
+- **isu_psy_mirror_neurons** | [Shin-ISU] Mirror Neurons | *Psychology*
+- **isu_psy_endocrine_system** | [Shin-ISU] Endocrine System | *Psychology*
+- **isu_psy_hebbian_learning** | [Shin-ISU] Hebbian Theory | *Psychology*
+- **isu_psy_circadian_rhythms** | [Shin-ISU] Circadian Rhythms | *Psychology*
+- **isu_psy_diagnostic_manuals** | [Shin-ISU] Diagnostic Manuals (DSM/ICD) | *Psychology*
+- **isu_psy_research_methodology** | [Shin-ISU] Scientific Method in Psych | *Psychology*
+- **isu_psy_ethical_guidelines** | [Shin-ISU] Ethical Guidelines | *Psychology*
+- **isu_psy_reliability_validity** | [Shin-ISU] Reliability & Validity | *Psychology*
+- **isu_psy_standardized_testing** | [Shin-ISU] Standardized Testing | *Psychology*
+- **isu_psy_statistical_significance** | [Shin-ISU] Statistical Significance | *Psychology*
+- **isu_psy_abnormal_psych** | [Shin-ISU] Abnormal Psychology | *Psychology*
+- **isu_psy_biopsych_assessment** | [Shin-ISU] Biopsychosocial Assessment | *Psychology*
+- **isu_psy_psychopharmacology** | [Shin-ISU] Psychopharmacology | *Psychology*
+- **isu_psy_case_study_method** | [Shin-ISU] Case Study Method | *Psychology*
+- **isu_psy_executive_function** | [Shin-ISU] Executive Function | *Psychology*
+- **isu_psy_metacognition** | [Shin-ISU] Metacognition | *Psychology*
+- **isu_psy_implicit_bias** | [Shin-ISU] Implicit Bias | *Psychology*
+- **isu_psy_positive_psychology** | [Shin-ISU] Positive Psychology | *Psychology*
+- **isu_psy_neuroaesthetics** | [Shin-ISU] Neuroaesthetics | *Psychology*
+- **isu_psy_dual_process_theory** | [Shin-ISU] Dual Process Theory | *Psychology*
+- **isu_psy_attachment_adult** | [Shin-ISU] Adult Attachment Theory | *Psychology*
+- **isu_psy_embodied_cognition** | [Shin-ISU] Embodied Cognition | *Psychology*
+- **isu_psy_psychoneuroimmunology** | [Shin-ISU] Psychoneuroimmunology | *Psychology*
+- **isu_psy_epigenetics** | [Shin-ISU] Epigenetics in Psychology | *Psychology*
+- **isu_psy_computational_psych** | [Shin-ISU] Computational Psychology | *Psychology*
+- **isu_psy_cultural_psych** | [Shin-ISU] Cultural Psychology | *Psychology*
+- **isu_psy_telehealth_psych** | [Shin-ISU] Telehealth & Digital Psych | *Psychology*
+- **isu_psy_evolutionary_psych** | [Shin-ISU] Evolutionary Psychology | *Psychology*
+- **isu_psy_integrative_therapy** | [Shin-ISU] Integrative Psychotherapy | *Psychology*
+- **isu_ther_therapeutic_alliance** | [Shin-ISU] Therapeutic Alliance | *Talk Therapy*
+- **isu_ther_psychoanalysis_foundations** | [Shin-ISU] Psychoanalytic Foundations | *Talk Therapy*
+- **isu_ther_cbt_foundations** | [Shin-ISU] Cognitive Behavioral Therapy (CBT) | *Talk Therapy*
+- **isu_ther_person_centered** | [Shin-ISU] Person-Centered Therapy | *Talk Therapy*
+- **isu_ther_dbt_introduction** | [Shin-ISU] Dialectical Behavior Therapy (DBT) | *Talk Therapy*
+- **isu_ther_exposure_therapy** | [Shin-ISU] Exposure Therapy | *Talk Therapy*
+- **isu_ther_family_systems** | [Shin-ISU] Family Systems Therapy | *Talk Therapy*
+- **isu_ther_existential_therapy** | [Shin-ISU] Existential Therapy | *Talk Therapy*
+- **isu_ther_act_therapy** | [Shin-ISU] Acceptance and Commitment Therapy (ACT) | *Talk Therapy*
+- **isu_ther_motivational_interviewing** | [Shin-ISU] Motivational Interviewing | *Talk Therapy*
+- **isu_ther_trauma_informed_care** | [Shin-ISU] Trauma-Informed Care | *Talk Therapy*
+- **isu_ther_somatic_experiencing** | [Shin-ISU] Somatic Experiencing | *Talk Therapy*
+- **isu_ther_emdr_foundations** | [Shin-ISU] EMDR Therapy | *Talk Therapy*
+- **isu_ther_polyvagal_informed** | [Shin-ISU] Polyvagal-Informed Therapy | *Talk Therapy*
+- **isu_ther_internal_family_systems** | [Shin-ISU] Internal Family Systems (IFS) | *Talk Therapy*
+- **isu_ther_transference** | [Shin-ISU] Transference | *Talk Therapy*
+- **isu_ther_countertransference** | [Shin-ISU] Countertransference | *Talk Therapy*
+- **isu_ther_clinical_boundaries** | [Shin-ISU] Clinical Boundaries | *Talk Therapy*
+- **isu_ther_informed_consent_clinical** | [Shin-ISU] Informed Consent in Therapy | *Talk Therapy*
+- **isu_ther_supervision_consultation** | [Shin-ISU] Supervision & Consultation | *Talk Therapy*
+- **isu_ther_group_therapy_dynamics** | [Shin-ISU] Group Therapy Dynamics | *Talk Therapy*
+- **isu_ther_couples_therapy_eft** | [Shin-ISU] Emotionally Focused Therapy (EFT) | *Talk Therapy*
+- **isu_ther_play_therapy** | [Shin-ISU] Play Therapy | *Talk Therapy*
+- **isu_ther_brief_solution_focused** | [Shin-ISU] Solution-Focused Brief Therapy | *Talk Therapy*
+- **isu_ther_narrative_therapy** | [Shin-ISU] Narrative Therapy | *Talk Therapy*
+- **isu_ther_digital_therapeutics** | [Shin-ISU] Digital Therapeutics (DTx) | *Talk Therapy*
+- **isu_ther_global_mental_health** | [Shin-ISU] Global Mental Health | *Talk Therapy*
+- **isu_ther_neurofeedback** | [Shin-ISU] Neurofeedback | *Talk Therapy*
+- **isu_ther_therapeutic_ai_ethics** | [Shin-ISU] AI in Psychotherapy Ethics | *Talk Therapy*
+- **isu_ther_professional_longevity** | [Shin-ISU] Professional Longevity & Burnout | *Talk Therapy*
+- **isu_trau_definition** | [Shin-ISU] Definition of Trauma | *Trauma Awareness*
+- **isu_trau_neurobiology_stress** | [Shin-ISU] Neurobiology of Stress | *Trauma Awareness*
+- **isu_trau_window_of_tolerance** | [Shin-ISU] Window of Tolerance | *Trauma Awareness*
+- **isu_trau_fight_flight_freeze** | [Shin-ISU] Fight, Flight, Freeze, Fawn | *Trauma Awareness*
+- **isu_trau_adverse_childhood_experiences** | [Shin-ISU] Adverse Childhood Experiences (ACEs) | *Trauma Awareness*
+- **isu_trau_cptsd** | [Shin-ISU] Complex PTSD (C-PTSD) | *Trauma Awareness*
+- **isu_trau_attachment_trauma** | [Shin-ISU] Attachment Trauma | *Trauma Awareness*
+- **isu_trau_dissociation** | [Shin-ISU] Dissociation | *Trauma Awareness*
+- **isu_trau_intergenerational** | [Shin-ISU] Intergenerational Trauma | *Trauma Awareness*
+- **isu_trau_moral_injury** | [Shin-ISU] Moral Injury | *Trauma Awareness*
+- **isu_trau_somatic_resourcing** | [Shin-ISU] Somatic Resourcing | *Trauma Awareness*
+- **isu_trau_titration_pendulation** | [Shin-ISU] Titration & Pendulation | *Trauma Awareness*
+- **isu_trau_nervous_system_regulation** | [Shin-ISU] Nervous System Regulation | *Trauma Awareness*
+- **isu_trau_interoception** | [Shin-ISU] Interoception | *Trauma Awareness*
+- **isu_trau_neuroception** | [Shin-ISU] Neuroception | *Trauma Awareness*
+- **isu_trau_phase_oriented_treatment** | [Shin-ISU] Phase-Oriented Treatment | *Trauma Awareness*
+- **isu_trau_bottom_up_processing** | [Shin-ISU] Bottom-Up Processing | *Trauma Awareness*
+- **isu_trau_post_traumatic_growth** | [Shin-ISU] Post-Traumatic Growth (PTG) | *Trauma Awareness*
+- **isu_trau_containment_strategies** | [Shin-ISU] Containment Strategies | *Trauma Awareness*
+- **isu_trau_relational_healing** | [Shin-ISU] Relational Healing | *Trauma Awareness*
+- **isu_trau_systemic_oppression** | [Shin-ISU] Systemic Oppression Trauma | *Trauma Awareness*
+- **isu_trau_historical_trauma** | [Shin-ISU] Historical Trauma | *Trauma Awareness*
+- **isu_trau_vicarious_trauma** | [Shin-ISU] Vicarious Trauma | *Trauma Awareness*
+- **isu_trau_community_resilience** | [Shin-ISU] Community Resilience | *Trauma Awareness*
+- **isu_trau_refugee_migration_trauma** | [Shin-ISU] Migration & Acculturation Trauma | *Trauma Awareness*
+- **isu_trau_psychedelic_assisted** | [Shin-ISU] Psychedelic-Assisted Therapy | *Trauma Awareness*
+- **isu_trau_virtual_reality_exposure** | [Shin-ISU] VR Exposure Therapy (VRET) | *Trauma Awareness*
+- **isu_trau_biomarkers_trauma** | [Shin-ISU] Trauma Biomarkers | *Trauma Awareness*
+- **isu_trau_digital_phenotyping** | [Shin-ISU] Digital Phenotyping | *Trauma Awareness*
+- **isu_trau_integrative_trauma_care** | [Shin-ISU] Integrative Trauma Care | *Trauma Awareness*
+- **isu_cog_definition** | [Shin-ISU] Cognitive Science | *Cognitive Science*
+- **isu_cog_information_processing** | [Shin-ISU] Information Processing Model | *Cognitive Science*
+- **isu_cog_perception_mechanisms** | [Shin-ISU] Perception Mechanisms | *Cognitive Science*
+- **isu_cog_attention_theories** | [Shin-ISU] Attention Theories | *Cognitive Science*
+- **isu_cog_memory_systems** | [Shin-ISU] Memory Systems | *Cognitive Science*
+- **isu_cog_language_acquisition** | [Shin-ISU] Language Acquisition | *Cognitive Science*
+- **isu_cog_conceptual_categorization** | [Shin-ISU] Conceptual Categorization | *Cognitive Science*
+- **isu_cog_mental_models** | [Shin-ISU] Mental Models | *Cognitive Science*
+- **isu_cog_semantic_networks** | [Shin-ISU] Semantic Networks | *Cognitive Science*
+- **isu_cog_symbolic_representation** | [Shin-ISU] Symbolic Representation | *Cognitive Science*
+- **isu_cog_heuristics_biases** | [Shin-ISU] Heuristics & Biases | *Cognitive Science*
+- **isu_cog_prospect_theory** | [Shin-ISU] Prospect Theory | *Cognitive Science*
+- **isu_cog_dual_process_theory_cog** | [Shin-ISU] Dual Process Theory (Cognitive) | *Cognitive Science*
+- **isu_cog_deductive_inductive_reasoning** | [Shin-ISU] Deductive vs. Inductive Reasoning | *Cognitive Science*
+- **isu_cog_bounded_rationality** | [Shin-ISU] Bounded Rationality | *Cognitive Science*
+- **isu_cog_embodied_cognition** | [Shin-ISU] Embodied Cognition | *Cognitive Science*
+- **isu_cog_theory_of_mind** | [Shin-ISU] Theory of Mind (ToM) | *Cognitive Science*
+- **isu_cog_social_cognition** | [Shin-ISU] Social Cognition | *Cognitive Science*
+- **isu_cog_mirror_neurons** | [Shin-ISU] Mirror Neurons | *Cognitive Science*
+- **isu_cog_situated_cognition** | [Shin-ISU] Situated Cognition | *Cognitive Science*
+- **isu_cog_connectionism** | [Shin-ISU] Connectionism | *Cognitive Science*
+- **isu_cog_neural_networks** | [Shin-ISU] Artificial Neural Networks | *Cognitive Science*
+- **isu_cog_computational_limitations** | [Shin-ISU] Computational Limits of the Mind | *Cognitive Science*
+- **isu_cog_cognitive_architecture** | [Shin-ISU] Cognitive Architecture | *Cognitive Science*
+- **isu_cog_predictive_processing** | [Shin-ISU] Predictive Processing | *Cognitive Science*
+- **isu_cog_hard_problem_consciousness** | [Shin-ISU] The Hard Problem | *Cognitive Science*
+- **isu_cog_global_workspace_theory** | [Shin-ISU] Global Workspace Theory | *Cognitive Science*
+- **isu_cog_human_machine_integration** | [Shin-ISU] Human-Machine Integration | *Cognitive Science*
+- **isu_cog_integrated_information_theory** | [Shin-ISU] Integrated Information Theory (IIT) | *Cognitive Science*
+- **isu_cog_neuroethics** | [Shin-ISU] Neuroethics | *Cognitive Science*
+- **isu_phil_definition** | [Shin-ISU] What is Philosophy? | *Philosophy*
+- **isu_phil_metaphysics** | [Shin-ISU] Metaphysics | *Philosophy*
+- **isu_phil_epistemology** | [Shin-ISU] Epistemology | *Philosophy*
+- **isu_phil_ontology** | [Shin-ISU] Ontology | *Philosophy*
+- **isu_phil_pre_socratics** | [Shin-ISU] Pre-Socratic Philosophy | *Philosophy*
+- **isu_phil_plato_forms** | [Shin-ISU] Plato’s Theory of Forms | *Philosophy*
+- **isu_phil_aristotelian_logic** | [Shin-ISU] Aristotelian Essentialism | *Philosophy*
+- **isu_phil_rationalism_vs_empiricism** | [Shin-ISU] Rationalism vs. Empiricism | *Philosophy*
+- **isu_phil_solipsism** | [Shin-ISU] Solipsism | *Philosophy*
+- **isu_phil_dualism** | [Shin-ISU] Mind-Body Dualism | *Philosophy*
+- **isu_phil_ethics_intro** | [Shin-ISU] Introduction to Ethics | *Philosophy*
+- **isu_phil_utilitarianism** | [Shin-ISU] Utilitarianism | *Philosophy*
+- **isu_phil_deontology** | [Shin-ISU] Deontology | *Philosophy*
+- **isu_phil_virtue_ethics** | [Shin-ISU] Virtue Ethics | *Philosophy*
+- **isu_phil_moral_relativism** | [Shin-ISU] Moral Relativism | *Philosophy*
+- **isu_phil_social_contract** | [Shin-ISU] Social Contract Theory | *Philosophy*
+- **isu_phil_existentialism_ethics** | [Shin-ISU] Existentialist Ethics | *Philosophy*
+- **isu_phil_nihilism** | [Shin-ISU] Nihilism | *Philosophy*
+- **isu_phil_care_ethics** | [Shin-ISU] Ethics of Care | *Philosophy*
+- **isu_phil_axiology** | [Shin-ISU] Axiology | *Philosophy*
+- **isu_phil_ethics_intro** | [Shin-ISU] Introduction to Ethics | *Philosophy*
+- **isu_phil_utilitarianism** | [Shin-ISU] Utilitarianism | *Philosophy*
+- **isu_phil_deontology** | [Shin-ISU] Deontology | *Philosophy*
+- **isu_phil_virtue_ethics** | [Shin-ISU] Virtue Ethics | *Philosophy*
+- **isu_phil_moral_relativism** | [Shin-ISU] Moral Relativism | *Philosophy*
+- **isu_phil_social_contract** | [Shin-ISU] Social Contract Theory | *Philosophy*
+- **isu_phil_existentialism_ethics** | [Shin-ISU] Existentialist Ethics | *Philosophy*
+- **isu_phil_nihilism** | [Shin-ISU] Nihilism | *Philosophy*
+- **isu_phil_care_ethics** | [Shin-ISU] Ethics of Care | *Philosophy*
+- **isu_phil_axiology** | [Shin-ISU] Axiology | *Philosophy*
+- **isu_phil_formal_logic** | [Shin-ISU] Formal Logic | *Philosophy*
+- **isu_phil_informal_fallacies** | [Shin-ISU] Informal Fallacies | *Philosophy*
+- **isu_phil_philosophy_of_language** | [Shin-ISU] Philosophy of Language | *Philosophy*
+- **isu_phil_speech_act_theory** | [Shin-ISU] Speech Act Theory | *Philosophy*
+- **isu_phil_analytic_vs_continental** | [Shin-ISU] Analytic vs. Continental | *Philosophy*
+- **isu_phil_consciousness_problem** | [Shin-ISU] Philosophy of Mind | *Philosophy*
+- **isu_phil_functionalism** | [Shin-ISU] Functionalism | *Philosophy*
+- **isu_phil_physicalism** | [Shin-ISU] Physicalism | *Philosophy*
+- **isu_phil_qualitative_experience** | [Shin-ISU] Qualia | *Philosophy*
+- **isu_phil_personal_identity** | [Shin-ISU] Personal Identity | *Philosophy*
+- **isu_phil_justice_theories** | [Shin-ISU] Theories of Justice | *Philosophy*
+- **isu_phil_liberty_theory** | [Shin-ISU] Theories of Liberty | *Philosophy*
+- **isu_phil_marxism_philosophy** | [Shin-ISU] Marxist Philosophy | *Philosophy*
+- **isu_phil_feminist_philosophy** | [Shin-ISU] Feminist Philosophy | *Philosophy*
+- **isu_phil_postmodernism** | [Shin-ISU] Postmodernism | *Philosophy*
+- **isu_phil_phenomenology** | [Shin-ISU] Phenomenology | *Philosophy*
+- **isu_phil_hermeneutics** | [Shin-ISU] Hermeneutics | *Philosophy*
+- **isu_phil_critical_theory** | [Shin-ISU] Critical Theory | *Philosophy*
+- **isu_phil_philosophy_of_history** | [Shin-ISU] Philosophy of History | *Philosophy*
+- **isu_phil_structure_of_scientific_revolutions** | [Shin-ISU] Scientific Paradigms | *Philosophy*
+- **isu_phil_transhumanism** | [Shin-ISU] Transhumanism | *Philosophy*
+- **isu_phil_digital_ethics** | [Shin-ISU] Digital Ethics | *Philosophy*
+- **isu_phil_environmental_philosophy** | [Shin-ISU] Environmental Philosophy | *Philosophy*
+- **isu_phil_philosophy_of_ai** | [Shin-ISU] Philosophy of Artificial Intelligence | *Philosophy*
+- **isu_phil_political_globalization** | [Shin-ISU] Political Globalization | *Philosophy*
+- **isu_phil_virtue_epistemology** | [Shin-ISU] Virtue Epistemology | *Philosophy*
+- **isu_phil_meaning_of_life** | [Shin-ISU] Meaning of Life | *Philosophy*
+- **isu_phil_pessimism_philosophy** | [Shin-ISU] Philosophical Pessimism | *Philosophy*
+- **isu_phil_structuralism** | [Shin-ISU] Structuralism | *Philosophy*
+- **isu_phil_future_of_philosophy** | [Shin-ISU] Future of Philosophy | *Philosophy*
+- **isu_log_def** | [Shin-ISU] Definition of Logic | *Logic*
+- **isu_log_proposition** | [Shin-ISU] Propositions | *Logic*
+- **isu_log_truth_values** | [Shin-ISU] Truth Values | *Logic*
+- **isu_log_negation** | [Shin-ISU] Negation (NOT) | *Logic*
+- **isu_log_conjunction** | [Shin-ISU] Conjunction (AND) | *Logic*
+- **isu_log_disjunction** | [Shin-ISU] Disjunction (OR) | *Logic*
+- **isu_log_implication** | [Shin-ISU] Material Implication (IF-THEN) | *Logic*
+- **isu_log_tautology** | [Shin-ISU] Tautologies | *Logic*
+- **isu_log_contradiction** | [Shin-ISU] Contradictions | *Logic*
+- **isu_log_argument_validity** | [Shin-ISU] Validity vs. Soundness | *Logic*
+- **isu_log_predicate_logic** | [Shin-ISU] Predicate Logic | *Logic*
+- **isu_log_quantifiers** | [Shin-ISU] Quantifiers (Universal & Existential) | *Logic*
+- **isu_log_modal_logic** | [Shin-ISU] Modal Logic | *Logic*
+- **isu_log_possible_worlds** | [Shin-ISU] Possible Worlds Semantics | *Logic*
+- **isu_log_deontic_logic** | [Shin-ISU] Deontic Logic | *Logic*
+- **isu_log_epistemic_logic** | [Shin-ISU] Epistemic Logic | *Logic*
+- **isu_log_temporal_logic** | [Shin-ISU] Temporal Logic | *Logic*
+- **isu_log_induction** | [Shin-ISU] Inductive Logic | *Logic*
+- **isu_log_abduction** | [Shin-ISU] Abductive Logic (Inference to Best Explanation) | *Logic*
+- **isu_log_godel_incompleteness** | [Shin-ISU] Gödel's Incompleteness Theorems | *Logic*
+- **isu_log_argumentation_theory** | [Shin-ISU] Argumentation Theory | *Logic*
+- **isu_log_rhetoric_logic** | [Shin-ISU] Logic in Rhetoric | *Logic*
+- **isu_log_critical_thinking** | [Shin-ISU] Critical Thinking | *Logic*
+- **isu_log_problem_solving** | [Shin-ISU] Logical Problem Solving | *Logic*
+- **isu_log_legal_reasoning** | [Shin-ISU] Legal Reasoning | *Logic*
+- **isu_log_scientific_method_logic** | [Shin-ISU] Logic of Discovery | *Logic*
+- **isu_log_game_theory_logic** | [Shin-ISU] Logic in Game Theory | *Logic*
+- **isu_log_fuzzy_logic** | [Shin-ISU] Fuzzy Logic | *Logic*
+- **isu_log_logic_programming** | [Shin-ISU] Logic Programming | *Logic*
+- **isu_log_future_logic** | [Shin-ISU] The Future of Logic | *Logic*
+- **isu_eth_metaethics** | [Shin-ISU] Meta-ethics | *Ethics*
+- **isu_eth_moral_realism** | [Shin-ISU] Moral Realism | *Ethics*
+- **isu_eth_moral_anti_realism** | [Shin-ISU] Moral Anti-Realism | *Ethics*
+- **isu_eth_consequentialism** | [Shin-ISU] Consequentialism | *Ethics*
+- **isu_eth_deontology_adv** | [Shin-ISU] Kantian Deontology | *Ethics*
+- **isu_eth_virtue_ethics_adv** | [Shin-ISU] Virtue Ethics (Neo-Aristotelian) | *Ethics*
+- **isu_eth_contractarianism** | [Shin-ISU] Contractarianism | *Ethics*
+- **isu_eth_divine_command** | [Shin-ISU] Divine Command Theory | *Ethics*
+- **isu_eth_natural_law** | [Shin-ISU] Natural Law Theory | *Ethics*
+- **isu_eth_ethics_of_care_adv** | [Shin-ISU] Ethics of Care (Relational) | *Ethics*
+- **isu_eth_bioethics** | [Shin-ISU] Bioethics | *Ethics*
+- **isu_eth_ai_ethics** | [Shin-ISU] AI Ethics | *Ethics*
+- **isu_eth_data_privacy** | [Shin-ISU] Data Privacy Ethics | *Ethics*
+- **isu_eth_environmental_ethics** | [Shin-ISU] Environmental Ethics | *Ethics*
+- **isu_eth_business_ethics** | [Shin-ISU] Business Ethics | *Ethics*
+- **isu_eth_neuroethics_applied** | [Shin-ISU] Neuroethics (Applied) | *Ethics*
+- **isu_eth_global_justice** | [Shin-ISU] Ethics of Global Justice | *Ethics*
+- **isu_eth_information_ethics** | [Shin-ISU] Information Ethics | *Ethics*
+- **isu_eth_media_ethics** | [Shin-ISU] Media Ethics | *Ethics*
+- **isu_eth_professional_ethics** | [Shin-ISU] Professional Ethics | *Ethics*
+- **isu_eth_moral_psychology** | [Shin-ISU] Moral Psychology | *Ethics*
+- **isu_eth_social_justice** | [Shin-ISU] Social Justice | *Ethics*
+- **isu_eth_distributive_justice** | [Shin-ISU] Distributive Justice | *Ethics*
+- **isu_eth_restorative_justice** | [Shin-ISU] Restorative Justice | *Ethics*
+- **isu_eth_moral_luck** | [Shin-ISU] Moral Luck | *Ethics*
+- **isu_eth_moral_status** | [Shin-ISU] Moral Status | *Ethics*
+- **isu_eth_agency_responsibility** | [Shin-ISU] Moral Agency & Responsibility | *Ethics*
+- **isu_eth_ethics_of_dissent** | [Shin-ISU] Ethics of Dissent | *Ethics*
+- **isu_eth_virtue_cultivation** | [Shin-ISU] Cultivating Moral Character | *Ethics*
+- **isu_eth_future_of_ethics** | [Shin-ISU] The Future of Ethics | *Ethics*
+- **isu_hist_methodology** | [Shin-ISU] Historical Methodology | *History*
+- **isu_hist_historiography** | [Shin-ISU] Historiography | *History*
+- **isu_hist_archaeology_link** | [Shin-ISU] Archaeology & History | *History*
+- **isu_hist_civilization_origins** | [Shin-ISU] Origins of Civilization | *History*
+- **isu_hist_sumer_mesopotamia** | [Shin-ISU] Ancient Mesopotamia | *History*
+- **isu_hist_ancient_egypt** | [Shin-ISU] Ancient Egypt | *History*
+- **isu_hist_classical_greece** | [Shin-ISU] Classical Greece | *History*
+- **isu_hist_roman_empire** | [Shin-ISU] The Roman Empire | *History*
+- **isu_hist_silk_road** | [Shin-ISU] The Silk Road | *History*
+- **isu_hist_han_dynasty** | [Shin-ISU] The Han Dynasty | *History*
+- **isu_hist_fall_of_rome** | [Shin-ISU] Fall of Rome | *History*
+- **isu_hist_byzantine_empire** | [Shin-ISU] The Byzantine Empire | *History*
+- **isu_hist_islamic_golden_age** | [Shin-ISU] The Islamic Golden Age | *History*
+- **isu_hist_feudalism** | [Shin-ISU] Feudalism | *History*
+- **isu_hist_mongol_empire** | [Shin-ISU] The Mongol Empire | *History*
+- **isu_hist_renaissance** | [Shin-ISU] The Renaissance | *History*
+- **isu_hist_age_of_discovery** | [Shin-ISU] The Age of Discovery | *History*
+- **isu_hist_protestant_reformation** | [Shin-ISU] The Reformation | *History*
+- **isu_hist_scientific_revolution** | [Shin-ISU] The Scientific Revolution | *History*
+- **isu_hist_colonialism** | [Shin-ISU] Colonialism & Imperialism | *History*
+- **isu_hist_enlightenment** | [Shin-ISU] The Enlightenment | *History*
+- **isu_hist_industrial_rev** | [Shin-ISU] Industrial Revolution | *History*
+- **isu_hist_french_revolution** | [Shin-ISU] The French Revolution | *History*
+- **isu_hist_nation_state_rise** | [Shin-ISU] The Rise of the Nation-State | *History*
+- **isu_hist_imperialism_high** | [Shin-ISU] High Imperialism | *History*
+- **isu_hist_wwi** | [Shin-ISU] World War I | *History*
+- **isu_hist_russian_revolution** | [Shin-ISU] The Russian Revolution | *History*
+- **isu_hist_great_depression** | [Shin-ISU] The Great Depression | *History*
+- **isu_hist_wwii** | [Shin-ISU] World War II | *History*
+- **isu_hist_decolonization** | [Shin-ISU] Decolonization | *History*
+- **isu_art_def** | [Shin-ISU] Definition of Art | *Art*
+- **isu_art_aesthetics** | [Shin-ISU] Aesthetics | *Art*
+- **isu_art_paleolithic_art** | [Shin-ISU] Prehistoric Art | *Art*
+- **isu_art_mesopotamian_art** | [Shin-ISU] Mesopotamian & Egyptian Art | *Art*
+- **isu_art_classical_greek** | [Shin-ISU] Classical Greek Art | *Art*
+- **isu_art_roman_realism** | [Shin-ISU] Roman Art & Realism | *Art*
+- **isu_art_byzantine_iconography** | [Shin-ISU] Byzantine Iconography | *Art*
+- **isu_art_islamic_aniconism** | [Shin-ISU] Islamic Art & Aniconism | *Art*
+- **isu_art_gothic_architecture** | [Shin-ISU] Gothic Architecture | *Art*
+- **isu_art_renaissance_perspective** | [Shin-ISU] Renaissance Perspective | *Art*
+- **isu_art_photography_impact** | [Shin-ISU] The Photography Impact | *Art*
+- **isu_art_impressionism** | [Shin-ISU] Impressionism | *Art*
+- **isu_art_post_impressionism** | [Shin-ISU] Post-Impressionism | *Art*
+- **isu_art_cubism** | [Shin-ISU] Cubism | *Art*
+- **isu_art_expressionism** | [Shin-ISU] Expressionism | *Art*
+- **isu_art_dadaism** | [Shin-ISU] Dadaism | *Art*
+- **isu_art_surrealism** | [Shin-ISU] Surrealism | *Art*
+- **isu_art_abstract_expressionism** | [Shin-ISU] Abstract Expressionism | *Art*
+- **isu_art_pop_art** | [Shin-ISU] Pop Art | *Art*
+- **isu_art_minimalism** | [Shin-ISU] Minimalism | *Art*
+- **isu_art_photography_impact** | [Shin-ISU] The Photography Impact | *Art*
+- **isu_art_impressionism** | [Shin-ISU] Impressionism | *Art*
+- **isu_art_post_impressionism** | [Shin-ISU] Post-Impressionism | *Art*
+- **isu_art_cubism** | [Shin-ISU] Cubism | *Art*
+- **isu_art_expressionism** | [Shin-ISU] Expressionism | *Art*
+- **isu_art_dadaism** | [Shin-ISU] Dadaism | *Art*
+- **isu_art_surrealism** | [Shin-ISU] Surrealism | *Art*
+- **isu_art_abstract_expressionism** | [Shin-ISU] Abstract Expressionism | *Art*
+- **isu_art_pop_art** | [Shin-ISU] Pop Art | *Art*
+- **isu_art_minimalism** | [Shin-ISU] Minimalism | *Art*
+- **isu_art_conceptualism** | [Shin-ISU] Conceptual Art | *Art*
+- **isu_art_performance** | [Shin-ISU] Performance Art | *Art*
+- **isu_art_feminist_art** | [Shin-ISU] Feminist Art Movement | *Art*
+- **isu_art_postmodern_art** | [Shin-ISU] Postmodern Art | *Art*
+- **isu_art_digital_art** | [Shin-ISU] Digital Art | *Art*
+- **isu_art_net_art** | [Shin-ISU] Net Art | *Art*
+- **isu_art_generative_art** | [Shin-ISU] Generative Art | *Art*
+- **isu_art_institutional_critique** | [Shin-ISU] Institutional Critique | *Art*
+- **isu_art_social_practice** | [Shin-ISU] Social Practice Art | *Art*
+- **isu_art_future_aesthetics** | [Shin-ISU] Future of Aesthetics | *Art*
+- **isu_art_conceptualism** | [Shin-ISU] Conceptual Art | *Art*
+- **isu_art_performance** | [Shin-ISU] Performance Art | *Art*
+- **isu_art_feminist_art** | [Shin-ISU] Feminist Art Movement | *Art*
+- **isu_art_postmodern_art** | [Shin-ISU] Postmodern Art | *Art*
+- **isu_art_digital_art** | [Shin-ISU] Digital Art | *Art*
+- **isu_art_net_art** | [Shin-ISU] Net Art | *Art*
+- **isu_art_generative_art** | [Shin-ISU] Generative Art | *Art*
+- **isu_art_institutional_critique** | [Shin-ISU] Institutional Critique | *Art*
+- **isu_art_social_practice** | [Shin-ISU] Social Practice Art | *Art*
+- **isu_art_future_aesthetics** | [Shin-ISU] Future of Aesthetics | *Art*
+- **isu_mus_def** | [Shin-ISU] Definition of Music | *Music*
+- **isu_mus_physics_of_sound** | [Shin-ISU] Physics of Sound | *Music*
+- **isu_mus_rhythm_meter** | [Shin-ISU] Rhythm and Meter | *Music*
+- **isu_mus_melody_harmony** | [Shin-ISU] Melody and Harmony | *Music*
+- **isu_mus_ancient_origins** | [Shin-ISU] Ancient Musical Origins | *Music*
+- **isu_mus_pythagorean_tuning** | [Shin-ISU] Pythagorean Tuning | *Music*
+- **isu_mus_greek_theories** | [Shin-ISU] Ancient Greek Music Theory | *Music*
+- **isu_mus_chant_liturgy** | [Shin-ISU] Gregorian Chant | *Music*
+- **isu_mus_rise_of_polyphony** | [Shin-ISU] The Rise of Polyphony | *Music*
+- **isu_mus_notation_history** | [Shin-ISU] History of Musical Notation | *Music*
+- **isu_mus_baroque_era** | [Shin-ISU] The Baroque Era | *Music*
+- **isu_mus_opera_rise** | [Shin-ISU] The Rise of Opera | *Music*
+- **isu_mus_counterpoint_bach** | [Shin-ISU] Counterpoint and Bach | *Music*
+- **isu_mus_classical_era** | [Shin-ISU] The Classical Era | *Music*
+- **isu_mus_sonata_form** | [Shin-ISU] Sonata Form | *Music*
+- **isu_mus_the_symphony** | [Shin-ISU] The Symphony | *Music*
+- **isu_mus_virtuosity_mozart** | [Shin-ISU] Virtuosity & Mozart | *Music*
+- **isu_mus_temperament_shift** | [Shin-ISU] Well-Tempered Tuning | *Music*
+- **isu_mus_secularization** | [Shin-ISU] Secularization of Music | *Music*
+- **isu_mus_early_chamber_music** | [Shin-ISU] Chamber Music | *Music*
+- **isu_mus_romanticism** | [Shin-ISU] Romanticism | *Music*
+- **isu_mus_chromaticism** | [Shin-ISU] Chromaticism | *Music*
+- **isu_mus_program_music** | [Shin-ISU] Program Music | *Music*
+- **isu_mus_nationalism** | [Shin-ISU] Musical Nationalism | *Music*
+- **isu_mus_impressionism_music** | [Shin-ISU] Impressionism in Music | *Music*
+- **isu_mus_expressionism_music** | [Shin-ISU] Musical Expressionism | *Music*
+- **isu_mus_atonal_serialism** | [Shin-ISU] Atonality & Serialism | *Music*
+- **isu_mus_stravinsky_rhythm** | [Shin-ISU] Primitivism & Rhythm | *Music*
+- **isu_mus_minimalism_music** | [Shin-ISU] Musical Minimalism | *Music*
+- **isu_mus_aleatoric_music** | [Shin-ISU] Aleatoric (Chance) Music | *Music*
+- **isu_mus_jazz_origins** | [Shin-ISU] Jazz Origins & Improvisation | *Music*
+- **isu_mus_blues_foundation** | [Shin-ISU] The Blues | *Music*
+- **isu_mus_recording_tech** | [Shin-ISU] Impact of Recording Technology | *Music*
+- **isu_mus_electronic_music** | [Shin-ISU] Electronic Music & Synthesis | *Music*
+- **isu_mus_pop_culture_mass** | [Shin-ISU] The Rise of Pop Music | *Music*
+- **isu_mus_sampling_remix** | [Shin-ISU] Sampling & Remix Culture | *Music*
+- **isu_mus_digital_streaming** | [Shin-ISU] Music in the Streaming Era | *Music*
+- **isu_mus_ai_composition** | [Shin-ISU] AI-Generated Music | *Music*
+- **isu_mus_music_psychology** | [Shin-ISU] Music Psychology | *Music*
+- **isu_mus_future_sonic_art** | [Shin-ISU] The Future of Sound | *Music*
+- **isu_psy_sleep_consolidation** | [Shin-ISU] Sleep-Dependent Memory Consolidation | *Sleep Psychology*
+- **isu_psy_sleep_rem** | [Shin-ISU] REM Sleep Cycle | *Sleep Psychology*
+- **isu_psy_sleep_sws** | [Shin-ISU] Slow Wave Sleep | *Sleep Psychology*
+- **isu_psy_sleep_circadian** | [Shin-ISU] Circadian Rhythms | *Sleep Psychology*
+- **isu_psy_sleep_insomnia** | [Shin-ISU] Insomnia Mechanisms | *Sleep Psychology*
+- **isu_psy_sleep_naps** | [Shin-ISU] Napping Architecture | *Sleep Psychology*
+- **isu_psy_sleep_atonia** | [Shin-ISU] REM Atonia | *Sleep Psychology*
+- **isu_psy_sleep_homeostasis** | [Shin-ISU] Sleep Homeostasis | *Sleep Psychology*
+- **isu_psy_sleep_adenosine** | [Shin-ISU] Adenosine Signaling | *Sleep Psychology*
+- **isu_psy_sleep_melatonin** | [Shin-ISU] Melatonin Regulation | *Sleep Psychology*
+- **isu_psy_sleep_latency** | [Shin-ISU] Sleep Latency | *Sleep Psychology*
+- **isu_psy_dream_lucid** | [Shin-ISU] Lucid Dreaming | *Dream Psychology*
+- **isu_psy_dream_symbolism** | [Shin-ISU] Dream Symbolism | *Dream Psychology*
+- **isu_psy_dream_plasticity** | [Shin-ISU] Dream-based Neuroplasticity | *Dream Psychology*
+- **isu_psy_dream_simulation** | [Shin-ISU] Threat Simulation Theory | *Dream Psychology*
+- **isu_psy_dream_memory_consolidation** | [Shin-ISU] Memory Integration | *Dream Psychology*
+- **isu_psy_dream_emotional_processing** | [Shin-ISU] Affective Processing | *Dream Psychology*
+- **isu_psy_dream_creativity** | [Shin-ISU] Dream-driven Insight | *Dream Psychology*
+- **isu_psy_dream_proprioceptive_shifting** | [Shin-ISU] Proprioceptive Shifting | *Dream Psychology*
+- **isu_psy_dream_hyperassociativity** | [Shin-ISU] Hyperassociativity | *Dream Psychology*
+- **isu_psy_dream_metaphor** | [Shin-ISU] Metaphorical Synthesis | *Dream Psychology*
+- **isu_psy_cbt_metacognition** | [Shin-ISU] Metacognitive Awareness | *CBT*
+- **isu_psy_cbt_cognitive_reframing** | [Shin-ISU] Cognitive Restructuring | *CBT*
+- **isu_psy_cbt_cognitive_distortion** | [Shin-ISU] Cognitive Distortion | *CBT*
+- **isu_psy_cbt_exposure_therapy** | [Shin-ISU] Exposure-Based Desensitization | *CBT*
+- **isu_psy_cbt_thought_log** | [Shin-ISU] Thought Log Analysis | *CBT*
+- **isu_psy_cbt_behavioral_activation** | [Shin-ISU] Behavioral Activation | *CBT*
+- **isu_psy_cbt_socratic_questioning** | [Shin-ISU] Socratic Questioning | *CBT*
+- **isu_psy_cbt_interoceptive_exposure** | [Shin-ISU] Interoceptive Exposure | *CBT*
+- **isu_psy_cbt_cognitive_defusion** | [Shin-ISU] Cognitive Defusion | *CBT*
+- **isu_psy_cbt_psychoeducation** | [Shin-ISU] Psychoeducation | *CBT*
+- **isu_psy_dbt_distress_tolerance** | [Shin-ISU] Distress Tolerance | *DBT*
+- **isu_psy_dbt_mindfulness** | [Shin-ISU] Mindfulness-Based Regulation | *DBT*
+- **isu_psy_dbt_wise_mind** | [Shin-ISU] Wise Mind Integration | *DBT*
+- **isu_psy_dbt_emotional_regulation** | [Shin-ISU] Emotional Regulation | *DBT*
+- **isu_psy_dbt_radical_acceptance** | [Shin-ISU] Radical Acceptance | *DBT*
+- **isu_psy_dbt_tipp_skills** | [Shin-ISU] TIPP Skills | *DBT*
+- **isu_psy_dbt_self_soothing** | [Shin-ISU] Self-Soothing Modalities | *DBT*
+- **isu_psy_dbt_opposite_action** | [Shin-ISU] Opposite Action | *DBT*
+- **isu_psy_dbt_interpersonal_effectiveness** | [Shin-ISU] Interpersonal Effectiveness | *DBT*
+- **isu_psy_dbt_checking_the_facts** | [Shin-ISU] Checking the Facts | *DBT*
+- **isu_astro_stellar_fusion** | [Shin-ISU] Stellar Nucleosynthesis | *Astrophysics*
+- **isu_astro_event_horizon** | [Shin-ISU] Event Horizon | *Astrophysics*
+- **isu_astro_dark_matter** | [Shin-ISU] Dark Matter Halo | *Astrophysics*
+- **isu_astro_main_sequence** | [Shin-ISU] Main Sequence | *Astrophysics*
+- **isu_astro_cosmic_inflation** | [Shin-ISU] Cosmic Inflation | *Astrophysics*
+- **isu_astro_supernova_type_ia** | [Shin-ISU] Type Ia Supernova | *Astrophysics*
+- **isu_astro_accretion_disk** | [Shin-ISU] Accretion Disk Physics | *Astrophysics*
+- **isu_astro_stellar_wind** | [Shin-ISU] Stellar Wind | *Astrophysics*
+- **isu_astro_neutron_star** | [Shin-ISU] Neutron Star | *Astrophysics*
+- **isu_astro_interstellar_medium** | [Shin-ISU] ISM Dynamics | *Astrophysics*
+- **isu_astro_binary_system** | [Shin-ISU] Binary Star Dynamics | *Astrophysics*
+- **isu_astro_black_hole_spin** | [Shin-ISU] Kerr Black Hole | *Astrophysics*
+- **isu_astro_planetesimal** | [Shin-ISU] Planetesimal Formation | *Astrophysics*
+- **isu_astro_galactic_halo** | [Shin-ISU] Galactic Halo | *Astrophysics*
+- **isu_astro_gamma_ray_burst** | [Shin-ISU] Gamma Ray Bursts | *Astrophysics*
+- **isu_astro_stellar_parallax** | [Shin-ISU] Stellar Parallax | *Astrophysics*
+- **isu_astro_spectral_classification** | [Shin-ISU] Stellar Spectra | *Astrophysics*
+- **isu_astro_big_bang_nucleosynthesis** | [Shin-ISU] BBN | *Astrophysics*
+- **isu_astro_quasar_power** | [Shin-ISU] Quasar Energetics | *Astrophysics*
+- **isu_astro_planetary_migration** | [Shin-ISU] Planetary Migration | *Astrophysics*
+- **isu_weather_adiabatic_process** | [Shin-ISU] Adiabatic Lapse Rate | *Weather Science*
+- **isu_weather_convection** | [Shin-ISU] Atmospheric Convection | *Weather Science*
+- **isu_weather_coriolis** | [Shin-ISU] Coriolis Force | *Weather Science*
+- **isu_weather_jet_stream** | [Shin-ISU] Jet Stream | *Weather Science*
+- **isu_weather_frontogenesis** | [Shin-ISU] Frontogenesis | *Weather Science*
+- **isu_weather_greenhouse_effect** | [Shin-ISU] Greenhouse Effect | *Weather Science*
+- **isu_weather_moisture_convergence** | [Shin-ISU] Moisture Convergence | *Weather Science*
+- **isu_weather_stable_atmosphere** | [Shin-ISU] Atmospheric Stability | *Weather Science*
+- **isu_weather_orographic_lift** | [Shin-ISU] Orographic Lift | *Weather Science*
+- **isu_weather_boundary_layer** | [Shin-ISU] Boundary Layer | *Weather Science*
+- **isu_weather_latent_heat** | [Shin-ISU] Latent Heat Release | *Weather Science*
+- **isu_weather_cyclogenesis** | [Shin-ISU] Cyclogenesis | *Weather Science*
+- **isu_weather_blocking** | [Shin-ISU] Atmospheric Blocking | *Weather Science*
+- **isu_weather_thermal_inversion** | [Shin-ISU] Thermal Inversion | *Weather Science*
+- **isu_weather_vapour_pressure** | [Shin-ISU] Vapour Pressure | *Weather Science*
+- **isu_weather_geostrophic_wind** | [Shin-ISU] Geostrophic Wind | *Weather Science*
+- **isu_weather_baroclinicity** | [Shin-ISU] Baroclinicity | *Weather Science*
+- **isu_weather_hydrostatic_eq** | [Shin-ISU] Hydrostatic Equilibrium | *Weather Science*
+- **isu_weather_radiation_budget** | [Shin-ISU] Radiation Budget | *Weather Science*
+- **isu_weather_supercell** | [Shin-ISU] Supercell Dynamics | *Weather Science*
+- **isu_kloppen_topography** | [Shin-ISU] Kloppen Basin Topography | *Kloppen Climate*
+- **isu_kloppen_prevailing_wind** | [Shin-ISU] Kloppen Wind Patterns | *Kloppen Climate*
+- **isu_kloppen_soil_moisture** | [Shin-ISU] Kloppen Soil Dynamics | *Kloppen Climate*
+- **isu_kloppen_seasonal_cycle** | [Shin-ISU] Seasonal Shift | *Kloppen Climate*
+- **isu_kloppen_frost_risk** | [Shin-ISU] Frost Incidence | *Kloppen Climate*
+- **isu_kloppen_rainfall_dist** | [Shin-ISU] Rainfall Distribution | *Kloppen Climate*
+- **isu_kloppen_phenology** | [Shin-ISU] Phenological Patterns | *Kloppen Climate*
+- **isu_kloppen_drainage_basin** | [Shin-ISU] Basin Hydrology | *Kloppen Climate*
+- **isu_kloppen_exposure_gradient** | [Shin-ISU] Exposure Gradient | *Kloppen Climate*
+- **isu_kloppen_pollinator_windows** | [Shin-ISU] Pollinator Phenology | *Kloppen Climate*
+- **isu_kloppen_nutrient_transport** | [Shin-ISU] Nutrient Transport | *Kloppen Climate*
+- **isu_kloppen_invasive_vectors** | [Shin-ISU] Invasive Vectors | *Kloppen Climate*
+- **isu_kloppen_succession_lag** | [Shin-ISU] Successional Lag | *Kloppen Climate*
+- **isu_kloppen_carbon_sequestration** | [Shin-ISU] Carbon Profiles | *Kloppen Climate*
+- **isu_kloppen_aeolian_transport** | [Shin-ISU] Aeolian Transport | *Kloppen Climate*
+- **isu_kloppen_albedo_shift** | [Shin-ISU] Regional Albedo | *Kloppen Climate*
+- **isu_kloppen_hydrologic_pulse** | [Shin-ISU] Hydrologic Pulse | *Kloppen Climate*
+- **isu_kloppen_mycorrhizal_density** | [Shin-ISU] Mycorrhizal Density | *Kloppen Climate*
+- **isu_kloppen_microclimate_buffer** | [Shin-ISU] Microclimate Buffering | *Kloppen Climate*
+- **isu_kloppen_fire_regime** | [Shin-ISU] Regional Fire Regime | *Kloppen Climate*
+- **isu_astro_obs_telescope** | [Shin-ISU] Optical Telescopes | *Astronomy*
+- **isu_astro_solar_system** | [Shin-ISU] Solar System Architecture | *Astronomy*
+- **isu_astro_lunar_phases** | [Shin-ISU] Lunar Phase Cycle | *Astronomy*
+- **isu_astro_exoplanet_transit** | [Shin-ISU] Transit Method | *Astronomy*
+- **isu_astro_radio_astronomy** | [Shin-ISU] Radio Astronomy | *Astronomy*
+- **isu_astro_cometary_dynamics** | [Shin-ISU] Cometary Orbits | *Astronomy*
+- **isu_astro_asteroid_belt** | [Shin-ISU] Asteroid Belt | *Astronomy*
+- **isu_astro_light_year** | [Shin-ISU] Cosmic Distance Scales | *Astronomy*
+- **isu_astro_spectral_analysis** | [Shin-ISU] Stellar Spectroscopy | *Astronomy*
+- **isu_astro_galactic_structure** | [Shin-ISU] Galactic Morphology | *Astronomy*
+- **isu_astro_craters_impact** | [Shin-ISU] Impact Cratering | *Astronomy*
+- **isu_astro_hertzsprung_russell** | [Shin-ISU] H-R Diagram | *Astronomy*
+- **isu_astro_stellar_evolution** | [Shin-ISU] Stellar Evolution | *Astronomy*
+- **isu_astro_tides_celestial** | [Shin-ISU] Tidal Mechanics | *Astronomy*
+- **isu_astro_cosmic_rays** | [Shin-ISU] Cosmic Ray Origin | *Astronomy*
+- **isu_astro_parallax_method** | [Shin-ISU] Parallax Measurements | *Astronomy*
+- **isu_astro_nebular_theory** | [Shin-ISU] Nebular Hypothesis | *Astronomy*
+- **isu_astro_light_curves** | [Shin-ISU] Light Curve Analysis | *Astronomy*
+- **isu_astro_galactic_center** | [Shin-ISU] Galactic Center | *Astronomy*
+- **isu_astro_habitable_zone** | [Shin-ISU] Habitable Zone | *Astronomy*
+- **isu_acou_wave_propagation** | [Shin-ISU] Wave Propagation | *Acoustics*
+- **isu_acou_frequency_pitch** | [Shin-ISU] Frequency & Pitch | *Acoustics*
+- **isu_acou_amplitude_spl** | [Shin-ISU] Sound Pressure Level | *Acoustics*
+- **isu_acou_diffraction** | [Shin-ISU] Acoustic Diffraction | *Acoustics*
+- **isu_acou_reflection_absorption** | [Shin-ISU] Reflection & Absorption | *Acoustics*
+- **isu_acou_refraction** | [Shin-ISU] Sound Refraction | *Acoustics*
+- **isu_acou_doppler_effect** | [Shin-ISU] Doppler Effect | *Acoustics*
+- **isu_acou_resonance** | [Shin-ISU] Resonance Systems | *Acoustics*
+- **isu_acou_transduction** | [Shin-ISU] Acoustic Transduction | *Acoustics*
+- **isu_acou_reverberation** | [Shin-ISU] Reverberation Time | *Acoustics*
+- **isu_acou_psycho_threshold** | [Shin-ISU] Threshold of Hearing | *Acoustics*
+- **isu_acou_masking** | [Shin-ISU] Auditory Masking | *Acoustics*
+- **isu_acou_spatial_hearing** | [Shin-ISU] Spatial Localization | *Acoustics*
+- **isu_acou_ultrasonic_imaging** | [Shin-ISU] Ultrasonic Applications | *Acoustics*
+- **isu_acou_infrasonic_sensing** | [Shin-ISU] Infrasonic Phenomena | *Acoustics*
+- **isu_acou_noise_control** | [Shin-ISU] Active Noise Control | *Acoustics*
+- **isu_acou_spectral_balance** | [Shin-ISU] Spectral Balance | *Acoustics*
+- **isu_acou_helmholtz_res** | [Shin-ISU] Helmholtz Resonator | *Acoustics*
+- **isu_acou_acoustic_impedance** | [Shin-ISU] Acoustic Impedance | *Acoustics*
+- **isu_acou_bioacoustics** | [Shin-ISU] Bioacoustics | *Acoustics*
+- **dbt_chain_analysis** | Chain Analysis | *DBT*
+
+## sleep_duration
+
+- **dream_predictive_processing** | Predictive Processing | *Dream Psychology*
+

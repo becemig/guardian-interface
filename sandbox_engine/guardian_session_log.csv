@@ -1,0 +1,164 @@
+timestamp,session_id,guardian_state,confidence,hrv,respiration_rate,reaction_time,sleep_quality,contributing_signals
+2026-06-23T23:37:03.263130+00:00,3f00f64a,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-23T23:37:03.265361+00:00,3f00f64a,Adaptive,0.5,51,14,480,66,moderate_hrv|irregular_respiration
+2026-06-23T23:37:03.265469+00:00,3f00f64a,Stress Load,0.5,35,22,710,38,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-23T23:40:29.570433+00:00,81ef1e99,Regulated,0.75,52,11,420,75,moderate_hrv|regulated_respiration|good_sleep_quality
+2026-06-23T23:52:01.912044+00:00,fbd396fb,Regulated,0.75,52,11,420,75,moderate_hrv|regulated_respiration|good_sleep_quality
+2026-06-23T23:52:32.951846+00:00,fbd396fb,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-23T23:52:33.954414+00:00,fbd396fb,Adaptive,0.5,48,15,520,62,moderate_hrv|irregular_respiration
+2026-06-23T23:52:34.956158+00:00,fbd396fb,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T01:23:43.882177+00:00,ee401523,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T01:24:10.421754+00:00,ee401523,Regulated,0.833,68,10,330,78,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:48:11.226546+00:00,30aa8571,Regulated,0.833,68,10,330,78,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:52:36.176403+00:00,30aa8571,Regulated,0.833,72,9,310,82,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T14:52:37.178617+00:00,30aa8571,Adaptive,0.5,48,15,520,62,moderate_hrv|irregular_respiration
+2026-06-24T14:52:38.195977+00:00,30aa8571,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T14:53:17.912745+00:00,8830b42a,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T14:59:30.906620+00:00,2a6b50e7,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:02:11.372971+00:00,817449ae,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:18:45.719293+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:19:13.977343+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:23:08.857463+00:00,ddfc87c8,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:25:58.371753+00:00,daf831a6,Stress Load,0.5,34,23,760,36,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T15:34:57.154665+00:00,daf831a6,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T15:34:57.383696+00:00,ddfc87c8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T20:59:29.549054+00:00,461223d8,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:09:53.227176+00:00,05f5c4a0,Regulated,0.833,75,8,290,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:10:56.662781+00:00,05f5c4a0,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:10:56.811984+00:00,461223d8,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:10:57.267781+00:00,05f5c4a0,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:10:57.400404+00:00,461223d8,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:10:57.917331+00:00,461223d8,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:10:58.067078+00:00,05f5c4a0,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:10:58.426291+00:00,461223d8,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:10:58.602902+00:00,05f5c4a0,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:10:59.086278+00:00,461223d8,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:10:59.195709+00:00,05f5c4a0,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:10:59.619384+00:00,461223d8,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:10:59.709718+00:00,05f5c4a0,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:11:00.171178+00:00,461223d8,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:11:00.247856+00:00,05f5c4a0,Stress Load,0.5,33,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-24T21:11:00.672409+00:00,461223d8,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:00.850989+00:00,05f5c4a0,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:11:01.210404+00:00,461223d8,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:01.362366+00:00,05f5c4a0,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:01.715566+00:00,461223d8,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:01.878938+00:00,05f5c4a0,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:02.229822+00:00,461223d8,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:02.381151+00:00,05f5c4a0,Regulated,0.833,78,8,290,86,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-24T21:11:02.749674+00:00,461223d8,Adaptive,0.5,55,13,430,70,moderate_hrv|irregular_respiration
+2026-06-24T21:11:02.893353+00:00,05f5c4a0,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T21:11:03.254822+00:00,461223d8,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-24T22:54:39.695549+00:00,3ed2ab0d,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-25T15:37:55.932685+00:00,e84f2b53,Adaptive,0.5,46,16,560,60,moderate_hrv|irregular_respiration
+2026-06-25T15:38:39.712893+00:00,e84f2b53,Stress Load,0.5,31,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-25T15:38:50.259365+00:00,e84f2b53,Regulated,0.833,75,10,300,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-25T15:40:15.711265+00:00,d54b28b1,Regulated,0.833,75,10,300,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-25T15:40:49.200851+00:00,d54b28b1,Stress Load,0.5,31,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-25T15:40:57.769938+00:00,d54b28b1,Regulated,0.833,75,10,300,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-25T15:58:43.031610+00:00,9d2ad747,Regulated,0.833,75,10,300,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-25T16:02:26.521233+00:00,9d2ad747,Stress Load,0.5,31,24,780,35,low_hrv|elevated_respiration|slow_reaction_time|low_sleep_quality
+2026-06-25T16:02:37.197733+00:00,9d2ad747,Regulated,0.833,75,10,300,85,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:56:19.415376+00:00,65b50202,Regulated,0.833,79.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:57:06.122076+00:00,65b50202,Regulated,0.833,75.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:57:08.631345+00:00,65b50202,Regulated,0.833,71.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:57:11.144026+00:00,65b50202,Regulated,0.833,66.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:57:13.648183+00:00,65b50202,Regulated,0.833,73.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T02:57:16.158769+00:00,65b50202,Regulated,0.833,79.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:30:46.829064+00:00,3894b310,Regulated,0.833,79.0,12.0,295.0,82.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:30.974805+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:31.979371+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:32.984025+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:33.987781+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:34.989750+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:35.992949+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:37.001659+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:38.009475+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:39.015399+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:40.021502+00:00,3894b310,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:41.029301+00:00,3894b310,Regulated,0.6,55.0,12.0,300.0,80.0,moderate_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:31:42.034038+00:00,3894b310,Regulated,0.833,82.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:06.232912+00:00,e0bba7f5,Regulated,0.833,82.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:38.297009+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:39.299256+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:40.303073+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:41.304939+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:42.309632+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:43.312027+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:44.314516+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:45.316951+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:46.319843+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:47.329845+00:00,e0bba7f5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:48.339527+00:00,e0bba7f5,Regulated,0.6,55.0,12.0,300.0,80.0,moderate_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-26T21:52:49.341821+00:00,e0bba7f5,Regulated,0.833,82.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T02:53:28.176601+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:01:55.312194+00:00,d560d57f,Regulated,0.833,82.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:01:56.314290+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:01:57.331255+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:01:58.362357+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:01:59.780469+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:00.285336+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:01.305972+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:02.310816+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:03.364124+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:04.368337+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T03:02:05.383901+00:00,d560d57f,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:54:24.818575+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:02.912526+00:00,f3967500,Regulated,0.833,82.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:03.918313+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:04.921272+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:05.955680+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:06.965873+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:07.976476+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:08.978134+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:09.982263+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:10.985246+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:11.987756+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T16:55:12.994570+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:17.108370+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:18.111192+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:19.115548+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:20.117928+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:21.120707+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:22.130135+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:23.134722+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:24.138938+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:25.142892+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:06:26.146046+00:00,f3967500,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:27:29.590243+00:00,c75c60c5,Regulated,0.0,,,,,
+2026-06-27T17:37:58.021913+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:37:59.023903+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:00.026829+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:01.048280+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:02.062830+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:03.069506+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:04.071665+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:05.079587+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:06.085358+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-27T17:38:07.090653+00:00,c75c60c5,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:24:42.152689+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:11.905698+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:12.413895+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:12.996133+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:13.513763+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:14.015429+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-28T21:25:14.521360+00:00,41433222,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:04:21.577177+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:32.676837+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:33.178789+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:33.680336+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:34.182707+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:34.684659+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:05:35.185956+00:00,625f2b4b,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:10.781592+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:39.846079+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:40.347862+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:40.849057+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:41.350123+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:41.851586+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T14:54:42.352864+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T15:13:07.176804+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T15:13:07.678991+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T15:13:08.201073+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T15:13:08.747363+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality
+2026-06-29T15:13:09.271962+00:00,ef7f52e1,Regulated,0.833,70.0,12.0,300.0,80.0,high_hrv|regulated_respiration|fast_reaction_time|good_sleep_quality

@@ -1,0 +1,12 @@
+{
+  "tier": 6,
+  "label": "Expressive-Kinetic Arts",
+  "focus": "Embodied Expression & Rhythmic Flow",
+  "sensor_profile": "Rhythmic_Expressive_Mapping",
+  "modalities": [
+    {"id": "MOD_DANCE_01", "name": "Ecstatic Dance"},
+    {"id": "MOD_DANCE_02", "name": "Butoh (Somatic focus)"},
+    {"id": "MOD_DANCE_03", "name": "Movement Therapy"},
+    {"id": "MOD_DANCE_04", "name": "Rhythmic Embodiment"}
+  ]
+}

@@ -1,0 +1,329 @@
+--- FILE STRUCTURE ---
+..
+../scripts
+../scripts/AcademyManager.cs
+../scripts/VariableGovernor.cs
+../scripts/NodePopulator.cs
+../scripts/KLODManager.cs
+../scripts/PortManager.cs
+../scripts/StressTester.cs
+../scripts/upgrade_analyst.py
+../scripts/automation_suite.py
+../scripts/KineticNode.cs
+../scripts/AcademyManager.cs.uid
+../scripts/ActionState.cs.uid
+../scripts/KineticNode.cs.uid
+../scripts/KLODManager.cs.uid
+../scripts/NodePopulator.cs.uid
+../scripts/PortManager.cs.uid
+../scripts/StressTester.cs.uid
+../scripts/VariableGovernor.cs.uid
+../scripts/WorldCompiler.cs.uid
+../scripts/IKnowledgeNode.cs
+../scripts/WorldCompiler.cs
+../scripts/GuardianCore.cs
+../scripts/LayeredGuardianCore.cs
+../scripts/ResonanceCalculator.cs
+../scripts/NeuralGovernor.cs
+../scripts/SinewChannelMapper.cs
+../scripts/ui
+../scripts/ui/SomaticStateMirror.cs
+../scripts/ui/ArtisticInterface.cs
+../scripts/ui/ClinicalInterface.cs
+../scripts/ui/LensController.cs
+../scripts/ui/SpectralInterface.cs
+../scripts/ui/ThermodynamicInterface.cs
+../scripts/ui/ReplayEngine.cs
+../scripts/ui/AnomalySentinel.cs
+../scripts/ui/SensorGraph.cs
+../scripts/ui/AnomalySentinel.cs.uid
+../scripts/ui/ArtisticInterface.cs.uid
+../scripts/ui/ClinicalInterface.cs.uid
+../scripts/ui/LensController.cs.uid
+../scripts/ui/ReplayEngine.cs.uid
+../scripts/ui/SensorGraph.cs.uid
+../scripts/ui/SomaticStateMirror.cs.uid
+../scripts/ui/SpectralInterface.cs.uid
+../scripts/ui/ThermodynamicInterface.cs.uid
+../scripts/hw
+../scripts/hw/SensorCalibrator.cs
+../scripts/hw/SerialManager.cs
+../scripts/hw/CalibrationHUD.cs
+../scripts/hw/CalibrationHUD.cs.uid
+../scripts/hw/SensorCalibrator.cs.uid
+../scripts/hw/SerialManager.cs.uid
+../scripts/LayeredGuardianCore.cs~
+../scripts/atlas
+../scripts/atlas/GodotAtlasBridge.tscn
+../scripts/atlas/AtlasInternalServer.cs
+../scripts/atlas/InternalBridge.cs
+../scripts/atlas/scripts
+../scripts/atlas/wings
+../scripts/atlas/data
+../scripts/atlas/AtlasInternalServer.cs.uid
+../scripts/atlas/GodotAtlasBridge.cs.uid
+../scripts/atlas/InternalBridge.cs.uid
+../scripts/atlas/GodotAtlasBridge.cs
+../scripts/ActionState.cs
+../scripts/core
+../scripts/core/ModeSwitcher.cs
+../scripts/core/AtlasBridge.cs
+../scripts/core/AtlasBridge.cs.uid
+../scripts/core/ModeSwitcher.cs.uid
+../scripts/core/UniversalDockingBus.cs.uid
+../scripts/core/PhaseGovernor.cs
+../scripts/core/SeasonalAmbianceManager.cs
+../scripts/core/HapticResonanceManager.cs
+../scripts/core/UniversalDockingBus.cs
+../scripts/GuardianCore.cs.uid
+../scripts/IKnowledgeNode.cs.uid
+../scripts/LayeredGuardianCore.cs.uid
+../scripts/NeuralGovernor.cs.uid
+../scripts/ResonanceCalculator.cs.uid
+../scripts/SinewChannelMapper.cs.uid
+../scripts/wings
+../scripts/wings/BaseWing.cs
+../scripts/wings/PlayWing.cs
+../scripts/wings/study
+../scripts/registry
+../scripts/registry/ContentRegistry.cs
+../project.godot.bak
+../knowledge_graph
+../knowledge_graph/knowledge_map.json
+../knowledge_graph/acupoints
+../knowledge_graph/modalities
+../knowledge_graph/modalities/Tier1_HighImpact.json
+../knowledge_graph/modalities/Tier2_LowImpact.json
+../knowledge_graph/modalities/Tier3_HealingSomatics.json
+../knowledge_graph/modalities/Tier4_Structural.json
+../knowledge_graph/modalities/Tier5_Energetic.json
+../knowledge_graph/modalities/Tier6_Expressive.json
+../knowledge_graph/principles
+../knowledge_graph/intents
+../knowledge_graph/intents/Intent_01_Fluidity.json
+../knowledge_graph/meta_config.json
+../knowledge_graph/principles_registry.json
+../knowledge_graph/taxonomy_bridge.json
+../NodeVisualizer.cs
+../launch_lab.sh
+../meta
+../meta/HP_Kinetic_Module.json
+../NodeVisualizer.cs.uid
+../project.godot.backup
+../LabBay.tscn
+../energy_state_schema.json
+../node_patch.json
+../data
+../data/modalities
+../data/modalities/modality_001.json
+../data/principles
+../data/intents
+../data/meta_graph.json
+../data/registry
+../data/registry/meta_config.json
+../data/registry/meta_graph.json
+../data/logs
+../data/atlas
+../data/study_nodes.json
+../scenes
+../scenes/ui
+../scenes/ui/artistic_view
+../scenes/ui/clinical_view
+../scenes/wings
+../scenes/wings/research
+../scenes/wings/study
+../src
+../src/Core
+../src/Core/IDockedDevice.cs
+../src/Core/IDockedDevice.cs.uid
+../src/Safety
+../src/Safety/HeartbeatWatchdog.cs
+../src/Safety/HeartbeatWatchdog.cs.uid
+../src/Kinematics
+../src/Kinematics/TelemetryStructures.cs
+../src/Kinematics/ModalityProfile.cs
+../src/Kinematics/KinematicFSM.cs
+../src/Kinematics/KinematicFSM.cs.uid
+../src/Kinematics/ModalityProfile.cs.uid
+../src/Kinematics/TelemetryStructures.cs.uid
+../src/Simulation
+../src/Simulation/MockDevice.cs
+../src/Simulation/MockDevice.cs.uid
+../src/UI
+../src/UI/DiagnosticTest.cs
+../src/UI/DiagnosticTest.tscn
+../src/UI/DiagnosticTest.cs.uid
+../profiles
+../GuardianAtlas
+../GuardianAtlas/Contracts
+../GuardianAtlas/Contracts/Class1.cs
+../GuardianAtlas/Contracts/DiagnosticTranslation.cs
+../GuardianAtlas/Contracts/MuscleMeridianObserver.cs
+../GuardianAtlas/Contracts/CoreTypes.cs
+../GuardianAtlas/Contracts/Interfaces.cs
+../GuardianAtlas/Contracts/LuoPanMatrix.cs
+../GuardianAtlas/Contracts/ModalityManager.cs
+../GuardianAtlas/Contracts/VirtualStubs
+../GuardianAtlas/Contracts/ConceptManifest.md
+../GuardianAtlas/Contracts/ModeFactory.cs
+../GuardianAtlas/Contracts/VirtualPlaceholderMode.cs
+../GuardianAtlas/Contracts/run_atlas.cs
+../GuardianAtlas/Contracts/TrigramTypes.cs
+../GuardianAtlas/CoreEngine
+../GuardianAtlas/GodotFrontend
+../GuardianAtlas/run_guardian.sh
+../GuardianAtlas/documentation
+../GuardianAtlas/documentation/chat_history
+../GuardianAtlas/COGNITIVE_LOG.md
+../GuardianAtlas/Data
+../GuardianAtlas/Data/Modalities
+../GuardianAtlas/Data/Principles.json
+../GuardianAtlas/Data/Goals.json
+../GuardianAtlas/Data/raw
+../GuardianAtlas/Data/processed
+../GuardianAtlas/GuardianAtlas
+../GuardianAtlas/venv
+../GuardianAtlas/venv/include
+../GuardianAtlas/venv/lib
+../GuardianAtlas/venv/lib64
+../GuardianAtlas/venv/pyvenv.cfg
+../GuardianAtlas/venv/share
+../GuardianAtlas/venv/etc
+../GuardianAtlas/scripts
+../GuardianAtlas/scripts/ingestor.py
+../GuardianAtlas/scripts/count_activities.py
+../GuardianAtlas/Makefile
+../GuardianAtlas/project_map.txt
+../GuardianAtlas/GuardianAtlas_Logic_Context.txt
+../GuardianAtlas/_Context.txt
+../GuardianAtlas/Projects
+../GuardianAtlas/Projects/CoreEngine
+../GuardianAtlas/Projects/GodotFrontend
+../GuardianAtlas/Projects/ResearchLogs
+../GuardianAtlas/bootstrap_engine.py
+../GuardianAtlas/lookup_anatomy.py
+../GuardianAtlas/import_anatomy_json.py
+../GuardianAtlas/visualize_pentad.py
+../GuardianAtlas/RESEARCH_PRIORITY.md
+../GuardianAtlas/test_yi_event.py
+../GuardianAtlas/live_dashboard.py
+../GuardianAtlas/test_hun_event.py
+../GuardianAtlas/Backups
+../GuardianAtlas/Backups/Snapshot_20260617_110832.tar.gz
+../GuardianAtlas/res
+../GuardianAtlas/res/data
+../GuardianAtlas/wings
+../GuardianAtlas/wings/play
+../GuardianAtlas/wings/research_game
+../GuardianAtlas/wings/research
+../GuardianAtlas/data
+../GuardianAtlas/data/atlas
+../GuardianAtlas/data/game_payloads
+../GuardianAtlas/data/clinical_payloads
+../GuardianAtlas/project.godot
+../atlas_ws_bridge.py
+../__pycache__
+../__pycache__/atlas_ws_bridge.cpython-313.pyc
+../__pycache__/resonance_engine.cpython-313.pyc
+../guardian-interface.csproj
+../guardian-interface.csproj.old
+../project.godot
+../telemetry_listener.py
+../resonance_engine.py
+../haptic_bridge
+../haptic_bridge/resonance_engine.py
+../haptic_bridge/haptic_dispatcher.py
+../haptic_bridge/__pycache__
+../haptic_bridge/__pycache__/resonance_engine.cpython-313.pyc
+../haptic_bridge/session_logger.py
+../logs
+../logs/session_2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546.jsonl
+../atlas_engine
+../atlas_engine/registry.json
+../atlas_engine/atlas_controller.py
+../atlas_engine/__pycache__
+../atlas_engine/__pycache__/atlas_controller.cpython-313.pyc
+../atlas_engine/glyph_bridge.json
+../atlas_engine/godot_atlas_export.json
+../atlas_engine/history
+../atlas_engine/history/registry_optimal_balance_20260620_212023.json
+../atlas_engine/sync_atlas.sh
+../atlas_engine/merge_nodes.py
+../atlas_engine/node_loader.py
+../atlas_engine/build_master.py
+../atlas_engine/cluster_engine.py
+../atlas_engine/validate_deps.py
+../atlas_engine/generate_node.py
+../atlas_engine/project_snapshot.txt
+../master_data
+../master_data/master_study_nodes.json
+
+--- CORE LOGIC: sync_atlas.sh ---
+#!/bin/bash
+# Guardian Interface Master Sync Script
+
+echo "[1/4] Validating Dependencies..."
+python3 /home/becemig/GodotProjects/guardian-interface/atlas_engine/validate_deps.py
+
+echo "[2/4] Updating Knowledge Registry..."
+python3 /home/becemig/GodotProjects/guardian-interface/atlas_engine/atlas_controller.py auto_link
+
+echo "[3/4] Calculating Mastery & Corridors..."
+python3 -c "from atlas_controller import assign_corridors; assign_corridors()"
+
+echo "[4/4] Exporting to Godot Visual Garden..."
+python3 -c "from atlas_controller import export_for_godot; export_for_godot()"
+
+echo "Sync Complete. System ready."
+
+--- CORE LOGIC: generate_node.py ---
+import json
+import os
+
+MASTER_PATH = "/home/becemig/GodotProjects/guardian-interface/master_data/master_study_nodes.json"
+
+def create_node():
+    print("--- Guardian Interface: Node Generator ---")
+    node_id = input("Enter Node ID: ")
+    label = input("Enter Node Label: ")
+    domain = input("Enter Domain: ")
+    deps = input("Enter Dependencies (comma separated): ")
+    link = input("Enter Corridor Link (Fascial Meridian): ")
+    
+    dependencies = [d.strip() for d in deps.split(",")] if deps else []
+    corridor_link = [l.strip() for l in link.split(",")] if link else []
+    
+    new_node = {
+        "id": node_id,
+        "label": label,
+        "domain": domain,
+        "dependencies": dependencies,
+        "corridor_link": corridor_link
+    }
+    
+    with open(MASTER_PATH, 'r+') as f:
+        data = json.load(f)
+        data["nodes"].append(new_node)
+        f.seek(0)
+        json.dump(data, f, indent=4)
+        f.truncate()
+        
+    print(f"Successfully linked {node_id} to {corridor_link} in Master Library.")
+
+if __name__ == "__main__":
+    create_node()
+
+--- CORE LOGIC: validate_deps.py ---
+import json
+
+with open("/home/becemig/GodotProjects/guardian-interface/master_data/master_study_nodes.json", 'r') as f:
+    data = json.load(f)["nodes"]
+    all_ids = {node["id"] for node in data}
+
+for node in data:
+    deps = node.get("dependencies", [])
+    for dep in deps:
+        if dep not in all_ids:
+            print(f"CRITICAL: Node '{node['id']}' references missing dependency: '{dep}'")
+
+print("Validation complete.")

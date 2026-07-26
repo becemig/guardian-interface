@@ -1,0 +1,22 @@
+{
+  "active_signal": "hrv",
+  "hrv": 0.72,
+  "respiration_rate": 12,
+  "reaction_time": 0.41,
+  "sleep_quality": 0.63,
+  "matched_count": 9,
+  "top_node_labels": [
+    "[Shin-ISU] Stress and Strain",
+    "[Shin-ISU] Slow Wave Sleep",
+    "[Shin-ISU] Autonomic Regulation",
+    "[Shin-ISU] Neuroplasticity",
+    "[Shin-ISU] Sleep Recovery"
+  ],
+  "guardian_state": "Regulated",
+  "confidence": 0.85,
+  "contributing_signals": [
+    "hrv",
+    "respiration_rate"
+  ],
+  "matched_cluster": "Stress/Strain"
+}

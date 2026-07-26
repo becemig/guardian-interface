@@ -1,0 +1,10 @@
+{
+  "energy_state": {
+    "fold_state": "native",
+    "free_energy": 0.0,
+    "enthalpy": 0.0,
+    "entropy_contribution": 0.0,
+    "stability_class": "metastable",
+    "transition_probability": 0.5
+  }
+}

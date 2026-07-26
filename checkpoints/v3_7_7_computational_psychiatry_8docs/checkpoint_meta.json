@@ -1,0 +1,17 @@
+{
+  "checkpoint": "v3.7.7",
+  "timestamp": "2026-07-18T10:03:27.877014",
+  "series": "I16 Computational Psychiatry",
+  "nodes_added": 8,
+  "uids": [
+    "CPSY-FOUND-001",
+    "CPSY-BAYES-001",
+    "CPSY-PHENO-001",
+    "CPSY-MOOD-001",
+    "CPSY-TRAUMA-001",
+    "CPSY-PSYCHE-001",
+    "CPSY-EEG-001",
+    "CPSY-TCM-001"
+  ],
+  "note": "I16 complete. Bayesian brain, digital phenotyping, mood RL models, trauma computational, psychedelics REBUS, EEG-BCI, TCM Five Shen synthesis."
+}

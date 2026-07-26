@@ -1,0 +1,73 @@
+[
+  {
+    "id": "SHIN_01",
+    "title": "Dual-task interference in sequence learning",
+    "doi": "N/A",
+    "year": 2001,
+    "domain_clusters": ["Sequence Learning", "Cognition"],
+    "guardian_modules": ["Neuroprocessing Lab"],
+    "key_methods": ["Dual-task paradigm"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_03",
+    "title": "Cognitive control in temporal sequence learning",
+    "doi": "N/A",
+    "year": 2004,
+    "domain_clusters": ["Attention", "Motor Learning"],
+    "guardian_modules": ["Attention Lab"],
+    "key_methods": ["Sequence Learning Tasks"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_05",
+    "title": "Visual-spatial attention shifts",
+    "doi": "N/A",
+    "year": 2006,
+    "domain_clusters": ["Attention", "Visual Perception"],
+    "guardian_modules": ["Attention Lab"],
+    "key_methods": ["Attentional Capture"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_14",
+    "title": "Tai Chi effects on Balance in Parkinson's",
+    "doi": "N/A",
+    "year": 2017,
+    "domain_clusters": ["Tai Chi", "Parkinson's"],
+    "guardian_modules": ["Tai Chi Lab", "Parkinson's Lab"],
+    "key_methods": ["Berg Balance Scale", "TUG"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_15",
+    "title": "Cognitive load in Tai Chi practitioners",
+    "doi": "N/A",
+    "year": 2018,
+    "domain_clusters": ["Tai Chi", "Cognition"],
+    "guardian_modules": ["Tai Chi Lab", "Attention Lab"],
+    "key_methods": ["Executive Function Tests"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_16",
+    "title": "Gait dynamics and executive function",
+    "doi": "N/A",
+    "year": 2019,
+    "domain_clusters": ["Aging", "Rehabilitation"],
+    "guardian_modules": ["Rehabilitation Lab"],
+    "key_methods": ["Gait Speed", "Stroop"],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_17",
+    "title": "Neural correlates of motor practice",
+    "doi": "N/A",
+    "year": 2021,
+    "domain_clusters": ["Neuroplasticity", "Motor Learning"],
+    "guardian_modules": ["Adaptation Lab"],
+    "key_methods": ["fMRI/Behavioral"],
+    "priority": "C"
+  }
+]
+

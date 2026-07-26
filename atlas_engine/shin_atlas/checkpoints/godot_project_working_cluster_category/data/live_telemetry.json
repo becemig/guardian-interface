@@ -1,0 +1,18 @@
+{
+  "active_signal": "hrv",
+  "matched_count": 9,
+  "top_node_labels": [
+    "[Shin-ISU] Stress and Strain",
+    "[Shin-ISU] Prestressed Concrete",
+    "[Shin-ISU] Neurobiology of Stress",
+    "[Shin-ISU] Sleep-Dependent Memory Consolidation",
+    "[Shin-ISU] REM Sleep Cycle"
+  ],
+  "matched_cluster": [
+    "Structural Engineering",
+    "Trauma Awareness",
+    "Sleep Psychology",
+    "Mechanics Engineering",
+    "DBT"
+  ]
+}

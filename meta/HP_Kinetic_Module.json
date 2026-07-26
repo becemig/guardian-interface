@@ -1,0 +1,7 @@
+{
+  "ModuleId": "HP-KINETIC-01",
+  "ModuleName": "KineticOverdrive",
+  "PowerCapacity": 750.0,
+  "SupportedPrinciples": ["StructuralRooting", "ImpactDiffusion"],
+  "ThresholdTrigger": "PowerStarvation"
+}

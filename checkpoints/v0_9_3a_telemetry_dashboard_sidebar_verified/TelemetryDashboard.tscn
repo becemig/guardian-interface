@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/TelemetryDashboard.gd" id="1"]
+
+[node name="TelemetryDashboard" type="PanelContainer"]
+custom_minimum_size = Vector2(280, 0)
+script = ExtResource("1")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label_Header" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "OPERATOR TELEMETRY"
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+columns = 2
+
+[node name="Label_SessionID_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Session:"
+[node name="Label_SessionID_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "N/A"
+
+[node name="Label_ParticipantID_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Participant:"
+[node name="Label_ParticipantID_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "N/A"
+
+[node name="Label_SampleNum_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Sample:"
+[node name="Label_SampleNum_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0"
+
+[node name="Label_GuardianState_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "State:"
+[node name="Label_GuardianState_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Unknown"
+
+[node name="Label_Confidence_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Confidence:"
+[node name="Label_Confidence_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0.00"
+
+[node name="Label_CurrentHRV_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Cur HRV:"
+[node name="Label_CurrentHRV_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0.0 bpm"
+
+[node name="Label_AvgHRV_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Avg HRV:"
+[node name="Label_AvgHRV_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0.0 bpm"
+
+[node name="Label_CurrentResp_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Cur Resp:"
+[node name="Label_CurrentResp_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0.0/m"
+
+[node name="Label_AvgResp_Tag" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "Avg Resp:"
+[node name="Label_AvgResp_Value" type="Label" parent="MarginContainer/VBoxContainer/GridContainer"]
+layout_mode = 2
+text = "0.0/m"

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c8b4h423xmg74"
+
+[deps]
+
+files=["res://sandbox_engine/guardian_session_log_old.guardian.translation", "res://sandbox_engine/guardian_session_log_old.confidence.translation", "res://sandbox_engine/guardian_session_log_old.hrv.translation", "res://sandbox_engine/guardian_session_log_old.respiration.translation", "res://sandbox_engine/guardian_session_log_old.reaction.translation", "res://sandbox_engine/guardian_session_log_old.sleep.translation", "res://sandbox_engine/guardian_session_log_old.contributing.translation"]
+
+source_file="res://sandbox_engine/guardian_session_log_old.csv"
+dest_files=["res://sandbox_engine/guardian_session_log_old.guardian.translation", "res://sandbox_engine/guardian_session_log_old.confidence.translation", "res://sandbox_engine/guardian_session_log_old.hrv.translation", "res://sandbox_engine/guardian_session_log_old.respiration.translation", "res://sandbox_engine/guardian_session_log_old.reaction.translation", "res://sandbox_engine/guardian_session_log_old.sleep.translation", "res://sandbox_engine/guardian_session_log_old.contributing.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

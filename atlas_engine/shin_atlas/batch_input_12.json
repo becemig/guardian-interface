@@ -1,0 +1,13 @@
+[
+  {
+    "id": "SHIN_12",
+    "title": "Tai Chi & Cognition Meta-Regression",
+    "doi": "10.1093/geroni/igac059.2892",
+    "year": 2022,
+    "domain_clusters": ["Tai Chi", "Aging", "Cognition"],
+    "guardian_modules": ["Aging Lab", "Tai Chi Lab"],
+    "key_methods": ["Meta-Regression", "Cognitive Domain Analysis", "MoCA"],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  }
+]

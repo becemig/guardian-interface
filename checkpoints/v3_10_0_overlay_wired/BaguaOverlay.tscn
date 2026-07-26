@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bagua_overlay"]
+
+[ext_resource type="Script" path="res://scripts/bagua/BaguaOverlayManager.cs" id="1_overlay"]
+
+[node name="BaguaOverlay" type="Node"]
+script = ExtResource("1_overlay")
+
+[connection signal="BaguaFrameReceived" from="/root/BaguaPhysicsClient" to="." method="OnBaguaFrameReceived"]

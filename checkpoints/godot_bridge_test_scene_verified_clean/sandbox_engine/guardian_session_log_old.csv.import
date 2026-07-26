@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ds8xhuki0v22v"
+
+[deps]
+
+files=["res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.guardian.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.confidence.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.hrv.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.respiration.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.reaction.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.sleep.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.contributing.translation"]
+
+source_file="res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.csv"
+dest_files=["res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.guardian.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.confidence.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.hrv.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.respiration.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.reaction.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.sleep.translation", "res://checkpoints/godot_bridge_test_scene_verified_clean/sandbox_engine/guardian_session_log_old.contributing.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

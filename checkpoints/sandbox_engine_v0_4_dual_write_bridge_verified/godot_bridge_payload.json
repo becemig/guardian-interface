@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-24T01:24:10.421754+00:00",
+  "guardian_state": "Regulated",
+  "confidence": 0.833,
+  "hrv": 68,
+  "respiration_rate": 10,
+  "reaction_time": 330,
+  "sleep_quality": 78,
+  "contributing_signals": [
+    "high_hrv",
+    "regulated_respiration",
+    "fast_reaction_time",
+    "good_sleep_quality"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "baseline_statistics": {
+        "baseline_hrv": 0.0,
+        "baseline_respiration_rate": 0.0,
+        "session_average_hrv": 90.0,
+        "session_average_respiration": 10.0
+    },
+    "pipeline_integrity": {
+        "dropped_frames_count": 0,
+        "self_test_status_at_init": "PASSED",
+        "total_samples_written": 2
+    },
+    "security_validation": {
+        "csv_sha256_checksum": "a91f037c8a11e61c0509f8cb286a07e9f84ea97304da9b818f7803ea87dc5dca"
+    },
+    "session_metadata": {
+        "csv_file_path": "/home/becemig/GodotProjects/guardian-interface/session_logs/session_SID-20260702-140856.csv",
+        "log_directory": "/home/becemig/GodotProjects/guardian-interface/session_logs",
+        "participant_id": "P_094",
+        "protocol_name": "NO_PROTOCOL",
+        "session_id": "SID-20260702-140856",
+        "timestamp_end_unix": 1783015736,
+        "timestamp_start_unix": 1783015736,
+        "total_duration_seconds": 0.0
+    },
+    "validation": {
+        "validation_notes": "Contract verified via math engine.",
+        "validation_status": "OK"
+    }
+}

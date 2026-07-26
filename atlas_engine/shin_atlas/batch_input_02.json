@@ -1,0 +1,12 @@
+[
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "year": 2002,
+    "domain_clusters": ["Sequence Learning", "Motor Cognition", "Timing"],
+    "guardian_modules": ["Neuroprocessing Lab", "Attention Lab"],
+    "key_methods": ["Sequence Learning Tasks", "Reaction Time"],
+    "priority": "A"
+  }
+]

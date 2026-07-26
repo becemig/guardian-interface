@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://studywing001"]
+
+[ext_resource type="Script" path="res://scripts/wings/study/StudyWingUI.cs" id="1_studywing"]
+[ext_resource type="Script" path="res://scripts/wings/study/FeedbackReceiver.cs" id="2_feedback"]
+[ext_resource type="Script" path="res://scripts/wings/study/TelemetryPipeline.cs" id="3_telemetry"]
+
+[node name="StudyWing" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_studywing")
+
+[node name="FeedbackReceiver" type="Node" parent="."]
+script = ExtResource("2_feedback")
+listen_port = 9877
+
+[node name="TelemetryPipeline" type="Node" parent="."]
+script = ExtResource("3_telemetry")
+coherence_window_size = 32
+coherence_change_threshold = 0.05
+enable_session_log = true

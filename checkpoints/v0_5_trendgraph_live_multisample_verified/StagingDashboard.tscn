@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://dashboard"]
+
+[ext_resource type="PackedScene" path="res://ClusterCard.tscn" id="1_card"]
+[ext_resource type="PackedScene" path="res://InfluenceGraph.tscn" id="2_graph"]
+[ext_resource type="Script" path="res://scripts/core/StagingDashboardController.gd" id="3_stage"]
+[ext_resource type="PackedScene" path="res://TrendGraph.tscn" id="4_trend"]
+
+[node name="TelemetryDashboard" type="HBoxContainer"]
+script = ExtResource("3_stage")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ClusterCard" parent="." instance=ExtResource("1_card")]
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+
+[node name="InfluenceGraph" parent="." instance=ExtResource("2_graph")]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TrendGraph" parent="." instance=ExtResource("4_trend")]
+layout_mode = 2
+custom_minimum_size = Vector2(300, 0)

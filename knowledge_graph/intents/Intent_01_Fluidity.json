@@ -1,0 +1,10 @@
+{
+  "node_id": "INTENT_01",
+  "label": "Kinetic Fluidity",
+  "category": "Intent",
+  "data": {
+    "description": "The seamless transition between myofascial trains during movement.",
+    "clinical_metric": "Divergence_From_Ideal_Path",
+    "associated_modality": "Tai_Chi"
+  }
+}

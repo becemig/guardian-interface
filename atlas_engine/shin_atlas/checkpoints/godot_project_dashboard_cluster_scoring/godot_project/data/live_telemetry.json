@@ -1,0 +1,21 @@
+{
+  "active_signal": "respiration_rate",
+  "hrv": 0.55,
+  "respiration_rate": 18,
+  "reaction_time": 0.52,
+  "sleep_quality": 0.44,
+  "matched_count": 9,
+  "top_node_labels": [
+    "[Shin-ISU] Autonomic Regulation",
+    "[Shin-ISU] Stress and Strain",
+    "[Shin-ISU] Breathing Regulation",
+    "[Shin-ISU] Sleep Recovery",
+    "[Shin-ISU] Vagal Regulation"
+  ],
+  "guardian_state": "Stress Load",
+  "confidence": 0.78,
+  "contributing_signals": [
+    "respiration_rate"
+  ],
+  "matched_cluster": "Stress/Strain"
+}

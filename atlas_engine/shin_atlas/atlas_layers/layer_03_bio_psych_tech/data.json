@@ -1,0 +1,21 @@
+[
+  {
+    "id": "BIO_SLEEP_001",
+    "title": "Sleep-Dependent Memory Consolidation",
+    "properties": {
+      "influence_type": "multiplier",
+      "affects": ["motor_learning", "executive_function"],
+      "decay_rate": 0.05,
+      "interaction_rules": "If sleep_debt > 0.5, reduce motor_learning precision by 20%"
+    }
+  },
+  {
+    "id": "PSY_CBT_001",
+    "title": "Cognitive Restructuring",
+    "properties": {
+      "influence_type": "threshold",
+      "affects": ["cognitive_load", "attention"],
+      "interaction_rules": "If cognitive_load > 0.8, trigger grounding_ui"
+    }
+  }
+]

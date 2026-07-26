@@ -1,0 +1,8 @@
+{
+  "active_layers": ["layer_01", "layer_02", "layer_03"],
+  "dynamic_states": {
+    "sleep_science_enabled": true,
+    "cbt_dbt_integration": true,
+    "tcm_kinesiology_blending": true
+  }
+}

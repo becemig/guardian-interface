@@ -1,0 +1,17 @@
+{
+  "checkpoint": "v3.7.9",
+  "timestamp": "2026-07-18T10:51:15.924488",
+  "series": "I17 Indigenous Healing Traditions",
+  "nodes_added": 8,
+  "uids": [
+    "INDIG-FOUND-001",
+    "INDIG-SHAMANIC-001",
+    "INDIG-PLANT-001",
+    "INDIG-SOUND-001",
+    "INDIG-BODY-001",
+    "INDIG-COSMOLOGY-001",
+    "INDIG-TRAUMA-001",
+    "INDIG-TCM-001"
+  ],
+  "note": "I17 complete. Relational ontology, shamanic trance, plant medicine dieta, sound healing icaros songlines, sweat lodge vision quest, animism sacred geography, intergenerational trauma, cross-tradition synthesis as perennial medicine atlas."
+}

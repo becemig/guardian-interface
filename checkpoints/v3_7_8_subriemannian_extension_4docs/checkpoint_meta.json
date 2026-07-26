@@ -1,0 +1,13 @@
+{
+  "checkpoint": "v3.7.8",
+  "timestamp": "2026-07-18T10:19:08.002032",
+  "series": "I15-ext Sub-Riemannian Extension",
+  "nodes_added": 4,
+  "uids": [
+    "SUBRIEM-FOUND-001",
+    "SUBRIEM-GEODESIC-001",
+    "SUBRIEM-BODY-001",
+    "SUBRIEM-TCM-001"
+  ],
+  "note": "I15-ext complete. Sub-Riemannian foundations, geodesics PMP, body mechanics Chan Si as Heisenberg geodesic, TCM channel system as horizontal distribution."
+}

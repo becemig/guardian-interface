@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://godot_atlas_bridge"]
+
+[ext_resource type="Script" path="res://scripts/atlas/GodotAtlasBridge.cs" id="1"]
+
+[node name="GodotAtlasBridge" type="Node"]
+script = ExtResource("1")

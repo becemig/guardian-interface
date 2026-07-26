@@ -1,0 +1,446 @@
+[
+  {
+    "id": "SHIN_13",
+    "title": "Effects of Tai Chi and Qigong on cognitive and physical functions in older adults",
+    "doi": "10.1186/s12877-023-04070-2",
+    "year": 2023,
+    "type": "evidence_hub",
+    "domain_clusters": [
+      "Tai Chi",
+      "Qigong",
+      "Aging",
+      "Cognition",
+      "Physical Function",
+      "Rehabilitation"
+    ],
+    "guardian_modules": [
+      "Tai Chi Lab",
+      "Rehabilitation Lab",
+      "Aging Lab"
+    ],
+    "key_methods": [
+      "MoCA",
+      "MMSE",
+      "Timed Up and Go",
+      "Berg Balance Scale",
+      "Gait Speed"
+    ],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_12",
+    "title": "Tai Chi & Cognition Meta-Regression",
+    "doi": "10.1093/geroni/igac059.2892",
+    "year": 2022,
+    "type": "evidence_hub",
+    "domain_clusters": [
+      "Tai Chi",
+      "Aging",
+      "Cognition"
+    ],
+    "guardian_modules": [
+      "Aging Lab",
+      "Tai Chi Lab"
+    ],
+    "key_methods": [
+      "Meta-Regression",
+      "Cognitive Domain Analysis"
+    ],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_04",
+    "title": "Spatial and temporal sequence learning in patients with Parkinson's disease or cerebellar lesions",
+    "doi": "10.1162/089892903322598175",
+    "year": 2003,
+    "type": "evidence_hub",
+    "domain_clusters": [
+      "Parkinson's Disease",
+      "Cerebellar Function",
+      "Sequence Learning",
+      "Motor Learning"
+    ],
+    "guardian_modules": [
+      "Parkinson's Lab",
+      "Neuroprocessing Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks",
+      "Motor Performance Assessment"
+    ],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "year": 2002,
+    "type": "evidence_hub",
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Cognition"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks",
+      "Reaction Time"
+    ],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_06",
+    "title": "Adaptive changes in the dynamics of visual attention with extended practice",
+    "doi": "N/A",
+    "year": 2020,
+    "type": "evidence_hub",
+    "domain_clusters": [
+      "Attention",
+      "Learning"
+    ],
+    "guardian_modules": [
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Visual Attention Tasks",
+      "RSVP"
+    ],
+    "mining_status": "seed_extraction",
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_08",
+    "title": "Procedural learning of action order",
+    "doi": "10.1007/s00426-007-0115-5",
+    "year": 2008,
+    "domain_clusters": [
+      "Motor Learning",
+      "Procedural Memory"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks"
+    ],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_09",
+    "title": "Impact of Parkinson's on Sequence Learning",
+    "doi": "10.1016/j.bandc.2008.07.013",
+    "year": 2009,
+    "domain_clusters": [
+      "Parkinson's",
+      "Sequence Learning"
+    ],
+    "guardian_modules": [
+      "Parkinson's Lab"
+    ],
+    "key_methods": [
+      "Reaction Time",
+      "Motor Sequence Task"
+    ],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_11",
+    "title": "Temporal Coordination in Children",
+    "doi": "N/A",
+    "year": 2011,
+    "domain_clusters": [
+      "Cognitive Development",
+      "Timing"
+    ],
+    "guardian_modules": [
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Temporal Estimation"
+    ],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_10",
+    "title": "Dual-Sequence Learning Dimensions",
+    "doi": "N/A",
+    "year": 2012,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Dual-Task Performance"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab"
+    ],
+    "key_methods": [
+      "Dual-task paradigm"
+    ],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_07",
+    "title": "Time Constraints in RSVP",
+    "doi": "N/A",
+    "year": 2015,
+    "domain_clusters": [
+      "Attention",
+      "Temporal Processing"
+    ],
+    "guardian_modules": [
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "RSVP",
+      "Attention Blink"
+    ],
+    "priority": "B"
+  },
+  {
+    "id": "SHIN_01",
+    "title": "Dual-task interference in sequence learning",
+    "doi": "N/A",
+    "year": 2001,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Cognition"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab"
+    ],
+    "key_methods": [
+      "Dual-task paradigm"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_03",
+    "title": "Cognitive control in temporal sequence learning",
+    "doi": "N/A",
+    "year": 2004,
+    "domain_clusters": [
+      "Attention",
+      "Motor Learning"
+    ],
+    "guardian_modules": [
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_05",
+    "title": "Visual-spatial attention shifts",
+    "doi": "N/A",
+    "year": 2006,
+    "domain_clusters": [
+      "Attention",
+      "Visual Perception"
+    ],
+    "guardian_modules": [
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Attentional Capture"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_14",
+    "title": "Tai Chi effects on Balance in Parkinson's",
+    "doi": "N/A",
+    "year": 2017,
+    "domain_clusters": [
+      "Tai Chi",
+      "Parkinson's"
+    ],
+    "guardian_modules": [
+      "Tai Chi Lab",
+      "Parkinson's Lab"
+    ],
+    "key_methods": [
+      "Berg Balance Scale",
+      "TUG"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_15",
+    "title": "Cognitive load in Tai Chi practitioners",
+    "doi": "N/A",
+    "year": 2018,
+    "domain_clusters": [
+      "Tai Chi",
+      "Cognition"
+    ],
+    "guardian_modules": [
+      "Tai Chi Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Executive Function Tests"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_16",
+    "title": "Gait dynamics and executive function",
+    "doi": "N/A",
+    "year": 2019,
+    "domain_clusters": [
+      "Aging",
+      "Rehabilitation"
+    ],
+    "guardian_modules": [
+      "Rehabilitation Lab"
+    ],
+    "key_methods": [
+      "Gait Speed",
+      "Stroop"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_17",
+    "title": "Neural correlates of motor practice",
+    "doi": "N/A",
+    "year": 2021,
+    "domain_clusters": [
+      "Neuroplasticity",
+      "Motor Learning"
+    ],
+    "guardian_modules": [
+      "Adaptation Lab"
+    ],
+    "key_methods": [
+      "fMRI/Behavioral"
+    ],
+    "priority": "C"
+  },
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "year": 2002,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Cognition",
+      "Timing"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks",
+      "Reaction Time"
+    ],
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_06",
+    "title": "Dual-task interference in motor sequence learning",
+    "doi": "N/A",
+    "year": 2007,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Learning",
+      "Attention"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Dual-task paradigm",
+      "Sequence Learning Tasks"
+    ],
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "year": 2002,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Cognition",
+      "Timing"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks",
+      "Reaction Time"
+    ],
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_06",
+    "title": "Dual-task interference in motor sequence learning",
+    "doi": "N/A",
+    "year": 2007,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Learning",
+      "Attention"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Dual-task paradigm",
+      "Sequence Learning Tasks"
+    ],
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "year": 2002,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Cognition",
+      "Timing"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Sequence Learning Tasks",
+      "Reaction Time"
+    ],
+    "priority": "A"
+  },
+  {
+    "id": "SHIN_06",
+    "title": "Dual-task interference in motor sequence learning",
+    "doi": "N/A",
+    "year": 2007,
+    "domain_clusters": [
+      "Sequence Learning",
+      "Motor Learning",
+      "Attention"
+    ],
+    "guardian_modules": [
+      "Neuroprocessing Lab",
+      "Attention Lab"
+    ],
+    "key_methods": [
+      "Dual-task paradigm",
+      "Sequence Learning Tasks"
+    ],
+    "priority": "A"
+  }
+]

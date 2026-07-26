@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://df015gxu2v6b6"
+
+[deps]
+
+files=["res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.guardian.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.confidence.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.hrv.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.respiration.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.reaction.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.sleep.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.contributing.translation"]
+
+source_file="res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.csv"
+dest_files=["res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.guardian.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.confidence.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.hrv.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.respiration.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.reaction.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.sleep.translation", "res://checkpoints/sandbox_engine_v0_4_live_watch_pipeline/guardian_session_log_old.contributing.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

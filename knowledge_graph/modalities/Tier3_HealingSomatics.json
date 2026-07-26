@@ -1,0 +1,11 @@
+{
+  "tier": 3,
+  "label": "Healing Somatics",
+  "focus": "Nervous System Regulation",
+  "sensor_profile": "NervousSystem_Regulation",
+  "modalities": [
+    {"id": "MOD_FELDE_01", "name": "Feldenkrais Method"},
+    {"id": "MOD_ALEX_01", "name": "Alexander Technique"},
+    {"id": "MOD_SOMATIC_01", "name": "Somatic Experiencing"}
+  ]
+}

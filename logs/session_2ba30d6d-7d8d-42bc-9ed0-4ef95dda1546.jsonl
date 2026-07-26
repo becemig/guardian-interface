@@ -1,0 +1,6 @@
+{"event": "session_start", "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546", "mode": "PureResearch", "start_time": 1781903814.5538092, "timestamp": 1781903814.5541248}
+{"event": "node_selected", "node_id": "pat_kidney_yang_def", "label": "Kidney Yang Deficiency", "subdomain": "Patterns", "domain": "TCM", "phase": "", "confidence": 0.9, "timestamp": 1781903814.5544033, "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546"}
+{"event": "coherence_changed", "coherence": 0.82, "phase": "Water", "timestamp": 1781903814.5546665, "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546"}
+{"event": "zone_activated", "zone_id": "dan_tian", "amplitude": 0.7, "phase": "Water", "timestamp": 1781903814.5550506, "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546"}
+{"event": "domain_toggled", "domain": "Neurology", "enabled": true, "timestamp": 1781903814.558709, "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546"}
+{"event": "session_end", "session_id": "2ba30d6d-7d8d-42bc-9ed0-4ef95dda1546", "duration_seconds": 0.01, "timestamp": 1781903814.5588584}

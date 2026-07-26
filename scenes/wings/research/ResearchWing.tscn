@@ -1,0 +1,398 @@
+[gd_scene load_steps=4 format=3 uid="uid://research_wing_001"]
+
+; -------------------------------------------------------------------------------
+; ResearchWing.tscn - Guardian Interface - Trinity Protocol
+; -------------------------------------------------------------------------------
+; SCENE TREE:
+;
+; ResearchWing (Control, full-rect) - ResearchWing.cs
+; --- RootLayout (VBoxContainer, full-rect)
+;     --- TopBar (HBoxContainer, h=44)
+;     -   --- WingTitle (Label)                 "REASONING WORKBENCH"
+;     -   --- ModeSelector (HBoxContainer)
+;     -   -   --- BtnTopDown (Button)            "TOP-DOWN"
+;     -   -   --- BtnBottomUp (Button)           "BOTTOM-UP"
+;     -   -   --- BtnModifier (Button)           "MODIFIER"
+;     -   --- HSpacer
+;     -   --- BridgeStatus (Label)               "[LIVE]" / "[OFFLINE]"
+;     -   --- BtnSwitchMode (Button)             "<< EXIT RESEARCH"
+;     -
+;     --- FilterBar (HBoxContainer, h=36)
+;     -   --- FilterLabel (Label)                "EVIDENCE:"
+;     -   --- ChipEmpirical (Button, toggle)     "Empirical"
+;     -   --- ChipPhenomenal (Button, toggle)    "Phenomenological"
+;     -   --- ChipSymbolic (Button, toggle)      "Symbolic/Historical"
+;     -   --- ChipSpeculative (Button, toggle)   "Speculative"
+;     -   --- ChipOpenQ (Button, toggle)         "Open Question"
+;     -   --- HSpacer
+;     -   --- ChkSelfSafe (CheckButton)          "Self-Safe Only"
+;     -   --- SearchBox (LineEdit)               placeholder "Search..."
+;     -
+;     --- RedFlagBanner (PanelContainer, hidden by default)
+;     -   --- RedFlagLabel (RichTextLabel)
+;     -
+;     --- MainSplit (HSplitContainer, expand)
+;     -   --- LeftPane (VBoxContainer, min_w=320)
+;     -   -   --- TaxonomyTabs (TabContainer)
+;     -   -   -   --- [Tab: PATTERNS]
+;     -   -   -   -   --- PatternTree (Tree)
+;     -   -   -   --- [Tab: ACUPOINTS]
+;     -   -   -   -   --- AcupointList (ItemList)
+;     -   -   -   --- [Tab: HERBS]
+;     -   -   -   -   --- HerbList (ItemList)
+;     -   -   -   --- [Tab: SYMPTOMS]
+;     -   -   -   -   --- SymptomList (ItemList)
+;     -   -   -   --- [Tab: FORMULAS]
+;     -   -   -       --- FormulaList (ItemList)
+;     -   -   --- TelemetryStatus (Label)        "VOL-xxx | Node: ..."
+;     -   -
+;     -   --- RightPane (VBoxContainer, expand)
+;     -       --- DetailTabs (TabContainer)
+;     -       -   --- [Tab: DETAIL]
+;     -       -   -   --- DetailScroll (ScrollContainer)
+;     -       -   -       --- DetailPanel (VBoxContainer)
+;     -       -   -           --- DetailTitle (RichTextLabel)
+;     -       -   -           --- EvidenceBadge (Label)
+;     -       -   -           --- DetailBody (RichTextLabel)
+;     -       -   -           --- RelatedItems (VBoxContainer)
+;     -       -   --- [Tab: ATLAS VOLUME]
+;     -       -   -   --- VolumePanel (VBoxContainer)
+;     -       -   -       --- VolHeader (RichTextLabel)
+;     -       -   -       --- SpectrumTabs (TabContainer)
+;     -       -   -       -   --- [Physical] [Cognitive] [Metaphysical]
+;     -       -   -       -   --- [Clinical] [Computational] [Temporal]
+;     -       -   -       --- ModelAB (RichTextLabel)
+;     -       -   --- [Tab: RED FLAGS]
+;     -       -       --- RedFlagScroll (ScrollContainer)
+;     -       -           --- RedFlagList (VBoxContainer)
+;     -       --- ContextBar (HBoxContainer, h=32)
+;     -           --- ContextPath (Label)        "Pattern > Acupoint > ..."
+;     -           --- BtnClearContext (Button)   "CLEAR"
+;     -
+;     --- StatusBar (HBoxContainer, h=28)
+;         --- StatusLeft (Label)                 mode + filter summary
+;         --- StatusRight (Label)                "Perplexity Computer - Guardian Interface"
+;
+; -------------------------------------------------------------------------------
+
+[ext_resource type="Script" path="res://scripts/wings/ResearchWing.cs" id="1"]
+
+[node name="ResearchWing" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="RootLayout" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/separation = 0
+
+; -- TOP BAR --------------------------------------------------------------------
+[node name="TopBar" type="PanelContainer" parent="RootLayout"]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 2
+
+[node name="TopBarInner" type="HBoxContainer" parent="TopBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/separation = 12
+
+[node name="SpineBar" type="ColorRect" parent="TopBar"]
+custom_minimum_size = Vector2(3, 0)
+color = Color(0.788, 0.588, 0.165, 1.0)
+
+[node name="WingTitle" type="Label" parent="TopBar/TopBarInner"]
+text = "REASONING WORKBENCH"
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.788, 0.588, 0.165, 1.0)
+vertical_alignment = 1
+
+[node name="ModeSeparator" type="VSeparator" parent="TopBar/TopBarInner"]
+
+[node name="ModeSelector" type="HBoxContainer" parent="TopBar/TopBarInner"]
+theme_override_constants/separation = 4
+
+[node name="BtnTopDown" type="Button" parent="TopBar/TopBarInner/ModeSelector"]
+text = "TOP-DOWN"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 11
+
+[node name="BtnBottomUp" type="Button" parent="TopBar/TopBarInner/ModeSelector"]
+text = "BOTTOM-UP"
+toggle_mode = true
+theme_override_font_sizes/font_size = 11
+
+[node name="BtnModifier" type="Button" parent="TopBar/TopBarInner/ModeSelector"]
+text = "MODIFIER"
+toggle_mode = true
+theme_override_font_sizes/font_size = 11
+
+[node name="HSpacer" type="Control" parent="TopBar/TopBarInner"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BridgeStatus" type="Label" parent="TopBar/TopBarInner"]
+text = "[OFFLINE]"
+theme_override_font_sizes/font_size = 11
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+
+[node name="BtnSwitchMode" type="Button" parent="TopBar/TopBarInner"]
+text = "<< EXIT"
+theme_override_font_sizes/font_size = 11
+
+; -- FILTER BAR -----------------------------------------------------------------
+[node name="FilterBar" type="PanelContainer" parent="RootLayout"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+
+[node name="FilterBarInner" type="HBoxContainer" parent="FilterBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/separation = 6
+
+[node name="FilterLabel" type="Label" parent="FilterBar/FilterBarInner"]
+text = "EVIDENCE:"
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+vertical_alignment = 1
+
+[node name="ChipEmpirical" type="Button" parent="FilterBar/FilterBarInner"]
+text = "Empirical"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 10
+
+[node name="ChipPhenomenal" type="Button" parent="FilterBar/FilterBarInner"]
+text = "Phenomenological"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 10
+
+[node name="ChipSymbolic" type="Button" parent="FilterBar/FilterBarInner"]
+text = "Symbolic / Historical"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 10
+
+[node name="ChipSpeculative" type="Button" parent="FilterBar/FilterBarInner"]
+text = "Speculative"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 10
+
+[node name="ChipOpenQ" type="Button" parent="FilterBar/FilterBarInner"]
+text = "Open Question"
+toggle_mode = true
+button_pressed = true
+theme_override_font_sizes/font_size = 10
+
+[node name="FilterSpacer" type="Control" parent="FilterBar/FilterBarInner"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ChkSelfSafe" type="CheckButton" parent="FilterBar/FilterBarInner"]
+text = "Self-Safe Only"
+theme_override_font_sizes/font_size = 10
+
+[node name="SearchBox" type="LineEdit" parent="FilterBar/FilterBarInner"]
+placeholder_text = "Search..."
+custom_minimum_size = Vector2(180, 0)
+theme_override_font_sizes/font_size = 11
+
+; -- RED FLAG BANNER (hidden until triggered) ------------------------------------
+[node name="RedFlagBanner" type="PanelContainer" parent="RootLayout"]
+visible = false
+layout_mode = 2
+
+[node name="RedFlagLabel" type="RichTextLabel" parent="RedFlagBanner"]
+bbcode_enabled = true
+text = "[color=#C92A2A][b]RED FLAG:[/b][/color] Refer to a qualified clinician. Do not attempt self-care."
+custom_minimum_size = Vector2(0, 32)
+fit_content = true
+
+; -- MAIN SPLIT -----------------------------------------------------------------
+[node name="MainSplit" type="HSplitContainer" parent="RootLayout"]
+layout_mode = 2
+size_flags_vertical = 3
+split_offset = 340
+dragger_visibility = 1
+
+; -- LEFT PANE - Taxonomy browser -----------------------------------------------
+[node name="LeftPane" type="VBoxContainer" parent="MainSplit"]
+custom_minimum_size = Vector2(280, 0)
+theme_override_constants/separation = 0
+
+[node name="TaxonomyTabs" type="TabContainer" parent="MainSplit/LeftPane"]
+layout_mode = 2
+size_flags_vertical = 3
+tab_alignment = 0
+
+[node name="PATTERNS" type="VBoxContainer" parent="MainSplit/LeftPane/TaxonomyTabs"]
+layout_mode = 2
+
+[node name="PatternTree" type="Tree" parent="MainSplit/LeftPane/TaxonomyTabs/PATTERNS"]
+layout_mode = 2
+size_flags_vertical = 3
+hide_root = true
+select_mode = 1
+allow_reselect = true
+
+[node name="ACUPOINTS" type="VBoxContainer" parent="MainSplit/LeftPane/TaxonomyTabs"]
+layout_mode = 2
+
+[node name="AcupointList" type="ItemList" parent="MainSplit/LeftPane/TaxonomyTabs/ACUPOINTS"]
+layout_mode = 2
+size_flags_vertical = 3
+auto_height = false
+
+[node name="HERBS" type="VBoxContainer" parent="MainSplit/LeftPane/TaxonomyTabs"]
+layout_mode = 2
+
+[node name="HerbList" type="ItemList" parent="MainSplit/LeftPane/TaxonomyTabs/HERBS"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="SYMPTOMS" type="VBoxContainer" parent="MainSplit/LeftPane/TaxonomyTabs"]
+layout_mode = 2
+
+[node name="SymptomList" type="ItemList" parent="MainSplit/LeftPane/TaxonomyTabs/SYMPTOMS"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="FORMULAS" type="VBoxContainer" parent="MainSplit/LeftPane/TaxonomyTabs"]
+layout_mode = 2
+
+[node name="FormulaList" type="ItemList" parent="MainSplit/LeftPane/TaxonomyTabs/FORMULAS"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TelemetryStatus" type="Label" parent="MainSplit/LeftPane"]
+text = "Waiting for signal..."
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+horizontal_alignment = 1
+custom_minimum_size = Vector2(0, 24)
+
+; -- RIGHT PANE - Detail viewer --------------------------------------------------
+[node name="RightPane" type="VBoxContainer" parent="MainSplit"]
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="DetailTabs" type="TabContainer" parent="MainSplit/RightPane"]
+layout_mode = 2
+size_flags_vertical = 3
+tab_alignment = 0
+
+[node name="DETAIL" type="ScrollContainer" parent="MainSplit/RightPane/DetailTabs"]
+layout_mode = 2
+
+[node name="DetailPanel" type="VBoxContainer" parent="MainSplit/RightPane/DetailTabs/DETAIL"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="DetailTitle" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+bbcode_enabled = true
+fit_content = true
+text = "[b]Select an item from the left pane[/b]"
+theme_override_font_sizes/normal_font_size = 16
+
+[node name="EvidenceBadge" type="Label" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+text = ""
+theme_override_font_sizes/font_size = 10
+custom_minimum_size = Vector2(0, 20)
+
+[node name="Divider" type="HSeparator" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+
+[node name="DetailBody" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+bbcode_enabled = true
+fit_content = true
+autowrap_mode = 3
+theme_override_font_sizes/normal_font_size = 13
+
+[node name="RelatedHeader" type="Label" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+text = "RELATED"
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+
+[node name="RelatedItems" type="FlowContainer" parent="MainSplit/RightPane/DetailTabs/DETAIL/DetailPanel"]
+layout_mode = 2
+theme_override_constants/h_separation = 6
+theme_override_constants/v_separation = 6
+
+[node name="ATLAS VOLUME" type="VBoxContainer" parent="MainSplit/RightPane/DetailTabs"]
+layout_mode = 2
+
+[node name="VolHeader" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME"]
+bbcode_enabled = true
+fit_content = true
+text = "[b]No volume loaded[/b]"
+theme_override_font_sizes/normal_font_size = 14
+
+[node name="SpectrumTabs" type="TabContainer" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Physical" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+fit_content = false
+
+[node name="Cognitive" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+
+[node name="Metaphysical" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+
+[node name="Clinical" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+
+[node name="Computational" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+
+[node name="Temporal" type="RichTextLabel" parent="MainSplit/RightPane/DetailTabs/ATLAS VOLUME/SpectrumTabs"]
+bbcode_enabled = true
+
+[node name="RED FLAGS" type="ScrollContainer" parent="MainSplit/RightPane/DetailTabs"]
+layout_mode = 2
+
+[node name="RedFlagList" type="VBoxContainer" parent="MainSplit/RightPane/DetailTabs/RED FLAGS"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ContextBar" type="HBoxContainer" parent="MainSplit/RightPane"]
+custom_minimum_size = Vector2(0, 28)
+theme_override_constants/separation = 8
+
+[node name="ContextPath" type="Label" parent="MainSplit/RightPane/ContextBar"]
+text = ""
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+size_flags_horizontal = 3
+
+[node name="BtnClearContext" type="Button" parent="MainSplit/RightPane/ContextBar"]
+text = "CLEAR"
+theme_override_font_sizes/font_size = 10
+
+; -- STATUS BAR ------------------------------------------------------------------
+[node name="StatusBar" type="PanelContainer" parent="RootLayout"]
+custom_minimum_size = Vector2(0, 28)
+layout_mode = 2
+
+[node name="StatusBarInner" type="HBoxContainer" parent="StatusBar"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/separation = 0
+
+[node name="StatusLeft" type="Label" parent="StatusBar/StatusBarInner"]
+text = "Mode: TOP-DOWN  |  All evidence layers  |  Self-safe: OFF"
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.478, 0.471, 0.455, 1.0)
+size_flags_horizontal = 3
+vertical_alignment = 1
+
+[node name="StatusRight" type="Label" parent="StatusBar/StatusBarInner"]
+text = "Guardian Interface - Trinity Protocol"
+theme_override_font_sizes/font_size = 10
+theme_override_colors/font_color = Color(0.254, 0.282, 0.254, 1.0)
+vertical_alignment = 1

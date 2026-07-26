@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ECOGIBSON_001",
+    "title": "The Ecological Approach to Visual Perception",
+    "author": "James J. Gibson",
+    "year": 1979,
+    "domain_clusters": ["Embodied Cognition", "Ecological Psychology", "Perception-Action Coupling"],
+    "guardian_modules": ["Embodied Cognition Lab", "Attention Lab"],
+    "bridge_to_shin": ["visual attention", "motor learning"],
+    "evidence_role": "theoretical foundation"
+  },
+  {
+    "id": "BARSALOU_001",
+    "title": "Grounded Cognition",
+    "author": "Lawrence Barsalou",
+    "year": 2008,
+    "domain_clusters": ["Embodied Cognition", "Grounded Cognition", "Simulation Theory"],
+    "guardian_modules": ["Embodied Cognition Lab", "Learning Lab"],
+    "bridge_to_shin": ["attention", "memory", "learning"],
+    "evidence_role": "theoretical foundation"
+  },
+  {
+    "id": "NOE_001",
+    "title": "Action in Perception",
+    "author": "Alva Noë",
+    "year": 2004,
+    "domain_clusters": ["Embodied Cognition", "Enactive Cognition", "Perception-Action"],
+    "guardian_modules": ["Embodied Cognition Lab", "Attention Lab", "XR Perception Lab"],
+    "bridge_to_shin": ["attention", "perception", "action"],
+    "evidence_role": "theoretical foundation"
+  }
+]

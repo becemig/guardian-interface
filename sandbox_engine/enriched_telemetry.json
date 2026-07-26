@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-06-29T15:13:09.271962+00:00",
+  "guardian_state": "Regulated",
+  "confidence": 0.833,
+  "contributing_signals": [
+    "high_hrv",
+    "regulated_respiration",
+    "fast_reaction_time",
+    "good_sleep_quality"
+  ],
+  "state_scores": {
+    "Regulated": 5,
+    "Adaptive": 1,
+    "Monitoring": 0,
+    "Stress Load": 0,
+    "Cognitive Load": 0,
+    "Fatigued": 0
+  },
+  "input": {
+    "hrv": 70.0,
+    "respiration_rate": 12.0,
+    "reaction_time": 300.0,
+    "sleep_quality": 80.0,
+    "state": "CSVValidationTest"
+  }
+}

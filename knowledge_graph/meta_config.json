@@ -1,0 +1,12 @@
+{
+  "governing_rules": {
+    "principles": "100_principles_reference.json",
+    "intents": "30_intents_reference.json"
+  },
+  "mapping_logic": {
+    "Tier1": ["Intent_Power", "Principle_Efficiency"],
+    "Tier2": ["Intent_Flow", "Principle_Song"],
+    "Tier3": ["Intent_Stability", "Principle_Mindfulness"],
+    "Tier6": ["Intent_Expression", "Principle_Creativity"]
+  }
+}

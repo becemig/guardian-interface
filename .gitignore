@@ -1,0 +1,12 @@
+.godot/
+.mono/
+bin/
+obj/
+*.uid
+.venv/
+GuardianAtlas/venv/
+__pycache__/
+*.pyc
+*.blend1
+node_modules/
+.DS_Store

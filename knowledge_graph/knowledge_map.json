@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "TCM_ST36": {
+      "node_id": "TCM_ST36",
+      "label": "Zusanli",
+      "branching_vectors": {
+        "similar": ["TCM_SP3"],
+        "comparable": ["BIO_TA"],
+        "opposing": ["TCM_ST45"]
+      },
+      "interdisciplinary_bridge": {
+        "biomechanics": "Tibialis anterior activation"
+      },
+      "spatial_chunk": "earth_zone_03"
+    }
+  }
+}

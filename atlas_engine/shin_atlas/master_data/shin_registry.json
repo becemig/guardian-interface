@@ -1,0 +1,48 @@
+[
+  {
+    "id": "SHIN_13",
+    "year": 2023,
+    "title": "Effects of Tai Chi and Qigong on cognitive and physical functions in older adults",
+    "doi": "10.1186/s12877-023-04070-2",
+    "domain": "Tai Chi/Rehab",
+    "priority": "A",
+    "status": "hub_node_active"
+  },
+  {
+    "id": "SHIN_12",
+    "year": 2022,
+    "title": "Tai Chi & Cognition Meta-Regression",
+    "doi": "10.1093/geroni/igac059.2892",
+    "domain": "Tai Chi/Aging",
+    "priority": "A",
+    "status": "pending"
+  },
+  {
+    "id": "SHIN_04",
+    "year": 2003,
+    "title": "Spatial and temporal sequence learning in patients with Parkinson's disease or cerebellar lesions",
+    "doi": "10.1162/089892903322598175",
+    "domain": "Parkinson's",
+    "priority": "A",
+    "status": "pending"
+  },
+  {
+    "id": "SHIN_02",
+    "year": 2002,
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "doi": "10.1037/0278-7393.28.3.445",
+    "domain": "Sequence Learning",
+    "priority": "A",
+    "status": "pending"
+  },
+  {
+    "id": "SHIN_06",
+    "year": 2020,
+    "title": "Adaptive changes in the dynamics of visual attention with extended practice",
+    "doi": "N/A",
+    "domain": "Attention",
+    "priority": "A",
+    "status": "pending"
+  }
+]
+

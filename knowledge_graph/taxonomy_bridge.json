@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "MOD_TAICHI_01": {
+      "volume": 2,
+      "principles": [1, 4, 37, 53, 100]
+    },
+    "MOD_MUAYTHAI_01": {
+      "volume": 1,
+      "principles": [1, 2, 21, 62, 78]
+    }
+  }
+}

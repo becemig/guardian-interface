@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://bagua_avatar_scene"]
+
+[ext_resource type="PackedScene" path="res://assets/avatars/male_base_mesh.glb" id="1_avatar"]
+[ext_resource type="Script" path="res://scripts/bagua/BaguaSkeletonMapper.cs" id="2_mapper"]
+[ext_resource type="PackedScene" path="res://scripts/bagua/BaguaOverlay.tscn" id="3_overlay"]
+
+[node name="BaguaAvatarScene" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2, 3.5)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.707, -0.5, 0.5, 0, 0.707, 0.707, -0.707, -0.5, 0.5, 0, 3, 0)
+light_energy = 1.2
+
+[node name="BaguaAvatar" parent="." instance=ExtResource("1_avatar")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="BaguaSkeletonMapper" type="Node" parent="."]
+script = ExtResource("2_mapper")
+
+[node name="BaguaOverlay" parent="." instance=ExtResource("3_overlay")]

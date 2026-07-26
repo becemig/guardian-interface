@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-06-24T21:11:03.254822+00:00",
+  "guardian_state": "Adaptive",
+  "confidence": 0.5,
+  "hrv": 46,
+  "respiration_rate": 16,
+  "reaction_time": 560,
+  "sleep_quality": 60,
+  "contributing_signals": [
+    "moderate_hrv",
+    "irregular_respiration"
+  ]
+}

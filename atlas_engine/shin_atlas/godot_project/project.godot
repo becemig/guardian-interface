@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+CognitiveState="*res://scripts/autoload/CognitiveState.gd"
+AtlasSignalBus="*res://scripts/core/AtlasSignalBus.gd"
+TelemetryManager="*res://scripts/core/TelemetryManager.gd"
+
+[application]
+
+run/main_scene="res://TelemetryDashboard.tscn"
+config/features=PackedStringArray("4.6")
+
+[autoload]
+
+CognitiveState="*res://scripts/autoload/CognitiveState.gd"
+AtlasSignalBus="*res://scripts/core/AtlasSignalBus.gd"
+TelemetryManager="*res://scripts/core/TelemetryManager.gd"
+TelemetryController="*res://scripts/core/TelemetryController.gd"
+SessionManager="*res://scripts/core/SessionManager.gd"
+
+[dotnet]
+
+project/assembly_name="UnnamedProject"

@@ -1,0 +1,340 @@
+{
+  "schema_version": "knowledge_graph_index.v2",
+  "generated_at": "2026-07-10T02:45:47.583038+00:00",
+  "archive_root": "/home/becemig/GodotProjects/guardian-interface/master_research_archive",
+  "node_count": 4,
+  "nodes": [
+    {
+      "uid": "PSY-497-ATTENTION-001",
+      "title": "Somatic Modulation of Selective Attention",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Lab Research / Coursework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "confidence",
+        "respiration_rate"
+      ],
+      "tags": [
+        "attention",
+        "executive-function",
+        "tai-chi",
+        "hrv",
+        "somatics"
+      ],
+      "citations": [
+        {
+          "author": "Shin et al.",
+          "year": 2024,
+          "context": "Autonomic regulation and movement-based cognitive modulation."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_attention_somatic_modulation.md",
+      "headings": [
+        "# Somatic Modulation of Selective Attention",
+        "## Abstract",
+        "## Key Ideas",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This knowledge node connects selective attention, somatic regulation, and Guardian Interface telemetry."
+    },
+    {
+      "uid": "PSY-497-HRV-001",
+      "title": "Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Peer Reviewed Research",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "hrv",
+        "autonomic",
+        "vagus",
+        "prefrontal",
+        "cognitive-load",
+        "biofeedback",
+        "neurovisceral"
+      ],
+      "citations": [
+        {
+          "author": "Thayer et al.",
+          "year": 2012,
+          "context": "Neurovisceral integration model linking HRV to prefrontal cortex regulation."
+        },
+        {
+          "author": "Porges S.W.",
+          "year": 2011,
+          "context": "Polyvagal theory and vagal tone as index of autonomic flexibility."
+        }
+      ],
+      "relative_path": "psychology/psy_497/PSY497_hrv_autonomic_biofeedback.md",
+      "headings": [
+        "# Autonomic Biofeedback Correlates: HRV Metrics and Cognitive Workload",
+        "## Abstract",
+        "## Physiological Mechanisms",
+        "### Prefrontal-Autonomic Regulation Loop",
+        "### Vagal-Cardiac Pathway",
+        "## Cross-System Links",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node reviews the physiological mechanisms linking cardiac vagal tone to cognitive regulation capacity. Drawing on Thayer neurovisceral integration model, HRV metrics function as a window into prefrontal cortex efficiency, providing an empirical baseline for tracking stress resilience and attention shifts in real time."
+    },
+    {
+      "uid": "BIOMECH-MYO-JJ-001",
+      "title": "Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+      "category": "Biomechanics",
+      "sub_category": "Myofascial Anatomy",
+      "source_type": "Peer Reviewed Research",
+      "status": "Verified",
+      "associated_somatic_nodes": [
+        108,
+        142,
+        215,
+        312
+      ],
+      "target_meridians": [
+        "Bladder",
+        "Kidney"
+      ],
+      "telemetry_triggers": [
+        "respiration_rate",
+        "hrv"
+      ],
+      "tags": [
+        "myofascial",
+        "anatomy-trains",
+        "jing-jin",
+        "superficial-back-line",
+        "tai-chi",
+        "fascia",
+        "biomechanics"
+      ],
+      "citations": [
+        {
+          "author": "Myers T.",
+          "year": 2020,
+          "context": "Anatomy Trains myofascial meridians and structural continuity tracking."
+        },
+        {
+          "author": "Wilke et al.",
+          "year": 2016,
+          "context": "Systematic review of histological tensile transmission along myofascial pathways."
+        }
+      ],
+      "relative_path": "somatic_traditions/BIOMECH_myofascial_sinew_lines.md",
+      "headings": [
+        "# Myofascial Force Transmission: Superficial Back Line vs. Taiyang Sinew Channel",
+        "## Abstract",
+        "## Structural Intersections",
+        "### Plantar-to-Calcaneal Link",
+        "### Posterior Pelvic-to-Spinal Link",
+        "## Biomechanical Relevance to Internal Movement Arts",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This node maps the structural and functional overlap between Thomas Myers Superficial Back Line (SBL) and the Foot Taiyang Sinew Channel (Bladder Jing Jin). Both frameworks describe a continuous network of connective tissue running along the posterior aspect of the body, acting as an integration system for kinetic strain, spinal extension, and postural balance."
+    },
+    {
+      "uid": "QIGONG-WQX-001",
+      "title": "Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+      "category": "Somatic Traditions",
+      "sub_category": "Tai Chi / Qigong",
+      "source_type": "Practice Research Note",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        216
+      ],
+      "target_meridians": [
+        "Liver",
+        "Gallbladder",
+        "Heart",
+        "Lung"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-qin-xi",
+        "qigong",
+        "five-animal-frolics",
+        "hrv",
+        "respiration",
+        "autonomic-regulation"
+      ],
+      "citations": [
+        {
+          "author": "Practice synthesis",
+          "year": 2026,
+          "context": "Working note connecting movement mechanics to Guardian Interface telemetry."
+        }
+      ],
+      "relative_path": "somatic_traditions/tai_chi_qigong/QIGONG_wu_qin_xi_mechanics.md",
+      "headings": [
+        "# Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+        "## Abstract",
+        "## Biomechanical Correlates",
+        "## Intersection with Cognitive Topography",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This module details the biomechanical and physiological impacts of the Wu Qin Xi, or Five Animal Frolics, focusing on their capacity to modulate autonomic nervous system tone."
+    }
+  ],
+  "somatic_node_index": {
+    "42": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "QIGONG-WQX-001"
+    ],
+    "108": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "BIOMECH-MYO-JJ-001",
+      "QIGONG-WQX-001"
+    ],
+    "212": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001"
+    ],
+    "142": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "215": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "312": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "216": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "topic_index": {
+    "attention": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "executive-function": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "tai-chi": [
+      "PSY-497-ATTENTION-001",
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "hrv": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001",
+      "QIGONG-WQX-001"
+    ],
+    "somatics": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "autonomic": [
+      "PSY-497-HRV-001"
+    ],
+    "vagus": [
+      "PSY-497-HRV-001"
+    ],
+    "prefrontal": [
+      "PSY-497-HRV-001"
+    ],
+    "cognitive-load": [
+      "PSY-497-HRV-001"
+    ],
+    "biofeedback": [
+      "PSY-497-HRV-001"
+    ],
+    "neurovisceral": [
+      "PSY-497-HRV-001"
+    ],
+    "myofascial": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "anatomy-trains": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "jing-jin": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "superficial-back-line": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "fascia": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "biomechanics": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "wu-qin-xi": [
+      "QIGONG-WQX-001"
+    ],
+    "qigong": [
+      "QIGONG-WQX-001"
+    ],
+    "five-animal-frolics": [
+      "QIGONG-WQX-001"
+    ],
+    "respiration": [
+      "QIGONG-WQX-001"
+    ],
+    "autonomic-regulation": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "category_index": {
+    "Psychology": [
+      "PSY-497-ATTENTION-001",
+      "PSY-497-HRV-001"
+    ],
+    "Biomechanics": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Somatic Traditions": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "evidence_index": {
+    "Shin et al. 2024": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "Thayer et al. 2012": [
+      "PSY-497-HRV-001"
+    ],
+    "Porges S.W. 2011": [
+      "PSY-497-HRV-001"
+    ],
+    "Myers T. 2020": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Wilke et al. 2016": [
+      "BIOMECH-MYO-JJ-001"
+    ],
+    "Practice synthesis 2026": [
+      "QIGONG-WQX-001"
+    ]
+  }
+}

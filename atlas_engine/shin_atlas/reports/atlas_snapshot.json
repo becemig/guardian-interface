@@ -1,0 +1,18 @@
+{
+  "modules": {
+    "Neuroprocessing Lab": 3,
+    "Attention Lab": 2,
+    "Parkinson's Lab": 1
+  },
+  "domains": {
+    "Sequence Learning": 3,
+    "Motor Cognition": 1,
+    "Motor Learning": 2,
+    "Attention": 1
+  },
+  "methods": {
+    "Sequence Learning Tasks": 3,
+    "Reaction Time": 1,
+    "Dual-task paradigm": 1
+  }
+}

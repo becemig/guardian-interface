@@ -1,0 +1,12 @@
+{
+  "tier": 4,
+  "label": "Structural Manipulation",
+  "focus": "Manual Alignment",
+  "sensor_profile": "Myofascial_Tension_Mapping",
+  "modalities": [
+    {"id": "MOD_TUINA_01", "name": "Tui Na"},
+    {"id": "MOD_SHIATSU_01", "name": "Shiatsu"},
+    {"id": "MOD_MFR_01", "name": "Myofascial Release"},
+    {"id": "MOD_TRIGGER_01", "name": "Trigger Point Therapy"}
+  ]
+}

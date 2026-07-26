@@ -1,0 +1,157 @@
+{
+  "schema_version": "knowledge_graph_index.v2",
+  "generated_at": "2026-07-10T01:12:54.588252+00:00",
+  "archive_root": "master_research_archive",
+  "node_count": 2,
+  "nodes": [
+    {
+      "uid": "PSY-497-ATTENTION-001",
+      "title": "Somatic Modulation of Selective Attention",
+      "category": "Psychology",
+      "sub_category": "Cognitive Neuroscience",
+      "source_type": "Lab Research / Coursework",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        212
+      ],
+      "target_meridians": [
+        "Heart",
+        "Pericardium"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "confidence",
+        "respiration_rate"
+      ],
+      "tags": [
+        "attention",
+        "executive-function",
+        "tai-chi",
+        "hrv",
+        "somatics"
+      ],
+      "citations": [
+        "author: Shin et al."
+      ],
+      "relative_path": "psychology/psy_497/PSY497_attention_somatic_modulation.md",
+      "headings": [
+        "# Somatic Modulation of Selective Attention",
+        "## Abstract",
+        "## Key Ideas",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This knowledge node connects selective attention, somatic regulation, and Guardian Interface telemetry."
+    },
+    {
+      "uid": "QIGONG-WQX-001",
+      "title": "Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+      "category": "Somatic Traditions",
+      "sub_category": "Tai Chi / Qigong",
+      "source_type": "Practice Research Note",
+      "status": "In-Progress Draft",
+      "associated_somatic_nodes": [
+        42,
+        108,
+        216
+      ],
+      "target_meridians": [
+        "Liver",
+        "Gallbladder",
+        "Heart",
+        "Lung"
+      ],
+      "telemetry_triggers": [
+        "hrv",
+        "respiration_rate",
+        "confidence"
+      ],
+      "tags": [
+        "wu-qin-xi",
+        "qigong",
+        "five-animal-frolics",
+        "hrv",
+        "respiration",
+        "autonomic-regulation"
+      ],
+      "citations": [
+        "author: Practice synthesis"
+      ],
+      "relative_path": "somatic_traditions/tai_chi_qigong/QIGONG_wu_qin_xi_mechanics.md",
+      "headings": [
+        "# Neurovegetative Regulation via Wu Qin Xi Movement Profiles",
+        "## Abstract",
+        "## Biomechanical Correlates",
+        "## Intersection with Cognitive Topography",
+        "## Guardian Interface Links"
+      ],
+      "summary": "This module details the biomechanical and physiological impacts of the Wu Qin Xi, or Five Animal Frolics, focusing on their capacity to modulate autonomic nervous system tone."
+    }
+  ],
+  "somatic_node_index": {
+    "42": [
+      "PSY-497-ATTENTION-001",
+      "QIGONG-WQX-001"
+    ],
+    "108": [
+      "PSY-497-ATTENTION-001",
+      "QIGONG-WQX-001"
+    ],
+    "212": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "216": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "topic_index": {
+    "attention": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "executive-function": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "tai-chi": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "hrv": [
+      "PSY-497-ATTENTION-001",
+      "QIGONG-WQX-001"
+    ],
+    "somatics": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "wu-qin-xi": [
+      "QIGONG-WQX-001"
+    ],
+    "qigong": [
+      "QIGONG-WQX-001"
+    ],
+    "five-animal-frolics": [
+      "QIGONG-WQX-001"
+    ],
+    "respiration": [
+      "QIGONG-WQX-001"
+    ],
+    "autonomic-regulation": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "category_index": {
+    "Psychology": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "Somatic Traditions": [
+      "QIGONG-WQX-001"
+    ]
+  },
+  "evidence_index": {
+    "author: Shin et al.": [
+      "PSY-497-ATTENTION-001"
+    ],
+    "author: Practice synthesis": [
+      "QIGONG-WQX-001"
+    ]
+  }
+}

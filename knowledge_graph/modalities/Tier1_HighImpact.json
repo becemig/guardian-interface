@@ -1,0 +1,11 @@
+{
+  "tier": 1,
+  "label": "High-Impact Kinesthetics",
+  "focus": "External/Explosive",
+  "sensor_profile": "HighVelocity_Tracking",
+  "modalities": [
+    {"id": "MOD_KARATE_01", "name": "Karate"},
+    {"id": "MOD_MUAYTHAI_01", "name": "Muay Thai"},
+    {"id": "MOD_KUNG_FU_01", "name": "Kung Fu"}
+  ]
+}

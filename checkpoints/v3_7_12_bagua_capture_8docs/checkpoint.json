@@ -1,0 +1,43 @@
+{
+  "checkpoint": "v3.7.12",
+  "timestamp": "2026-07-18T21:25:47Z",
+  "node_count": 854,
+  "validation": "854 passed, 0 failed",
+  "series_completed": [
+    "I18_biomechanics_8docs",
+    "I19_port_hamiltonian_8docs",
+    "I20_bagua_capture_8docs"
+  ],
+  "series_detail": {
+    "I20_bagua_capture": {
+      "nodes": 8,
+      "uids": [
+        "BAGUA-FOUND-001",
+        "BAGUA-CAMERA-001",
+        "BAGUA-FORCE-001",
+        "BAGUA-IMU-001",
+        "BAGUA-ICR-001",
+        "BAGUA-CURV-001",
+        "BAGUA-APPARATUS-001",
+        "BAGUA-TCM-001"
+      ],
+      "directory": "master_research_archive/bagua_capture/"
+    }
+  },
+  "cumulative_history": {
+    "v3.6.9": 754,
+    "v3.7.7": 818,
+    "v3.7.8": 822,
+    "v3.7.9": 830,
+    "v3.7.10": 838,
+    "v3.7.11": 846,
+    "v3.7.12": 854
+  },
+  "next_planned": [
+    "Python computation modules: curvature_field.py icr_solver.py force_manifold.py fascial_activation.py five_element_map.py ba_gang_diagnosis.py holonomy_integrator.py",
+    "Three.js BaguaViewer 7-layer animated physics visualization web app",
+    "I21_stochastic_differential_geometry",
+    "I22_geometric_deep_learning_SE3"
+  ],
+  "notes": "I20 completes the Bagua capture protocol series. All 8 nodes encode the full instrumentation design including octagon camera array, force plate GRF, IMU inverse dynamics, ICR solver, curvature tensor pipeline, gyro apparatus, and unified TCM synthesis. Next phase is Python computation backend then Three.js visualization frontend."
+}

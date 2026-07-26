@@ -1,0 +1,23 @@
+[
+  {
+    "id": "SHIN_02",
+    "title": "Concurrent Learning of Temporal and Spatial Sequences",
+    "domain_clusters": ["Sequence Learning", "Motor Cognition"],
+    "guardian_modules": ["Neuroprocessing Lab", "Attention Lab"],
+    "key_methods": ["Sequence Learning Tasks", "Reaction Time"]
+  },
+  {
+    "id": "SHIN_04",
+    "title": "Spatial and temporal sequence learning in patients with Parkinson's disease",
+    "domain_clusters": ["Sequence Learning", "Motor Learning"],
+    "guardian_modules": ["Parkinson's Lab", "Neuroprocessing Lab"],
+    "key_methods": ["Sequence Learning Tasks"]
+  },
+  {
+    "id": "SHIN_06",
+    "title": "Dual-task interference in motor sequence learning",
+    "domain_clusters": ["Sequence Learning", "Motor Learning", "Attention"],
+    "guardian_modules": ["Neuroprocessing Lab", "Attention Lab"],
+    "key_methods": ["Dual-task paradigm", "Sequence Learning Tasks"]
+  }
+]

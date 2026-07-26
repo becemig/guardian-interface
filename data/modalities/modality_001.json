@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "name": "Stance of the Rooted Mountain",
+  "volume": 1,
+  "element_bias": "Earth",
+  "damping": 0.85,
+  "thermal_sink": 0.4
+}
