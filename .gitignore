@@ -10,3 +10,4 @@ __pycache__/
 *.blend1
 node_modules/
 .DS_Store
+GuardianAtlas/
