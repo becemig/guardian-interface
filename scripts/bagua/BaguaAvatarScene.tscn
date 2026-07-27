@@ -36,3 +36,12 @@ script = ExtResource("2_mapper")
 
 [node name="BaguaJointSpheres" type="Node3D" parent="."]
 script = ExtResource("4_spheres")
+
+[node name="VolLabel" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2, 1.8, 0)
+text = "VOL-000"
+font_size = 48
+modulate = Color(0.2, 0.9, 1, 1)
+outline_size = 8
+double_sided = true
+
