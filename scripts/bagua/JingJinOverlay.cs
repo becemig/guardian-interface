@@ -106,8 +106,12 @@ public partial class JingJinOverlay : Node3D
         _activeAmp = _jointAmp.Length > jointIdx ? _jointAmp[jointIdx] : 0f;
     }
 
+    // Camera reference for billboard quads
+    private Camera3D _cam;
+
     private void DrawAllLines()
     {
+        if (_cam == null) _cam = GetViewport().GetCamera3D();
         foreach (var kvp in JingJinPaths)
         {
             string ch = kvp.Key;
@@ -117,16 +121,29 @@ public partial class JingJinOverlay : Node3D
             if (path.Length < 2) continue;
             bool isActive = ch == _activeChannel;
             Color baseCol = ChannelColors.ContainsKey(ch) ? ChannelColors[ch] : Colors.White;
-            // Amplitude drives alpha: active channel full brightness,
-            // others dimmed to 15% so all 12 lines stay visible
             float alpha = isActive ? Mathf.Clamp(_activeAmp * 1.2f, 0.5f, 1.0f) : 0.15f;
+            // Thickness: active line 0.04-0.12m based on amplitude, inactive 0.012m
+            float thick = isActive ? Mathf.Lerp(0.04f, 0.12f, _activeAmp) : 0.012f;
             Color col = new Color(baseCol.R, baseCol.G, baseCol.B, alpha);
-            im.SurfaceBegin(Mesh.PrimitiveType.LineStrip);
-            foreach (int idx in path)
+            im.SurfaceBegin(Mesh.PrimitiveType.Triangles);
+            for (int s = 0; s < path.Length - 1; s++)
             {
-                if (idx < 0 || idx >= _jointPos.Length) continue;
-                im.SurfaceSetColor(col);
-                im.SurfaceAddVertex(_jointPos[idx]);
+                int ia = path[s]; int ib = path[s + 1];
+                if (ia < 0 || ia >= _jointPos.Length) continue;
+                if (ib < 0 || ib >= _jointPos.Length) continue;
+                Vector3 a = _jointPos[ia]; Vector3 b = _jointPos[ib];
+                // Billboard: perpendicular to segment in camera-facing plane
+                Vector3 seg = (b - a).Normalized();
+                Vector3 toCam = _cam != null
+                    ? ((_cam.GlobalPosition - a).Normalized()) : Vector3.Up;
+                Vector3 perp = seg.Cross(toCam).Normalized() * (thick * 0.5f);
+                // Quad: two triangles
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(a - perp);
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(a + perp);
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(b + perp);
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(a - perp);
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(b + perp);
+                im.SurfaceSetColor(col); im.SurfaceAddVertex(b - perp);
             }
             im.SurfaceEnd();
         }
