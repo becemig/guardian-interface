@@ -115,7 +115,21 @@ public partial class BaguaSkeletonMapper : Node
         {
             var colors = new Godot.Collections.Array();
             for (int i = 0; i < 12; i++)
-                colors.Add(joints[i].ToColor());
+            {
+                float k = joints[i].Kappa;
+                Color tc;
+                if (k < 0.5f)
+                    tc = new Color(0.05f, 0.12f, 0.25f, 0.0f);
+                else if (k < 1.0f)
+                    tc = Color.FromHsv(0.55f, 0.35f, 0.38f, Mathf.InverseLerp(0.5f, 1.0f, k) * 0.30f);
+                else if (k < 1.5f)
+                    tc = Color.FromHsv(0.42f, 0.30f, 0.48f, Mathf.InverseLerp(1.0f, 1.5f, k) * 0.50f);
+                else if (k < 2.0f)
+                    tc = Color.FromHsv(0.10f, 0.42f, 0.62f, Mathf.InverseLerp(1.5f, 2.0f, k) * 0.68f);
+                else
+                    tc = Color.FromHsv(0.97f, 0.32f, 0.72f, Mathf.Clamp((k-2.0f)*0.4f+0.68f,0.68f,0.88f));
+                colors.Add(tc);
+            }
             _mat.SetShaderParameter("bone_colors", colors);
         }
     }

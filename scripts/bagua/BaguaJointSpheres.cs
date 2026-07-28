@@ -30,7 +30,7 @@ public partial class BaguaJointSpheres : Node3D
             var mat = new ShaderMaterial();
             var shader = GD.Load<Shader>("res://assets/avatars/bagua_sphere.gdshader");
             mat.Shader = shader;
-            mat.SetShaderParameter("sphere_color", new Color(0.196f, 0.506f, 0.51f, 1f));
+            mat.SetShaderParameter("sphere_color", new Color(0.05f, 0.12f, 0.25f, 0.0f));
             mi.MaterialOverride = mat;
 
             AddChild(mi);
@@ -63,7 +63,23 @@ public partial class BaguaJointSpheres : Node3D
             float ry = raw.Y - anchorY;
             float rz = raw.Z - anchorZ;
             _spheres[i].Position = new Godot.Vector3(rx * 0.5f, ry * 0.8f + 0.95f, rz * 0.5f);
-            _mats[i].SetShaderParameter("sphere_color", joints[i].ToColor());
+            // Thermography ramp: kappa -> desaturated naturalistic color
+            float k = joints[i].Kappa;
+            Color target;
+            if (k < 0.5f)
+                target = new Color(0.05f, 0.12f, 0.25f, 0.0f);
+            else if (k < 1.0f)
+                target = Color.FromHsv(0.55f, 0.45f, 0.35f, Mathf.InverseLerp(0.5f, 1.0f, k) * 0.35f);
+            else if (k < 1.5f)
+                target = Color.FromHsv(0.42f, 0.38f, 0.45f, Mathf.InverseLerp(1.0f, 1.5f, k) * 0.55f);
+            else if (k < 2.0f)
+                target = Color.FromHsv(0.10f, 0.50f, 0.65f, Mathf.InverseLerp(1.5f, 2.0f, k) * 0.70f);
+            else
+                target = Color.FromHsv(0.97f, 0.38f, 0.78f, Mathf.Clamp((k - 2.0f) * 0.4f + 0.70f, 0.7f, 0.92f));
+            // Smooth lerp toward target (0.12 = ~8 frames at 60fps)
+            var prev = (Color)_mats[i].GetShaderParameter("sphere_color");
+            var smooth = prev.Lerp(target, 0.12f);
+            _mats[i].SetShaderParameter("sphere_color", smooth);
         }
     }
 }

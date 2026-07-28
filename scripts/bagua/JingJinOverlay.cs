@@ -32,26 +32,29 @@ public partial class JingJinOverlay : Node3D
         { "LU", new[]{3,4,5,8,7,6} }, // Shou Tai Yin: R+L arm lines (chest-to-wrist)
         { "PC", new[]{3,4,5} },      // Shou Jue Yin: R shoulder-elbow-wrist (deep front arm)
     };
-    // Base hue per channel (HSV-derived, amplitude scales Value)
+    // Naturalistic element palette -- desaturated, clinical
     private static readonly Dictionary<string, Color> ChannelColors =
         new Dictionary<string, Color>
     {
-        { "BL", new Color(0.2f, 0.5f, 1.0f) },   // Blue -- Water
-        { "KD", new Color(0.1f, 0.3f, 0.9f) },   // Dark blue -- Water
-        { "GB", new Color(0.2f, 0.9f, 0.3f) },   // Green -- Wood
-        { "LR", new Color(0.1f, 0.8f, 0.2f) },   // Dark green -- Wood
-        { "ST", new Color(0.9f, 0.8f, 0.1f) },   // Yellow -- Earth
-        { "SP", new Color(0.8f, 0.7f, 0.2f) },   // Dark yellow -- Earth
-        { "SI", new Color(1.0f, 0.3f, 0.1f) },   // Red -- Fire
-        { "HT", new Color(0.9f, 0.1f, 0.1f) },   // Dark red -- Fire
-        { "TB", new Color(0.9f, 0.5f, 0.1f) },   // Orange -- Fire
-        { "LI", new Color(0.95f, 0.9f, 0.7f) },  // White-gold -- Metal
-        { "LU", new Color(1.0f, 1.0f, 0.9f) },   // White -- Metal
-        { "PC", new Color(1.0f, 0.2f, 0.5f) },   // Crimson -- Fire
+        { "BL", new Color(0.165f, 0.290f, 0.368f) },  // deep ocean -- Water
+        { "KD", new Color(0.120f, 0.235f, 0.320f) },  // dark slate blue -- Water
+        { "GB", new Color(0.240f, 0.353f, 0.243f) },  // forest sage -- Wood
+        { "LR", new Color(0.180f, 0.290f, 0.185f) },  // dark moss -- Wood
+        { "ST", new Color(0.478f, 0.392f, 0.208f) },  // warm ochre -- Earth
+        { "SP", new Color(0.400f, 0.330f, 0.175f) },  // dark amber -- Earth
+        { "SI", new Color(0.478f, 0.250f, 0.250f) },  // muted ember -- Fire
+        { "HT", new Color(0.420f, 0.190f, 0.190f) },  // deep rose -- Fire
+        { "TB", new Color(0.520f, 0.310f, 0.210f) },  // burnt sienna -- Fire
+        { "LI", new Color(0.680f, 0.670f, 0.640f) },  // cool silver -- Metal
+        { "LU", new Color(0.750f, 0.745f, 0.720f) },  // pale silver-white -- Metal
+        { "PC", new Color(0.500f, 0.220f, 0.280f) },  // muted crimson -- Fire
     };
     // One ImmediateMesh per channel for independent color/alpha control
     private Dictionary<string, MeshInstance3D> _meshes = new();
     private Dictionary<string, ImmediateMesh> _imMeshes = new();
+    // Smoothed alpha and thickness per channel for lerp transitions
+    private Dictionary<string, float> _alphaSmooth = new();
+    private Dictionary<string, float> _thickSmooth = new();
 
     public override void _Ready()
     {
@@ -121,9 +124,17 @@ public partial class JingJinOverlay : Node3D
             if (path.Length < 2) continue;
             bool isActive = ch == _activeChannel;
             Color baseCol = ChannelColors.ContainsKey(ch) ? ChannelColors[ch] : Colors.White;
-            float alpha = isActive ? Mathf.Clamp(_activeAmp * 1.2f, 0.5f, 1.0f) : 0.15f;
-            // Thickness: active line 0.04-0.12m based on amplitude, inactive 0.012m
-            float thick = isActive ? Mathf.Lerp(0.04f, 0.12f, _activeAmp) : 0.012f;
+            // Soft targets -- sqrt curve for gentler amplitude response
+            float ampCurved = Mathf.Sqrt(Mathf.Clamp(_activeAmp, 0f, 1f));
+            float alphaTarget = isActive ? Mathf.Lerp(0.55f, 0.88f, ampCurved) : 0.08f;
+            float thickTarget = isActive ? Mathf.Lerp(0.018f, 0.055f, ampCurved) : 0.006f;
+            // Lerp toward target for smooth transitions
+            if (!_alphaSmooth.ContainsKey(ch)) _alphaSmooth[ch] = 0.08f;
+            if (!_thickSmooth.ContainsKey(ch)) _thickSmooth[ch] = 0.006f;
+            _alphaSmooth[ch] = Mathf.Lerp(_alphaSmooth[ch], alphaTarget, 0.10f);
+            _thickSmooth[ch] = Mathf.Lerp(_thickSmooth[ch], thickTarget, 0.10f);
+            float alpha = _alphaSmooth[ch];
+            float thick = _thickSmooth[ch];
             Color col = new Color(baseCol.R, baseCol.G, baseCol.B, alpha);
             im.SurfaceBegin(Mesh.PrimitiveType.Triangles);
             for (int s = 0; s < path.Length - 1; s++)
