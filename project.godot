@@ -17,6 +17,7 @@ config/features=PackedStringArray("4.6", "C#")
 [autoload]
 KappaAtlasResolver="*res://scripts/bagua/KappaAtlasResolver.tscn"
 TCMContextResolver="*res://scripts/bagua/TCMContextResolver.tscn"
+TCMAnnotationPanel="*res://scripts/bagua/TCMAnnotationPanel.tscn"
 JingJinOverlay="*res://scripts/bagua/JingJinOverlay.tscn"
 
 
