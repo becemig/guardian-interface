@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://tcmcontextresolver"]
+
+[ext_resource type="Script" path="res://scripts/bagua/TCMContextResolver.cs" id="1"]
+
+[node name="TCMContextResolver" type="Node"]
+script = ExtResource("1")
