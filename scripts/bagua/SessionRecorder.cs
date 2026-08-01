@@ -23,6 +23,16 @@ public partial class SessionRecorder : Node
     private float _lastKappa = 0f;
     private int _lastJoint = 0;
     private int _lastVol = 0;
+
+    // Pause state
+    private bool _paused = false;
+    private int _pausedFrames = 0;
+
+    // Auto-pause: kappa idle detection
+    private const float IDLE_KAPPA_THRESHOLD = 0.3f;
+    private const float IDLE_SECONDS = 5.0f;
+    private float _idleTimer = 0f;
+    private bool _autoPaused = false;
     public override void _Ready()
     {
         _sessionStart = DateTime.Now.ToString("yyyyMMdd_HHmmss");
@@ -60,6 +70,7 @@ public partial class SessionRecorder : Node
         string acupoints, string koSheng, string qigongForm)
     {
         if (_writer == null) return;
+        if (_paused || _autoPaused) { _pausedFrames++; return; }
         string ts = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fff");
         var sb = new StringBuilder();
         if (!_firstFrame) sb.Append(",\n");
@@ -94,12 +105,46 @@ public partial class SessionRecorder : Node
             CloseSession();
     }
 
+    public override void _Process(double delta)
+    {
+        // Keyboard toggle: P key pauses/resumes
+        if (Input.IsActionJustPressed("record_pause"))
+        {
+            _paused = !_paused;
+            _autoPaused = false;
+            _idleTimer = 0f;
+            GD.Print("[SessionRecorder] " + (_paused ? "PAUSED" : "RESUMED") + " (keyboard)");
+        }
+
+        // Auto-pause on idle kappa
+        if (!_paused)
+        {
+            if (_lastKappa < IDLE_KAPPA_THRESHOLD)
+            {
+                _idleTimer += (float)delta;
+                if (_idleTimer >= IDLE_SECONDS && !_autoPaused)
+                {
+                    _autoPaused = true;
+                    GD.Print("[SessionRecorder] AUTO-PAUSED: kappa idle " + IDLE_SECONDS + "s");
+                }
+            }
+            else
+            {
+                if (_autoPaused)
+                    GD.Print("[SessionRecorder] AUTO-RESUMED: movement detected");
+                _autoPaused = false;
+                _idleTimer = 0f;
+            }
+        }
+    }
+
     private void CloseSession()
     {
         if (_writer == null) return;
         _writer.WriteLine("\n  ],");
         _writer.WriteLine("  \"session_end\": \"" + DateTime.Now.ToString("yyyyMMdd_HHmmss") + "\",");
-        _writer.WriteLine("  \"total_frames\": " + _frameCount);
+        _writer.WriteLine("  \"total_frames\": " + _frameCount + ",");
+        _writer.WriteLine("  \"paused_frames\": " + _pausedFrames);
         _writer.WriteLine("}");
         _writer.Flush();
         _writer.Close();

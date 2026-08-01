@@ -18,6 +18,7 @@ public partial class TCMAnnotationPanel : CanvasLayer
     private Label _qigong;
     private Label _nutrition;
     private Label _acupoints;
+    private Label _intervention;
 
     // Lerp alpha for fade-in on update
     private float _alpha = 0.0f;
@@ -49,6 +50,8 @@ public partial class TCMAnnotationPanel : CanvasLayer
         _qigong    = MakeLabel("", 10, new Color(0.72f, 0.80f, 0.72f));
         _nutrition = MakeLabel("", 10, new Color(0.78f, 0.82f, 0.58f));
         _acupoints = MakeLabel("", 10, new Color(0.70f, 0.65f, 0.80f));
+        MakeSeparator();
+        _intervention = MakeLabel("", 10, new Color(0.95f, 0.75f, 0.30f));
         // reorder vbox: channel, element, sep, horary, koSheng, sep, tissue, neuro, sep, qigong, sep, nutrition, acupoints
         _vbox.MoveChild(_horary,    2);
         _vbox.MoveChild(_koSheng,   3);
@@ -61,6 +64,9 @@ public partial class TCMAnnotationPanel : CanvasLayer
         _vbox.MoveChild(_nutrition, 10);
         _vbox.MoveChild(_acupoints, 11);
         // connect to TCMContextResolver
+        var koSheng = GetTree().Root.FindChild("KoShengInterventionMode", true, false);
+        if (koSheng != null)
+            koSheng.Connect("InterventionRecommended", new Callable(this, nameof(OnIntervention)));
         var resolver = GetTree().Root.FindChild("TCMContextResolver", true, false);
         if (resolver != null)
             resolver.Connect("TCMContextResolved", new Callable(this, nameof(OnTCMContext)));
@@ -111,5 +117,15 @@ public partial class TCMAnnotationPanel : CanvasLayer
             _panel.Modulate = new Color(1, 1, 1, _alpha);
             if (_alpha > 0.98f) { _alpha = 1.0f; _dirty = false; }
         }
+    }
+
+    private void OnIntervention(string dominantElement, string dominantChannel,
+        string koChannel, string motherChannel,
+        string koRationale, string motherRationale, int streakCount)
+    {
+        _intervention.Text = "[INTERVENTION x" + streakCount + "] " + dominantElement
+            + " excess\nKo: " + koChannel
+            + "\nMother: " + motherChannel;
+        _panel.Modulate = new Color(1, 1, 1, 1);
     }
 }

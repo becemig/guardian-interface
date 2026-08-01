@@ -19,6 +19,7 @@ KappaAtlasResolver="*res://scripts/bagua/KappaAtlasResolver.tscn"
 TCMContextResolver="*res://scripts/bagua/TCMContextResolver.tscn"
 TCMAnnotationPanel="*res://scripts/bagua/TCMAnnotationPanel.tscn"
 SessionRecorder="*res://scripts/bagua/SessionRecorder.tscn"
+KoShengInterventionMode="*res://scripts/bagua/KoShengInterventionMode.tscn"
 JingJinOverlay="*res://scripts/bagua/JingJinOverlay.tscn"
 
 
@@ -36,3 +37,8 @@ project/assembly_name="guardian-interface"
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+[input]
+record_pause={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":80,"physical_keycode":0,"key_label":0,"unicode":112,"location":0,"echo":false,"script":null)]
+}
