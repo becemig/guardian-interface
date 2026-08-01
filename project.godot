@@ -18,6 +18,7 @@ config/features=PackedStringArray("4.6", "C#")
 KappaAtlasResolver="*res://scripts/bagua/KappaAtlasResolver.tscn"
 TCMContextResolver="*res://scripts/bagua/TCMContextResolver.tscn"
 TCMAnnotationPanel="*res://scripts/bagua/TCMAnnotationPanel.tscn"
+SessionRecorder="*res://scripts/bagua/SessionRecorder.tscn"
 JingJinOverlay="*res://scripts/bagua/JingJinOverlay.tscn"
 
 
