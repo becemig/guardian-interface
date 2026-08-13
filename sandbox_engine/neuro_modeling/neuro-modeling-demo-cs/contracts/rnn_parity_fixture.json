@@ -1,0 +1,27 @@
+{
+  "description": "Synthetic deterministic fixture for Python/C# continuous-time RNN parity testing. Not biological or clinical data.",
+  "input_size": 2,
+  "hidden_size": 2,
+  "output_size": 1,
+  "tau": 0.5,
+  "integration_method": "rk4",
+  "initial_state": [0.0, 0.0],
+  "w_in": [
+    [0.40, -0.20],
+    [0.10, 0.30]
+  ],
+  "w_rec": [
+    [0.15, -0.05],
+    [0.08, 0.12]
+  ],
+  "b_hidden": [0.0, 0.0],
+  "w_out": [
+    [0.25, -0.35]
+  ],
+  "b_out": [0.0],
+  "steps": [
+    { "input": [1.0, -0.5], "dt": 0.02 },
+    { "input": [0.25, 0.75], "dt": 0.01 },
+    { "input": [0.0, 0.0], "dt": 0.03 }
+  ]
+}

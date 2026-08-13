@@ -1,0 +1,17 @@
+# Godot generated state
+.godot/
+.mono/
+*.import
+
+# .NET build output
+bin/
+obj/
+
+# Python environment and caches, if used locally
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated datasets and analysis outputs
+data/
+reports/

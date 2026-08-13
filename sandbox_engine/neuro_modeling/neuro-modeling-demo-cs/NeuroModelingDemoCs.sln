@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuroModelingDemoCs", "NeuroModelingDemoCs.csproj", "{ADFE35B9-2341-463E-B5E5-5A878E246E0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{ADFE35B9-2341-463E-B5E5-5A878E246E0E}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
