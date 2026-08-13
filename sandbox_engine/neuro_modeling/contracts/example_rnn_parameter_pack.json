@@ -1,0 +1,8 @@
+{
+  "input_size": 3,
+  "hidden_size": 6,
+  "output_size": 2,
+  "tau": 0.5,
+  "integration_method": "rk4",
+  "seed": 42
+}

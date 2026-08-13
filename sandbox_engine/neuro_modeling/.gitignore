@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Godot-generated files and .NET build output
+.godot/
+**/.godot/
+.mono/
+**/.mono/
+bin/
+**/bin/
+obj/
+**/obj/
+*.import
+
+# Locally acquired datasets and generated analysis artifacts
+data/raw/
+data/processed/
+reports/
+
+# Recovery and editor artifacts
+*.bak
+*.old

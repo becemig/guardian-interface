@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContinuousTimeRnnParameterPack",
+  "type": "object",
+  "required": [
+    "input_size",
+    "hidden_size",
+    "output_size",
+    "tau",
+    "integration_method",
+    "seed"
+  ],
+  "properties": {
+    "input_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "hidden_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "output_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "tau": {
+      "type": "number",
+      "exclusiveMinimum": 0.0
+    },
+    "integration_method": {
+      "type": "string",
+      "enum": ["euler", "rk4"]
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}
