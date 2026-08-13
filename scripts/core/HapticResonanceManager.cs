@@ -51,7 +51,7 @@ public partial class HapticResonanceManager : Node
     private float       _pulseTimer  = 0f;
     private bool        _pulseOn     = false;
     private float       _breathPhase = 0f;
-    private FileAccess  _logFile;
+    private Godot.FileAccess  _logFile;
 
     private static HapticEvent _MakeEvent(WuXingPhase phase, PhaseCoherence coherence)
     {
@@ -175,7 +175,7 @@ public partial class HapticResonanceManager : Node
     {
         string date = DateTime.Now.ToString("yyyy-MM-dd");
         string path = $"user://haptic_log_{date}.jsonl";
-        _logFile = FileAccess.Open(path, FileAccess.ModeFlags.WriteRead);
+        _logFile = Godot.FileAccess.Open(path, Godot.FileAccess.ModeFlags.WriteRead);
         if (_logFile == null)
             GD.PrintErr("[HapticResonanceManager] Could not open research log");
         else

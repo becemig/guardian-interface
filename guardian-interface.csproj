@@ -11,5 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="checkpoints/**/*.cs" />
+    <Compile Remove=".godot/**/*.cs" />
+    <Compile Remove="sandbox_engine/**/*.cs" />
   </ItemGroup>
 </Project>
