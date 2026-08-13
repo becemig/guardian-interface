@@ -1,8 +1,7 @@
 using Godot;
-using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
-using System.Collections.Generic;
 
 public partial class GodotAtlasBridge : Node
 {
@@ -10,8 +9,22 @@ public partial class GodotAtlasBridge : Node
 
     [Export] public string BridgeUrl = "ws://localhost:8765/ws";
 
+    [Export]
+    public bool LogFullServerResponses = false;
+
+    [Export]
+    public int SummaryEveryNResponses = 120;
+
     private WebSocketPeer _ws;
-    private enum ConnectionState { Disconnected, Connecting, Connected }
+    private int _responseCount;
+
+    private enum ConnectionState
+    {
+        Disconnected,
+        Connecting,
+        Connected
+    }
+
     private ConnectionState _connState = ConnectionState.Disconnected;
 
     public override void _Ready()
@@ -23,35 +36,83 @@ public partial class GodotAtlasBridge : Node
 
     public override void _Process(double delta)
     {
-        if (_ws == null) return;
+        if (_ws == null)
+            return;
+
         _ws.Poll();
-        if (_ws.GetReadyState() == WebSocketPeer.State.Open && _connState == ConnectionState.Connecting)
+
+        if (
+            _ws.GetReadyState() == WebSocketPeer.State.Open &&
+            _connState == ConnectionState.Connecting
+        )
         {
             _connState = ConnectionState.Connected;
             SendRegistration();
         }
+
         while (_ws.GetAvailablePacketCount() > 0)
-            HandleIncoming(Encoding.UTF8.GetString(_ws.GetPacket()));
+        {
+            string message = Encoding.UTF8.GetString(
+                _ws.GetPacket()
+            );
+
+            HandleIncoming(message);
+        }
     }
 
-    public void Connect() {
+    public void Connect()
+    {
         _connState = ConnectionState.Connecting;
         _ws.ConnectToUrl(BridgeUrl);
     }
 
     private void SendRegistration()
     {
-        var reg = new Dictionary<string, object>
+        var registration = new Dictionary<string, object>
         {
             { "type", "register" },
             { "role", "godot" },
             { "volId", "VOL-146" }
         };
-        _ws.SendText(JsonSerializer.Serialize(reg));
-        GD.Print("[AtlasBridge] Registration sent for VOL-146");
+
+        _ws.SendText(
+            JsonSerializer.Serialize(registration)
+        );
+
+        GuardianDebug.Atlas(
+            "Registration sent for VOL-146"
+        );
     }
 
-    private void HandleIncoming(string text) => GD.Print($"[AtlasBridge] SERVER RESPONSE: {text}");
+    private void HandleIncoming(string text)
+    {
+        _responseCount++;
 
-    public override void _ExitTree() => _ws?.Close();
+        if (LogFullServerResponses)
+        {
+            GD.Print(
+                $"[AtlasBridge] SERVER RESPONSE: {text}"
+            );
+
+            return;
+        }
+
+        int interval = Mathf.Max(1, SummaryEveryNResponses);
+
+        if (_responseCount % interval == 0)
+        {
+            GuardianDebug.Atlas(
+                $"response #{_responseCount}, " +
+                $"payloadBytes={text.Length}"
+            );
+        }
+    }
+
+    public override void _ExitTree()
+    {
+        _ws?.Close();
+
+        if (Instance == this)
+            Instance = null;
+    }
 }
