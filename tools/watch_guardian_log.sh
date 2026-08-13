@@ -11,10 +11,10 @@ tail -n 0 -F "$LOG" | while IFS= read -r line; do
         *"SERVER RESPONSE"*)
             printf '\033[1;31m[ALERT: full Atlas payload] %s\033[0m\n' "$line"
             ;;
-        *"[AtlasBridge]"*)
+        *"[AtlasBridge]"*|*"[ATLAS]"*)
             printf '\033[1;36m%s\033[0m\n' "$line"
             ;;
-        *"[SessionRecorder]"*)
+        *"[SessionRecorder]"*|*"[SESSION]"*)
             printf '\033[1;32m%s\033[0m\n' "$line"
             ;;
         *"ObjectDB"*|*"leaked at exit"*)
