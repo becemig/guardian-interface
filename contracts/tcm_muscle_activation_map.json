@@ -1,0 +1,51 @@
+{
+  "schema": "guardian_tcm_muscle_activation_map_v1",
+  "sourceType": "synthetic",
+  "humanData": false,
+  "disclosure": "Model-derived visual activation. Not EMG, tendon force, or clinical assessment.",
+  "elements": {
+    "Wood": "#24B86A",
+    "Fire": "#E14B4B",
+    "Earth": "#D9A625",
+    "Metal": "#DCE6F0",
+    "Water": "#1F4E8C"
+  },
+  "muscles": [
+    {
+      "id": "left_gluteus_medius",
+      "side": "left",
+      "role": "stabilizer",
+      "element": "Wood",
+      "jingJinPath": "foot_shaoyang",
+      "anatomyTrain": "lateral_line",
+      "activationSource": "synthetic_weight_shift"
+    },
+    {
+      "id": "right_gluteus_medius",
+      "side": "right",
+      "role": "stabilizer",
+      "element": "Wood",
+      "jingJinPath": "foot_shaoyang",
+      "anatomyTrain": "lateral_line",
+      "activationSource": "synthetic_weight_shift"
+    },
+    {
+      "id": "left_quadriceps",
+      "side": "left",
+      "role": "prime_mover",
+      "element": "Earth",
+      "jingJinPath": "foot_yangming",
+      "anatomyTrain": "superficial_front_line",
+      "activationSource": "synthetic_weight_shift"
+    },
+    {
+      "id": "right_quadriceps",
+      "side": "right",
+      "role": "prime_mover",
+      "element": "Earth",
+      "jingJinPath": "foot_yangming",
+      "anatomyTrain": "superficial_front_line",
+      "activationSource": "synthetic_weight_shift"
+    }
+  ]
+}
