@@ -1,0 +1,406 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="PackedScene" path="res://scripts/bagua/BaguaAvatarScene.tscn" id="1_avatar"]
+[ext_resource type="Script" path="res://scripts/ar/ARPreviewController.cs" id="2_controller"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxPanel"]
+bg_color = Color(0.025, 0.04, 0.075, 0.92)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.18, 0.78, 0.92, 0.72)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_color = Color(0, 0, 0, 0.45)
+shadow_size = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxButton"]
+bg_color = Color(0.08, 0.28, 0.38, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.3, 0.88, 1, 0.9)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxLoadBackground"]
+bg_color = Color(0.08, 0.12, 0.18, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.26, 0.38, 0.48, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxLoadFill"]
+bg_color = Color(0.16, 0.78, 0.88, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[node name="ARPreview" type="Node3D"]
+script = ExtResource("2_controller")
+
+[node name="AvatarStage" parent="." instance=ExtResource("1_avatar")]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="HUD" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Panel" type="PanelContainer" parent="CanvasLayer/HUD"]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 500.0
+offset_bottom = 418.0
+theme_override_styles/panel = SubResource("StyleBoxPanel")
+
+[node name="Margin" type="MarginContainer" parent="CanvasLayer/HUD/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 16
+
+[node name="VBox" type="VBoxContainer" parent="CanvasLayer/HUD/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.9, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "GUARDIAN INTERFACE — AR PREVIEW"
+horizontal_alignment = 1
+
+[node name="Subtitle" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.78, 0.85, 1)
+theme_override_font_sizes/font_size = 14
+text = "Desktop prototype for future XR research workflows"
+horizontal_alignment = 1
+
+[node name="Separator" type="HSeparator" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+
+[node name="SourceLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.75, 0.32, 1)
+theme_override_font_sizes/font_size = 15
+text = "DATA SOURCE: SYNTHETIC — NOT HUMAN DATA"
+
+[node name="SessionLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.46, 0.9, 0.58, 1)
+theme_override_font_sizes/font_size = 16
+text = "PREVIEW STATUS: READY"
+
+[node name="CueLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.35, 0.88, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "REFERENCE CUE: READY"
+horizontal_alignment = 1
+
+[node name="LoadLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.88, 0.92, 0.96, 1)
+theme_override_font_sizes/font_size = 15
+text = "SIMULATED LOAD:  LEFT 50%   |   RIGHT 50%"
+horizontal_alignment = 1
+
+[node name="LoadBar" type="ProgressBar" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+custom_minimum_size = Vector2(0, 22)
+layout_mode = 2
+theme_override_styles/background = SubResource("StyleBoxLoadBackground")
+theme_override_styles/fill = SubResource("StyleBoxLoadFill")
+show_percentage = false
+value = 50.0
+
+[node name="FeedbackLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 48)
+theme_override_colors/font_color = Color(0.88, 0.9, 0.94, 1)
+theme_override_font_sizes/font_size = 15
+text = "Activate preview to begin a synthetic session."
+autowrap_mode = 2
+
+[node name="LogLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.62, 0.7, 0.78, 1)
+theme_override_font_sizes/font_size = 13
+text = "SESSION LOG: not started"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+
+[node name="TimelineLabel" type="Label" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6, 0.75, 0.8, 1)
+theme_override_font_sizes/font_size = 11
+text = "RECENT SYNTHETIC EVENTS (SESSION ONLY)\n— no synthetic events yet —"
+horizontal_alignment = 1
+
+[node name="PreviewButton" type="Button" parent="CanvasLayer/HUD/Panel/Margin/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 42)
+theme_override_colors/font_color = Color(0.9, 0.97, 1, 1)
+theme_override_font_sizes/font_size = 16
+theme_override_styles/normal = SubResource("StyleBoxButton")
+text = "Activate Preview"
+
+[node name="AnatomyToggle" type="Button" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 24.0
+offset_right = -24.0
+offset_bottom = 66.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 20
+theme_override_colors/font_color = Color(0.72, 0.94, 1, 1)
+theme_override_font_sizes/font_size = 14
+text = "Show Biomedical Anatomy"
+
+[node name="StudyToggle" type="Button" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 72.0
+offset_right = -24.0
+offset_bottom = 114.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 20
+theme_override_colors/font_color = Color(1, 0.82, 0.42, 1)
+theme_override_font_sizes/font_size = 14
+text = "Enter Anatomy Study Mode"
+
+[node name="AnatomyRegionSelector" type="OptionButton" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 170.0
+offset_right = -24.0
+offset_bottom = 208.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 100
+theme_override_colors/font_color = Color(0.50, 0.90, 1, 1)
+theme_override_font_sizes/font_size = 13
+visible = false
+item_count = 4
+selected = 0
+popup/item_0/text = "All conservative anchors"
+popup/item_0/id = 0
+popup/item_1/text = "Axial skeleton proxy"
+popup/item_1/id = 1
+popup/item_2/text = "Upper-limb segments"
+popup/item_2/id = 2
+popup/item_3/text = "Lower-limb segments"
+popup/item_3/id = 3
+
+[node name="AnatomyLegend" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -420.0
+offset_top = 218.0
+offset_right = -24.0
+offset_bottom = 294.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 100
+theme_override_colors/font_color = Color(0.45, 0.82, 0.94, 1)
+theme_override_font_sizes/font_size = 11
+horizontal_alignment = 2
+autowrap_mode = 2
+visible = false
+text = "BIOMEDICAL ANATOMY — RIG PROXY STUDY VIEW\nCyan labels: conservative segment/anchor terms\nNot separate bone meshes, nerves, muscles, CNS, or patient-specific anatomy."
+
+[node name="JingJinFrameworkToggle" type="Button" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 166.0
+offset_right = -24.0
+offset_bottom = 204.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 100
+theme_override_colors/font_color = Color(0.88, 0.72, 0.38, 1)
+theme_override_font_sizes/font_size = 13
+text = "Show Supplementary Jing Jin"
+
+[node name="JingJinFrameworkLegend" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -520.0
+offset_top = 448.0
+offset_right = -24.0
+offset_bottom = 518.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 100
+theme_override_colors/font_color = Color(0.82, 0.68, 0.38, 1)
+theme_override_font_sizes/font_size = 11
+horizontal_alignment = 2
+autowrap_mode = 2
+visible = false
+text = "SUPPLEMENTARY TCM / JING JIN FRAMEWORK\nColored lines are a traditional-framework teaching overlay aligned to a synthetic motion scaffold.\nNot biomedical anatomy, neural pathways, diagnosis, treatment guidance, or patient-specific measurement."
+
+[node name="ConceptualCnsToggle" type="Button" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 210.0
+offset_right = -24.0
+offset_bottom = 248.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 100
+theme_override_colors/font_color = Color(0.76, 0.55, 1, 1)
+theme_override_font_sizes/font_size = 13
+text = "Show Conceptual CNS Diagram"
+
+[node name="ConceptualCnsLegend" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -520.0
+offset_top = 536.0
+offset_right = -24.0
+offset_bottom = 616.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 100
+theme_override_colors/font_color = Color(0.74, 0.55, 1, 1)
+theme_override_font_sizes/font_size = 11
+horizontal_alignment = 2
+autowrap_mode = 2
+visible = false
+text = "CONCEPTUAL CNS TEACHING DIAGRAM — NON-DIAGNOSTIC\nPurple marker and lines depict a simplified brain/spinal-axis and bilateral limb-output concept.\nNot nerve-by-nerve anatomy, neural activity, motor diagnosis, lesion inference, treatment guidance, or patient-specific measurement."
+
+[node name="DisplayLayersPanel" type="ColorRect" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -324.0
+offset_top = 42.0
+offset_right = -16.0
+offset_bottom = 388.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 1
+color = Color(0.025, 0.035, 0.07, 0.90)
+
+[node name="DisplayLayersTitle" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 48.0
+offset_right = -24.0
+offset_bottom = 66.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 100
+theme_override_colors/font_color = Color(0.78, 0.88, 0.96, 1)
+theme_override_font_sizes/font_size = 11
+horizontal_alignment = 1
+text = "DISPLAY LAYERS"
+
+[node name="DisplayLayersKey" type="Label" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 370.0
+offset_right = -24.0
+offset_bottom = 386.0
+grow_horizontal = 0
+mouse_filter = 2
+z_index = 100
+theme_override_colors/font_color = Color(0.72, 0.82, 0.90, 1)
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+text = "CYAN: BIOMEDICAL  •  AMBER: JING JIN  •  PURPLE: CNS"
+
+[node name="DisplayPresetSelector" type="OptionButton" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 270.0
+offset_right = -24.0
+offset_bottom = 308.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 100
+theme_override_colors/font_color = Color(0.82, 0.90, 0.96, 1)
+theme_override_font_sizes/font_size = 12
+item_count = 5
+selected = 0
+popup/item_0/text = "DISPLAY PRESET..."
+popup/item_0/id = 0
+popup/item_1/text = "Motion Preview"
+popup/item_1/id = 1
+popup/item_2/text = "Biomedical Study"
+popup/item_2/id = 2
+popup/item_3/text = "Comparative Teaching"
+popup/item_3/id = 3
+popup/item_4/text = "Reset Display"
+popup/item_4/id = 4
+
+[node name="FocusViewToggle" type="Button" parent="CanvasLayer"]
+layout_mode = 0
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -304.0
+offset_top = 340.0
+offset_right = -24.0
+offset_bottom = 364.0
+grow_horizontal = 0
+mouse_filter = 0
+z_index = 100
+theme_override_colors/font_color = Color(0.90, 0.94, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "Enter Focus View"

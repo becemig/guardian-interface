@@ -1,9 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://bagua_avatar_scene"]
+[gd_scene load_steps=8 format=3 uid="uid://bagua_avatar_scene"]
 
 [ext_resource type="PackedScene" path="res://assets/avatars/male_base_mesh.glb" id="1_avatar"]
 [ext_resource type="Script" path="res://scripts/bagua/BaguaSkeletonMapper.cs" id="2_mapper"]
 [ext_resource type="PackedScene" path="res://scripts/bagua/BaguaOverlay.tscn" id="3_overlay"]
 [ext_resource type="Script" path="res://scripts/bagua/BaguaJointSpheres.cs" id="4_spheres"]
+[ext_resource type="PackedScene" path="res://scripts/bagua/JingJinOverlay.tscn" id="5_jingj"]
+[ext_resource type="Script" path="res://scripts/education/BiomedicalAnatomyLayer.cs" id="6_biomedical"]
 
 [sub_resource type="Environment" id="Environment_1"]
 background_mode = 1
@@ -27,7 +29,7 @@ light_energy = 3.0
 environment = SubResource("Environment_1")
 
 [node name="BaguaAvatar" parent="." instance=ExtResource("1_avatar")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 0, 0)
 
 [node name="BaguaSkeletonMapper" type="Node" parent="."]
 script = ExtResource("2_mapper")
@@ -36,6 +38,11 @@ script = ExtResource("2_mapper")
 
 [node name="BaguaJointSpheres" type="Node3D" parent="."]
 script = ExtResource("4_spheres")
+
+[node name="JingJinOverlay" parent="." instance=ExtResource("5_jingj")]
+
+[node name="BiomedicalAnatomyLayer" type="Node3D" parent="."]
+script = ExtResource("6_biomedical")
 
 [node name="VolLabel" type="Label3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2, 1.8, 0)

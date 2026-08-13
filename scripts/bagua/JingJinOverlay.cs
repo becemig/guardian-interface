@@ -11,6 +11,43 @@ public partial class JingJinOverlay : Node3D
     // Joint world positions updated each frame from BaguaFrameReceived
     private Vector3[] _jointPos = new Vector3[12];
     private float[] _jointAmp = new float[12];
+
+    // Avatar-local reference anchors for the synthetic preview only.
+    // Coordinates are visual scaffolding, not tracked anatomy or measurement.
+    // Positive Z positions the ribbons slightly in front of the avatar mesh.
+    // Visual alignment offset for the synthetic reference scaffold only.
+    // Keeps synthetic paths registered to the displayed avatar, not telemetry.
+    private static readonly Vector3 SyntheticReferenceOffset =
+        new Vector3(0.0f, -0.80f, 0.0f);
+
+    // Compress the visual scaffold laterally to match the displayed avatar.
+    // Synthetic preview only; this does not alter telemetry or skeleton mapping.
+    private const float SyntheticReferenceXScale = 1.00f;
+
+    private static Vector3 CalibrateSyntheticReference(Vector3 point)
+    {
+        return new Vector3(
+            point.X * SyntheticReferenceXScale,
+            point.Y,
+            point.Z
+        ) + SyntheticReferenceOffset;
+    }
+
+    private static readonly Vector3[] SyntheticReferenceJoints = new Vector3[]
+    {
+        new Vector3( 0.22f, 0.06f, 0.26f), // 0  R ankle
+        new Vector3( 0.25f, 0.52f, 0.26f), // 1  R knee
+        new Vector3( 0.20f, 1.03f, 0.26f), // 2  R hip
+        new Vector3( 0.18f, 1.62f, 0.20f), // 3  R shoulder
+        new Vector3( 0.47f, 1.42f, 0.20f), // 4  R elbow
+        new Vector3( 0.67f, 1.23f, 0.20f), // 5  R wrist
+        new Vector3(-0.67f, 1.23f, 0.20f), // 6  L wrist
+        new Vector3(-0.47f, 1.42f, 0.20f), // 7  L elbow
+        new Vector3(-0.18f, 1.62f, 0.20f), // 8  L shoulder
+        new Vector3(-0.20f, 1.03f, 0.26f), // 9  L hip
+        new Vector3(-0.25f, 0.52f, 0.26f), // 10 L knee
+        new Vector3(-0.22f, 0.06f, 0.26f), // 11 L ankle
+    };
     private string _activeChannel = "";
     private float _activeAmp = 0f;
     // Each entry: channel code -> ordered list of joint indices forming the pathway
@@ -56,6 +93,13 @@ public partial class JingJinOverlay : Node3D
     private Dictionary<string, float> _alphaSmooth = new();
     private Dictionary<string, float> _thickSmooth = new();
 
+    // Preview-only visual state. This represents a software reference model,
+    // not EMG, tendon force, or clinical assessment.
+    private bool _syntheticActivationActive;
+    private float _syntheticLeftLoad = 50.0f;
+    private float _syntheticRightLoad = 50.0f;
+    private double _syntheticElapsedSeconds;
+
     public override void _Ready()
     {
         foreach (var ch in JingJinPaths.Keys)
@@ -67,15 +111,24 @@ public partial class JingJinOverlay : Node3D
             mat.ShadingMode = BaseMaterial3D.ShadingModeEnum.Unshaded;
             mat.VertexColorUseAsAlbedo = true;
             mat.Transparency = BaseMaterial3D.TransparencyEnum.Alpha;
+
+            // Temporary high-visibility rendering for synthetic reference paths.
+            mat.NoDepthTest = true;
+            mat.CullMode = BaseMaterial3D.CullModeEnum.Disabled;
+            mat.EmissionEnabled = true;
+            mat.Emission = Colors.White;
+            mat.EmissionEnergyMultiplier = 2.5f;
+
             mi.MaterialOverride = mat;
+            mi.CastShadow = GeometryInstance3D.ShadowCastingSetting.Off;
             AddChild(mi);
             _meshes[ch] = mi;
             _imMeshes[ch] = im;
         }
-        // Subscribe to frame data for joint positions
-        var client = GetTree().Root.FindChild("BaguaPhysicsClient", true, false);
+        // Subscribe to typed frame data for joint positions.
+        var client = GetNodeOrNull<BaguaPhysicsClient>("/root/BaguaPhysicsClient");
         if (client != null)
-            client.Connect("BaguaFrameReceived", new Callable(this, nameof(OnFrame)));
+            client.BaguaFrameReceived += OnFrame;
         else
             GD.PrintErr("[JingJinOverlay] BaguaPhysicsClient not found");
         // Subscribe to VOL resolved for active channel
@@ -84,22 +137,22 @@ public partial class JingJinOverlay : Node3D
             resolver.Connect("VolResolved", new Callable(this, nameof(OnVolResolved)));
         else
             GD.PrintErr("[JingJinOverlay] KappaAtlasResolver not found");
-        GD.Print("[JingJinOverlay] Ready -- 12 jing jin pathways initialized");
+        GD.Print(
+            $"[JingJinOverlay] Ready -- 12 jing jin pathways initialized | path={GetPath()}"
+        );
     }
-    private void OnFrame(Godot.Collections.Dictionary frame)
+    private void OnFrame(BaguaFrameGodot wrapper)
     {
-        if (!frame.ContainsKey("joints")) return;
-        var joints = frame["joints"].AsGodotArray();
+        var joints = wrapper.Data?.Joints;
+        if (joints == null || joints.Count < 2)
+            return;
+
         for (int i = 0; i < Math.Min(joints.Count, 12); i++)
         {
-            var j = joints[i].AsGodotDictionary();
-            float x = j.ContainsKey("x") ? (float)j["x"].AsDouble() : 0f;
-            float y = j.ContainsKey("y") ? (float)j["y"].AsDouble() : 0f;
-            float z = j.ContainsKey("z") ? (float)j["z"].AsDouble() : 0f;
-            float a = j.ContainsKey("A") ? (float)j["A"].AsDouble() : 0f;
-            _jointPos[i] = new Vector3(x, y, z);
-            _jointAmp[i] = a;
+            _jointPos[i] = joints[i].ToVector3();
+            _jointAmp[i] = joints[i].A;
         }
+
         DrawAllLines();
     }
     private void OnVolResolved(int volId, int l1, int l2, int l3,
@@ -107,6 +160,56 @@ public partial class JingJinOverlay : Node3D
     {
         _activeChannel = channel;
         _activeAmp = _jointAmp.Length > jointIdx ? _jointAmp[jointIdx] : 0f;
+    }
+
+    public void SetSyntheticLoad(
+        float leftLoadPercent,
+        float rightLoadPercent,
+        double elapsedSeconds)
+    {
+        _syntheticActivationActive = true;
+        _syntheticLeftLoad = Mathf.Clamp(leftLoadPercent, 0.0f, 100.0f);
+        _syntheticRightLoad = Mathf.Clamp(rightLoadPercent, 0.0f, 100.0f);
+        _syntheticElapsedSeconds = elapsedSeconds;
+        DrawAllLines();
+    }
+
+    public void ClearSyntheticLoad()
+    {
+        _syntheticActivationActive = false;
+        DrawAllLines();
+    }
+
+    private float SyntheticPathActivation(string channel)
+    {
+        float left = _syntheticLeftLoad / 100.0f;
+        float right = _syntheticRightLoad / 100.0f;
+        float bilateral = (left + right) * 0.5f;
+        float asymmetry = Mathf.Abs(left - right);
+
+        return channel switch
+        {
+            // Right lower-limb reference pathways.
+            "BL" => Mathf.Lerp(0.10f, 1.00f, right),
+            "ST" => Mathf.Lerp(0.12f, 1.00f, right),
+
+            // Left lower-limb reference pathways.
+            "KD" => Mathf.Lerp(0.10f, 1.00f, left),
+            "LR" => Mathf.Lerp(0.12f, 0.92f, left),
+            "SP" => Mathf.Lerp(0.10f, 0.78f, left),
+
+            // Lateral stabilizing pathway: responds to overall load and
+            // slightly more to left/right imbalance.
+            "GB" => Mathf.Clamp(
+                0.18f + bilateral * 0.42f + asymmetry * 0.40f,
+                0.0f,
+                1.0f
+            ),
+
+            // Upper-body paths remain a dim contextual overlay in this
+            // lower-limb synthetic weight-shift reference.
+            _ => 0.06f
+        };
     }
 
     // Camera reference for billboard quads
@@ -124,10 +227,26 @@ public partial class JingJinOverlay : Node3D
             if (path.Length < 2) continue;
             bool isActive = ch == _activeChannel;
             Color baseCol = ChannelColors.ContainsKey(ch) ? ChannelColors[ch] : Colors.White;
-            // Soft targets -- sqrt curve for gentler amplitude response
-            float ampCurved = Mathf.Sqrt(Mathf.Clamp(_activeAmp, 0f, 1f));
-            float alphaTarget = isActive ? Mathf.Lerp(0.55f, 0.88f, ampCurved) : 0.08f;
-            float thickTarget = isActive ? Mathf.Lerp(0.018f, 0.055f, ampCurved) : 0.006f;
+
+            float pathwayActivation;
+            if (_syntheticActivationActive)
+                pathwayActivation = SyntheticPathActivation(ch);
+            else
+                pathwayActivation = isActive
+                    ? Mathf.Sqrt(Mathf.Clamp(_activeAmp, 0.0f, 1.0f))
+                    : 0.0f;
+
+            float alphaTarget = _syntheticActivationActive
+                ? Mathf.Lerp(0.10f, 0.94f, pathwayActivation)
+                : isActive
+                    ? Mathf.Lerp(0.55f, 0.88f, pathwayActivation)
+                    : 0.08f;
+
+            float thickTarget = _syntheticActivationActive
+                ? Mathf.Lerp(0.018f, 0.100f, pathwayActivation)
+                : isActive
+                    ? Mathf.Lerp(0.018f, 0.055f, pathwayActivation)
+                    : 0.006f;
             // Lerp toward target for smooth transitions
             if (!_alphaSmooth.ContainsKey(ch)) _alphaSmooth[ch] = 0.08f;
             if (!_thickSmooth.ContainsKey(ch)) _thickSmooth[ch] = 0.006f;
@@ -135,14 +254,33 @@ public partial class JingJinOverlay : Node3D
             _thickSmooth[ch] = Mathf.Lerp(_thickSmooth[ch], thickTarget, 0.10f);
             float alpha = _alphaSmooth[ch];
             float thick = _thickSmooth[ch];
-            Color col = new Color(baseCol.R, baseCol.G, baseCol.B, alpha);
+            Color visualBase = _syntheticActivationActive
+                ? baseCol.Lerp(Colors.White, pathwayActivation * 0.32f)
+                : baseCol;
+
+            float pulse = _syntheticActivationActive
+                ? 0.94f + 0.06f * Mathf.Sin((float)_syntheticElapsedSeconds * 2.0f)
+                : 1.0f;
+
+            Color col = new Color(
+                visualBase.R * pulse,
+                visualBase.G * pulse,
+                visualBase.B * pulse,
+                alpha
+            );
             im.SurfaceBegin(Mesh.PrimitiveType.Triangles);
             for (int s = 0; s < path.Length - 1; s++)
             {
                 int ia = path[s]; int ib = path[s + 1];
                 if (ia < 0 || ia >= _jointPos.Length) continue;
                 if (ib < 0 || ib >= _jointPos.Length) continue;
-                Vector3 a = _jointPos[ia]; Vector3 b = _jointPos[ib];
+                Vector3 a = _syntheticActivationActive
+                    ? CalibrateSyntheticReference(SyntheticReferenceJoints[ia])
+                    : _jointPos[ia];
+
+                Vector3 b = _syntheticActivationActive
+                    ? CalibrateSyntheticReference(SyntheticReferenceJoints[ib])
+                    : _jointPos[ib];
                 // Billboard: perpendicular to segment in camera-facing plane
                 Vector3 seg = (b - a).Normalized();
                 Vector3 toCam = _cam != null
