@@ -10,7 +10,7 @@ public sealed class ContinuousTimeRnnSystem
     private readonly double[] _bHidden;
     private readonly double[,] _wOut;
     private readonly double[] _bOut;
-    private double[] _state;
+    private double[] _state = Array.Empty<double>();
 
     public int InputSize => _config.InputSize;
     public int HiddenSize => _config.HiddenSize;
