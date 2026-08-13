@@ -20,4 +20,3 @@ experiments and Godot-based neuro-modeling demos for the guardian-interface proj
 
 2. Open `godot_demo` in Godot 4, configure the Mono project, and add
    a scene using `ContinuousTimeRnnNode` once scripts are wired in.
-
