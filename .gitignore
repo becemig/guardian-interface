@@ -14,3 +14,31 @@ GuardianAtlas/
 
 # Session recordings
 /home/becemig/guardian-sessions/
+
+# Guardian agentic runtime state
+.env.agentic
+var/audit/*.jsonl
+var/drafts/*.json
+var/review_queue/*.json
+var/approved/*.json
+
+!var/audit/.gitkeep
+!var/drafts/.gitkeep
+!var/review_queue/.gitkeep
+!var/approved/.gitkeep
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+
+# Review queue runtime lock files
+var/review_queue/.queue.lock
+var/review_queue/*.tmp
+
+# Review queue runtime lock files
+var/review_queue/.queue.lock
+var/review_queue/*.tmp
+
+# Durable local LangGraph checkpoints
+var/checkpoints/*
+!var/checkpoints/.gitkeep

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "guardian://contracts/study_module_draft.v1",
+  "title": "Guardian Study Module Draft v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "module_id",
+    "learning_objective",
+    "display_layer",
+    "provenance",
+    "claims",
+    "review_status"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "study_module_draft.v1"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{2,79}$"
+    },
+    "learning_objective": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "display_layer": {
+      "type": "string",
+      "enum": [
+        "biomedical_anatomy",
+        "conceptual_cns",
+        "jing_jin",
+        "cross_discipline"
+      ]
+    },
+    "provenance": {
+      "type": "string",
+      "enum": [
+        "measured",
+        "derived",
+        "synthetic",
+        "conceptual",
+        "traditional_framework"
+      ]
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "text",
+          "claim_class",
+          "source_refs",
+          "limitations"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string",
+            "pattern": "^claim_[a-z0-9_-]{3,60}$"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 1000
+          },
+          "claim_class": {
+            "type": "string",
+            "enum": [
+              "visualization_status",
+              "anatomical_description",
+              "movement_concept",
+              "traditional_framework",
+              "limitation"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "maxItems": 20,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 10,
+            "items": {
+              "type": "string",
+              "minLength": 5,
+              "maxLength": 500
+            }
+          }
+        }
+      }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "needs_human_approval",
+        "approved",
+        "revision_requested",
+        "rejected"
+      ]
+    }
+  }
+}
