@@ -1,0 +1,75 @@
+name: Neuro parity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify-neuro-parity:
+    name: Verify neuro RNN parity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python test dependency
+        run: python -m pip install --upgrade pip numpy
+
+      - name: Build C# neuro demo
+        run: >
+          dotnet build
+          sandbox_engine/neuro_modeling/neuro-modeling-demo-cs/NeuroModelingDemoCs.csproj
+
+      - name: Run Python continuous-time RNN tests
+        run: >
+          python -m unittest discover
+          -s sandbox_engine/neuro_modeling/python/tests
+          -p 'test_*.py'
+          -v
+
+      - name: Install Godot .NET 4.6.2
+        shell: bash
+        run: |
+          GODOT_VERSION=4.6.2
+          GODOT_ARCHIVE="Godot_v${GODOT_VERSION}-stable_mono_linux_x86_64.zip"
+          GODOT_URL="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable/${GODOT_ARCHIVE}"
+          GODOT_DIR="$RUNNER_TEMP/godot"
+
+          mkdir -p "$GODOT_DIR" "$HOME/.local/bin"
+
+          curl --fail --location --retry 3 \
+            --output "$RUNNER_TEMP/godot.zip" \
+            "$GODOT_URL"
+
+          unzip -q "$RUNNER_TEMP/godot.zip" -d "$GODOT_DIR"
+
+          GODOT_BINARY="$(find "$GODOT_DIR" -maxdepth 1 -type f -name 'Godot_*' | head -n 1)"
+
+          test -n "$GODOT_BINARY"
+          chmod +x "$GODOT_BINARY"
+          ln -sf "$GODOT_BINARY" "$HOME/.local/bin/godot"
+
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          godot --version
+
+      - name: Run headless Godot parity scene
+        run: >
+          godot --headless
+          --path sandbox_engine/neuro_modeling/neuro-modeling-demo-cs
+          --scene res://node_2d.tscn
