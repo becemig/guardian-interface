@@ -5,87 +5,45 @@ namespace NeuroModelingDemo;
 
 public static class RnnParityHarness
 {
-    private const double Tolerance = 1e-12;
-
     public static void Verify()
     {
+        (RnnParityFixture fixture, RnnParityExpected expected) =
+            RnnParityFixtureLoader.Load();
+
         var config = new ContinuousTimeRnnConfig(
-            inputSize: 2,
-            hiddenSize: 2,
-            outputSize: 1,
-            tau: 0.5,
-            integrationMethod: "rk4",
+            fixture.InputSize,
+            fixture.HiddenSize,
+            fixture.OutputSize,
+            fixture.Tau,
+            fixture.IntegrationMethod,
             seed: 0
         );
 
         var system = new ContinuousTimeRnnSystem(
             config,
-            wIn: new double[,]
-            {
-                { 0.40, -0.20 },
-                { 0.10, 0.30 }
-            },
-            wRec: new double[,]
-            {
-                { 0.15, -0.05 },
-                { 0.08, 0.12 }
-            },
-            bHidden: new double[] { 0.0, 0.0 },
-            wOut: new double[,]
-            {
-                { 0.25, -0.35 }
-            },
-            bOut: new double[] { 0.0 },
-            initialState: new double[] { 0.0, 0.0 }
+            RnnParityFixtureLoader.ToMatrix(fixture.WIn, "w_in"),
+            RnnParityFixtureLoader.ToMatrix(fixture.WRec, "w_rec"),
+            fixture.BHidden,
+            RnnParityFixtureLoader.ToMatrix(fixture.WOut, "w_out"),
+            fixture.BOut,
+            fixture.InitialState
         );
 
-        VerifyStep(
-            system,
-            input: new double[] { 1.0, -0.5 },
-            dt: 0.02,
-            expectedState: new double[]
-            {
-                0.019665750447084254,
-                -0.001933937905994222
-            },
-            expectedOutput: new double[]
-            {
-                0.005592681335820335
-            },
-            stepNumber: 1
-        );
+        for (int index = 0; index < fixture.Steps.Length; index++)
+        {
+            RnnParityStep step = fixture.Steps[index];
+            RnnParityExpectedStep expectedStep = expected.Steps[index];
 
-        VerifyStep(
-            system,
-            input: new double[] { 0.25, 0.75 },
-            dt: 0.01,
-            expectedState: new double[]
-            {
-                0.018342117801678135,
-                0.003086189878743904
-            },
-            expectedOutput: new double[]
-            {
-                0.0035048522498333087
-            },
-            stepNumber: 2
-        );
-
-        VerifyStep(
-            system,
-            input: new double[] { 0.0, 0.0 },
-            dt: 0.03,
-            expectedState: new double[]
-            {
-                0.017421190994724663,
-                0.003011025251471711
-            },
-            expectedOutput: new double[]
-            {
-                0.003301001541094121
-            },
-            stepNumber: 3
-        );
+            VerifyStep(
+                system,
+                step.Input,
+                step.Dt,
+                expectedStep.State,
+                expectedStep.Output,
+                index + 1,
+                expected.Tolerance
+            );
+        }
 
         GD.Print(
             "[RnnParityHarness] PASS: C# RK4 fixture matches " +
@@ -99,27 +57,31 @@ public static class RnnParityHarness
         double dt,
         double[] expectedState,
         double[] expectedOutput,
-        int stepNumber)
+        int stepNumber,
+        double tolerance)
     {
         double[] actualOutput = system.Step(input, dt);
 
         AssertClose(
             system.State,
             expectedState,
-            $"state at step {stepNumber}"
+            $"state at step {stepNumber}",
+            tolerance
         );
 
         AssertClose(
             actualOutput,
             expectedOutput,
-            $"output at step {stepNumber}"
+            $"output at step {stepNumber}",
+            tolerance
         );
     }
 
     private static void AssertClose(
         double[] actual,
         double[] expected,
-        string label)
+        string label,
+        double tolerance)
     {
         if (actual.Length != expected.Length)
         {
@@ -130,7 +92,7 @@ public static class RnnParityHarness
 
         for (int index = 0; index < actual.Length; index++)
         {
-            if (Math.Abs(actual[index] - expected[index]) > Tolerance)
+            if (Math.Abs(actual[index] - expected[index]) > tolerance)
             {
                 throw new InvalidOperationException(
                     $"Parity mismatch for {label}[{index}]: " +

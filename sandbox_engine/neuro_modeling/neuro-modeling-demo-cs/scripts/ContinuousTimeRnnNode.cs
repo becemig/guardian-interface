@@ -6,53 +6,29 @@ namespace NeuroModelingDemo;
 [Tool]
 public partial class ContinuousTimeRnnNode : Node
 {
-    [Export] public int InputSize { get; set; } = 2;
-    [Export] public int HiddenSize { get; set; } = 2;
-    [Export] public int OutputSize { get; set; } = 1;
-    [Export] public double Tau { get; set; } = 0.5;
-    [Export] public string IntegrationMethod { get; set; } = "rk4";
-
     private ContinuousTimeRnnSystem? _system;
 
     public override void _Ready()
     {
+        (RnnParityFixture fixture, _) = RnnParityFixtureLoader.Load();
+
         var config = new ContinuousTimeRnnConfig(
-            InputSize,
-            HiddenSize,
-            OutputSize,
-            Tau,
-            IntegrationMethod,
+            fixture.InputSize,
+            fixture.HiddenSize,
+            fixture.OutputSize,
+            fixture.Tau,
+            fixture.IntegrationMethod,
             seed: 0
         );
 
-        if (InputSize != 2 || HiddenSize != 2 || OutputSize != 1)
-        {
-            GD.PushWarning(
-                "[ContinuousTimeRnnNode] This prototype currently " +
-                "uses the fixed 2-2-1 synthetic parity fixture."
-            );
-            return;
-        }
-
         _system = new ContinuousTimeRnnSystem(
             config,
-            wIn: new double[,]
-            {
-                { 0.40, -0.20 },
-                { 0.10, 0.30 }
-            },
-            wRec: new double[,]
-            {
-                { 0.15, -0.05 },
-                { 0.08, 0.12 }
-            },
-            bHidden: new double[] { 0.0, 0.0 },
-            wOut: new double[,]
-            {
-                { 0.25, -0.35 }
-            },
-            bOut: new double[] { 0.0 },
-            initialState: new double[] { 0.0, 0.0 }
+            RnnParityFixtureLoader.ToMatrix(fixture.WIn, "w_in"),
+            RnnParityFixtureLoader.ToMatrix(fixture.WRec, "w_rec"),
+            fixture.BHidden,
+            RnnParityFixtureLoader.ToMatrix(fixture.WOut, "w_out"),
+            fixture.BOut,
+            fixture.InitialState
         );
 
         RnnParityHarness.Verify();
@@ -85,12 +61,16 @@ public partial class ContinuousTimeRnnNode : Node
         double[] state = _system?.State ?? Array.Empty<double>();
 
         if (state.Length == 0)
+        {
             return 0.0;
+        }
 
         double total = 0.0;
 
         foreach (double value in state)
+        {
             total += value;
+        }
 
         return total / state.Length;
     }
